@@ -1,0 +1,952 @@
+{
+  "background": {
+    "width": 720,
+    "height": 460,
+    "alpha": 0,
+    "background": "-16777216",
+    "mode": 0,
+    "fill_homescreen_widget": true
+  },
+  "meta_data": {
+    "name": "Material News Weather & FX Hub",
+    "width": 720,
+    "height": 460,
+    "schema_version": "version_3"
+  },
+  "objects": [
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Left Weather Web Photo Card",
+      "drawing_order": 1,
+      "position": {
+        "x": 16,
+        "y": 16
+      },
+      "color": -14935265,
+      "alpha": 248,
+      "angle": 0,
+      "dynamic_color_role": 4,
+      "visibility_condition": 0,
+      "gradient_type": 0,
+      "gradient_end_color": -16777216,
+      "gradient_angle": 45,
+      "blend_mode": 0,
+      "shadow": {
+        "radius": 0,
+        "dx": 0,
+        "dy": 0,
+        "color": -7829368
+      },
+      "width": 252,
+      "height": 244,
+      "roundness": 42,
+      "stroke": 2,
+      "is_hollow": false
+    },
+    {
+      "type": "image",
+      "id": 0,
+      "name": "Live Earth Weather Web Photo",
+      "drawing_order": 2,
+      "position": {
+        "x": 30,
+        "y": 30
+      },
+      "color": -1,
+      "alpha": 255,
+      "angle": 0,
+      "dynamic_color_role": 0,
+      "visibility_condition": 0,
+      "blend_mode": 0,
+      "path": null,
+      "scale": 1,
+      "width": 224,
+      "height": 148,
+      "scale_type": 0,
+      "image_source": 4,
+      "icon_name": "cloud",
+      "app_package_name": "",
+      "web_url": "https://cdn.star.nesdis.noaa.gov/GOES16/ABI/FD/GEOCOLOR/678x678.jpg",
+      "tint_enabled": false,
+      "tint_color": -1,
+      "corner_style": 1,
+      "corner": 30,
+      "top_left_corner": true,
+      "top_right_corner": true,
+      "bottom_left_corner": true,
+      "bottom_right_corner": true
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Earth Sat Pill BG",
+      "drawing_order": 3,
+      "position": {
+        "x": 42,
+        "y": 42
+      },
+      "color": -3097345,
+      "alpha": 240,
+      "angle": 0,
+      "dynamic_color_role": 1,
+      "visibility_condition": 0,
+      "gradient_type": 0,
+      "gradient_end_color": -16777216,
+      "gradient_angle": 45,
+      "blend_mode": 0,
+      "shadow": {
+        "radius": 0,
+        "dx": 0,
+        "dy": 0,
+        "color": -7829368
+      },
+      "width": 124,
+      "height": 26,
+      "roundness": 13,
+      "stroke": 0,
+      "is_hollow": false
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Earth Sat Pill Text",
+      "drawing_order": 4,
+      "position": {
+        "x": 104,
+        "y": 60
+      },
+      "color": -14935265,
+      "alpha": 255,
+      "angle": 0,
+      "dynamic_color_role": 4,
+      "visibility_condition": 0,
+      "gradient_type": 0,
+      "gradient_end_color": -16777216,
+      "gradient_angle": 45,
+      "blend_mode": 0,
+      "shadow": {
+        "radius": 0,
+        "dx": 0,
+        "dy": 0,
+        "color": -7829368
+      },
+      "size": 12,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-SemiBold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "LIVE WEB SAT",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Hub Temp",
+      "drawing_order": 5,
+      "position": {
+        "x": 36,
+        "y": 234
+      },
+      "color": -3097345,
+      "alpha": 255,
+      "angle": 0,
+      "dynamic_color_role": 1,
+      "visibility_condition": 0,
+      "gradient_type": 0,
+      "gradient_end_color": -16777216,
+      "gradient_angle": 45,
+      "blend_mode": 0,
+      "shadow": {
+        "radius": 0,
+        "dx": 0,
+        "dy": 0,
+        "color": -7829368
+      },
+      "size": 44,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-SemiBold.ttf"
+      },
+      "prefix": "",
+      "suffix": "°",
+      "text": "",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 24,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Hub City",
+      "drawing_order": 6,
+      "position": {
+        "x": 122,
+        "y": 212
+      },
+      "color": -3097345,
+      "alpha": 255,
+      "angle": 0,
+      "dynamic_color_role": 1,
+      "visibility_condition": 0,
+      "gradient_type": 0,
+      "gradient_end_color": -16777216,
+      "gradient_angle": 45,
+      "blend_mode": 0,
+      "shadow": {
+        "radius": 0,
+        "dx": 0,
+        "dy": 0,
+        "color": -7829368
+      },
+      "size": 15,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-SemiBold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 2
+      },
+      "text_provider": {
+        "id": 52,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 12
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Hub Condition",
+      "drawing_order": 7,
+      "position": {
+        "x": 122,
+        "y": 236
+      },
+      "color": -3357988,
+      "alpha": 235,
+      "angle": 0,
+      "dynamic_color_role": 2,
+      "visibility_condition": 0,
+      "gradient_type": 0,
+      "gradient_end_color": -16777216,
+      "gradient_angle": 45,
+      "blend_mode": 0,
+      "shadow": {
+        "radius": 0,
+        "dx": 0,
+        "dy": 0,
+        "color": -7829368
+      },
+      "size": 15,
+      "font": {
+        "type": 1,
+        "font": "fonts/Roboto-Medium.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 25,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 14
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Left FX Capsule",
+      "drawing_order": 8,
+      "position": {
+        "x": 16,
+        "y": 276
+      },
+      "color": -1066808,
+      "alpha": 255,
+      "angle": 0,
+      "dynamic_color_role": 3,
+      "visibility_condition": 0,
+      "gradient_type": 0,
+      "gradient_end_color": -16777216,
+      "gradient_angle": 45,
+      "blend_mode": 0,
+      "shadow": {
+        "radius": 0,
+        "dx": 0,
+        "dy": 0,
+        "color": -7829368
+      },
+      "width": 252,
+      "height": 168,
+      "roundness": 42,
+      "stroke": 2,
+      "is_hollow": false
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Hub FX Header",
+      "drawing_order": 9,
+      "position": {
+        "x": 42,
+        "y": 314
+      },
+      "color": -13224899,
+      "alpha": 235,
+      "angle": 0,
+      "dynamic_color_role": 5,
+      "visibility_condition": 0,
+      "gradient_type": 0,
+      "gradient_end_color": -16777216,
+      "gradient_angle": 45,
+      "blend_mode": 0,
+      "shadow": {
+        "radius": 0,
+        "dx": 0,
+        "dy": 0,
+        "color": -7829368
+      },
+      "size": 15,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-SemiBold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "USD / EUR RATE",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Hub FX Value",
+      "drawing_order": 10,
+      "position": {
+        "x": 40,
+        "y": 384
+      },
+      "color": -14935265,
+      "alpha": 255,
+      "angle": 0,
+      "dynamic_color_role": 4,
+      "visibility_condition": 0,
+      "gradient_type": 0,
+      "gradient_end_color": -16777216,
+      "gradient_angle": 45,
+      "blend_mode": 0,
+      "shadow": {
+        "radius": 0,
+        "dx": 0,
+        "dy": 0,
+        "color": -7829368
+      },
+      "size": 38,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-SemiBold.ttf"
+      },
+      "prefix": "€",
+      "suffix": "",
+      "text": "https://open.er-api.com/v6/latest/USD|rates.EUR",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 87,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 7
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Hub FX Subtext",
+      "drawing_order": 11,
+      "position": {
+        "x": 42,
+        "y": 418
+      },
+      "color": -13224899,
+      "alpha": 230,
+      "angle": 0,
+      "dynamic_color_role": 5,
+      "visibility_condition": 0,
+      "gradient_type": 0,
+      "gradient_end_color": -16777216,
+      "gradient_angle": 45,
+      "blend_mode": 0,
+      "shadow": {
+        "radius": 0,
+        "dx": 0,
+        "dy": 0,
+        "color": -7829368
+      },
+      "size": 15,
+      "font": {
+        "type": 1,
+        "font": "fonts/Roboto-Medium.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "LIVE EXCHANGE",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Right BBC News Card",
+      "drawing_order": 12,
+      "position": {
+        "x": 284,
+        "y": 16
+      },
+      "color": -3097345,
+      "alpha": 255,
+      "angle": 0,
+      "dynamic_color_role": 1,
+      "visibility_condition": 0,
+      "gradient_type": 0,
+      "gradient_end_color": -16777216,
+      "gradient_angle": 45,
+      "blend_mode": 0,
+      "shadow": {
+        "radius": 0,
+        "dx": 0,
+        "dy": 0,
+        "color": -7829368
+      },
+      "width": 420,
+      "height": 206,
+      "roundness": 42,
+      "stroke": 2,
+      "is_hollow": false
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Hub BBC Badge",
+      "drawing_order": 13,
+      "position": {
+        "x": 312,
+        "y": 42
+      },
+      "color": -14935265,
+      "alpha": 255,
+      "angle": 0,
+      "dynamic_color_role": 4,
+      "visibility_condition": 0,
+      "gradient_type": 0,
+      "gradient_end_color": -16777216,
+      "gradient_angle": 45,
+      "blend_mode": 0,
+      "shadow": {
+        "radius": 0,
+        "dx": 0,
+        "dy": 0,
+        "color": -7829368
+      },
+      "width": 126,
+      "height": 32,
+      "roundness": 16,
+      "stroke": 0,
+      "is_hollow": false
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Hub BBC Label",
+      "drawing_order": 14,
+      "position": {
+        "x": 375,
+        "y": 64
+      },
+      "color": -3097345,
+      "alpha": 255,
+      "angle": 0,
+      "dynamic_color_role": 1,
+      "visibility_condition": 0,
+      "gradient_type": 0,
+      "gradient_end_color": -16777216,
+      "gradient_angle": 45,
+      "blend_mode": 0,
+      "shadow": {
+        "radius": 0,
+        "dx": 0,
+        "dy": 0,
+        "color": -7829368
+      },
+      "size": 14,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-SemiBold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "BBC WORLD",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Hub BBC Sub",
+      "drawing_order": 15,
+      "position": {
+        "x": 452,
+        "y": 64
+      },
+      "color": -13224899,
+      "alpha": 225,
+      "angle": 0,
+      "dynamic_color_role": 5,
+      "visibility_condition": 0,
+      "gradient_type": 0,
+      "gradient_end_color": -16777216,
+      "gradient_angle": 45,
+      "blend_mode": 0,
+      "shadow": {
+        "radius": 0,
+        "dx": 0,
+        "dy": 0,
+        "color": -7829368
+      },
+      "size": 14,
+      "font": {
+        "type": 1,
+        "font": "fonts/Roboto-Medium.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "TOP STORY • RSS",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Hub BBC Headline",
+      "drawing_order": 16,
+      "position": {
+        "x": 312,
+        "y": 136
+      },
+      "color": -14935265,
+      "alpha": 255,
+      "angle": 0,
+      "dynamic_color_role": 4,
+      "visibility_condition": 0,
+      "gradient_type": 0,
+      "gradient_end_color": -16777216,
+      "gradient_angle": 45,
+      "blend_mode": 0,
+      "shadow": {
+        "radius": 0,
+        "dx": 0,
+        "dy": 0,
+        "color": -7829368
+      },
+      "size": 21,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-SemiBold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "https://feeds.bbci.co.uk/news/world/rss.xml",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 88,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 31
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Hub BBC Footer",
+      "drawing_order": 17,
+      "position": {
+        "x": 312,
+        "y": 184
+      },
+      "color": -13224899,
+      "alpha": 215,
+      "angle": 0,
+      "dynamic_color_role": 5,
+      "visibility_condition": 0,
+      "gradient_type": 0,
+      "gradient_end_color": -16777216,
+      "gradient_angle": 45,
+      "blend_mode": 0,
+      "shadow": {
+        "radius": 0,
+        "dx": 0,
+        "dy": 0,
+        "color": -7829368
+      },
+      "size": 15,
+      "font": {
+        "type": 1,
+        "font": "fonts/Roboto-Medium.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "feeds.bbci.co.uk • Auto-updated",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Right Verge News Card",
+      "drawing_order": 18,
+      "position": {
+        "x": 284,
+        "y": 238
+      },
+      "color": -13224899,
+      "alpha": 248,
+      "angle": 0,
+      "dynamic_color_role": 5,
+      "visibility_condition": 0,
+      "gradient_type": 0,
+      "gradient_end_color": -16777216,
+      "gradient_angle": 45,
+      "blend_mode": 0,
+      "shadow": {
+        "radius": 0,
+        "dx": 0,
+        "dy": 0,
+        "color": -7829368
+      },
+      "width": 420,
+      "height": 206,
+      "roundness": 42,
+      "stroke": 2,
+      "is_hollow": false
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Hub Verge Badge",
+      "drawing_order": 19,
+      "position": {
+        "x": 312,
+        "y": 264
+      },
+      "color": -1066808,
+      "alpha": 255,
+      "angle": 0,
+      "dynamic_color_role": 3,
+      "visibility_condition": 0,
+      "gradient_type": 0,
+      "gradient_end_color": -16777216,
+      "gradient_angle": 45,
+      "blend_mode": 0,
+      "shadow": {
+        "radius": 0,
+        "dx": 0,
+        "dy": 0,
+        "color": -7829368
+      },
+      "width": 128,
+      "height": 32,
+      "roundness": 16,
+      "stroke": 0,
+      "is_hollow": false
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Hub Verge Label",
+      "drawing_order": 20,
+      "position": {
+        "x": 376,
+        "y": 286
+      },
+      "color": -14935265,
+      "alpha": 255,
+      "angle": 0,
+      "dynamic_color_role": 4,
+      "visibility_condition": 0,
+      "gradient_type": 0,
+      "gradient_end_color": -16777216,
+      "gradient_angle": 45,
+      "blend_mode": 0,
+      "shadow": {
+        "radius": 0,
+        "dx": 0,
+        "dy": 0,
+        "color": -7829368
+      },
+      "size": 14,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-SemiBold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "THE VERGE",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Hub Verge Sub",
+      "drawing_order": 21,
+      "position": {
+        "x": 454,
+        "y": 286
+      },
+      "color": -3357988,
+      "alpha": 215,
+      "angle": 0,
+      "dynamic_color_role": 2,
+      "visibility_condition": 0,
+      "gradient_type": 0,
+      "gradient_end_color": -16777216,
+      "gradient_angle": 45,
+      "blend_mode": 0,
+      "shadow": {
+        "radius": 0,
+        "dx": 0,
+        "dy": 0,
+        "color": -7829368
+      },
+      "size": 14,
+      "font": {
+        "type": 1,
+        "font": "fonts/Roboto-Medium.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "TECH FEED • RSS",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Hub Verge Headline",
+      "drawing_order": 22,
+      "position": {
+        "x": 312,
+        "y": 358
+      },
+      "color": -1066808,
+      "alpha": 255,
+      "angle": 0,
+      "dynamic_color_role": 3,
+      "visibility_condition": 0,
+      "gradient_type": 0,
+      "gradient_end_color": -16777216,
+      "gradient_angle": 45,
+      "blend_mode": 0,
+      "shadow": {
+        "radius": 0,
+        "dx": 0,
+        "dy": 0,
+        "color": -7829368
+      },
+      "size": 21,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-SemiBold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "https://www.theverge.com/rss/index.xml",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 88,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 31
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Hub Verge Footer",
+      "drawing_order": 23,
+      "position": {
+        "x": 312,
+        "y": 406
+      },
+      "color": -3357988,
+      "alpha": 190,
+      "angle": 0,
+      "dynamic_color_role": 2,
+      "visibility_condition": 0,
+      "gradient_type": 0,
+      "gradient_end_color": -16777216,
+      "gradient_angle": 45,
+      "blend_mode": 0,
+      "shadow": {
+        "radius": 0,
+        "dx": 0,
+        "dy": 0,
+        "color": -7829368
+      },
+      "size": 15,
+      "font": {
+        "type": 1,
+        "font": "fonts/Roboto-Medium.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "theverge.com • Auto-updated",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0
+    },
+    {
+      "type": "hotspot",
+      "id": 0,
+      "name": "Refresh Weather Hotspot",
+      "drawing_order": 24,
+      "position": {
+        "x": 16,
+        "y": 16
+      },
+      "width": 252,
+      "height": 244,
+      "shape": 0,
+      "uccw_type": 1,
+      "label": "Update Weather",
+      "hotspot_mode": 1
+    }
+  ]
+}

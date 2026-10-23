@@ -1,0 +1,136 @@
+{
+  "manifest_version": 2,
+  "collections": [
+    {
+      "id": "halloween_2026",
+      "title": "Halloween 2026: Blood Moon & Dark Glass",
+      "subtitle": "4 spooky-season widgets: Moonlit Bento, Blood Moon Gothic Analog, Haunted CRT HUD & Oct '26 Calendar",
+      "description": "Crafted for Halloween 2026 (Saturday, Oct 31): Dark Liquid Glass bento with dusk & weather telemetry, Blood Moon Roman-numeral analog clock, retro amber-phosphor Haunted CRT terminal, and October 2026 gothic calendar & agenda.",
+      "author": "UCCW Studio",
+      "category": "ios",
+      "tags": [
+        "Halloween 2026",
+        "Dark Glass",
+        "Blood Moon",
+        "CRT HUD"
+      ],
+      "release_date": "2026-10-23",
+      "min_version_code": 326,
+      "featured": true,
+      "notify": true,
+      "access_type": "free",
+      "product_id": null,
+      "hero_thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/halloween_2026/Moonlit%20Halloween%20Countdown%20Bento_thumb.png"
+    },
+    {
+      "id": "material_live_feeds_2026_10",
+      "title": "Material You Live Feeds & FX",
+      "subtitle": "Live BBC & The Verge RSS headlines, NOAA satellite weather photos & USD/EUR rates",
+      "description": "Dynamic Material You widgets combining live BBC World & The Verge RSS news headlines, real-time NOAA GOES-16 GeoColor Earth satellite imagery, and live USD to EUR exchange rates.",
+      "author": "UCCW Studio",
+      "category": "pixel",
+      "tags": [
+        "Material You",
+        "RSS Feeds",
+        "Web Photo",
+        "Currency FX"
+      ],
+      "release_date": "2026-10-23",
+      "min_version_code": 326,
+      "featured": true,
+      "notify": true,
+      "access_type": "free",
+      "product_id": null,
+      "hero_thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/material_live_feeds_2026_10/Material%20Live%20Feeds%20%26%20FX%20Bento_thumb.png"
+    }
+  ],
+  "templates": [
+    {
+      "name": "Moonlit Halloween Countdown Bento",
+      "collection_id": "halloween_2026",
+      "category": "ios",
+      "categories": [
+        "ios",
+        "weather",
+        "calendar",
+        "clocks"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/halloween_2026/Moonlit%20Halloween%20Countdown%20Bento.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/halloween_2026/Moonlit%20Halloween%20Countdown%20Bento_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/halloween_2026/Moonlit%20Halloween%20Countdown%20Bento_bg.png"
+    },
+    {
+      "name": "Blood Moon Gothic Analog",
+      "collection_id": "halloween_2026",
+      "category": "retro",
+      "categories": [
+        "retro",
+        "clocks",
+        "weather"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/halloween_2026/Blood%20Moon%20Gothic%20Analog.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/halloween_2026/Blood%20Moon%20Gothic%20Analog_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/halloween_2026/Blood%20Moon%20Gothic%20Analog_bg.png"
+    },
+    {
+      "name": "Haunted CRT Telemetry HUD",
+      "collection_id": "halloween_2026",
+      "category": "nothing",
+      "categories": [
+        "nothing",
+        "system",
+        "clocks",
+        "weather"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/halloween_2026/Haunted%20CRT%20Telemetry%20HUD.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/halloween_2026/Haunted%20CRT%20Telemetry%20HUD_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/halloween_2026/Haunted%20CRT%20Telemetry%20HUD_bg.png"
+    },
+    {
+      "name": "October '26 Gothic Calendar & Agenda",
+      "collection_id": "halloween_2026",
+      "category": "sony",
+      "categories": [
+        "sony",
+        "calendar",
+        "clocks",
+        "weather"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/halloween_2026/October%20%2726%20Gothic%20Calendar%20%26%20Agenda.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/halloween_2026/October%20%2726%20Gothic%20Calendar%20%26%20Agenda_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/halloween_2026/October%20%2726%20Gothic%20Calendar%20%26%20Agenda_bg.png"
+    },
+    {
+      "name": "Material Live Feeds & FX Bento",
+      "collection_id": "material_live_feeds_2026_10",
+      "category": "pixel",
+      "categories": [
+        "pixel",
+        "weather",
+        "media"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/material_live_feeds_2026_10/Material%20Live%20Feeds%20%26%20FX%20Bento.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/material_live_feeds_2026_10/Material%20Live%20Feeds%20%26%20FX%20Bento_thumb.png",
+      "bg_url": null
+    },
+    {
+      "name": "Material News Weather & FX Hub",
+      "collection_id": "material_live_feeds_2026_10",
+      "category": "pixel",
+      "categories": [
+        "pixel",
+        "weather",
+        "media"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/material_live_feeds_2026_10/Material%20News%20Weather%20%26%20FX%20Hub.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/material_live_feeds_2026_10/Material%20News%20Weather%20%26%20FX%20Hub_thumb.png",
+      "bg_url": null
+    }
+  ]
+}

@@ -1,0 +1,270 @@
+{
+  "background": {
+    "type": "BackgroundProperties",
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "alpha": 255,
+    "angle": 0,
+    "background": "assets://skin_templates/retro/Blood Moon Gothic Analog_bg.png",
+    "mode": 1,
+    "id": 0,
+    "name": "Background",
+    "image_scale_type": 2,
+    "fill_homescreen_widget": false,
+    "drawing_order": -1
+  },
+  "meta_data": {
+    "author": "UCCW Studio",
+    "height": 500,
+    "name": "Blood Moon Gothic Analog",
+    "scale": 1,
+    "width": 500,
+    "author_email": null,
+    "creation_date": 0,
+    "sdcard_root_address": null,
+    "modify_date": 0,
+    "other_data": null,
+    "screen_height": 2400,
+    "screen_width": 1080,
+    "skin_version": "version_3",
+    "min_version_code": 326,
+    "min_version_name": "2.2.26"
+  },
+  "objects": [
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Subdial Date",
+      "drawing_order": 0,
+      "position": {
+        "x": 250,
+        "y": 346
+      },
+      "size": 19,
+      "color": -29630,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "{\"day_format\": 8, \"day_of_the_week_format\": 7, \"layout_format\": \"wdm\", \"month_format\": 4, \"separator\": \" \\u00b7 \", \"separator2\": \" \", \"separator3\": \" \", \"year_format\": 1}",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 2
+      },
+      "text_provider": {
+        "id": 20,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Subdial Temp",
+      "drawing_order": 1,
+      "position": {
+        "x": 206,
+        "y": 386
+      },
+      "size": 26,
+      "color": -2582,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ZillaSlab-Bold.ttf"
+      },
+      "prefix": "",
+      "suffix": "\u00b0",
+      "text": "",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 24,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Subdial Weather",
+      "drawing_order": 2,
+      "position": {
+        "x": 282,
+        "y": 384
+      },
+      "size": 18,
+      "color": -1526596,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 2
+      },
+      "text_provider": {
+        "id": 25,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 9,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "standard_analog_clock_object",
+      "id": 0,
+      "name": "Gothic Sword Hands",
+      "drawing_order": 3,
+      "position": {
+        "x": 50,
+        "y": 50
+      },
+      "scale": 1.3333,
+      "alpha": 255,
+      "angle": 0,
+      "hour_image": "assets://defaultAnalogClockHands/sword_hour.png",
+      "minute_image": "assets://defaultAnalogClockHands/sword_minute.png",
+      "hour_color": -29637,
+      "minute_color": -3364,
+      "hour_mode": 0,
+      "step_mode": 0,
+      "time_zone": null
+    },
+    {
+      "type": "shape",
+      "id": 0,
+      "name": "Center Cap Outer",
+      "drawing_order": 4,
+      "position": {
+        "x": 240,
+        "y": 240
+      },
+      "width": 20,
+      "height": 20,
+      "radius_x": 10,
+      "radius_y": 10,
+      "color": -38091,
+      "alpha": 255,
+      "angle": 0,
+      "is_hollow": false,
+      "stroke": 2,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      },
+      "shape_type": 0
+    },
+    {
+      "type": "shape",
+      "id": 0,
+      "name": "Center Cap Inner",
+      "drawing_order": 5,
+      "position": {
+        "x": 245,
+        "y": 245
+      },
+      "width": 10,
+      "height": 10,
+      "radius_x": 5,
+      "radius_y": 5,
+      "color": -15464179,
+      "alpha": 255,
+      "angle": 0,
+      "is_hollow": false,
+      "stroke": 2,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      },
+      "shape_type": 0
+    },
+    {
+      "type": "hotspot",
+      "id": 0,
+      "name": "Clock Hotspot",
+      "drawing_order": 9999,
+      "position": {
+        "x": 60,
+        "y": 60
+      },
+      "width": 380,
+      "height": 240,
+      "shape": 0,
+      "hotspot_mode": 1,
+      "uccw_type": 0,
+      "app_name": "Alarm Clock",
+      "intent": null,
+      "alpha": 255,
+      "angle": 0
+    },
+    {
+      "type": "hotspot",
+      "id": 0,
+      "name": "Calendar Hotspot",
+      "drawing_order": 9999,
+      "position": {
+        "x": 150,
+        "y": 314
+      },
+      "width": 200,
+      "height": 96,
+      "shape": 0,
+      "hotspot_mode": 1,
+      "uccw_type": 0,
+      "app_name": "Calendar",
+      "intent": null,
+      "alpha": 255,
+      "angle": 0
+    }
+  ]
+}

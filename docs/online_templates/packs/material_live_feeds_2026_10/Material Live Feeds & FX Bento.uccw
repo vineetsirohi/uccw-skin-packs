@@ -1,0 +1,892 @@
+{
+  "background": {
+    "width": 640,
+    "height": 540,
+    "alpha": 0,
+    "background": "-16777216",
+    "mode": 0,
+    "fill_homescreen_widget": true
+  },
+  "meta_data": {
+    "name": "Material Live Feeds & FX Bento",
+    "width": 640,
+    "height": 540,
+    "schema_version": "version_3"
+  },
+  "objects": [
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Weather Web Photo Tile BG",
+      "drawing_order": 1,
+      "position": {
+        "x": 16,
+        "y": 16
+      },
+      "color": -14935265,
+      "alpha": 248,
+      "angle": 0,
+      "dynamic_color_role": 4,
+      "visibility_condition": 0,
+      "gradient_type": 0,
+      "gradient_end_color": -16777216,
+      "gradient_angle": 45,
+      "blend_mode": 0,
+      "shadow": {
+        "radius": 0,
+        "dx": 0,
+        "dy": 0,
+        "color": -7829368
+      },
+      "width": 296,
+      "height": 216,
+      "roundness": 40,
+      "stroke": 2,
+      "is_hollow": false
+    },
+    {
+      "type": "image",
+      "id": 0,
+      "name": "Live Weather Satellite Web Photo",
+      "drawing_order": 2,
+      "position": {
+        "x": 30,
+        "y": 30
+      },
+      "color": -1,
+      "alpha": 255,
+      "angle": 0,
+      "dynamic_color_role": 0,
+      "visibility_condition": 0,
+      "blend_mode": 0,
+      "path": null,
+      "scale": 1,
+      "width": 268,
+      "height": 124,
+      "scale_type": 0,
+      "image_source": 4,
+      "icon_name": "cloud",
+      "app_package_name": "",
+      "web_url": "https://cdn.star.nesdis.noaa.gov/GOES16/ABI/CONUS/GEOCOLOR/625x375.jpg",
+      "tint_enabled": false,
+      "tint_color": -1,
+      "corner_style": 1,
+      "corner": 28,
+      "top_left_corner": true,
+      "top_right_corner": true,
+      "bottom_left_corner": true,
+      "bottom_right_corner": true
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Live Weather Badge BG",
+      "drawing_order": 3,
+      "position": {
+        "x": 42,
+        "y": 42
+      },
+      "color": -14935265,
+      "alpha": 215,
+      "angle": 0,
+      "dynamic_color_role": 4,
+      "visibility_condition": 0,
+      "gradient_type": 0,
+      "gradient_end_color": -16777216,
+      "gradient_angle": 45,
+      "blend_mode": 0,
+      "shadow": {
+        "radius": 0,
+        "dx": 0,
+        "dy": 0,
+        "color": -7829368
+      },
+      "width": 136,
+      "height": 26,
+      "roundness": 13,
+      "stroke": 0,
+      "is_hollow": false
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Live Weather Badge Text",
+      "drawing_order": 4,
+      "position": {
+        "x": 110,
+        "y": 60
+      },
+      "color": -3097345,
+      "alpha": 255,
+      "angle": 0,
+      "dynamic_color_role": 1,
+      "visibility_condition": 0,
+      "gradient_type": 0,
+      "gradient_end_color": -16777216,
+      "gradient_angle": 45,
+      "blend_mode": 0,
+      "shadow": {
+        "radius": 0,
+        "dx": 0,
+        "dy": 0,
+        "color": -7829368
+      },
+      "size": 12,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-SemiBold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "LIVE SAT PHOTO",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 2
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Current Temp",
+      "drawing_order": 5,
+      "position": {
+        "x": 36,
+        "y": 206
+      },
+      "color": -3097345,
+      "alpha": 255,
+      "angle": 0,
+      "dynamic_color_role": 1,
+      "visibility_condition": 0,
+      "gradient_type": 0,
+      "gradient_end_color": -16777216,
+      "gradient_angle": 45,
+      "blend_mode": 0,
+      "shadow": {
+        "radius": 0,
+        "dx": 0,
+        "dy": 0,
+        "color": -7829368
+      },
+      "size": 44,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-SemiBold.ttf"
+      },
+      "prefix": "",
+      "suffix": "°",
+      "text": "",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 24,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Weather City",
+      "drawing_order": 6,
+      "position": {
+        "x": 128,
+        "y": 184
+      },
+      "color": -3097345,
+      "alpha": 255,
+      "angle": 0,
+      "dynamic_color_role": 1,
+      "visibility_condition": 0,
+      "gradient_type": 0,
+      "gradient_end_color": -16777216,
+      "gradient_angle": 45,
+      "blend_mode": 0,
+      "shadow": {
+        "radius": 0,
+        "dx": 0,
+        "dy": 0,
+        "color": -7829368
+      },
+      "size": 16,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-SemiBold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 2
+      },
+      "text_provider": {
+        "id": 52,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 14
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Weather Condition",
+      "drawing_order": 7,
+      "position": {
+        "x": 128,
+        "y": 208
+      },
+      "color": -3357988,
+      "alpha": 235,
+      "angle": 0,
+      "dynamic_color_role": 2,
+      "visibility_condition": 0,
+      "gradient_type": 0,
+      "gradient_end_color": -16777216,
+      "gradient_angle": 45,
+      "blend_mode": 0,
+      "shadow": {
+        "radius": 0,
+        "dx": 0,
+        "dy": 0,
+        "color": -7829368
+      },
+      "size": 16,
+      "font": {
+        "type": 1,
+        "font": "fonts/Roboto-Medium.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 25,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 16
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "FX Tile BG",
+      "drawing_order": 8,
+      "position": {
+        "x": 328,
+        "y": 16
+      },
+      "color": -3097345,
+      "alpha": 255,
+      "angle": 0,
+      "dynamic_color_role": 1,
+      "visibility_condition": 0,
+      "gradient_type": 0,
+      "gradient_end_color": -16777216,
+      "gradient_angle": 45,
+      "blend_mode": 0,
+      "shadow": {
+        "radius": 0,
+        "dx": 0,
+        "dy": 0,
+        "color": -7829368
+      },
+      "width": 296,
+      "height": 216,
+      "roundness": 40,
+      "stroke": 2,
+      "is_hollow": false
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "FX Badge Pill",
+      "drawing_order": 9,
+      "position": {
+        "x": 354,
+        "y": 40
+      },
+      "color": -14935265,
+      "alpha": 235,
+      "angle": 0,
+      "dynamic_color_role": 4,
+      "visibility_condition": 0,
+      "gradient_type": 0,
+      "gradient_end_color": -16777216,
+      "gradient_angle": 45,
+      "blend_mode": 0,
+      "shadow": {
+        "radius": 0,
+        "dx": 0,
+        "dy": 0,
+        "color": -7829368
+      },
+      "width": 128,
+      "height": 34,
+      "roundness": 17,
+      "stroke": 0,
+      "is_hollow": false
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "FX Pair Label",
+      "drawing_order": 10,
+      "position": {
+        "x": 418,
+        "y": 63
+      },
+      "color": -3097345,
+      "alpha": 255,
+      "angle": 0,
+      "dynamic_color_role": 1,
+      "visibility_condition": 0,
+      "gradient_type": 0,
+      "gradient_end_color": -16777216,
+      "gradient_angle": 45,
+      "blend_mode": 0,
+      "shadow": {
+        "radius": 0,
+        "dx": 0,
+        "dy": 0,
+        "color": -7829368
+      },
+      "size": 15,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-SemiBold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "USD / EUR",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "USD to EUR Rate",
+      "drawing_order": 11,
+      "position": {
+        "x": 354,
+        "y": 154
+      },
+      "color": -14935265,
+      "alpha": 255,
+      "angle": 0,
+      "dynamic_color_role": 4,
+      "visibility_condition": 0,
+      "gradient_type": 0,
+      "gradient_end_color": -16777216,
+      "gradient_angle": 45,
+      "blend_mode": 0,
+      "shadow": {
+        "radius": 0,
+        "dx": 0,
+        "dy": 0,
+        "color": -7829368
+      },
+      "size": 48,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-SemiBold.ttf"
+      },
+      "prefix": "€",
+      "suffix": "",
+      "text": "https://open.er-api.com/v6/latest/USD|rates.EUR",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 87,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 7
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "FX Subtitle",
+      "drawing_order": 12,
+      "position": {
+        "x": 356,
+        "y": 198
+      },
+      "color": -13224899,
+      "alpha": 230,
+      "angle": 0,
+      "dynamic_color_role": 5,
+      "visibility_condition": 0,
+      "gradient_type": 0,
+      "gradient_end_color": -16777216,
+      "gradient_angle": 45,
+      "blend_mode": 0,
+      "shadow": {
+        "radius": 0,
+        "dx": 0,
+        "dy": 0,
+        "color": -7829368
+      },
+      "size": 16,
+      "font": {
+        "type": 1,
+        "font": "fonts/Roboto-Medium.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "1 USD • LIVE RATE",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "BBC News Card BG",
+      "drawing_order": 13,
+      "position": {
+        "x": 16,
+        "y": 248
+      },
+      "color": -13224899,
+      "alpha": 248,
+      "angle": 0,
+      "dynamic_color_role": 5,
+      "visibility_condition": 0,
+      "gradient_type": 0,
+      "gradient_end_color": -16777216,
+      "gradient_angle": 45,
+      "blend_mode": 0,
+      "shadow": {
+        "radius": 0,
+        "dx": 0,
+        "dy": 0,
+        "color": -7829368
+      },
+      "width": 608,
+      "height": 130,
+      "roundness": 36,
+      "stroke": 2,
+      "is_hollow": false
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "BBC Badge Pill",
+      "drawing_order": 14,
+      "position": {
+        "x": 42,
+        "y": 270
+      },
+      "color": -1066808,
+      "alpha": 255,
+      "angle": 0,
+      "dynamic_color_role": 3,
+      "visibility_condition": 0,
+      "gradient_type": 0,
+      "gradient_end_color": -16777216,
+      "gradient_angle": 45,
+      "blend_mode": 0,
+      "shadow": {
+        "radius": 0,
+        "dx": 0,
+        "dy": 0,
+        "color": -7829368
+      },
+      "width": 124,
+      "height": 30,
+      "roundness": 15,
+      "stroke": 0,
+      "is_hollow": false
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "BBC Badge Text",
+      "drawing_order": 15,
+      "position": {
+        "x": 104,
+        "y": 290
+      },
+      "color": -14935265,
+      "alpha": 255,
+      "angle": 0,
+      "dynamic_color_role": 4,
+      "visibility_condition": 0,
+      "gradient_type": 0,
+      "gradient_end_color": -16777216,
+      "gradient_angle": 45,
+      "blend_mode": 0,
+      "shadow": {
+        "radius": 0,
+        "dx": 0,
+        "dy": 0,
+        "color": -7829368
+      },
+      "size": 14,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-SemiBold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "BBC WORLD",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "BBC Tagline",
+      "drawing_order": 16,
+      "position": {
+        "x": 182,
+        "y": 290
+      },
+      "color": -3357988,
+      "alpha": 215,
+      "angle": 0,
+      "dynamic_color_role": 2,
+      "visibility_condition": 0,
+      "gradient_type": 0,
+      "gradient_end_color": -16777216,
+      "gradient_angle": 45,
+      "blend_mode": 0,
+      "shadow": {
+        "radius": 0,
+        "dx": 0,
+        "dy": 0,
+        "color": -7829368
+      },
+      "size": 14,
+      "font": {
+        "type": 1,
+        "font": "fonts/Roboto-Medium.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "LIVE RSS FEED",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "BBC Headline RSS",
+      "drawing_order": 17,
+      "position": {
+        "x": 42,
+        "y": 344
+      },
+      "color": -3097345,
+      "alpha": 255,
+      "angle": 0,
+      "dynamic_color_role": 1,
+      "visibility_condition": 0,
+      "gradient_type": 0,
+      "gradient_end_color": -16777216,
+      "gradient_angle": 45,
+      "blend_mode": 0,
+      "shadow": {
+        "radius": 0,
+        "dx": 0,
+        "dy": 0,
+        "color": -7829368
+      },
+      "size": 22,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-SemiBold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "https://feeds.bbci.co.uk/news/world/rss.xml",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 88,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 44
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "The Verge Card BG",
+      "drawing_order": 18,
+      "position": {
+        "x": 16,
+        "y": 394
+      },
+      "color": -14935265,
+      "alpha": 248,
+      "angle": 0,
+      "dynamic_color_role": 4,
+      "visibility_condition": 0,
+      "gradient_type": 0,
+      "gradient_end_color": -16777216,
+      "gradient_angle": 45,
+      "blend_mode": 0,
+      "shadow": {
+        "radius": 0,
+        "dx": 0,
+        "dy": 0,
+        "color": -7829368
+      },
+      "width": 608,
+      "height": 130,
+      "roundness": 36,
+      "stroke": 2,
+      "is_hollow": false
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Verge Badge Pill",
+      "drawing_order": 19,
+      "position": {
+        "x": 42,
+        "y": 416
+      },
+      "color": -3097345,
+      "alpha": 255,
+      "angle": 0,
+      "dynamic_color_role": 1,
+      "visibility_condition": 0,
+      "gradient_type": 0,
+      "gradient_end_color": -16777216,
+      "gradient_angle": 45,
+      "blend_mode": 0,
+      "shadow": {
+        "radius": 0,
+        "dx": 0,
+        "dy": 0,
+        "color": -7829368
+      },
+      "width": 128,
+      "height": 30,
+      "roundness": 15,
+      "stroke": 0,
+      "is_hollow": false
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Verge Badge Text",
+      "drawing_order": 20,
+      "position": {
+        "x": 106,
+        "y": 436
+      },
+      "color": -14935265,
+      "alpha": 255,
+      "angle": 0,
+      "dynamic_color_role": 4,
+      "visibility_condition": 0,
+      "gradient_type": 0,
+      "gradient_end_color": -16777216,
+      "gradient_angle": 45,
+      "blend_mode": 0,
+      "shadow": {
+        "radius": 0,
+        "dx": 0,
+        "dy": 0,
+        "color": -7829368
+      },
+      "size": 14,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-SemiBold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "THE VERGE",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Verge Tagline",
+      "drawing_order": 21,
+      "position": {
+        "x": 186,
+        "y": 436
+      },
+      "color": -3357988,
+      "alpha": 215,
+      "angle": 0,
+      "dynamic_color_role": 2,
+      "visibility_condition": 0,
+      "gradient_type": 0,
+      "gradient_end_color": -16777216,
+      "gradient_angle": 45,
+      "blend_mode": 0,
+      "shadow": {
+        "radius": 0,
+        "dx": 0,
+        "dy": 0,
+        "color": -7829368
+      },
+      "size": 14,
+      "font": {
+        "type": 1,
+        "font": "fonts/Roboto-Medium.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "TECH & SCIENCE RSS",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Verge Headline RSS",
+      "drawing_order": 22,
+      "position": {
+        "x": 42,
+        "y": 490
+      },
+      "color": -1066808,
+      "alpha": 255,
+      "angle": 0,
+      "dynamic_color_role": 3,
+      "visibility_condition": 0,
+      "gradient_type": 0,
+      "gradient_end_color": -16777216,
+      "gradient_angle": 45,
+      "blend_mode": 0,
+      "shadow": {
+        "radius": 0,
+        "dx": 0,
+        "dy": 0,
+        "color": -7829368
+      },
+      "size": 22,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-SemiBold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "https://www.theverge.com/rss/index.xml",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 88,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 44
+    },
+    {
+      "type": "hotspot",
+      "id": 0,
+      "name": "Refresh Weather Hotspot",
+      "drawing_order": 23,
+      "position": {
+        "x": 16,
+        "y": 16
+      },
+      "width": 296,
+      "height": 216,
+      "shape": 0,
+      "uccw_type": 1,
+      "label": "Update Weather",
+      "hotspot_mode": 1
+    }
+  ]
+}
