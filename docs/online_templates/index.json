@@ -4,8 +4,8 @@
     {
       "id": "halloween_2026",
       "title": "Halloween 2026: Blood Moon & Dark Glass",
-      "subtitle": "4 spooky-season widgets: Moonlit Bento, Blood Moon Gothic Analog, Haunted CRT HUD & Oct '26 Calendar",
-      "description": "Crafted for Halloween 2026 (Saturday, Oct 31): Dark Liquid Glass bento with dusk & weather telemetry, Blood Moon Roman-numeral analog clock, retro amber-phosphor Haunted CRT terminal, and October 2026 gothic calendar & agenda.",
+      "subtitle": "4 spooky-season widgets + Haunted Forest Wallpaper: Moonlit Bento, Blood Moon Gothic Analog, Haunted CRT HUD & Oct '26 Calendar",
+      "description": "Crafted for Halloween 2026 (Saturday, Oct 31): Dark Liquid Glass bento with dusk & weather telemetry, Blood Moon Roman-numeral analog clock, retro amber-phosphor Haunted CRT terminal, October 2026 gothic calendar & agenda, and matching Haunted Forest & Jack-o'-Lanterns wallpaper.",
       "author": "UCCW Studio",
       "category": "ios",
       "tags": [
@@ -20,7 +20,14 @@
       "notify": true,
       "access_type": "free",
       "product_id": null,
-      "hero_thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/halloween_2026/Moonlit%20Halloween%20Countdown%20Bento_thumb.png"
+      "hero_thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/halloween_2026/Moonlit%20Halloween%20Countdown%20Bento_thumb.png",
+      "wallpapers": [
+        {
+          "name": "Haunted Forest & Jack-o'-Lanterns",
+          "url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/halloween_2026/Haunted%20Forest%20Wallpaper.jpg",
+          "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/halloween_2026/Haunted%20Forest%20Wallpaper_thumb.jpg"
+        }
+      ]
     },
     {
       "id": "material_live_feeds_2026_10",
@@ -41,7 +48,8 @@
       "notify": true,
       "access_type": "free",
       "product_id": null,
-      "hero_thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/material_live_feeds_2026_10/Material%20Live%20Feeds%20%26%20FX%20Bento_thumb.png"
+      "hero_thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/material_live_feeds_2026_10/Material%20Live%20Feeds%20%26%20FX%20Bento_thumb.png",
+      "wallpapers": []
     }
   ],
   "templates": [
