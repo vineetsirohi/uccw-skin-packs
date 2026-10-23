@@ -30,6 +30,34 @@
       ]
     },
     {
+      "id": "obsidian_gold_pro_2026",
+      "title": "Obsidian & Gold Chrono Pro",
+      "subtitle": "24K brushed-gold Tourbillon Chronograph, Executive Bento Hub & matching Geometric Obsidian Wallpaper",
+      "description": "Exclusive Pro collection crafted in deep obsidian and 24K brushed gold: Tourbillon Chronograph analog dial, Executive Bento briefing card, and matching 1080×2400 Obsidian Gold geometric wallpaper.",
+      "author": "UCCW Studio",
+      "category": "retro",
+      "tags": [
+        "Pro Exclusive",
+        "Obsidian & Gold",
+        "Chronograph",
+        "Executive Bento"
+      ],
+      "release_date": "2026-10-23",
+      "min_version_code": 326,
+      "featured": true,
+      "notify": false,
+      "access_type": "pro",
+      "product_id": null,
+      "hero_thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/obsidian_gold_pro_2026/Obsidian%20Gold%20Tourbillon%20Chrono_thumb.png",
+      "wallpapers": [
+        {
+          "name": "Obsidian & 24K Gold Geometric",
+          "url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/obsidian_gold_pro_2026/Obsidian%20Gold%20Wallpaper.jpg",
+          "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/obsidian_gold_pro_2026/Obsidian%20Gold%20Wallpaper_thumb.jpg"
+        }
+      ]
+    },
+    {
       "id": "material_live_feeds_2026_10",
       "title": "Material You Live Feeds & FX",
       "subtitle": "Live BBC & The Verge RSS headlines, NOAA satellite weather photos & USD/EUR rates",
@@ -111,6 +139,35 @@
       "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/halloween_2026/October%20%2726%20Gothic%20Calendar%20%26%20Agenda.uccw",
       "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/halloween_2026/October%20%2726%20Gothic%20Calendar%20%26%20Agenda_thumb.png",
       "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/halloween_2026/October%20%2726%20Gothic%20Calendar%20%26%20Agenda_bg.png"
+    },
+    {
+      "name": "Obsidian Gold Tourbillon Chrono",
+      "collection_id": "obsidian_gold_pro_2026",
+      "category": "retro",
+      "categories": [
+        "retro",
+        "clocks",
+        "weather"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/obsidian_gold_pro_2026/Obsidian%20Gold%20Tourbillon%20Chrono.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/obsidian_gold_pro_2026/Obsidian%20Gold%20Tourbillon%20Chrono_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/obsidian_gold_pro_2026/Obsidian%20Gold%20Tourbillon%20Chrono_bg.png"
+    },
+    {
+      "name": "Obsidian Gold Executive Bento",
+      "collection_id": "obsidian_gold_pro_2026",
+      "category": "ios",
+      "categories": [
+        "ios",
+        "weather",
+        "calendar",
+        "clocks"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/obsidian_gold_pro_2026/Obsidian%20Gold%20Executive%20Bento.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/obsidian_gold_pro_2026/Obsidian%20Gold%20Executive%20Bento_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/obsidian_gold_pro_2026/Obsidian%20Gold%20Executive%20Bento_bg.png"
     },
     {
       "name": "Material Live Feeds & FX Bento",
