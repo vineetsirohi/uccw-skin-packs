@@ -1,0 +1,310 @@
+{
+  "background": {
+    "type": "BackgroundProperties",
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "alpha": 255,
+    "angle": 0,
+    "background": "assets://skin_templates/nothing/Cyber Neon Audio Deck_bg.png",
+    "mode": 1,
+    "id": 0,
+    "name": "Background",
+    "image_scale_type": 2,
+    "fill_homescreen_widget": false,
+    "drawing_order": -1
+  },
+  "meta_data": {
+    "author": "UCCW Studio",
+    "height": 360,
+    "name": "Cyber Neon Audio Deck",
+    "scale": 1,
+    "width": 700,
+    "author_email": null,
+    "creation_date": 0,
+    "sdcard_root_address": null,
+    "modify_date": 0,
+    "other_data": null,
+    "screen_height": 2400,
+    "screen_width": 1080,
+    "skin_version": "version_3",
+    "min_version_code": 326,
+    "min_version_name": "2.2.26"
+  },
+  "objects": [
+    {
+      "type": "image_object",
+      "id": 0,
+      "name": "Cyber Album Art",
+      "drawing_order": 0,
+      "position": {
+        "x": 42,
+        "y": 42
+      },
+      "alpha": 255,
+      "angle": 0,
+      "image_source": 1,
+      "path": null,
+      "scale": 1.0,
+      "width": 196,
+      "height": 196,
+      "scale_type": 0,
+      "corner_style": 1,
+      "corner": 14,
+      "top_left_corner": true,
+      "top_right_corner": true,
+      "bottom_left_corner": true,
+      "bottom_right_corner": true,
+      "is_tint_enabled": false,
+      "tint_color": -1
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Audio Status",
+      "drawing_order": 1,
+      "position": {
+        "x": 646,
+        "y": 62
+      },
+      "size": 13,
+      "color": -201206,
+      "alpha": 255,
+      "angle": 0,
+      "bold": true,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 2
+      },
+      "text_case": {
+        "text_case": 2
+      },
+      "text_provider": {
+        "id": 77,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Track Title",
+      "drawing_order": 2,
+      "position": {
+        "x": 298,
+        "y": 114
+      },
+      "size": 25,
+      "color": -1,
+      "alpha": 255,
+      "angle": 0,
+      "bold": true,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 74,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 22,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Track Artist",
+      "drawing_order": 3,
+      "position": {
+        "x": 298,
+        "y": 148
+      },
+      "size": 16,
+      "color": -65409,
+      "alpha": 255,
+      "angle": 0,
+      "bold": true,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 75,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 26,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "battery_bar",
+      "id": 0,
+      "name": "Audio Progress",
+      "drawing_order": 4,
+      "position": {
+        "x": 298,
+        "y": 174
+      },
+      "width": 348,
+      "height": 14,
+      "base_color": 1847601216,
+      "base_roundness": 4,
+      "progress_bar_height": 12,
+      "progress_bar_roundness": 4,
+      "alpha": 255,
+      "angle": 0,
+      "style": 0,
+      "value_provider": 12,
+      "range": {
+        "min": 0,
+        "max": 100
+      },
+      "divisions": [
+        {
+          "color": -16715521,
+          "div": 50
+        },
+        {
+          "color": -16715521,
+          "div": 15
+        },
+        {
+          "color": -16715521,
+          "div": 5
+        },
+        {
+          "color": -16715521,
+          "div": 0
+        }
+      ],
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "hotspot",
+      "id": 0,
+      "name": "Prev Hotspot",
+      "drawing_order": 9996,
+      "position": {
+        "x": 274,
+        "y": 228
+      },
+      "width": 118,
+      "height": 68,
+      "shape": 0,
+      "hotspot_mode": 1,
+      "uccw_type": 8,
+      "app_name": "Prev Hotspot",
+      "intent": null,
+      "alpha": 255,
+      "angle": 0
+    },
+    {
+      "type": "hotspot",
+      "id": 0,
+      "name": "Play Hotspot",
+      "drawing_order": 9997,
+      "position": {
+        "x": 408,
+        "y": 228
+      },
+      "width": 128,
+      "height": 68,
+      "shape": 0,
+      "hotspot_mode": 1,
+      "uccw_type": 6,
+      "app_name": "Play Hotspot",
+      "intent": null,
+      "alpha": 255,
+      "angle": 0
+    },
+    {
+      "type": "hotspot",
+      "id": 0,
+      "name": "Next Hotspot",
+      "drawing_order": 9998,
+      "position": {
+        "x": 552,
+        "y": 228
+      },
+      "width": 118,
+      "height": 68,
+      "shape": 0,
+      "hotspot_mode": 1,
+      "uccw_type": 7,
+      "app_name": "Next Hotspot",
+      "intent": null,
+      "alpha": 255,
+      "angle": 0
+    },
+    {
+      "type": "hotspot",
+      "id": 0,
+      "name": "Player Hotspot",
+      "drawing_order": 9999,
+      "position": {
+        "x": 30,
+        "y": 30
+      },
+      "width": 220,
+      "height": 220,
+      "shape": 0,
+      "hotspot_mode": 1,
+      "uccw_type": 9,
+      "app_name": "Player Hotspot",
+      "intent": null,
+      "alpha": 255,
+      "angle": 0
+    }
+  ]
+}

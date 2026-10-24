@@ -1,0 +1,284 @@
+{
+  "background": {
+    "type": "BackgroundProperties",
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "alpha": 255,
+    "angle": 0,
+    "background": "assets://skin_templates/retro/Retro Cassette Now Playing Deck_bg.png",
+    "mode": 1,
+    "id": 0,
+    "name": "Background",
+    "image_scale_type": 2,
+    "fill_homescreen_widget": false,
+    "drawing_order": -1
+  },
+  "meta_data": {
+    "author": "UCCW Studio",
+    "height": 400,
+    "name": "Retro Cassette Now Playing Deck",
+    "scale": 1,
+    "width": 700,
+    "author_email": null,
+    "creation_date": 0,
+    "sdcard_root_address": null,
+    "modify_date": 0,
+    "other_data": null,
+    "screen_height": 2400,
+    "screen_width": 1080,
+    "skin_version": "version_3",
+    "min_version_code": 326,
+    "min_version_name": "2.2.26"
+  },
+  "objects": [
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Tape Status",
+      "drawing_order": 0,
+      "position": {
+        "x": 634,
+        "y": 62
+      },
+      "size": 13,
+      "color": -43230,
+      "alpha": 255,
+      "angle": 0,
+      "bold": true,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 2
+      },
+      "text_case": {
+        "text_case": 2
+      },
+      "text_provider": {
+        "id": 77,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Tape Track Title",
+      "drawing_order": 1,
+      "position": {
+        "x": 66,
+        "y": 94
+      },
+      "size": 22,
+      "color": -14671324,
+      "alpha": 255,
+      "angle": 0,
+      "bold": true,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 74,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 28,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Tape Artist",
+      "drawing_order": 2,
+      "position": {
+        "x": 66,
+        "y": 127
+      },
+      "size": 15,
+      "color": -1,
+      "alpha": 255,
+      "angle": 0,
+      "bold": true,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 2
+      },
+      "text_provider": {
+        "id": 75,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 32,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "battery_bar",
+      "id": 0,
+      "name": "Tape Progress",
+      "drawing_order": 3,
+      "position": {
+        "x": 304,
+        "y": 220
+      },
+      "width": 92,
+      "height": 12,
+      "base_color": 1849113150,
+      "base_roundness": 4,
+      "progress_bar_height": 10,
+      "progress_bar_roundness": 4,
+      "alpha": 255,
+      "angle": 0,
+      "style": 0,
+      "value_provider": 12,
+      "range": {
+        "min": 0,
+        "max": 100
+      },
+      "divisions": [
+        {
+          "color": -43230,
+          "div": 50
+        },
+        {
+          "color": -43230,
+          "div": 15
+        },
+        {
+          "color": -43230,
+          "div": 5
+        },
+        {
+          "color": -43230,
+          "div": 0
+        }
+      ],
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "hotspot",
+      "id": 0,
+      "name": "Rew Hotspot",
+      "drawing_order": 9996,
+      "position": {
+        "x": 80,
+        "y": 308
+      },
+      "width": 140,
+      "height": 60,
+      "shape": 0,
+      "hotspot_mode": 1,
+      "uccw_type": 8,
+      "app_name": "Rew Hotspot",
+      "intent": null,
+      "alpha": 255,
+      "angle": 0
+    },
+    {
+      "type": "hotspot",
+      "id": 0,
+      "name": "Play Hotspot",
+      "drawing_order": 9997,
+      "position": {
+        "x": 240,
+        "y": 308
+      },
+      "width": 220,
+      "height": 60,
+      "shape": 0,
+      "hotspot_mode": 1,
+      "uccw_type": 6,
+      "app_name": "Play Hotspot",
+      "intent": null,
+      "alpha": 255,
+      "angle": 0
+    },
+    {
+      "type": "hotspot",
+      "id": 0,
+      "name": "Ffwd Hotspot",
+      "drawing_order": 9998,
+      "position": {
+        "x": 480,
+        "y": 308
+      },
+      "width": 140,
+      "height": 60,
+      "shape": 0,
+      "hotspot_mode": 1,
+      "uccw_type": 7,
+      "app_name": "Ffwd Hotspot",
+      "intent": null,
+      "alpha": 255,
+      "angle": 0
+    },
+    {
+      "type": "hotspot",
+      "id": 0,
+      "name": "Deck Hotspot",
+      "drawing_order": 9999,
+      "position": {
+        "x": 140,
+        "y": 148
+      },
+      "width": 420,
+      "height": 120,
+      "shape": 0,
+      "hotspot_mode": 1,
+      "uccw_type": 9,
+      "app_name": "Deck Hotspot",
+      "intent": null,
+      "alpha": 255,
+      "angle": 0
+    }
+  ]
+}

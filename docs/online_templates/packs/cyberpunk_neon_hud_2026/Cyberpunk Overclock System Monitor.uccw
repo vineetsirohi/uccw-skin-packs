@@ -1,0 +1,418 @@
+{
+  "background": {
+    "type": "BackgroundProperties",
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "alpha": 255,
+    "angle": 0,
+    "background": "assets://skin_templates/nothing/Cyberpunk Overclock System Monitor_bg.png",
+    "mode": 1,
+    "id": 0,
+    "name": "Background",
+    "image_scale_type": 2,
+    "fill_homescreen_widget": false,
+    "drawing_order": -1
+  },
+  "meta_data": {
+    "author": "UCCW Studio",
+    "height": 400,
+    "name": "Cyberpunk Overclock System Monitor",
+    "scale": 1,
+    "width": 700,
+    "author_email": null,
+    "creation_date": 0,
+    "sdcard_root_address": null,
+    "modify_date": 0,
+    "other_data": null,
+    "screen_height": 2400,
+    "screen_width": 1080,
+    "skin_version": "version_3",
+    "min_version_code": 326,
+    "min_version_name": "2.2.26"
+  },
+  "objects": [
+    {
+      "type": "pie",
+      "id": 0,
+      "name": "CPU Gauge",
+      "drawing_order": 0,
+      "position": {
+        "x": 66,
+        "y": 130
+      },
+      "width": 136,
+      "height": 136,
+      "stroke": 14.0,
+      "style": 0,
+      "alpha": 255,
+      "angle": 0,
+      "value_provider": 10,
+      "range": {
+        "min": 0,
+        "max": 100
+      },
+      "divisions": [
+        {
+          "color": -16715521,
+          "div": 50
+        },
+        {
+          "color": -16715521,
+          "div": 15
+        },
+        {
+          "color": -16715521,
+          "div": 5
+        },
+        {
+          "color": -16715521,
+          "div": 0
+        }
+      ],
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "CPU Text",
+      "drawing_order": 1,
+      "position": {
+        "x": 134,
+        "y": 206
+      },
+      "size": 26,
+      "color": -1,
+      "alpha": 255,
+      "angle": 0,
+      "bold": true,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 61,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "pie",
+      "id": 0,
+      "name": "RAM Gauge",
+      "drawing_order": 2,
+      "position": {
+        "x": 282,
+        "y": 130
+      },
+      "width": 136,
+      "height": 136,
+      "stroke": 14.0,
+      "style": 0,
+      "alpha": 255,
+      "angle": 0,
+      "value_provider": 4,
+      "range": {
+        "min": 0,
+        "max": 100
+      },
+      "divisions": [
+        {
+          "color": -65409,
+          "div": 50
+        },
+        {
+          "color": -65409,
+          "div": 15
+        },
+        {
+          "color": -65409,
+          "div": 5
+        },
+        {
+          "color": -65409,
+          "div": 0
+        }
+      ],
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "RAM Text",
+      "drawing_order": 3,
+      "position": {
+        "x": 350,
+        "y": 206
+      },
+      "size": 22,
+      "color": -1,
+      "alpha": 255,
+      "angle": 0,
+      "bold": true,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 63,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "pie",
+      "id": 0,
+      "name": "Storage Gauge",
+      "drawing_order": 4,
+      "position": {
+        "x": 498,
+        "y": 130
+      },
+      "width": 136,
+      "height": 136,
+      "stroke": 14.0,
+      "style": 0,
+      "alpha": 255,
+      "angle": 0,
+      "value_provider": 5,
+      "range": {
+        "min": 0,
+        "max": 100
+      },
+      "divisions": [
+        {
+          "color": -201206,
+          "div": 50
+        },
+        {
+          "color": -201206,
+          "div": 15
+        },
+        {
+          "color": -201206,
+          "div": 5
+        },
+        {
+          "color": -201206,
+          "div": 0
+        }
+      ],
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Storage Text",
+      "drawing_order": 5,
+      "position": {
+        "x": 566,
+        "y": 206
+      },
+      "size": 22,
+      "color": -1,
+      "alpha": 255,
+      "angle": 0,
+      "bold": true,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 65,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Voltage Readout",
+      "drawing_order": 6,
+      "position": {
+        "x": 340,
+        "y": 354
+      },
+      "size": 16,
+      "color": -201206,
+      "alpha": 255,
+      "angle": 0,
+      "bold": true,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 79,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Thermal Readout",
+      "drawing_order": 7,
+      "position": {
+        "x": 465,
+        "y": 354
+      },
+      "size": 16,
+      "color": -65409,
+      "alpha": 255,
+      "angle": 0,
+      "bold": true,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "// ",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 78,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Cell Readout",
+      "drawing_order": 8,
+      "position": {
+        "x": 650,
+        "y": 354
+      },
+      "size": 16,
+      "color": -16715521,
+      "alpha": 255,
+      "angle": 0,
+      "bold": true,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "CELL:",
+      "suffix": "%",
+      "text": "",
+      "text_alignment": {
+        "align": 2
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 22,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    }
+  ]
+}

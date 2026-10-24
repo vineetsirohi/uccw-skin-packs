@@ -2,6 +2,90 @@
   "manifest_version": 2,
   "collections": [
     {
+      "id": "dot_matrix_os_2026",
+      "title": "Dot Matrix OS Suite",
+      "subtitle": "4 industrial monochrome & crimson dot-matrix widgets + Schematic Wallpaper: Vinyl Media Deck, World Clock, Pedometer & Telemetry",
+      "description": "High-contrast carbon-black, warm white, and crimson-dot industrial widgets: Vinyl Media Deck with live album art & transport controls, Weather & UTC World Clock, Fitness & Pedometer Pod, System Telemetry Bento, and matching 1080×2400 Dot Matrix Schematic Wallpaper.",
+      "author": "UCCW Studio",
+      "category": "nothing",
+      "tags": [
+        "Dot Matrix",
+        "Media Player",
+        "Pedometer",
+        "System Telemetry"
+      ],
+      "release_date": "2026-10-25",
+      "min_version_code": 326,
+      "featured": true,
+      "notify": true,
+      "access_type": "free",
+      "product_id": null,
+      "hero_thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/dot_matrix_os_2026/Dot%20Matrix%20Vinyl%20Media%20Deck_thumb.png",
+      "wallpapers": [
+        {
+          "name": "Dot Matrix Technical Schematic",
+          "url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/dot_matrix_os_2026/Dot%20Matrix%20Schematic%20Wallpaper.jpg",
+          "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/dot_matrix_os_2026/Dot%20Matrix%20Schematic%20Wallpaper_thumb.jpg"
+        }
+      ]
+    },
+    {
+      "id": "cyberpunk_neon_hud_2026",
+      "title": "Cyberpunk Neon HUD",
+      "subtitle": "3 chamfered sci-fi telemetry & audio HUD widgets + Cyber Circuit Grid Wallpaper",
+      "description": "Futuristic OLED black, cyber yellow, electric cyan, and neon magenta sci-fi cockpit widgets: Tactical Clock & Telemetry HUD, Overclock System Monitor with triple circular gauges, Cyber Neon Audio Deck, and matching 1080×2400 Cyber Circuit Grid Wallpaper.",
+      "author": "UCCW Studio",
+      "category": "nothing",
+      "tags": [
+        "Cyberpunk HUD",
+        "System Monitor",
+        "Audio Deck",
+        "AMOLED"
+      ],
+      "release_date": "2026-10-25",
+      "min_version_code": 326,
+      "featured": true,
+      "notify": true,
+      "access_type": "free",
+      "product_id": null,
+      "hero_thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/cyberpunk_neon_hud_2026/Cyber%20Tactical%20Clock%20%26%20Telemetry%20HUD_thumb.png",
+      "wallpapers": [
+        {
+          "name": "Cyber Circuit Grid",
+          "url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/cyberpunk_neon_hud_2026/Cyber%20Circuit%20Grid%20Wallpaper.jpg",
+          "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/cyberpunk_neon_hud_2026/Cyber%20Circuit%20Grid%20Wallpaper_thumb.jpg"
+        }
+      ]
+    },
+    {
+      "id": "retro_tactile_bauhaus_2026",
+      "title": "Retro Tactile Audio & Bauhaus",
+      "subtitle": "Type-II Cassette Now Playing Deck, Bauhaus Industrial Analog & Weather, Olive Quartz LCD Pod + Brushed Metal Wallpaper",
+      "description": "Warm industrial design celebrating classic hardware synthesis: Type-II Cassette Tape Now Playing Deck with interactive transport controls, Bauhaus Industrial Analog & Weather Station, Handheld Olive-Green Quartz LCD Pod, and matching 1080×2400 Brushed Industrial Metal Wallpaper.",
+      "author": "UCCW Studio",
+      "category": "retro",
+      "tags": [
+        "Cassette Deck",
+        "Bauhaus Analog",
+        "Retro LCD",
+        "Tactile Audio"
+      ],
+      "release_date": "2026-10-25",
+      "min_version_code": 326,
+      "featured": true,
+      "notify": true,
+      "access_type": "free",
+      "product_id": null,
+      "hero_thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/retro_tactile_bauhaus_2026/Retro%20Cassette%20Now%20Playing%20Deck_thumb.png",
+      "wallpapers": [
+        {
+          "name": "Brushed Industrial Metal",
+          "url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/retro_tactile_bauhaus_2026/Brushed%20Industrial%20Metal%20Wallpaper.jpg",
+          "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/retro_tactile_bauhaus_2026/Brushed%20Industrial%20Metal%20Wallpaper_thumb.jpg"
+        }
+      ]
+    },
+    {
       "id": "halloween_2026",
       "title": "Halloween 2026: Blood Moon & Dark Glass",
       "subtitle": "4 spooky-season widgets + Haunted Forest Wallpaper: Moonlit Bento, Blood Moon Gothic Analog, Haunted CRT HUD & Oct '26 Calendar",
@@ -17,7 +101,7 @@
       "release_date": "2026-10-23",
       "min_version_code": 326,
       "featured": true,
-      "notify": true,
+      "notify": false,
       "access_type": "free",
       "product_id": null,
       "hero_thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/halloween_2026/Moonlit%20Halloween%20Countdown%20Bento_thumb.png",
@@ -46,7 +130,7 @@
       "min_version_code": 326,
       "featured": true,
       "notify": false,
-      "access_type": "pro",
+      "access_type": "free",
       "product_id": null,
       "hero_thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/obsidian_gold_pro_2026/Obsidian%20Gold%20Tourbillon%20Chrono_thumb.png",
       "wallpapers": [
@@ -73,7 +157,7 @@
       "release_date": "2026-10-23",
       "min_version_code": 326,
       "featured": true,
-      "notify": true,
+      "notify": false,
       "access_type": "free",
       "product_id": null,
       "hero_thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/material_live_feeds_2026_10/Material%20Live%20Feeds%20%26%20FX%20Bento_thumb.png",
@@ -81,6 +165,142 @@
     }
   ],
   "templates": [
+    {
+      "name": "Dot Matrix Vinyl Media Deck",
+      "collection_id": "dot_matrix_os_2026",
+      "category": "nothing",
+      "categories": [
+        "nothing",
+        "music"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/dot_matrix_os_2026/Dot%20Matrix%20Vinyl%20Media%20Deck.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/dot_matrix_os_2026/Dot%20Matrix%20Vinyl%20Media%20Deck_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/dot_matrix_os_2026/Dot%20Matrix%20Vinyl%20Media%20Deck_bg.png"
+    },
+    {
+      "name": "Dot Matrix Weather & World Clock",
+      "collection_id": "dot_matrix_os_2026",
+      "category": "nothing",
+      "categories": [
+        "nothing",
+        "weather",
+        "clocks"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/dot_matrix_os_2026/Dot%20Matrix%20Weather%20%26%20World%20Clock.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/dot_matrix_os_2026/Dot%20Matrix%20Weather%20%26%20World%20Clock_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/dot_matrix_os_2026/Dot%20Matrix%20Weather%20%26%20World%20Clock_bg.png"
+    },
+    {
+      "name": "Dot Matrix Fitness & Pedometer Pod",
+      "collection_id": "dot_matrix_os_2026",
+      "category": "nothing",
+      "categories": [
+        "nothing",
+        "battery"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/dot_matrix_os_2026/Dot%20Matrix%20Fitness%20%26%20Pedometer%20Pod.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/dot_matrix_os_2026/Dot%20Matrix%20Fitness%20%26%20Pedometer%20Pod_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/dot_matrix_os_2026/Dot%20Matrix%20Fitness%20%26%20Pedometer%20Pod_bg.png"
+    },
+    {
+      "name": "Dot Matrix System Telemetry Bento",
+      "collection_id": "dot_matrix_os_2026",
+      "category": "nothing",
+      "categories": [
+        "nothing",
+        "battery"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/dot_matrix_os_2026/Dot%20Matrix%20System%20Telemetry%20Bento.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/dot_matrix_os_2026/Dot%20Matrix%20System%20Telemetry%20Bento_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/dot_matrix_os_2026/Dot%20Matrix%20System%20Telemetry%20Bento_bg.png"
+    },
+    {
+      "name": "Cyber Tactical Clock & Telemetry HUD",
+      "collection_id": "cyberpunk_neon_hud_2026",
+      "category": "nothing",
+      "categories": [
+        "nothing",
+        "clocks",
+        "weather",
+        "battery"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/cyberpunk_neon_hud_2026/Cyber%20Tactical%20Clock%20%26%20Telemetry%20HUD.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/cyberpunk_neon_hud_2026/Cyber%20Tactical%20Clock%20%26%20Telemetry%20HUD_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/cyberpunk_neon_hud_2026/Cyber%20Tactical%20Clock%20%26%20Telemetry%20HUD_bg.png"
+    },
+    {
+      "name": "Cyberpunk Overclock System Monitor",
+      "collection_id": "cyberpunk_neon_hud_2026",
+      "category": "nothing",
+      "categories": [
+        "nothing",
+        "battery"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/cyberpunk_neon_hud_2026/Cyberpunk%20Overclock%20System%20Monitor.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/cyberpunk_neon_hud_2026/Cyberpunk%20Overclock%20System%20Monitor_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/cyberpunk_neon_hud_2026/Cyberpunk%20Overclock%20System%20Monitor_bg.png"
+    },
+    {
+      "name": "Cyber Neon Audio Deck",
+      "collection_id": "cyberpunk_neon_hud_2026",
+      "category": "nothing",
+      "categories": [
+        "nothing",
+        "music"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/cyberpunk_neon_hud_2026/Cyber%20Neon%20Audio%20Deck.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/cyberpunk_neon_hud_2026/Cyber%20Neon%20Audio%20Deck_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/cyberpunk_neon_hud_2026/Cyber%20Neon%20Audio%20Deck_bg.png"
+    },
+    {
+      "name": "Retro Cassette Now Playing Deck",
+      "collection_id": "retro_tactile_bauhaus_2026",
+      "category": "retro",
+      "categories": [
+        "retro",
+        "music"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/retro_tactile_bauhaus_2026/Retro%20Cassette%20Now%20Playing%20Deck.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/retro_tactile_bauhaus_2026/Retro%20Cassette%20Now%20Playing%20Deck_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/retro_tactile_bauhaus_2026/Retro%20Cassette%20Now%20Playing%20Deck_bg.png"
+    },
+    {
+      "name": "Bauhaus Industrial Analog & Weather",
+      "collection_id": "retro_tactile_bauhaus_2026",
+      "category": "retro",
+      "categories": [
+        "retro",
+        "clocks",
+        "weather"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/retro_tactile_bauhaus_2026/Bauhaus%20Industrial%20Analog%20%26%20Weather.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/retro_tactile_bauhaus_2026/Bauhaus%20Industrial%20Analog%20%26%20Weather_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/retro_tactile_bauhaus_2026/Bauhaus%20Industrial%20Analog%20%26%20Weather_bg.png"
+    },
+    {
+      "name": "Retro Handheld Olive LCD Pod",
+      "collection_id": "retro_tactile_bauhaus_2026",
+      "category": "retro",
+      "categories": [
+        "retro",
+        "clocks",
+        "weather",
+        "battery"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/retro_tactile_bauhaus_2026/Retro%20Handheld%20Olive%20LCD%20Pod.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/retro_tactile_bauhaus_2026/Retro%20Handheld%20Olive%20LCD%20Pod_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/retro_tactile_bauhaus_2026/Retro%20Handheld%20Olive%20LCD%20Pod_bg.png"
+    },
     {
       "name": "Moonlit Halloween Countdown Bento",
       "collection_id": "halloween_2026",

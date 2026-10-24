@@ -1,0 +1,310 @@
+{
+  "background": {
+    "type": "BackgroundProperties",
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "alpha": 255,
+    "angle": 0,
+    "background": "assets://skin_templates/nothing/Dot Matrix Vinyl Media Deck_bg.png",
+    "mode": 1,
+    "id": 0,
+    "name": "Background",
+    "image_scale_type": 2,
+    "fill_homescreen_widget": false,
+    "drawing_order": -1
+  },
+  "meta_data": {
+    "author": "UCCW Studio",
+    "height": 400,
+    "name": "Dot Matrix Vinyl Media Deck",
+    "scale": 1,
+    "width": 700,
+    "author_email": null,
+    "creation_date": 0,
+    "sdcard_root_address": null,
+    "modify_date": 0,
+    "other_data": null,
+    "screen_height": 2400,
+    "screen_width": 1080,
+    "skin_version": "version_3",
+    "min_version_code": 326,
+    "min_version_name": "2.2.26"
+  },
+  "objects": [
+    {
+      "type": "image_object",
+      "id": 0,
+      "name": "Vinyl Center Art",
+      "drawing_order": 0,
+      "position": {
+        "x": 117,
+        "y": 164
+      },
+      "alpha": 255,
+      "angle": 0,
+      "image_source": 1,
+      "path": null,
+      "scale": 1.0,
+      "width": 116,
+      "height": 116,
+      "scale_type": 0,
+      "corner_style": 1,
+      "corner": 58,
+      "top_left_corner": true,
+      "top_right_corner": true,
+      "bottom_left_corner": true,
+      "bottom_right_corner": true,
+      "is_tint_enabled": false,
+      "tint_color": -1
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Media Status",
+      "drawing_order": 1,
+      "position": {
+        "x": 644,
+        "y": 108
+      },
+      "size": 14,
+      "color": -6248264,
+      "alpha": 255,
+      "angle": 0,
+      "bold": true,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 2
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 77,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Track Title",
+      "drawing_order": 2,
+      "position": {
+        "x": 352,
+        "y": 154
+      },
+      "size": 24,
+      "color": -1,
+      "alpha": 255,
+      "angle": 0,
+      "bold": true,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 74,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 20,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Artist Name",
+      "drawing_order": 3,
+      "position": {
+        "x": 352,
+        "y": 188
+      },
+      "size": 16,
+      "color": -5919298,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 75,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 24,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "battery_bar",
+      "id": 0,
+      "name": "Track Progress Bar",
+      "drawing_order": 4,
+      "position": {
+        "x": 352,
+        "y": 214
+      },
+      "width": 286,
+      "height": 14,
+      "base_color": 1848652864,
+      "base_roundness": 6,
+      "progress_bar_height": 12,
+      "progress_bar_roundness": 6,
+      "alpha": 255,
+      "angle": 0,
+      "style": 0,
+      "value_provider": 12,
+      "range": {
+        "min": 0,
+        "max": 100
+      },
+      "divisions": [
+        {
+          "color": -1105092,
+          "div": 50
+        },
+        {
+          "color": -1105092,
+          "div": 15
+        },
+        {
+          "color": -1105092,
+          "div": 5
+        },
+        {
+          "color": -1105092,
+          "div": 0
+        }
+      ],
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "hotspot",
+      "id": 0,
+      "name": "Hotspot Prev",
+      "drawing_order": 9996,
+      "position": {
+        "x": 326,
+        "y": 272
+      },
+      "width": 96,
+      "height": 76,
+      "shape": 0,
+      "hotspot_mode": 1,
+      "uccw_type": 8,
+      "app_name": "Hotspot Prev",
+      "intent": null,
+      "alpha": 255,
+      "angle": 0
+    },
+    {
+      "type": "hotspot",
+      "id": 0,
+      "name": "Hotspot Play Pause",
+      "drawing_order": 9997,
+      "position": {
+        "x": 438,
+        "y": 272
+      },
+      "width": 114,
+      "height": 76,
+      "shape": 0,
+      "hotspot_mode": 1,
+      "uccw_type": 6,
+      "app_name": "Hotspot Play Pause",
+      "intent": null,
+      "alpha": 255,
+      "angle": 0
+    },
+    {
+      "type": "hotspot",
+      "id": 0,
+      "name": "Hotspot Next",
+      "drawing_order": 9998,
+      "position": {
+        "x": 568,
+        "y": 272
+      },
+      "width": 96,
+      "height": 76,
+      "shape": 0,
+      "hotspot_mode": 1,
+      "uccw_type": 7,
+      "app_name": "Hotspot Next",
+      "intent": null,
+      "alpha": 255,
+      "angle": 0
+    },
+    {
+      "type": "hotspot",
+      "id": 0,
+      "name": "Hotspot Open Player",
+      "drawing_order": 9999,
+      "position": {
+        "x": 47,
+        "y": 94
+      },
+      "width": 256,
+      "height": 256,
+      "shape": 0,
+      "hotspot_mode": 1,
+      "uccw_type": 9,
+      "app_name": "Hotspot Open Player",
+      "intent": null,
+      "alpha": 255,
+      "angle": 0
+    }
+  ]
+}
