@@ -2,6 +2,34 @@
   "manifest_version": 2,
   "collections": [
     {
+      "id": "solar_astro_observatory_2026",
+      "title": "Solar Horizon & Astro Observatory",
+      "subtitle": "3 golden-hour & orbital telemetry widgets + Deep Cosmos Wallpaper: Solar Horizon 3-Day Radar, Celestial Moon Chrono & Live Earth Satellite",
+      "description": "Midnight observatory widgets crafted in solar amber and twilight blue: Solar Horizon curve with Dawn/Dusk & 3-day weather forecast radar, Astro Celestial smooth-sweep analog chronograph, Live NOAA GOES GeoColor Earth satellite disk & system telemetry, and matching 1080×2400 Solar Horizon Wallpaper.",
+      "author": "UCCW Studio",
+      "category": "classic",
+      "tags": [
+        "Solar Horizon",
+        "Astro Chrono",
+        "Live Earth Sat",
+        "Weather Radar"
+      ],
+      "release_date": "2026-10-25",
+      "min_version_code": 326,
+      "featured": true,
+      "notify": true,
+      "access_type": "free",
+      "product_id": null,
+      "hero_thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/solar_astro_observatory_2026/Solar%20Horizon%20%26%203-Day%20Weather%20Radar_thumb.png",
+      "wallpapers": [
+        {
+          "name": "Solar Horizon & Deep Cosmos",
+          "url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/solar_astro_observatory_2026/Solar%20Horizon%20%26%20Deep%20Cosmos%20Wallpaper.jpg",
+          "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/solar_astro_observatory_2026/Solar%20Horizon%20%26%20Deep%20Cosmos%20Wallpaper_thumb.jpg"
+        }
+      ]
+    },
+    {
       "id": "dot_matrix_os_2026",
       "title": "Dot Matrix OS Suite",
       "subtitle": "4 industrial monochrome & crimson dot-matrix widgets + Schematic Wallpaper: Vinyl Media Deck, World Clock, Pedometer & Telemetry",
@@ -165,6 +193,50 @@
     }
   ],
   "templates": [
+    {
+      "name": "Solar Horizon & 3-Day Weather Radar",
+      "collection_id": "solar_astro_observatory_2026",
+      "category": "classic",
+      "categories": [
+        "classic",
+        "weather",
+        "clocks"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/solar_astro_observatory_2026/Solar%20Horizon%20%26%203-Day%20Weather%20Radar.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/solar_astro_observatory_2026/Solar%20Horizon%20%26%203-Day%20Weather%20Radar_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/solar_astro_observatory_2026/Solar%20Horizon%20%26%203-Day%20Weather%20Radar_bg.png"
+    },
+    {
+      "name": "Astro Celestial Analog & Moon Chrono",
+      "collection_id": "solar_astro_observatory_2026",
+      "category": "classic",
+      "categories": [
+        "classic",
+        "clocks",
+        "weather",
+        "battery"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/solar_astro_observatory_2026/Astro%20Celestial%20Analog%20%26%20Moon%20Chrono.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/solar_astro_observatory_2026/Astro%20Celestial%20Analog%20%26%20Moon%20Chrono_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/solar_astro_observatory_2026/Astro%20Celestial%20Analog%20%26%20Moon%20Chrono_bg.png"
+    },
+    {
+      "name": "Earth Orbit Live Satellite & Telemetry",
+      "collection_id": "solar_astro_observatory_2026",
+      "category": "classic",
+      "categories": [
+        "classic",
+        "weather",
+        "clocks",
+        "battery"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/solar_astro_observatory_2026/Earth%20Orbit%20Live%20Satellite%20%26%20Telemetry.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/solar_astro_observatory_2026/Earth%20Orbit%20Live%20Satellite%20%26%20Telemetry_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/solar_astro_observatory_2026/Earth%20Orbit%20Live%20Satellite%20%26%20Telemetry_bg.png"
+    },
     {
       "name": "Dot Matrix Vinyl Media Deck",
       "collection_id": "dot_matrix_os_2026",

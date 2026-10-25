@@ -1,0 +1,473 @@
+{
+  "background": {
+    "type": "BackgroundProperties",
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "alpha": 255,
+    "angle": 0,
+    "background": "assets://skin_templates/rings/Astro Celestial Analog & Moon Chrono_bg.png",
+    "mode": 1,
+    "id": 0,
+    "name": "Background",
+    "image_scale_type": 2,
+    "fill_homescreen_widget": false,
+    "drawing_order": -1
+  },
+  "meta_data": {
+    "author": "UCCW Studio",
+    "height": 520,
+    "name": "Astro Celestial Analog & Moon Chrono",
+    "scale": 1,
+    "width": 520,
+    "author_email": null,
+    "creation_date": 0,
+    "sdcard_root_address": null,
+    "modify_date": 0,
+    "other_data": null,
+    "screen_height": 2400,
+    "screen_width": 1080,
+    "skin_version": "version_3",
+    "min_version_code": 326,
+    "min_version_name": "2.2.26"
+  },
+  "objects": [
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Dial Brand",
+      "drawing_order": 1,
+      "position": {
+        "x": 260,
+        "y": 118
+      },
+      "size": 13,
+      "color": -25020,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "ASTRO \u00b7 CELESTIAL",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Dial Date",
+      "drawing_order": 2,
+      "position": {
+        "x": 260,
+        "y": 144
+      },
+      "size": 13,
+      "color": -7035976,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Roboto-Bold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "{\"day_format\": 8, \"day_of_the_week_format\": 7, \"layout_format\": \"wdm\", \"month_format\": 4, \"separator\": \" \", \"separator2\": \" \", \"separator3\": \" \", \"year_format\": 1}",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 2
+      },
+      "text_provider": {
+        "id": 20,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Left Temp",
+      "drawing_order": 3,
+      "position": {
+        "x": 134,
+        "y": 250
+      },
+      "size": 22,
+      "color": -460036,
+      "alpha": 255,
+      "angle": 0,
+      "bold": true,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-SemiBold.ttf"
+      },
+      "prefix": "",
+      "suffix": "\u00b0",
+      "text": "",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 24,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Left Feel",
+      "drawing_order": 4,
+      "position": {
+        "x": 134,
+        "y": 276
+      },
+      "size": 12,
+      "color": -25020,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "FL ",
+      "suffix": "\u00b0",
+      "text": "",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 70,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Right Bat",
+      "drawing_order": 5,
+      "position": {
+        "x": 386,
+        "y": 250
+      },
+      "size": 20,
+      "color": -13058568,
+      "alpha": 255,
+      "angle": 0,
+      "bold": true,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-SemiBold.ttf"
+      },
+      "prefix": "",
+      "suffix": "%",
+      "text": "",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 22,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Right Label",
+      "drawing_order": 6,
+      "position": {
+        "x": 386,
+        "y": 276
+      },
+      "size": 12,
+      "color": -7035976,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "PWR",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Subdial Val",
+      "drawing_order": 7,
+      "position": {
+        "x": 260,
+        "y": 382
+      },
+      "size": 14,
+      "color": -460036,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 26,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Subdial Cond",
+      "drawing_order": 8,
+      "position": {
+        "x": 260,
+        "y": 424
+      },
+      "size": 12,
+      "color": -13058568,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Roboto-Bold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 2
+      },
+      "text_provider": {
+        "id": 25,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 16,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "battery_circle",
+      "id": 0,
+      "name": "Lunar Cycle Ring",
+      "drawing_order": 9,
+      "position": {
+        "x": 208,
+        "y": 300
+      },
+      "width": 104,
+      "height": 104,
+      "stroke": 4.0,
+      "style": 0,
+      "alpha": 255,
+      "angle": 0,
+      "value_provider": 8,
+      "range": {
+        "min": 0,
+        "max": 100
+      },
+      "divisions": [
+        {
+          "color": -25020,
+          "div": 50
+        },
+        {
+          "color": -25020,
+          "div": 15
+        },
+        {
+          "color": -25020,
+          "div": 5
+        },
+        {
+          "color": -25020,
+          "div": 0
+        }
+      ],
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "standard_analog_clock_object",
+      "id": 0,
+      "name": "Celestial Hands",
+      "drawing_order": 10,
+      "position": {
+        "x": 68,
+        "y": 68
+      },
+      "alpha": 255,
+      "angle": 0,
+      "scale": 1.28,
+      "step_mode": 0,
+      "hour_mode": 0,
+      "timezone_id": "",
+      "hour_image": "assets://defaultAnalogClockHands/baton_hour.png",
+      "minute_image": "assets://defaultAnalogClockHands/baton_minute.png",
+      "hour_color": -460036,
+      "minute_color": -25020
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Center Cap",
+      "drawing_order": 11,
+      "position": {
+        "x": 250,
+        "y": 250
+      },
+      "alpha": 255,
+      "angle": 0,
+      "roundness": 10,
+      "width": 20,
+      "height": 20,
+      "stroke": 2,
+      "color": -13058568,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "hotspot",
+      "id": 0,
+      "name": "Clock Hotspot",
+      "drawing_order": 12,
+      "position": {
+        "x": 60,
+        "y": 60
+      },
+      "width": 400,
+      "height": 400,
+      "shape": 0,
+      "hotspot_mode": 1,
+      "uccw_type": 0,
+      "app_name": "Clock Hotspot",
+      "intent": null,
+      "alpha": 255,
+      "angle": 0
+    }
+  ]
+}
