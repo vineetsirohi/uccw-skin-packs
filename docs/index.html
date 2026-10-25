@@ -1,0 +1,831 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>UCCW Skin Packs &amp; Custom Android Widget Gallery</title>
+  <meta name="description" content="Explore curated Android widget collections and 4K matching wallpapers for UCCW (Ultimate Custom Widget): Dot Matrix, Cyberpunk HUD, Retro Tactile, Liquid Glass, Material You &amp; StandBy clocks." />
+  <meta property="og:title" content="UCCW Skin Packs &amp; Custom Android Widget Gallery" />
+  <meta property="og:description" content="1-tap custom Android widget packs with matching HD wallpapers. Built for UCCW (Ultimate Custom Widget)." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/dot_matrix_os_2026/Dot%20Matrix%20Vinyl%20Media%20Deck_thumb.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <style>
+    :root {
+      --bg: #090b10;
+      --surface: #121621;
+      --surface-2: #191f2e;
+      --border: #252d42;
+      --text: #f1f4fb;
+      --muted: #98a2b8;
+      --accent: #6380ff;
+      --accent-2: #3b5bdb;
+      --free: #15803d;
+      --pro: #7e22ce;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: radial-gradient(circle at 50% 0%, #171e33 0%, var(--bg) 55%);
+      color: var(--text);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      line-height: 1.5;
+      min-height: 100vh;
+    }
+    a { color: inherit; text-decoration: none; }
+    .topbar {
+      position: sticky;
+      top: 0;
+      z-index: 30;
+      backdrop-filter: blur(16px);
+      background: rgba(9, 11, 16, 0.82);
+      border-bottom: 1px solid var(--border);
+      padding: 14px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-weight: 800;
+      font-size: 18px;
+      letter-spacing: -0.3px;
+    }
+    .brand-badge {
+      width: 36px;
+      height: 36px;
+      border-radius: 10px;
+      background: linear-gradient(135deg, #6380ff, #9775fa);
+      display: grid;
+      place-items: center;
+      font-weight: 900;
+      color: #fff;
+      font-size: 16px;
+      box-shadow: 0 4px 14px rgba(99, 128, 255, 0.35);
+    }
+    .top-actions {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      padding: 9px 16px;
+      border-radius: 999px;
+      font-size: 13px;
+      font-weight: 700;
+      border: 1px solid var(--border);
+      background: var(--surface-2);
+      color: var(--text);
+      cursor: pointer;
+      transition: all 0.15s ease;
+    }
+    .btn:hover {
+      border-color: var(--accent);
+      transform: translateY(-1px);
+    }
+    .btn-primary {
+      background: linear-gradient(135deg, #5c7cfa, #4263eb);
+      border-color: transparent;
+      color: #fff;
+      box-shadow: 0 4px 14px rgba(66, 99, 235, 0.35);
+    }
+    .btn-primary:hover {
+      background: linear-gradient(135deg, #748ffc, #4c6ef5);
+    }
+    .hero {
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 44px 24px 24px;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: clamp(28px, 4.5vw, 46px);
+      font-weight: 850;
+      margin: 0 0 12px;
+      letter-spacing: -0.8px;
+    }
+    .hero p {
+      color: var(--muted);
+      font-size: clamp(15px, 2vw, 18px);
+      max-width: 720px;
+      margin: 0 auto 24px;
+    }
+    .filter-bar {
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 0 24px 24px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .chips {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+    .chip {
+      padding: 7px 14px;
+      border-radius: 999px;
+      font-size: 13px;
+      font-weight: 600;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      color: var(--muted);
+      cursor: pointer;
+      transition: all 0.15s ease;
+    }
+    .chip.active, .chip:hover {
+      background: var(--accent);
+      border-color: var(--accent);
+      color: #fff;
+    }
+    .search-input {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      color: var(--text);
+      padding: 9px 15px;
+      border-radius: 999px;
+      font-size: 13px;
+      min-width: 240px;
+      outline: none;
+    }
+    .search-input:focus {
+      border-color: var(--accent);
+    }
+    .packs-container {
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 0 24px 64px;
+      display: flex;
+      flex-direction: column;
+      gap: 28px;
+    }
+    .pack-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 22px;
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      box-shadow: 0 12px 32px rgba(0, 0, 0, 0.35);
+      transition: border-color 0.2s ease;
+    }
+    .pack-card.highlighted {
+      border-color: #748ffc;
+      box-shadow: 0 0 0 2px #748ffc, 0 16px 40px rgba(99, 128, 255, 0.25);
+    }
+    .pack-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+    .pack-title-row {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-bottom: 6px;
+    }
+    .pack-title {
+      font-size: 22px;
+      font-weight: 800;
+      margin: 0;
+    }
+    .badge {
+      font-size: 11px;
+      font-weight: 800;
+      padding: 3px 9px;
+      border-radius: 999px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    .badge-free { background: var(--free); color: #fff; }
+    .badge-pro { background: var(--pro); color: #fff; }
+    .pack-desc {
+      color: var(--muted);
+      font-size: 14px;
+      margin: 0;
+      max-width: 780px;
+    }
+    .tag-row {
+      display: flex;
+      gap: 6px;
+      flex-wrap: wrap;
+      margin-top: 10px;
+    }
+    .tag {
+      font-size: 11px;
+      font-weight: 600;
+      padding: 3px 9px;
+      border-radius: 6px;
+      background: var(--surface-2);
+      color: #bac8ff;
+      border: 1px solid #2b3550;
+    }
+    .pack-actions {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    .pack-showcase-grid {
+      display: grid;
+      grid-template-columns: 200px 1fr;
+      gap: 20px;
+      align-items: stretch;
+    }
+    @media (max-width: 720px) {
+      .pack-showcase-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+    .wallpaper-card {
+      background: var(--surface-2);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+    }
+    .wallpaper-card img {
+      width: 100%;
+      height: 240px;
+      object-fit: cover;
+      display: block;
+    }
+    .wallpaper-meta {
+      padding: 10px 12px;
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--muted);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .widgets-strip {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+      gap: 14px;
+    }
+    .widget-tile {
+      background: #0d1018;
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 14px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      gap: 10px;
+    }
+    .widget-tile img {
+      width: 100%;
+      height: 150px;
+      object-fit: contain;
+      filter: drop-shadow(0 8px 18px rgba(0, 0, 0, 0.55));
+    }
+    .widget-name {
+      font-size: 12px;
+      font-weight: 600;
+      color: #dce3f2;
+      text-align: center;
+    }
+
+    /* Showcase Generator Modal */
+    .modal-backdrop {
+      position: fixed;
+      inset: 0;
+      background: rgba(5, 7, 12, 0.82);
+      backdrop-filter: blur(8px);
+      z-index: 100;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+    .modal-backdrop.open {
+      display: flex;
+    }
+    .modal-box {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      max-width: 900px;
+      width: 100%;
+      max-height: 92vh;
+      overflow-y: auto;
+      padding: 24px;
+      display: grid;
+      grid-template-columns: 360px 1fr;
+      gap: 24px;
+    }
+    @media (max-width: 760px) {
+      .modal-box {
+        grid-template-columns: 1fr;
+      }
+    }
+    .canvas-preview-wrap {
+      background: #090b10;
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .canvas-preview-wrap canvas {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      display: block;
+    }
+    .reddit-box {
+      width: 100%;
+      min-height: 150px;
+      background: #0b0e15;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      color: #dbe2f0;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      font-size: 12px;
+      padding: 12px;
+      resize: vertical;
+    }
+    .toast {
+      position: fixed;
+      bottom: 24px;
+      right: 24px;
+      background: #1e293b;
+      border: 1px solid #475569;
+      color: #fff;
+      padding: 10px 18px;
+      border-radius: 999px;
+      font-size: 13px;
+      font-weight: 600;
+      z-index: 200;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.2s ease;
+    }
+    .toast.show { opacity: 1; }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <a href="?" class="brand">
+      <div class="brand-badge">U</div>
+      <span>UCCW Skin Packs Gallery</span>
+    </a>
+    <div class="top-actions">
+      <a id="topPlayStoreBtn" class="btn btn-primary" href="https://play.google.com/store/apps/details?id=in.vineetsirohi.customwidget&referrer=utm_source%3Dweb_gallery" target="_blank" rel="noopener">
+        📲 Get UCCW on Google Play
+      </a>
+    </div>
+  </header>
+
+  <section class="hero">
+    <h1>Curated Android Widget Packs &amp; 4K Wallpapers</h1>
+    <p>
+      1-tap custom widget suites with matching wallpapers for <strong>UCCW (Ultimate Custom Widget)</strong>.
+      Apply directly in the app, customize every layer in the WYSIWYG editor, or use as a full-screen StandBy bedside clock.
+    </p>
+  </section>
+
+  <div class="filter-bar">
+    <div class="chips" id="categoryChips"></div>
+    <input type="search" id="searchInput" class="search-input" placeholder="Search packs, Dot Matrix, Bauhaus, HUD..." />
+  </div>
+
+  <main class="packs-container" id="packsContainer">
+    <div style="text-align:center;color:var(--muted);padding:48px 0;">Loading Skin Packs...</div>
+  </main>
+
+  <!-- Showcase Card Modal -->
+  <div class="modal-backdrop" id="showcaseModal">
+    <div class="modal-box">
+      <div class="canvas-preview-wrap">
+        <canvas id="showcaseCanvas" width="1080" height="1350"></canvas>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:14px;justify-content:space-between;">
+        <div>
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;">
+            <h3 style="margin:0;font-size:18px;" id="modalPackTitle">Homescreen Showcase Card</h3>
+            <button class="btn" id="closeModalBtn">✕ Close</button>
+          </div>
+          <p style="margin:0 0 12px;font-size:13px;color:var(--muted);">
+            Ready-to-post <strong>1080×1350</strong> portrait showcase image + pre-formatted description for
+            <code>r/androidthemes</code>, <code>r/HowToMen</code>, <code>r/NovaLauncher</code>, X, or Telegram.
+          </p>
+          <label style="font-size:12px;font-weight:700;color:var(--muted);display:block;margin-bottom:6px;">
+            Reddit / Social Post Markdown:
+          </label>
+          <textarea id="redditMarkdownBox" class="reddit-box" readonly></textarea>
+        </div>
+        <div style="display:flex;gap:10px;flex-wrap:wrap;">
+          <button class="btn btn-primary" id="downloadCardBtn">⬇️ Download 1080×1350 PNG</button>
+          <button class="btn" id="copyMarkdownBtn">📋 Copy Post Markdown</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="toast" id="toastMsg">Copied!</div>
+
+  <script>
+    const CATEGORY_LABELS = {
+      all: "All Packs",
+      nothing: "Dot Matrix & Cyber",
+      ios: "Squircle & Glass",
+      pixel: "Material",
+      samsung: "Modern UI",
+      retro: "Retro & Bauhaus",
+      classic: "Rings & Classic"
+    };
+
+    let manifestData = null;
+    let activeCategory = "all";
+    let searchQuery = "";
+    let currentShowcasePack = null;
+
+    function showToast(msg) {
+      const el = document.getElementById("toastMsg");
+      el.textContent = msg;
+      el.classList.add("show");
+      setTimeout(() => el.classList.remove("show"), 2400);
+    }
+
+    function getPlayStoreUrl(packId) {
+      const ref = encodeURIComponent(`utm_source=web_gallery&pack_id=${packId || "all"}`);
+      return `https://play.google.com/store/apps/details?id=in.vineetsirohi.customwidget&referrer=${ref}`;
+    }
+
+    function getOpenInAppHref(packId) {
+      const safeId = encodeURIComponent(packId);
+      const playFallback = encodeURIComponent(getPlayStoreUrl(packId));
+      return `intent://packs?id=${safeId}&import=1#Intent;scheme=uccw;action=android.intent.action.VIEW;category=android.intent.category.BROWSABLE;package=in.vineetsirohi.customwidget;i.INTENT_FILTER=2;S.EXTRA_COLLECTION_ID=${safeId};B.EXTRA_IMPORT_COLLECTION=true;S.browser_fallback_url=${playFallback};end`;
+    }
+
+    function getSharePackUrl(packId) {
+      const url = new URL(window.location.href);
+      url.searchParams.set("pack", packId);
+      return url.toString();
+    }
+
+    async function fetchManifest() {
+      const candidates = [
+        "./index.json",
+        "./online_templates/index.json",
+        "./docs/online_templates/index.json",
+        "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/index.json"
+      ];
+      for (const url of candidates) {
+        try {
+          const res = await fetch(url, { cache: "no-cache" });
+          if (res.ok) {
+            const json = await res.json();
+            if (json && Array.isArray(json.collections)) return json;
+          }
+        } catch (_) {}
+      }
+      throw new Error("Could not load Skin Packs manifest.");
+    }
+
+    function renderCategoryChips(collections) {
+      const cats = new Set(["all"]);
+      collections.forEach(c => { if (c.category) cats.add(c.category); });
+      const wrap = document.getElementById("categoryChips");
+      wrap.innerHTML = "";
+      cats.forEach(cat => {
+        const btn = document.createElement("button");
+        btn.className = "chip" + (cat === activeCategory ? " active" : "");
+        btn.textContent = CATEGORY_LABELS[cat] || cat;
+        btn.onclick = () => {
+          activeCategory = cat;
+          renderCategoryChips(collections);
+          renderPacks();
+        };
+        wrap.appendChild(btn);
+      });
+    }
+
+    function renderPacks() {
+      if (!manifestData) return;
+      const container = document.getElementById("packsContainer");
+      const urlParams = new URLSearchParams(window.location.search);
+      const targetPackId = urlParams.get("pack") || urlParams.get("id");
+
+      const allTemplates = manifestData.templates || [];
+      const q = searchQuery.trim().toLowerCase();
+
+      const filtered = (manifestData.collections || []).filter(col => {
+        if (activeCategory !== "all" && col.category !== activeCategory) return false;
+        if (!q) return true;
+        const hay = [
+          col.title, col.subtitle, col.description, col.id,
+          ...(col.tags || [])
+        ].join(" ").toLowerCase();
+        return hay.includes(q);
+      });
+
+      if (filtered.length === 0) {
+        container.innerHTML = `<div style="text-align:center;color:var(--muted);padding:48px 0;">No matching Skin Packs found.</div>`;
+        return;
+      }
+
+      container.innerHTML = "";
+      filtered.forEach(col => {
+        const packWidgets = allTemplates.filter(t => t.collection_id === col.id);
+        const wp = (col.wallpapers && col.wallpapers[0]) || null;
+        const isFree = (col.access_type || "free") === "free";
+
+        const card = document.createElement("article");
+        card.className = "pack-card" + (targetPackId === col.id ? " highlighted" : "");
+        card.id = `pack-${col.id}`;
+
+        const tagsHtml = (col.tags || []).map(t => `<span class="tag">${t}</span>`).join("");
+        const widgetsHtml = packWidgets.map(w => `
+          <div class="widget-tile">
+            <img src="${w.thumb_url}" alt="${w.name}" loading="lazy" crossorigin="anonymous" />
+            <div class="widget-name">${w.name}</div>
+          </div>
+        `).join("");
+
+        const wpHtml = wp ? `
+          <div class="wallpaper-card">
+            <img src="${wp.thumb_url || wp.url}" alt="${wp.name}" loading="lazy" crossorigin="anonymous" />
+            <div class="wallpaper-meta">
+              <span>🖼️ ${wp.name}</span>
+              <a href="${wp.url}" target="_blank" rel="noopener" style="color:#748ffc;">HD ↗</a>
+            </div>
+          </div>
+        ` : "";
+
+        card.innerHTML = `
+          <div class="pack-header">
+            <div>
+              <div class="pack-title-row">
+                <h2 class="pack-title">${col.title}</h2>
+                <span class="badge ${isFree ? "badge-free" : "badge-pro"}">${isFree ? "Free Pack" : "Pro Pack"}</span>
+                <span style="font-size:12px;color:var(--muted);">${packWidgets.length} Widgets${wp ? " + HD Wallpaper" : ""}</span>
+              </div>
+              <p class="pack-desc">${col.description || col.subtitle || ""}</p>
+              <div class="tag-row">${tagsHtml}</div>
+            </div>
+            <div class="pack-actions">
+              <a class="btn btn-primary open-in-app-btn" href="${getOpenInAppHref(col.id)}">
+                ⚡ Open in UCCW App
+              </a>
+              <button class="btn showcase-btn" type="button">
+                🖼️ Showcase Card
+              </button>
+              <button class="btn copy-link-btn" type="button">
+                🔗 Copy Link
+              </button>
+            </div>
+          </div>
+          <div class="pack-showcase-grid">
+            ${wpHtml}
+            <div class="widgets-strip">${widgetsHtml}</div>
+          </div>
+        `;
+
+        card.querySelector(".open-in-app-btn").onclick = (e) => {
+          const isAndroid = /Android/i.test(navigator.userAgent || "");
+          if (!isAndroid) {
+            e.preventDefault();
+            navigator.clipboard.writeText(getSharePackUrl(col.id));
+            showToast("Link copied! Open on your Android phone to launch directly in UCCW.");
+          }
+        };
+        card.querySelector(".showcase-btn").onclick = () => openShowcaseModal(col, packWidgets, wp);
+        card.querySelector(".copy-link-btn").onclick = () => {
+          navigator.clipboard.writeText(getSharePackUrl(col.id));
+          showToast("Direct pack link copied!");
+        };
+
+        container.appendChild(card);
+      });
+
+      if (targetPackId) {
+        const targetEl = document.getElementById(`pack-${targetPackId}`);
+        if (targetEl) {
+          setTimeout(() => targetEl.scrollIntoView({ behavior: "smooth", block: "center" }), 150);
+        }
+      }
+    }
+
+    function loadImage(url) {
+      return new Promise((resolve) => {
+        if (!url) return resolve(null);
+        const img = new Image();
+        img.crossOrigin = "anonymous";
+        img.onload = () => resolve(img);
+        img.onerror = () => resolve(null);
+        img.src = url;
+      });
+    }
+
+    function roundRectPath(ctx, x, y, w, h, r) {
+      ctx.beginPath();
+      ctx.moveTo(x + r, y);
+      ctx.arcTo(x + w, y, x + w, y + h, r);
+      ctx.arcTo(x + w, y + h, x, y + h, r);
+      ctx.arcTo(x, y + h, x, y, r);
+      ctx.arcTo(x, y, x + w, y, r);
+      ctx.closePath();
+    }
+
+    async function openShowcaseModal(col, packWidgets, wp) {
+      currentShowcasePack = col;
+      const modal = document.getElementById("showcaseModal");
+      document.getElementById("modalPackTitle").textContent = `${col.title} — Showcase Card`;
+      modal.classList.add("open");
+
+      const shareUrl = `https://vineetsirohi.github.io/uccw-skin-packs/?pack=${col.id}`;
+      const playUrl = getPlayStoreUrl(col.id);
+      const widgetListMd = packWidgets.map(w => `- **${w.name}**`).join("\n");
+      const md = [
+        `**Setup: ${col.title}**`,
+        ``,
+        `- **Widget App**: [UCCW (Ultimate Custom Widget) on Google Play](${playUrl})`,
+        `- **Skin Pack**: [${col.title} (1-Tap Import + Wallpaper)](${shareUrl})`,
+        wp ? `- **Wallpaper**: ${wp.name} *(included in pack)*` : null,
+        ``,
+        `**Widgets in this setup:**`,
+        widgetListMd
+      ].filter(Boolean).join("\n");
+      document.getElementById("redditMarkdownBox").value = md;
+
+      const canvas = document.getElementById("showcaseCanvas");
+      const ctx = canvas.getContext("2d");
+      const W = 1080, H = 1350;
+
+      // Background gradient
+      const bgGrad = ctx.createLinearGradient(0, 0, W, H);
+      bgGrad.addColorStop(0, "#0b0f1a");
+      bgGrad.addColorStop(1, "#05070c");
+      ctx.fillStyle = bgGrad;
+      ctx.fillRect(0, 0, W, H);
+
+      const [wpImg, ...widgetImgs] = await Promise.all([
+        loadImage(wp ? (wp.url || wp.thumb_url) : null),
+        ...packWidgets.slice(0, 4).map(w => loadImage(w.thumb_url))
+      ]);
+
+      // Ambient dimmed wallpaper backdrop
+      if (wpImg) {
+        ctx.save();
+        ctx.globalAlpha = 0.26;
+        const scale = Math.max(W / wpImg.width, H / wpImg.height);
+        const dw = wpImg.width * scale;
+        const dh = wpImg.height * scale;
+        ctx.drawImage(wpImg, (W - dw) / 2, (H - dh) / 2, dw, dh);
+        ctx.restore();
+      }
+
+      // Top Header Title & Tags
+      ctx.fillStyle = "#ffffff";
+      ctx.font = "800 48px system-ui, -apple-system, Segoe UI, sans-serif";
+      ctx.textAlign = "center";
+      ctx.fillText(col.title, W / 2, 86);
+
+      ctx.fillStyle = "#a5b4fc";
+      ctx.font = "600 24px system-ui, -apple-system, Segoe UI, sans-serif";
+      ctx.fillText((col.tags || []).join("  ·  ") || "Custom Android Widget Suite + HD Wallpaper", W / 2, 130);
+
+      // Center Phone Mockup Frame
+      const phoneW = 680, phoneH = 1020;
+      const phoneX = (W - phoneW) / 2, phoneY = 175;
+
+      ctx.save();
+      ctx.shadowColor = "rgba(0,0,0,0.75)";
+      ctx.shadowBlur = 48;
+      ctx.shadowOffsetY = 20;
+      roundRectPath(ctx, phoneX - 12, phoneY - 12, phoneW + 24, phoneH + 24, 68);
+      ctx.fillStyle = "#1a2030";
+      ctx.fill();
+      ctx.lineWidth = 3;
+      ctx.strokeStyle = "rgba(255,255,255,0.18)";
+      ctx.stroke();
+      ctx.restore();
+
+      // Clip inside Phone Screen
+      ctx.save();
+      roundRectPath(ctx, phoneX, phoneY, phoneW, phoneH, 56);
+      ctx.clip();
+
+      if (wpImg) {
+        const s = Math.max(phoneW / wpImg.width, phoneH / wpImg.height);
+        const dw = wpImg.width * s, dh = wpImg.height * s;
+        ctx.drawImage(wpImg, phoneX + (phoneW - dw) / 2, phoneY + (phoneH - dh) / 2, dw, dh);
+        ctx.fillStyle = "rgba(6, 8, 14, 0.22)";
+        ctx.fillRect(phoneX, phoneY, phoneW, phoneH);
+      } else {
+        ctx.fillStyle = "#111624";
+        ctx.fillRect(phoneX, phoneY, phoneW, phoneH);
+      }
+
+      // Status bar + camera punch-hole
+      ctx.fillStyle = "#06080d";
+      ctx.beginPath();
+      ctx.arc(W / 2, phoneY + 30, 12, 0, Math.PI * 2);
+      ctx.fill();
+
+      // Draw widgets stacked cleanly on the phone screen
+      const validImgs = widgetImgs.filter(Boolean);
+      const count = validImgs.length;
+      if (count > 0) {
+        const padX = 42;
+        const availW = phoneW - padX * 2;
+        const startY = phoneY + 76;
+        const availH = phoneH - 120;
+        const slotH = availH / count;
+
+        validImgs.forEach((img, idx) => {
+          const maxW = availW;
+          const maxH = slotH - 18;
+          const ratio = Math.min(maxW / img.width, maxH / img.height);
+          const w = img.width * ratio;
+          const h = img.height * ratio;
+          const x = phoneX + (phoneW - w) / 2;
+          const y = startY + idx * slotH + (slotH - h) / 2;
+
+          ctx.save();
+          ctx.shadowColor = "rgba(0,0,0,0.55)";
+          ctx.shadowBlur = 22;
+          ctx.shadowOffsetY = 8;
+          ctx.drawImage(img, x, y, w, h);
+          ctx.restore();
+        });
+      }
+      ctx.restore();
+
+      // Bottom Pill Badge
+      const pillW = 660, pillH = 68;
+      const pillX = (W - pillW) / 2, pillY = 1240;
+      roundRectPath(ctx, pillX, pillY, pillW, pillH, 34);
+      ctx.fillStyle = "rgba(18, 22, 34, 0.92)";
+      ctx.fill();
+      ctx.lineWidth = 2;
+      ctx.strokeStyle = "rgba(116, 143, 252, 0.55)";
+      ctx.stroke();
+
+      ctx.fillStyle = "#ffffff";
+      ctx.font = "800 24px system-ui, -apple-system, Segoe UI, sans-serif";
+      ctx.textAlign = "center";
+      ctx.fillText("⚡ MADE WITH UCCW  ·  GET IT ON GOOGLE PLAY", W / 2, pillY + 43);
+    }
+
+    document.getElementById("closeModalBtn").onclick = () => {
+      document.getElementById("showcaseModal").classList.remove("open");
+    };
+    document.getElementById("showcaseModal").onclick = (e) => {
+      if (e.target.id === "showcaseModal") {
+        document.getElementById("showcaseModal").classList.remove("open");
+      }
+    };
+    document.getElementById("downloadCardBtn").onclick = () => {
+      const canvas = document.getElementById("showcaseCanvas");
+      const link = document.createElement("a");
+      const slug = (currentShowcasePack && currentShowcasePack.id) || "uccw_showcase";
+      link.download = `${slug}_showcase_1080x1350.png`;
+      link.href = canvas.toDataURL("image/png");
+      link.click();
+    };
+    document.getElementById("copyMarkdownBtn").onclick = () => {
+      const box = document.getElementById("redditMarkdownBox");
+      navigator.clipboard.writeText(box.value);
+      showToast("Reddit / Social Markdown copied!");
+    };
+    document.getElementById("searchInput").oninput = (e) => {
+      searchQuery = e.target.value || "";
+      renderPacks();
+    };
+
+    fetchManifest()
+      .then(data => {
+        manifestData = data;
+        renderCategoryChips(data.collections || []);
+        renderPacks();
+      })
+      .catch(err => {
+        document.getElementById("packsContainer").innerHTML =
+          `<div style="text-align:center;color:#f87171;padding:48px 0;">${err.message}</div>`;
+      });
+  </script>
+</body>
+</html>

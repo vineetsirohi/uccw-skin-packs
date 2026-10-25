@@ -39,8 +39,8 @@
       "name": "Bauhaus Analog Hands",
       "drawing_order": 0,
       "position": {
-        "x": 76,
-        "y": 80
+        "x": 24,
+        "y": 28
       },
       "alpha": 255,
       "angle": 0,
@@ -97,7 +97,7 @@
         "font": "fonts/ShareTechMono-Regular.ttf"
       },
       "prefix": "",
-      "suffix": "\u00b0",
+      "suffix": "°",
       "text": "",
       "text_alignment": {
         "align": 0
