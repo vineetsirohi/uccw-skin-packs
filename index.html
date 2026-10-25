@@ -3,346 +3,407 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>UCCW Skin Packs &amp; Custom Android Widget Gallery</title>
-  <meta name="description" content="Explore curated Android widget collections and 4K matching wallpapers for UCCW (Ultimate Custom Widget): Dot Matrix, Cyberpunk HUD, Retro Tactile, Liquid Glass, Material You &amp; StandBy clocks." />
-  <meta property="og:title" content="UCCW Skin Packs &amp; Custom Android Widget Gallery" />
-  <meta property="og:description" content="1-tap custom Android widget packs with matching HD wallpapers. Built for UCCW (Ultimate Custom Widget)." />
+  <title>UCCW — Skin Packs &amp; Widget Collections</title>
+  <meta name="description" content="Official widget collections and matching wallpapers for UCCW (Ultimate Custom Widget) on Android." />
+  <meta property="og:title" content="UCCW — Skin Packs &amp; Widget Collections" />
+  <meta property="og:description" content="Custom widget packs and matching wallpapers for UCCW (Ultimate Custom Widget) on Android." />
   <meta property="og:type" content="website" />
   <meta property="og:image" content="https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/dot_matrix_os_2026/Dot%20Matrix%20Vinyl%20Media%20Deck_thumb.png" />
   <meta name="twitter:card" content="summary_large_image" />
+  <meta name="theme-color" content="#EF485B" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
   <style>
     :root {
-      --bg: #090b10;
-      --surface: #121621;
-      --surface-2: #191f2e;
-      --border: #252d42;
-      --text: #f1f4fb;
-      --muted: #98a2b8;
-      --accent: #6380ff;
-      --accent-2: #3b5bdb;
-      --free: #15803d;
-      --pro: #7e22ce;
+      --uccw-red: #EF485B;
+      --uccw-red-dark: #D63649;
+      --uccw-red-tint: rgba(239, 72, 91, 0.14);
+      --bg: #181818;
+      --surface: #242424;
+      --surface-tile: #1D1D1D;
+      --border: #343434;
+      --text: #F5F5F5;
+      --text-secondary: #B8B8B8;
+      --text-muted: #8A8A8A;
+      --badge-free: #1E7E52;
+      --badge-pro: #D63649;
     }
     * { box-sizing: border-box; }
     body {
       margin: 0;
-      background: radial-gradient(circle at 50% 0%, #171e33 0%, var(--bg) 55%);
+      background-color: var(--bg);
       color: var(--text);
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-      line-height: 1.5;
+      font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.45;
       min-height: 100vh;
+      -webkit-font-smoothing: antialiased;
     }
     a { color: inherit; text-decoration: none; }
-    .topbar {
+
+    /* App Bar */
+    .appbar {
       position: sticky;
       top: 0;
       z-index: 30;
-      backdrop-filter: blur(16px);
-      background: rgba(9, 11, 16, 0.82);
+      background-color: #202020;
       border-bottom: 1px solid var(--border);
-      padding: 14px 24px;
+      height: 60px;
+      padding: 0 20px;
       display: flex;
       align-items: center;
       justify-content: space-between;
       gap: 16px;
-      flex-wrap: wrap;
+    }
+    .appbar-inner {
+      max-width: 1040px;
+      width: 100%;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
     }
     .brand {
       display: flex;
       align-items: center;
       gap: 12px;
-      font-weight: 800;
-      font-size: 18px;
-      letter-spacing: -0.3px;
     }
-    .brand-badge {
-      width: 36px;
-      height: 36px;
-      border-radius: 10px;
-      background: linear-gradient(135deg, #6380ff, #9775fa);
-      display: grid;
-      place-items: center;
-      font-weight: 900;
-      color: #fff;
-      font-size: 16px;
-      box-shadow: 0 4px 14px rgba(99, 128, 255, 0.35);
-    }
-    .top-actions {
+    .uccw-logo {
+      width: 40px;
+      height: 40px;
+      border-radius: 8px;
+      background-color: var(--uccw-red);
       display: flex;
       align-items: center;
-      gap: 10px;
-      flex-wrap: wrap;
+      justify-content: center;
+      flex-shrink: 0;
     }
+    .uccw-logo svg {
+      width: 32px;
+      height: auto;
+      display: block;
+    }
+    .brand-text {
+      display: flex;
+      flex-direction: column;
+    }
+    .brand-title {
+      font-size: 16px;
+      font-weight: 700;
+      letter-spacing: 0.1px;
+      color: var(--text);
+      line-height: 1.2;
+    }
+    .brand-sub {
+      font-size: 12px;
+      color: var(--text-muted);
+    }
+
+    /* Buttons */
     .btn {
       display: inline-flex;
       align-items: center;
       justify-content: center;
-      gap: 8px;
-      padding: 9px 16px;
-      border-radius: 999px;
+      gap: 7px;
+      height: 36px;
+      padding: 0 16px;
+      border-radius: 18px;
+      font-family: inherit;
       font-size: 13px;
-      font-weight: 700;
+      font-weight: 500;
       border: 1px solid var(--border);
-      background: var(--surface-2);
+      background-color: transparent;
       color: var(--text);
       cursor: pointer;
-      transition: all 0.15s ease;
+      transition: background-color 0.12s ease, border-color 0.12s ease;
+      white-space: nowrap;
     }
     .btn:hover {
-      border-color: var(--accent);
-      transform: translateY(-1px);
+      background-color: rgba(255, 255, 255, 0.06);
+      border-color: #505050;
+    }
+    .btn svg {
+      width: 15px;
+      height: 15px;
+      fill: currentColor;
+      flex-shrink: 0;
     }
     .btn-primary {
-      background: linear-gradient(135deg, #5c7cfa, #4263eb);
-      border-color: transparent;
-      color: #fff;
-      box-shadow: 0 4px 14px rgba(66, 99, 235, 0.35);
+      background-color: var(--uccw-red);
+      border-color: var(--uccw-red);
+      color: #FFFFFF;
+      font-weight: 500;
     }
     .btn-primary:hover {
-      background: linear-gradient(135deg, #748ffc, #4c6ef5);
+      background-color: var(--uccw-red-dark);
+      border-color: var(--uccw-red-dark);
     }
-    .hero {
-      max-width: 1180px;
+
+    /* Subheader & Filters */
+    .toolbar-section {
+      max-width: 1040px;
       margin: 0 auto;
-      padding: 44px 24px 24px;
-      text-align: center;
-    }
-    .hero h1 {
-      font-size: clamp(28px, 4.5vw, 46px);
-      font-weight: 850;
-      margin: 0 0 12px;
-      letter-spacing: -0.8px;
-    }
-    .hero p {
-      color: var(--muted);
-      font-size: clamp(15px, 2vw, 18px);
-      max-width: 720px;
-      margin: 0 auto 24px;
-    }
-    .filter-bar {
-      max-width: 1180px;
-      margin: 0 auto;
-      padding: 0 24px 24px;
+      padding: 20px 16px 12px;
       display: flex;
       flex-wrap: wrap;
-      gap: 10px;
+      gap: 12px;
       align-items: center;
       justify-content: space-between;
     }
     .chips {
       display: flex;
-      gap: 8px;
+      gap: 6px;
       flex-wrap: wrap;
     }
     .chip {
-      padding: 7px 14px;
-      border-radius: 999px;
+      height: 32px;
+      padding: 0 14px;
+      border-radius: 16px;
+      font-family: inherit;
       font-size: 13px;
-      font-weight: 600;
-      background: var(--surface);
+      font-weight: 500;
+      background-color: var(--surface);
       border: 1px solid var(--border);
-      color: var(--muted);
+      color: var(--text-secondary);
       cursor: pointer;
-      transition: all 0.15s ease;
+      transition: all 0.12s ease;
     }
-    .chip.active, .chip:hover {
-      background: var(--accent);
-      border-color: var(--accent);
-      color: #fff;
+    .chip:hover {
+      border-color: #505050;
+      color: var(--text);
+    }
+    .chip.active {
+      background-color: var(--uccw-red-tint);
+      border-color: var(--uccw-red);
+      color: #FF8A97;
     }
     .search-input {
-      background: var(--surface);
+      background-color: var(--surface);
       border: 1px solid var(--border);
       color: var(--text);
-      padding: 9px 15px;
-      border-radius: 999px;
+      height: 34px;
+      padding: 0 14px;
+      border-radius: 17px;
+      font-family: inherit;
       font-size: 13px;
-      min-width: 240px;
+      width: 240px;
       outline: none;
     }
-    .search-input:focus {
-      border-color: var(--accent);
+    .search-input::placeholder {
+      color: var(--text-muted);
     }
+    .search-input:focus {
+      border-color: var(--uccw-red);
+    }
+
+    /* Pack List — mirrors RecyclerviewItemSkinPackBinding in Android app */
     .packs-container {
-      max-width: 1180px;
+      max-width: 1040px;
       margin: 0 auto;
-      padding: 0 24px 64px;
+      padding: 8px 16px 56px;
       display: flex;
       flex-direction: column;
-      gap: 28px;
+      gap: 16px;
     }
     .pack-card {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: 22px;
-      padding: 24px;
-      display: flex;
-      flex-direction: column;
-      gap: 20px;
-      box-shadow: 0 12px 32px rgba(0, 0, 0, 0.35);
-      transition: border-color 0.2s ease;
-    }
-    .pack-card.highlighted {
-      border-color: #748ffc;
-      box-shadow: 0 0 0 2px #748ffc, 0 16px 40px rgba(99, 128, 255, 0.25);
-    }
-    .pack-header {
-      display: flex;
-      justify-content: space-between;
-      align-items: flex-start;
-      gap: 16px;
-      flex-wrap: wrap;
-    }
-    .pack-title-row {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      flex-wrap: wrap;
-      margin-bottom: 6px;
-    }
-    .pack-title {
-      font-size: 22px;
-      font-weight: 800;
-      margin: 0;
-    }
-    .badge {
-      font-size: 11px;
-      font-weight: 800;
-      padding: 3px 9px;
-      border-radius: 999px;
-      text-transform: uppercase;
-      letter-spacing: 0.5px;
-    }
-    .badge-free { background: var(--free); color: #fff; }
-    .badge-pro { background: var(--pro); color: #fff; }
-    .pack-desc {
-      color: var(--muted);
-      font-size: 14px;
-      margin: 0;
-      max-width: 780px;
-    }
-    .tag-row {
-      display: flex;
-      gap: 6px;
-      flex-wrap: wrap;
-      margin-top: 10px;
-    }
-    .tag {
-      font-size: 11px;
-      font-weight: 600;
-      padding: 3px 9px;
-      border-radius: 6px;
-      background: var(--surface-2);
-      color: #bac8ff;
-      border: 1px solid #2b3550;
-    }
-    .pack-actions {
-      display: flex;
-      gap: 10px;
-      flex-wrap: wrap;
-      align-items: center;
-    }
-    .pack-showcase-grid {
-      display: grid;
-      grid-template-columns: 200px 1fr;
-      gap: 20px;
-      align-items: stretch;
-    }
-    @media (max-width: 720px) {
-      .pack-showcase-grid {
-        grid-template-columns: 1fr;
-      }
-    }
-    .wallpaper-card {
-      background: var(--surface-2);
+      position: relative;
+      overflow: hidden;
+      background-color: var(--surface);
       border: 1px solid var(--border);
       border-radius: 16px;
-      overflow: hidden;
+      padding: 18px 20px;
+    }
+    .pack-card.highlighted {
+      border-color: var(--uccw-red);
+      box-shadow: 0 0 0 1px var(--uccw-red);
+    }
+    .pack-backdrop {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      opacity: 0.11;
+      pointer-events: none;
+    }
+    .pack-content {
+      position: relative;
+      z-index: 1;
       display: flex;
       flex-direction: column;
     }
-    .wallpaper-card img {
+
+    /* Top Meta Row (Badge + Tags + Count) */
+    .pack-meta-row {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 12px;
+    }
+    .access-badge {
+      font-size: 11px;
+      font-weight: 700;
+      padding: 2px 8px;
+      border-radius: 999px;
+      text-transform: uppercase;
+      color: #FFFFFF;
+      letter-spacing: 0.3px;
+      flex-shrink: 0;
+    }
+    .badge-free { background-color: var(--badge-free); }
+    .badge-pro { background-color: var(--badge-pro); }
+    .pack-tags {
+      color: var(--text-secondary);
+      flex: 1;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .pack-count {
+      color: var(--text-secondary);
+      font-weight: 700;
+      flex-shrink: 0;
+    }
+
+    /* Title & Subtitle */
+    .pack-title {
+      font-size: 19px;
+      font-weight: 700;
+      margin: 8px 0 4px;
+      color: var(--text);
+    }
+    .pack-subtitle {
+      font-size: 14px;
+      color: var(--text-secondary);
+      margin: 0 0 14px;
+    }
+
+    /* In-Card Grid of Wallpaper + Widgets */
+    .pack-items-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(215px, 1fr));
+      gap: 10px;
+    }
+    .grid-tile {
+      position: relative;
+      background-color: var(--surface-tile);
+      border: 1px solid rgba(255, 255, 255, 0.07);
+      border-radius: 12px;
+      padding: 12px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      min-height: 176px;
+    }
+    .grid-tile.wallpaper-tile {
+      padding: 0;
+      overflow: hidden;
+    }
+    .grid-tile.wallpaper-tile img {
       width: 100%;
-      height: 240px;
+      height: 144px;
       object-fit: cover;
       display: block;
     }
-    .wallpaper-meta {
-      padding: 10px 12px;
-      font-size: 12px;
-      font-weight: 600;
-      color: var(--muted);
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-    .widgets-strip {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
-      gap: 14px;
-    }
-    .widget-tile {
-      background: #0d1018;
-      border: 1px solid var(--border);
-      border-radius: 16px;
-      padding: 14px;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      align-items: center;
-      gap: 10px;
-    }
-    .widget-tile img {
+    .grid-tile.wallpaper-tile .tile-label {
       width: 100%;
-      height: 150px;
-      object-fit: contain;
-      filter: drop-shadow(0 8px 18px rgba(0, 0, 0, 0.55));
+      padding: 8px 10px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
     }
-    .widget-name {
+    .tile-badge {
+      position: absolute;
+      top: 8px;
+      left: 8px;
+      background-color: rgba(0, 0, 0, 0.72);
+      color: #FFFFFF;
+      font-size: 10px;
+      font-weight: 700;
+      padding: 2px 7px;
+      border-radius: 6px;
+      letter-spacing: 0.4px;
+      text-transform: uppercase;
+    }
+    .grid-tile.widget-tile img {
+      width: 100%;
+      height: 124px;
+      object-fit: contain;
+      display: block;
+      margin: auto 0;
+    }
+    .tile-label {
       font-size: 12px;
-      font-weight: 600;
-      color: #dce3f2;
+      font-weight: 500;
+      color: var(--text-secondary);
       text-align: center;
+      margin-top: 8px;
+      width: 100%;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    /* Footer Action Row */
+    .pack-footer {
+      margin-top: 14px;
+      padding-top: 12px;
+      border-top: 1px solid rgba(255, 255, 255, 0.06);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+    .pack-author {
+      font-size: 12px;
+      color: var(--text-muted);
+    }
+    .pack-actions {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
     }
 
     /* Showcase Generator Modal */
     .modal-backdrop {
       position: fixed;
       inset: 0;
-      background: rgba(5, 7, 12, 0.82);
-      backdrop-filter: blur(8px);
+      background: rgba(0, 0, 0, 0.78);
       z-index: 100;
       display: none;
       align-items: center;
       justify-content: center;
-      padding: 20px;
+      padding: 16px;
     }
     .modal-backdrop.open {
       display: flex;
     }
     .modal-box {
-      background: var(--surface);
+      background-color: var(--surface);
       border: 1px solid var(--border);
-      border-radius: 20px;
-      max-width: 900px;
+      border-radius: 16px;
+      max-width: 860px;
       width: 100%;
       max-height: 92vh;
       overflow-y: auto;
-      padding: 24px;
+      padding: 20px;
       display: grid;
-      grid-template-columns: 360px 1fr;
-      gap: 24px;
+      grid-template-columns: 340px 1fr;
+      gap: 20px;
     }
-    @media (max-width: 760px) {
-      .modal-box {
-        grid-template-columns: 1fr;
-      }
+    @media (max-width: 720px) {
+      .modal-box { grid-template-columns: 1fr; }
+      .search-input { width: 100%; }
     }
     .canvas-preview-wrap {
-      background: #090b10;
+      background-color: #141414;
       border: 1px solid var(--border);
-      border-radius: 14px;
-      padding: 10px;
+      border-radius: 12px;
+      padding: 8px;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -350,68 +411,72 @@
     .canvas-preview-wrap canvas {
       width: 100%;
       height: auto;
-      border-radius: 10px;
+      border-radius: 8px;
       display: block;
     }
     .reddit-box {
       width: 100%;
-      min-height: 150px;
-      background: #0b0e15;
+      min-height: 155px;
+      background-color: #161616;
       border: 1px solid var(--border);
-      border-radius: 10px;
-      color: #dbe2f0;
+      border-radius: 8px;
+      color: var(--text);
       font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
       font-size: 12px;
-      padding: 12px;
+      padding: 10px;
       resize: vertical;
     }
     .toast {
       position: fixed;
-      bottom: 24px;
-      right: 24px;
-      background: #1e293b;
-      border: 1px solid #475569;
-      color: #fff;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: #323232;
+      color: #FFFFFF;
       padding: 10px 18px;
-      border-radius: 999px;
+      border-radius: 8px;
       font-size: 13px;
-      font-weight: 600;
+      font-weight: 500;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.45);
       z-index: 200;
       opacity: 0;
       pointer-events: none;
-      transition: opacity 0.2s ease;
+      transition: opacity 0.15s ease;
     }
     .toast.show { opacity: 1; }
   </style>
 </head>
 <body>
-  <header class="topbar">
-    <a href="?" class="brand">
-      <div class="brand-badge">U</div>
-      <span>UCCW Skin Packs Gallery</span>
-    </a>
-    <div class="top-actions">
-      <a id="topPlayStoreBtn" class="btn btn-primary" href="https://play.google.com/store/apps/details?id=in.vineetsirohi.customwidget&referrer=utm_source%3Dweb_gallery" target="_blank" rel="noopener">
-        📲 Get UCCW on Google Play
+  <header class="appbar">
+    <div class="appbar-inner">
+      <a href="?" class="brand">
+        <div class="uccw-logo" aria-label="UCCW">
+          <svg viewBox="0 -110 416 116" xmlns="http://www.w3.org/2000/svg">
+            <path fill="#FFFFFF" d="M88.03,-102.38L88.03,-35.38Q88.03,-23.98,83.17,-15.64Q78.33,-7.31,69.25,-2.95Q60.19,1.41,47.81,1.41Q29.11,1.41,18.34,-8.3Q7.59,-18,7.39,-34.88L7.39,-102.38L32.2,-102.38L32.2,-34.39Q32.63,-17.58,47.81,-17.58Q55.48,-17.58,59.42,-21.8Q63.36,-26.02,63.36,-35.52L63.36,-102.38L88.03,-102.38Z"/>
+            <path fill="#FFFFFF" d="M186.56,-34.67Q186.08,-23.98,180.8,-15.78Q175.53,-7.59,166,-3.09Q156.47,1.41,144.23,1.41Q124.06,1.41,112.45,-11.73Q100.86,-24.89,100.86,-48.88L100.86,-53.94Q100.86,-68.98,106.09,-80.27Q111.33,-91.55,121.17,-97.7Q131.02,-103.86,143.95,-103.86Q162.59,-103.86,173.91,-94.05Q185.23,-84.23,186.78,-67.02L162.17,-67.02Q161.89,-76.36,157.45,-80.44Q153.03,-84.52,143.95,-84.52Q134.75,-84.52,130.45,-77.63Q126.17,-70.73,125.95,-55.63L125.95,-48.38Q125.95,-32,130.06,-24.97Q134.19,-17.94,144.23,-17.94Q152.75,-17.94,157.25,-21.94Q161.75,-25.95,162.03,-34.67L186.56,-34.67Z"/>
+            <path fill="#FFFFFF" d="M281.56,-34.67Q281.08,-23.98,275.8,-15.78Q270.53,-7.59,261,-3.09Q251.47,1.41,239.23,1.41Q219.06,1.41,207.45,-11.73Q195.86,-24.89,195.86,-48.88L195.86,-53.94Q195.86,-68.98,201.09,-80.27Q206.33,-91.55,216.17,-97.7Q226.02,-103.86,238.95,-103.86Q257.59,-103.86,268.91,-94.05Q280.23,-84.23,281.78,-67.02L257.17,-67.02Q256.89,-76.36,252.45,-80.44Q248.03,-84.52,238.95,-84.52Q229.75,-84.52,225.45,-77.63Q221.17,-70.73,220.95,-55.63L220.95,-48.38Q220.95,-32,225.06,-24.97Q229.19,-17.94,239.23,-17.94Q247.75,-17.94,252.25,-21.94Q256.75,-25.95,257.03,-34.67L281.56,-34.67Z"/>
+            <path fill="#FFFFFF" d="M373.05,-38.19L384.8,-102.38L409.27,-102.38L387.53,0L361.94,0L348.23,-58.36L334.8,0L309.28,0L287.48,-102.38L312.02,-102.38L323.77,-38.19L337.83,-102.38L358.78,-102.38L373.05,-38.19Z"/>
+          </svg>
+        </div>
+        <div class="brand-text">
+          <span class="brand-title">Skin Packs</span>
+          <span class="brand-sub">Ultimate Custom Widget (UCCW)</span>
+        </div>
+      </a>
+      <a class="btn btn-primary" href="https://play.google.com/store/apps/details?id=in.vineetsirohi.customwidget&referrer=utm_source%3Dweb_gallery" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24"><path d="M3,20.5V3.5C3,2.91 3.34,2.39 3.84,2.15L13.69,12L3.84,21.85C3.34,21.6 3,21.09 3,20.5M16.81,15.12L6.05,21.34L14.54,12.85L16.81,15.12M20.16,10.81C20.5,11.08 20.75,11.5 20.75,12C20.75,12.5 20.53,12.9 20.18,13.18L17.89,14.5L15.39,12L17.89,9.5L20.16,10.81M6.05,2.66L16.81,8.88L14.54,11.15L6.05,2.66Z"/></svg>
+        Google Play
       </a>
     </div>
   </header>
 
-  <section class="hero">
-    <h1>Curated Android Widget Packs &amp; 4K Wallpapers</h1>
-    <p>
-      1-tap custom widget suites with matching wallpapers for <strong>UCCW (Ultimate Custom Widget)</strong>.
-      Apply directly in the app, customize every layer in the WYSIWYG editor, or use as a full-screen StandBy bedside clock.
-    </p>
-  </section>
-
-  <div class="filter-bar">
+  <div class="toolbar-section">
     <div class="chips" id="categoryChips"></div>
-    <input type="search" id="searchInput" class="search-input" placeholder="Search packs, Dot Matrix, Bauhaus, HUD..." />
+    <input type="search" id="searchInput" class="search-input" placeholder="Search skin packs..." />
   </div>
 
   <main class="packs-container" id="packsContainer">
-    <div style="text-align:center;color:var(--muted);padding:48px 0;">Loading Skin Packs...</div>
+    <div style="text-align:center;color:var(--text-muted);padding:48px 0;">Loading skin packs...</div>
   </main>
 
   <!-- Showcase Card Modal -->
@@ -423,37 +488,36 @@
       <div style="display:flex;flex-direction:column;gap:14px;justify-content:space-between;">
         <div>
           <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;">
-            <h3 style="margin:0;font-size:18px;" id="modalPackTitle">Homescreen Showcase Card</h3>
-            <button class="btn" id="closeModalBtn">✕ Close</button>
+            <h3 style="margin:0;font-size:17px;" id="modalPackTitle">Homescreen Showcase</h3>
+            <button class="btn" id="closeModalBtn">Close</button>
           </div>
-          <p style="margin:0 0 12px;font-size:13px;color:var(--muted);">
-            Ready-to-post <strong>1080×1350</strong> portrait showcase image + pre-formatted description for
-            <code>r/androidthemes</code>, <code>r/HowToMen</code>, <code>r/NovaLauncher</code>, X, or Telegram.
+          <p style="margin:0 0 12px;font-size:13px;color:var(--text-secondary);">
+            1080×1350 setup preview card and markdown details for sharing on Reddit (<code>r/androidthemes</code>, <code>r/HowToMen</code>, <code>r/NovaLauncher</code>) or social media.
           </p>
-          <label style="font-size:12px;font-weight:700;color:var(--muted);display:block;margin-bottom:6px;">
-            Reddit / Social Post Markdown:
+          <label style="font-size:12px;font-weight:500;color:var(--text-secondary);display:block;margin-bottom:6px;">
+            Post Details (Markdown):
           </label>
           <textarea id="redditMarkdownBox" class="reddit-box" readonly></textarea>
         </div>
-        <div style="display:flex;gap:10px;flex-wrap:wrap;">
-          <button class="btn btn-primary" id="downloadCardBtn">⬇️ Download 1080×1350 PNG</button>
-          <button class="btn" id="copyMarkdownBtn">📋 Copy Post Markdown</button>
+        <div style="display:flex;gap:8px;flex-wrap:wrap;">
+          <button class="btn btn-primary" id="downloadCardBtn">Download PNG</button>
+          <button class="btn" id="copyMarkdownBtn">Copy Markdown</button>
         </div>
       </div>
     </div>
   </div>
 
-  <div class="toast" id="toastMsg">Copied!</div>
+  <div class="toast" id="toastMsg">Copied</div>
 
   <script>
     const CATEGORY_LABELS = {
-      all: "All Packs",
-      nothing: "Dot Matrix & Cyber",
+      all: "All",
+      nothing: "Dot Matrix",
       ios: "Squircle & Glass",
       pixel: "Material",
       samsung: "Modern UI",
-      retro: "Retro & Bauhaus",
-      classic: "Rings & Classic"
+      retro: "Retro",
+      classic: "Rings & Dial"
     };
 
     let manifestData = null;
@@ -465,7 +529,7 @@
       const el = document.getElementById("toastMsg");
       el.textContent = msg;
       el.classList.add("show");
-      setTimeout(() => el.classList.remove("show"), 2400);
+      setTimeout(() => el.classList.remove("show"), 2500);
     }
 
     function getPlayStoreUrl(packId) {
@@ -501,7 +565,7 @@
           }
         } catch (_) {}
       }
-      throw new Error("Could not load Skin Packs manifest.");
+      throw new Error("Unable to load skin packs manifest.");
     }
 
     function renderCategoryChips(collections) {
@@ -542,64 +606,75 @@
       });
 
       if (filtered.length === 0) {
-        container.innerHTML = `<div style="text-align:center;color:var(--muted);padding:48px 0;">No matching Skin Packs found.</div>`;
+        container.innerHTML = `<div style="text-align:center;color:var(--text-muted);padding:48px 0;">No matching skin packs found.</div>`;
         return;
       }
 
       container.innerHTML = "";
       filtered.forEach(col => {
         const packWidgets = allTemplates.filter(t => t.collection_id === col.id);
-        const wp = (col.wallpapers && col.wallpapers[0]) || null;
+        const wallpapers = col.wallpapers || [];
+        const firstWp = wallpapers[0] || null;
         const isFree = (col.access_type || "free") === "free";
 
         const card = document.createElement("article");
         card.className = "pack-card" + (targetPackId === col.id ? " highlighted" : "");
         card.id = `pack-${col.id}`;
 
-        const tagsHtml = (col.tags || []).map(t => `<span class="tag">${t}</span>`).join("");
-        const widgetsHtml = packWidgets.map(w => `
-          <div class="widget-tile">
+        const tagsText = (col.tags && col.tags.length > 0)
+          ? col.tags.join(" · ")
+          : (CATEGORY_LABELS[col.category] || col.category || "");
+
+        const countText = wallpapers.length === 1
+          ? `${packWidgets.length} widgets · 1 wallpaper`
+          : wallpapers.length > 1
+            ? `${packWidgets.length} widgets · ${wallpapers.length} wallpapers`
+            : `${packWidgets.length} widgets`;
+
+        const wpTilesHtml = wallpapers.map(wp => `
+          <a class="grid-tile wallpaper-tile" href="${wp.url}" target="_blank" rel="noopener" title="Open full-resolution wallpaper">
+            <span class="tile-badge">Wallpaper</span>
+            <img src="${wp.thumb_url || wp.url}" alt="${wp.name}" loading="lazy" crossorigin="anonymous" />
+            <div class="tile-label">
+              <span>${wp.name}</span>
+              <span style="color:var(--uccw-red);font-weight:700;">HD ↗</span>
+            </div>
+          </a>
+        `).join("");
+
+        const widgetTilesHtml = packWidgets.map(w => `
+          <div class="grid-tile widget-tile">
             <img src="${w.thumb_url}" alt="${w.name}" loading="lazy" crossorigin="anonymous" />
-            <div class="widget-name">${w.name}</div>
+            <div class="tile-label">${w.name}</div>
           </div>
         `).join("");
 
-        const wpHtml = wp ? `
-          <div class="wallpaper-card">
-            <img src="${wp.thumb_url || wp.url}" alt="${wp.name}" loading="lazy" crossorigin="anonymous" />
-            <div class="wallpaper-meta">
-              <span>🖼️ ${wp.name}</span>
-              <a href="${wp.url}" target="_blank" rel="noopener" style="color:#748ffc;">HD ↗</a>
-            </div>
-          </div>
-        ` : "";
+        const authorMeta = [col.author, col.release_date].filter(Boolean).join(" · ");
 
         card.innerHTML = `
-          <div class="pack-header">
-            <div>
-              <div class="pack-title-row">
-                <h2 class="pack-title">${col.title}</h2>
-                <span class="badge ${isFree ? "badge-free" : "badge-pro"}">${isFree ? "Free Pack" : "Pro Pack"}</span>
-                <span style="font-size:12px;color:var(--muted);">${packWidgets.length} Widgets${wp ? " + HD Wallpaper" : ""}</span>
+          ${firstWp ? `<img class="pack-backdrop" src="${firstWp.thumb_url || firstWp.url}" alt="" loading="lazy" />` : ""}
+          <div class="pack-content">
+            <div class="pack-meta-row">
+              <span class="access-badge ${isFree ? "badge-free" : "badge-pro"}">${isFree ? "FREE" : "PRO"}</span>
+              <span class="pack-tags">${tagsText}</span>
+              <span class="pack-count">${countText}</span>
+            </div>
+            <h2 class="pack-title">${col.title}</h2>
+            <p class="pack-subtitle">${col.subtitle || col.description || ""}</p>
+            <div class="pack-items-grid">
+              ${wpTilesHtml}
+              ${widgetTilesHtml}
+            </div>
+            <div class="pack-footer">
+              <span class="pack-author">${authorMeta}</span>
+              <div class="pack-actions">
+                <button class="btn copy-link-btn" type="button">Copy Link</button>
+                <button class="btn showcase-btn" type="button">Showcase Image</button>
+                <a class="btn btn-primary open-in-app-btn" href="${getOpenInAppHref(col.id)}">
+                  Import Pack (${packWidgets.length})
+                </a>
               </div>
-              <p class="pack-desc">${col.description || col.subtitle || ""}</p>
-              <div class="tag-row">${tagsHtml}</div>
             </div>
-            <div class="pack-actions">
-              <a class="btn btn-primary open-in-app-btn" href="${getOpenInAppHref(col.id)}">
-                ⚡ Open in UCCW App
-              </a>
-              <button class="btn showcase-btn" type="button">
-                🖼️ Showcase Card
-              </button>
-              <button class="btn copy-link-btn" type="button">
-                🔗 Copy Link
-              </button>
-            </div>
-          </div>
-          <div class="pack-showcase-grid">
-            ${wpHtml}
-            <div class="widgets-strip">${widgetsHtml}</div>
           </div>
         `;
 
@@ -608,13 +683,13 @@
           if (!isAndroid) {
             e.preventDefault();
             navigator.clipboard.writeText(getSharePackUrl(col.id));
-            showToast("Link copied! Open on your Android phone to launch directly in UCCW.");
+            showToast("Link copied — open on your Android phone to import in UCCW");
           }
         };
-        card.querySelector(".showcase-btn").onclick = () => openShowcaseModal(col, packWidgets, wp);
+        card.querySelector(".showcase-btn").onclick = () => openShowcaseModal(col, packWidgets, firstWp);
         card.querySelector(".copy-link-btn").onclick = () => {
           navigator.clipboard.writeText(getSharePackUrl(col.id));
-          showToast("Direct pack link copied!");
+          showToast("Pack link copied");
         };
 
         container.appendChild(card);
@@ -652,20 +727,20 @@
     async function openShowcaseModal(col, packWidgets, wp) {
       currentShowcasePack = col;
       const modal = document.getElementById("showcaseModal");
-      document.getElementById("modalPackTitle").textContent = `${col.title} — Showcase Card`;
+      document.getElementById("modalPackTitle").textContent = col.title;
       modal.classList.add("open");
 
       const shareUrl = `https://vineetsirohi.github.io/uccw-skin-packs/?pack=${col.id}`;
       const playUrl = getPlayStoreUrl(col.id);
-      const widgetListMd = packWidgets.map(w => `- **${w.name}**`).join("\n");
+      const widgetListMd = packWidgets.map(w => `- ${w.name}`).join("\n");
       const md = [
-        `**Setup: ${col.title}**`,
+        `**${col.title}**`,
         ``,
-        `- **Widget App**: [UCCW (Ultimate Custom Widget) on Google Play](${playUrl})`,
-        `- **Skin Pack**: [${col.title} (1-Tap Import + Wallpaper)](${shareUrl})`,
-        wp ? `- **Wallpaper**: ${wp.name} *(included in pack)*` : null,
+        `- **Widget App**: [UCCW (Ultimate Custom Widget)](${playUrl})`,
+        `- **Skin Pack**: [${col.title}](${shareUrl})`,
+        wp ? `- **Wallpaper**: ${wp.name} (included in pack)` : null,
         ``,
-        `**Widgets in this setup:**`,
+        `**Widgets:**`,
         widgetListMd
       ].filter(Boolean).join("\n");
       document.getElementById("redditMarkdownBox").value = md;
@@ -674,11 +749,7 @@
       const ctx = canvas.getContext("2d");
       const W = 1080, H = 1350;
 
-      // Background gradient
-      const bgGrad = ctx.createLinearGradient(0, 0, W, H);
-      bgGrad.addColorStop(0, "#0b0f1a");
-      bgGrad.addColorStop(1, "#05070c");
-      ctx.fillStyle = bgGrad;
+      ctx.fillStyle = "#161616";
       ctx.fillRect(0, 0, W, H);
 
       const [wpImg, ...widgetImgs] = await Promise.all([
@@ -686,10 +757,9 @@
         ...packWidgets.slice(0, 4).map(w => loadImage(w.thumb_url))
       ]);
 
-      // Ambient dimmed wallpaper backdrop
       if (wpImg) {
         ctx.save();
-        ctx.globalAlpha = 0.26;
+        ctx.globalAlpha = 0.18;
         const scale = Math.max(W / wpImg.width, H / wpImg.height);
         const dw = wpImg.width * scale;
         const dh = wpImg.height * scale;
@@ -697,62 +767,60 @@
         ctx.restore();
       }
 
-      // Top Header Title & Tags
-      ctx.fillStyle = "#ffffff";
-      ctx.font = "800 48px system-ui, -apple-system, Segoe UI, sans-serif";
+      // Header
+      ctx.fillStyle = "#F5F5F5";
+      ctx.font = "700 46px Roboto, system-ui, sans-serif";
       ctx.textAlign = "center";
-      ctx.fillText(col.title, W / 2, 86);
+      ctx.fillText(col.title, W / 2, 84);
 
-      ctx.fillStyle = "#a5b4fc";
-      ctx.font = "600 24px system-ui, -apple-system, Segoe UI, sans-serif";
-      ctx.fillText((col.tags || []).join("  ·  ") || "Custom Android Widget Suite + HD Wallpaper", W / 2, 130);
+      ctx.fillStyle = "#B8B8B8";
+      ctx.font = "500 23px Roboto, system-ui, sans-serif";
+      ctx.fillText((col.tags || []).join("  ·  ") || "UCCW Skin Pack", W / 2, 126);
 
-      // Center Phone Mockup Frame
+      // Phone Frame
       const phoneW = 680, phoneH = 1020;
-      const phoneX = (W - phoneW) / 2, phoneY = 175;
+      const phoneX = (W - phoneW) / 2, phoneY = 172;
 
       ctx.save();
-      ctx.shadowColor = "rgba(0,0,0,0.75)";
-      ctx.shadowBlur = 48;
-      ctx.shadowOffsetY = 20;
-      roundRectPath(ctx, phoneX - 12, phoneY - 12, phoneW + 24, phoneH + 24, 68);
-      ctx.fillStyle = "#1a2030";
+      ctx.shadowColor = "rgba(0,0,0,0.7)";
+      ctx.shadowBlur = 40;
+      ctx.shadowOffsetY = 16;
+      roundRectPath(ctx, phoneX - 10, phoneY - 10, phoneW + 20, phoneH + 20, 64);
+      ctx.fillStyle = "#242424";
       ctx.fill();
-      ctx.lineWidth = 3;
-      ctx.strokeStyle = "rgba(255,255,255,0.18)";
+      ctx.lineWidth = 2;
+      ctx.strokeStyle = "rgba(255,255,255,0.14)";
       ctx.stroke();
       ctx.restore();
 
-      // Clip inside Phone Screen
       ctx.save();
-      roundRectPath(ctx, phoneX, phoneY, phoneW, phoneH, 56);
+      roundRectPath(ctx, phoneX, phoneY, phoneW, phoneH, 54);
       ctx.clip();
 
       if (wpImg) {
         const s = Math.max(phoneW / wpImg.width, phoneH / wpImg.height);
         const dw = wpImg.width * s, dh = wpImg.height * s;
         ctx.drawImage(wpImg, phoneX + (phoneW - dw) / 2, phoneY + (phoneH - dh) / 2, dw, dh);
-        ctx.fillStyle = "rgba(6, 8, 14, 0.22)";
+        ctx.fillStyle = "rgba(0, 0, 0, 0.2)";
         ctx.fillRect(phoneX, phoneY, phoneW, phoneH);
       } else {
-        ctx.fillStyle = "#111624";
+        ctx.fillStyle = "#1E1E1E";
         ctx.fillRect(phoneX, phoneY, phoneW, phoneH);
       }
 
-      // Status bar + camera punch-hole
-      ctx.fillStyle = "#06080d";
+      // Punch-hole camera
+      ctx.fillStyle = "#0A0A0A";
       ctx.beginPath();
-      ctx.arc(W / 2, phoneY + 30, 12, 0, Math.PI * 2);
+      ctx.arc(W / 2, phoneY + 28, 11, 0, Math.PI * 2);
       ctx.fill();
 
-      // Draw widgets stacked cleanly on the phone screen
       const validImgs = widgetImgs.filter(Boolean);
       const count = validImgs.length;
       if (count > 0) {
         const padX = 42;
         const availW = phoneW - padX * 2;
-        const startY = phoneY + 76;
-        const availH = phoneH - 120;
+        const startY = phoneY + 74;
+        const availH = phoneH - 116;
         const slotH = availH / count;
 
         validImgs.forEach((img, idx) => {
@@ -766,7 +834,7 @@
 
           ctx.save();
           ctx.shadowColor = "rgba(0,0,0,0.55)";
-          ctx.shadowBlur = 22;
+          ctx.shadowBlur = 20;
           ctx.shadowOffsetY = 8;
           ctx.drawImage(img, x, y, w, h);
           ctx.restore();
@@ -774,20 +842,17 @@
       }
       ctx.restore();
 
-      // Bottom Pill Badge
-      const pillW = 660, pillH = 68;
-      const pillX = (W - pillW) / 2, pillY = 1240;
-      roundRectPath(ctx, pillX, pillY, pillW, pillH, 34);
-      ctx.fillStyle = "rgba(18, 22, 34, 0.92)";
+      // Footer UCCW Brand Pill
+      const pillW = 540, pillH = 62;
+      const pillX = (W - pillW) / 2, pillY = 1242;
+      roundRectPath(ctx, pillX, pillY, pillW, pillH, 31);
+      ctx.fillStyle = "#EF485B";
       ctx.fill();
-      ctx.lineWidth = 2;
-      ctx.strokeStyle = "rgba(116, 143, 252, 0.55)";
-      ctx.stroke();
 
-      ctx.fillStyle = "#ffffff";
-      ctx.font = "800 24px system-ui, -apple-system, Segoe UI, sans-serif";
+      ctx.fillStyle = "#FFFFFF";
+      ctx.font = "700 23px Roboto, system-ui, sans-serif";
       ctx.textAlign = "center";
-      ctx.fillText("⚡ MADE WITH UCCW  ·  GET IT ON GOOGLE PLAY", W / 2, pillY + 43);
+      ctx.fillText("UCCW  ·  ULTIMATE CUSTOM WIDGET", W / 2, pillY + 39);
     }
 
     document.getElementById("closeModalBtn").onclick = () => {
@@ -802,14 +867,14 @@
       const canvas = document.getElementById("showcaseCanvas");
       const link = document.createElement("a");
       const slug = (currentShowcasePack && currentShowcasePack.id) || "uccw_showcase";
-      link.download = `${slug}_showcase_1080x1350.png`;
+      link.download = `${slug}_1080x1350.png`;
       link.href = canvas.toDataURL("image/png");
       link.click();
     };
     document.getElementById("copyMarkdownBtn").onclick = () => {
       const box = document.getElementById("redditMarkdownBox");
       navigator.clipboard.writeText(box.value);
-      showToast("Reddit / Social Markdown copied!");
+      showToast("Markdown copied");
     };
     document.getElementById("searchInput").oninput = (e) => {
       searchQuery = e.target.value || "";
@@ -824,7 +889,7 @@
       })
       .catch(err => {
         document.getElementById("packsContainer").innerHTML =
-          `<div style="text-align:center;color:#f87171;padding:48px 0;">${err.message}</div>`;
+          `<div style="text-align:center;color:var(--uccw-red);padding:48px 0;">${err.message}</div>`;
       });
   </script>
 </body>
