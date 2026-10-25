@@ -34,7 +34,7 @@
   },
   "objects": [
     {
-      "type": "pie",
+      "type": "battery_circle",
       "id": 0,
       "name": "Step Goal Ring",
       "drawing_order": 0,

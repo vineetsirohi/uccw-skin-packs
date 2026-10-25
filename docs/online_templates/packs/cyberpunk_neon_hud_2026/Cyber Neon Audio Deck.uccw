@@ -34,7 +34,7 @@
   },
   "objects": [
     {
-      "type": "image_object",
+      "type": "image",
       "id": 0,
       "name": "Cyber Album Art",
       "drawing_order": 0,

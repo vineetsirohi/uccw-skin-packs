@@ -34,7 +34,7 @@
   },
   "objects": [
     {
-      "type": "pie",
+      "type": "battery_circle",
       "id": 0,
       "name": "CPU Gauge",
       "drawing_order": 0,
@@ -120,7 +120,7 @@
       }
     },
     {
-      "type": "pie",
+      "type": "battery_circle",
       "id": 0,
       "name": "RAM Gauge",
       "drawing_order": 2,
@@ -206,7 +206,7 @@
       }
     },
     {
-      "type": "pie",
+      "type": "battery_circle",
       "id": 0,
       "name": "Storage Gauge",
       "drawing_order": 4,
