@@ -2,6 +2,34 @@
   "manifest_version": 2,
   "collections": [
     {
+      "id": "terracotta_wave_studio_2026",
+      "title": "Terracotta Wave & Organic Studio",
+      "subtitle": "Warm Mid-Century Topographic Waves, Pill Badges & Calendar",
+      "description": "Inspired by warm mid-century topographic wave setups with cream sand, golden ochre, burnt terracotta, deep crimson, and midnight Prussian blue pill badges.",
+      "author": "UCCW Studio",
+      "category": "ios",
+      "tags": [
+        "Terracotta",
+        "Organic Waves",
+        "Squircle & Glass",
+        "Calendar"
+      ],
+      "release_date": "2026-10-26",
+      "min_version_code": 326,
+      "featured": true,
+      "notify": true,
+      "access_type": "free",
+      "product_id": null,
+      "hero_thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/terracotta_wave_studio_2026/Terracotta%20Wave%20Weather%20%26%203-Day%20Outlook_thumb.png",
+      "wallpapers": [
+        {
+          "name": "Terracotta & Prussian Organic Waves Wallpaper",
+          "url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/terracotta_wave_studio_2026/Terracotta%20%26%20Prussian%20Organic%20Waves%20Wallpaper.jpg",
+          "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/terracotta_wave_studio_2026/Terracotta%20%26%20Prussian%20Organic%20Waves%20Wallpaper_thumb.jpg"
+        }
+      ]
+    },
+    {
       "id": "solar_astro_observatory_2026",
       "title": "Solar Horizon & Astro Observatory",
       "subtitle": "3 golden-hour & orbital telemetry widgets + Deep Cosmos Wallpaper: Solar Horizon 3-Day Radar, Celestial Moon Chrono & Live Earth Satellite",
@@ -193,6 +221,45 @@
     }
   ],
   "templates": [
+    {
+      "name": "Terracotta Wave Weather & 3-Day Outlook",
+      "collection_id": "terracotta_wave_studio_2026",
+      "category": "ios",
+      "categories": [
+        "ios",
+        "modern"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/terracotta_wave_studio_2026/Terracotta%20Wave%20Weather%20%26%203-Day%20Outlook.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/terracotta_wave_studio_2026/Terracotta%20Wave%20Weather%20%26%203-Day%20Outlook_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/terracotta_wave_studio_2026/Terracotta%20Wave%20Weather%20%26%203-Day%20Outlook_bg.png"
+    },
+    {
+      "name": "Terracotta Wave Monthly Calendar & Pill",
+      "collection_id": "terracotta_wave_studio_2026",
+      "category": "ios",
+      "categories": [
+        "ios",
+        "modern"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/terracotta_wave_studio_2026/Terracotta%20Wave%20Monthly%20Calendar%20%26%20Pill.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/terracotta_wave_studio_2026/Terracotta%20Wave%20Monthly%20Calendar%20%26%20Pill_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/terracotta_wave_studio_2026/Terracotta%20Wave%20Monthly%20Calendar%20%26%20Pill_bg.png"
+    },
+    {
+      "name": "Terracotta Wave Chrono & Studio Agenda",
+      "collection_id": "terracotta_wave_studio_2026",
+      "category": "ios",
+      "categories": [
+        "ios",
+        "rings"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/terracotta_wave_studio_2026/Terracotta%20Wave%20Chrono%20%26%20Studio%20Agenda.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/terracotta_wave_studio_2026/Terracotta%20Wave%20Chrono%20%26%20Studio%20Agenda_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/terracotta_wave_studio_2026/Terracotta%20Wave%20Chrono%20%26%20Studio%20Agenda_bg.png"
+    },
     {
       "name": "Solar Horizon & 3-Day Weather Radar",
       "collection_id": "solar_astro_observatory_2026",
