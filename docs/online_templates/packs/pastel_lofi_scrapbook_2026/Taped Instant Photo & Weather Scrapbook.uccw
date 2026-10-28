@@ -1,0 +1,644 @@
+{
+  "background": {
+    "type": "BackgroundProperties",
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "alpha": 255,
+    "angle": 0,
+    "background": "assets://skin_templates/ios/Taped Instant Photo & Weather Scrapbook_bg.png",
+    "mode": 1,
+    "id": 0,
+    "name": "Background",
+    "image_scale_type": 2,
+    "fill_homescreen_widget": false,
+    "drawing_order": -1
+  },
+  "meta_data": {
+    "author": "UCCW Studio",
+    "height": 420,
+    "name": "Taped Instant Photo & Weather Scrapbook",
+    "scale": 1,
+    "width": 640,
+    "author_email": null,
+    "creation_date": 0,
+    "sdcard_root_address": null,
+    "modify_date": 0,
+    "other_data": null,
+    "screen_height": 2400,
+    "screen_width": 1080,
+    "skin_version": "version_3",
+    "min_version_code": 326,
+    "min_version_name": "2.2.26"
+  },
+  "objects": [
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Instant Photo Shadow",
+      "drawing_order": 1,
+      "position": {
+        "x": 26,
+        "y": 34
+      },
+      "alpha": 140,
+      "angle": 0,
+      "roundness": 28,
+      "width": 276,
+      "height": 368,
+      "stroke": 2.0,
+      "color": -3623266,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Instant Photo Card",
+      "drawing_order": 2,
+      "position": {
+        "x": 20,
+        "y": 28
+      },
+      "alpha": 255,
+      "angle": 0,
+      "roundness": 28,
+      "width": 276,
+      "height": 368,
+      "stroke": 2.0,
+      "color": -1812,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Instant Photo Rim",
+      "drawing_order": 3,
+      "position": {
+        "x": 20,
+        "y": 28
+      },
+      "alpha": 255,
+      "angle": 0,
+      "roundness": 28,
+      "width": 276,
+      "height": 368,
+      "stroke": 2.2,
+      "color": -2702420,
+      "is_hollow": true,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "image",
+      "id": 0,
+      "name": "Custom Scrapbook Photo",
+      "drawing_order": 4,
+      "position": {
+        "x": 42,
+        "y": 54
+      },
+      "alpha": 255,
+      "angle": 0,
+      "image_source": 0,
+      "path": null,
+      "scale": 1.0,
+      "width": 232,
+      "height": 246,
+      "scale_type": 0,
+      "corner_style": 1,
+      "corner": 16,
+      "top_left_corner": true,
+      "top_right_corner": true,
+      "bottom_left_corner": true,
+      "bottom_right_corner": true,
+      "is_tint_enabled": false,
+      "tint_color": -1
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Matcha Washi Tape",
+      "drawing_order": 5,
+      "position": {
+        "x": 104,
+        "y": 14
+      },
+      "alpha": 220,
+      "angle": 0,
+      "roundness": 8,
+      "width": 108,
+      "height": 30,
+      "stroke": 2.0,
+      "color": -9924754,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Matcha Time Card",
+      "drawing_order": 6,
+      "position": {
+        "x": 318,
+        "y": 28
+      },
+      "alpha": 255,
+      "angle": 0,
+      "roundness": 42,
+      "width": 298,
+      "height": 174,
+      "stroke": 2.0,
+      "color": -9924754,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Matcha Time Rim",
+      "drawing_order": 7,
+      "position": {
+        "x": 318,
+        "y": 28
+      },
+      "alpha": 255,
+      "angle": 0,
+      "roundness": 42,
+      "width": 298,
+      "height": 174,
+      "stroke": 2.4,
+      "color": -1812,
+      "is_hollow": true,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Time Date Pill",
+      "drawing_order": 8,
+      "position": {
+        "x": 344,
+        "y": 144
+      },
+      "alpha": 255,
+      "angle": 0,
+      "roundness": 19,
+      "width": 246,
+      "height": 38,
+      "stroke": 2.0,
+      "color": -1812,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Weather Scrapbook Card",
+      "drawing_order": 9,
+      "position": {
+        "x": 318,
+        "y": 220
+      },
+      "alpha": 255,
+      "angle": 0,
+      "roundness": 42,
+      "width": 298,
+      "height": 176,
+      "stroke": 2.0,
+      "color": -1812,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Weather Card Rim",
+      "drawing_order": 10,
+      "position": {
+        "x": 318,
+        "y": 220
+      },
+      "alpha": 255,
+      "angle": 0,
+      "roundness": 42,
+      "width": 298,
+      "height": 176,
+      "stroke": 2.2,
+      "color": -2702420,
+      "is_hollow": true,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Sakura City Pill",
+      "drawing_order": 11,
+      "position": {
+        "x": 342,
+        "y": 340
+      },
+      "alpha": 255,
+      "angle": 0,
+      "roundness": 19,
+      "width": 250,
+      "height": 38,
+      "stroke": 2.0,
+      "color": -870202,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Photo Script Caption",
+      "drawing_order": 12,
+      "position": {
+        "x": 158,
+        "y": 342
+      },
+      "size": 26,
+      "color": -12964569,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Satisfy-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 25,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 15,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Photo Sub Label",
+      "drawing_order": 13,
+      "position": {
+        "x": 158,
+        "y": 372
+      },
+      "size": 12,
+      "color": -8755880,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-SemiBold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 52,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 18,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Sticker Time",
+      "drawing_order": 14,
+      "position": {
+        "x": 467,
+        "y": 122
+      },
+      "size": 68,
+      "color": -1812,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Righteous-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 19,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Sticker Date",
+      "drawing_order": 15,
+      "position": {
+        "x": 467,
+        "y": 169
+      },
+      "size": 13,
+      "color": -11900080,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-SemiBold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "{\"day_format\": 8, \"day_of_the_week_format\": 7, \"layout_format\": \"wdm\", \"month_format\": 4, \"separator\": \" \\u00b7 \", \"separator2\": \" \", \"separator3\": \" \", \"year_format\": 1}",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 2
+      },
+      "text_provider": {
+        "id": 20,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "weather_image",
+      "id": 0,
+      "name": "Weather Icon",
+      "drawing_order": 16,
+      "position": {
+        "x": 336,
+        "y": 236
+      },
+      "scale": 0.62,
+      "alpha": 255,
+      "angle": 0,
+      "image_source": 0,
+      "default_index": 1,
+      "path": null
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Scrapbook Temp",
+      "drawing_order": 17,
+      "position": {
+        "x": 592,
+        "y": 294
+      },
+      "size": 46,
+      "color": -12964569,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Righteous-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "\u00b0",
+      "text": "",
+      "text_alignment": {
+        "align": 2
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 24,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Scrapbook HL",
+      "drawing_order": 18,
+      "position": {
+        "x": 592,
+        "y": 322
+      },
+      "size": 13,
+      "color": -2856316,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-SemiBold.ttf"
+      },
+      "prefix": "HIGH ",
+      "suffix": "\u00b0",
+      "text": "",
+      "text_alignment": {
+        "align": 2
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 30,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Sakura Bat Txt",
+      "drawing_order": 19,
+      "position": {
+        "x": 467,
+        "y": 365
+      },
+      "size": 13,
+      "color": -12964569,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-SemiBold.ttf"
+      },
+      "prefix": "COZY POWER \u00b7 ",
+      "suffix": "%",
+      "text": "",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 22,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "hotspot",
+      "id": 0,
+      "name": "Clock Hotspot",
+      "drawing_order": 20,
+      "position": {
+        "x": 318,
+        "y": 28
+      },
+      "width": 298,
+      "height": 174,
+      "shape": 0,
+      "hotspot_mode": 1,
+      "uccw_type": 0,
+      "app_name": "Clock Hotspot",
+      "intent": null,
+      "alpha": 255,
+      "angle": 0
+    },
+    {
+      "type": "hotspot",
+      "id": 0,
+      "name": "Weather Hotspot",
+      "drawing_order": 21,
+      "position": {
+        "x": 318,
+        "y": 220
+      },
+      "width": 298,
+      "height": 176,
+      "shape": 0,
+      "hotspot_mode": 1,
+      "uccw_type": 1,
+      "app_name": "Weather Hotspot",
+      "intent": null,
+      "alpha": 255,
+      "angle": 0
+    }
+  ]
+}

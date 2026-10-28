@@ -1,0 +1,543 @@
+{
+  "background": {
+    "type": "BackgroundProperties",
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "alpha": 255,
+    "angle": 0,
+    "background": "assets://skin_templates/rings/Sakura & Matcha Scallop Analog Clock_bg.png",
+    "mode": 1,
+    "id": 0,
+    "name": "Background",
+    "image_scale_type": 2,
+    "fill_homescreen_widget": false,
+    "drawing_order": -1
+  },
+  "meta_data": {
+    "author": "UCCW Studio",
+    "height": 500,
+    "name": "Sakura & Matcha Scallop Analog Clock",
+    "scale": 1,
+    "width": 500,
+    "author_email": null,
+    "creation_date": 0,
+    "sdcard_root_address": null,
+    "modify_date": 0,
+    "other_data": null,
+    "screen_height": 2400,
+    "screen_width": 1080,
+    "skin_version": "version_3",
+    "min_version_code": 326,
+    "min_version_name": "2.2.26"
+  },
+  "objects": [
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Dial Matcha Date Pill",
+      "drawing_order": 1,
+      "position": {
+        "x": 160,
+        "y": 152
+      },
+      "alpha": 255,
+      "angle": 0,
+      "roundness": 16,
+      "width": 156,
+      "height": 32,
+      "stroke": 2.0,
+      "color": -9924754,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Sakura Badge Halo",
+      "drawing_order": 2,
+      "position": {
+        "x": 309,
+        "y": 309
+      },
+      "alpha": 255,
+      "angle": 0,
+      "roundness": 89,
+      "width": 178,
+      "height": 178,
+      "stroke": 2.0,
+      "color": -1812,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Sakura Badge Fill",
+      "drawing_order": 3,
+      "position": {
+        "x": 314,
+        "y": 314
+      },
+      "alpha": 255,
+      "angle": 0,
+      "roundness": 84,
+      "width": 168,
+      "height": 168,
+      "stroke": 2.0,
+      "color": -870202,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Sakura Badge Rim",
+      "drawing_order": 4,
+      "position": {
+        "x": 314,
+        "y": 314
+      },
+      "alpha": 255,
+      "angle": 0,
+      "roundness": 84,
+      "width": 168,
+      "height": 168,
+      "stroke": 2.2,
+      "color": -2856316,
+      "is_hollow": true,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Num 12",
+      "drawing_order": 5,
+      "position": {
+        "x": 238,
+        "y": 112
+      },
+      "size": 32,
+      "color": -12964569,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Righteous-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "12",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Num 3",
+      "drawing_order": 6,
+      "position": {
+        "x": 374,
+        "y": 249
+      },
+      "size": 30,
+      "color": -11900080,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Righteous-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "3",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Num 6",
+      "drawing_order": 7,
+      "position": {
+        "x": 238,
+        "y": 386
+      },
+      "size": 30,
+      "color": -12964569,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Righteous-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "6",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Num 9",
+      "drawing_order": 8,
+      "position": {
+        "x": 102,
+        "y": 249
+      },
+      "size": 30,
+      "color": -11900080,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Righteous-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "9",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Scallop Date",
+      "drawing_order": 9,
+      "position": {
+        "x": 238,
+        "y": 173
+      },
+      "size": 12,
+      "color": -1812,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-SemiBold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "{\"day_format\": 8, \"day_of_the_week_format\": 7, \"layout_format\": \"wdm\", \"month_format\": 4, \"separator\": \" \\u00b7 \", \"separator2\": \" \", \"separator3\": \" \", \"year_format\": 1}",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 2
+      },
+      "text_provider": {
+        "id": 20,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "standard_analog_clock_object",
+      "id": 0,
+      "name": "Scallop Hands",
+      "drawing_order": 10,
+      "position": {
+        "x": 70,
+        "y": 70
+      },
+      "alpha": 255,
+      "angle": 0,
+      "scale": 1.12,
+      "step_mode": 0,
+      "hour_mode": 0,
+      "timezone_id": "",
+      "hour_image": "assets://defaultAnalogClockHands/capsule_hour.png",
+      "minute_image": "assets://defaultAnalogClockHands/capsule_minute.png",
+      "hour_color": -12964569,
+      "minute_color": -2856316
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Scallop Cap",
+      "drawing_order": 11,
+      "position": {
+        "x": 228,
+        "y": 228
+      },
+      "alpha": 255,
+      "angle": 0,
+      "roundness": 10,
+      "width": 20,
+      "height": 20,
+      "stroke": 2,
+      "color": -9924754,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Badge Temp",
+      "drawing_order": 12,
+      "position": {
+        "x": 398,
+        "y": 394
+      },
+      "size": 38,
+      "color": -12964569,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Righteous-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "\u00b0",
+      "text": "",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 24,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Badge Cond",
+      "drawing_order": 13,
+      "position": {
+        "x": 398,
+        "y": 420
+      },
+      "size": 13,
+      "color": -2856316,
+      "alpha": 255,
+      "angle": 0,
+      "bold": true,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Quicksand-Regular.otf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 25,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 11,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Badge Bat",
+      "drawing_order": 14,
+      "position": {
+        "x": 398,
+        "y": 446
+      },
+      "size": 11,
+      "color": -11900080,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-SemiBold.ttf"
+      },
+      "prefix": "BAT ",
+      "suffix": "%",
+      "text": "",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 22,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "hotspot",
+      "id": 0,
+      "name": "Clock Hotspot",
+      "drawing_order": 15,
+      "position": {
+        "x": 40,
+        "y": 40
+      },
+      "width": 350,
+      "height": 350,
+      "shape": 0,
+      "hotspot_mode": 1,
+      "uccw_type": 0,
+      "app_name": "Clock Hotspot",
+      "intent": null,
+      "alpha": 255,
+      "angle": 0
+    },
+    {
+      "type": "hotspot",
+      "id": 0,
+      "name": "Weather Hotspot",
+      "drawing_order": 16,
+      "position": {
+        "x": 314,
+        "y": 314
+      },
+      "width": 168,
+      "height": 168,
+      "shape": 0,
+      "hotspot_mode": 1,
+      "uccw_type": 1,
+      "app_name": "Weather Hotspot",
+      "intent": null,
+      "alpha": 255,
+      "angle": 0
+    }
+  ]
+}

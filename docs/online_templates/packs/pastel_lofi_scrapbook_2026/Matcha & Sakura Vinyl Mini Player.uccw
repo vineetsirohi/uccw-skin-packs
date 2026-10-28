@@ -1,0 +1,738 @@
+{
+  "background": {
+    "type": "BackgroundProperties",
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "alpha": 255,
+    "angle": 0,
+    "background": "assets://skin_templates/modern/Matcha & Sakura Vinyl Mini Player_bg.png",
+    "mode": 1,
+    "id": 0,
+    "name": "Background",
+    "image_scale_type": 2,
+    "fill_homescreen_widget": false,
+    "drawing_order": -1
+  },
+  "meta_data": {
+    "author": "UCCW Studio",
+    "height": 300,
+    "name": "Matcha & Sakura Vinyl Mini Player",
+    "scale": 1,
+    "width": 660,
+    "author_email": null,
+    "creation_date": 0,
+    "sdcard_root_address": null,
+    "modify_date": 0,
+    "other_data": null,
+    "screen_height": 2400,
+    "screen_width": 1080,
+    "skin_version": "version_3",
+    "min_version_code": 326,
+    "min_version_name": "2.2.26"
+  },
+  "objects": [
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Turntable Base Card",
+      "drawing_order": 1,
+      "position": {
+        "x": 18,
+        "y": 18
+      },
+      "alpha": 255,
+      "angle": 0,
+      "roundness": 52,
+      "width": 624,
+      "height": 264,
+      "stroke": 2.0,
+      "color": -1812,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Turntable Base Rim",
+      "drawing_order": 2,
+      "position": {
+        "x": 18,
+        "y": 18
+      },
+      "alpha": 255,
+      "angle": 0,
+      "roundness": 52,
+      "width": 624,
+      "height": 264,
+      "stroke": 2.4,
+      "color": -2702420,
+      "is_hollow": true,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Vinyl Platter Well",
+      "drawing_order": 3,
+      "position": {
+        "x": 38,
+        "y": 38
+      },
+      "alpha": 255,
+      "angle": 0,
+      "roundness": 112,
+      "width": 224,
+      "height": 224,
+      "stroke": 2.0,
+      "color": -726568,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Vinyl Platter Rim",
+      "drawing_order": 4,
+      "position": {
+        "x": 38,
+        "y": 38
+      },
+      "alpha": 255,
+      "angle": 0,
+      "roundness": 112,
+      "width": 224,
+      "height": 224,
+      "stroke": 2.2,
+      "color": -9924754,
+      "is_hollow": true,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Matcha Now Playing Pill",
+      "drawing_order": 5,
+      "position": {
+        "x": 286,
+        "y": 42
+      },
+      "alpha": 255,
+      "angle": 0,
+      "roundness": 16,
+      "width": 148,
+      "height": 32,
+      "stroke": 2.0,
+      "color": -9924754,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Time Badge Pill",
+      "drawing_order": 6,
+      "position": {
+        "x": 518,
+        "y": 42
+      },
+      "alpha": 255,
+      "angle": 0,
+      "roundness": 16,
+      "width": 98,
+      "height": 32,
+      "stroke": 2.0,
+      "color": -870202,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Prev Pastel Pill",
+      "drawing_order": 7,
+      "position": {
+        "x": 286,
+        "y": 202
+      },
+      "alpha": 255,
+      "angle": 0,
+      "roundness": 23,
+      "width": 88,
+      "height": 46,
+      "stroke": 2.0,
+      "color": -726568,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Prev Pill Rim",
+      "drawing_order": 8,
+      "position": {
+        "x": 286,
+        "y": 202
+      },
+      "alpha": 255,
+      "angle": 0,
+      "roundness": 23,
+      "width": 88,
+      "height": 46,
+      "stroke": 1.6,
+      "color": -2702420,
+      "is_hollow": true,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Play Sakura Pill",
+      "drawing_order": 9,
+      "position": {
+        "x": 388,
+        "y": 198
+      },
+      "alpha": 255,
+      "angle": 0,
+      "roundness": 27,
+      "width": 116,
+      "height": 54,
+      "stroke": 2.0,
+      "color": -2856316,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Next Pastel Pill",
+      "drawing_order": 10,
+      "position": {
+        "x": 518,
+        "y": 202
+      },
+      "alpha": 255,
+      "angle": 0,
+      "roundness": 23,
+      "width": 98,
+      "height": 46,
+      "stroke": 2.0,
+      "color": -726568,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Next Pill Rim",
+      "drawing_order": 11,
+      "position": {
+        "x": 518,
+        "y": 202
+      },
+      "alpha": 255,
+      "angle": 0,
+      "roundness": 23,
+      "width": 98,
+      "height": 46,
+      "stroke": 1.6,
+      "color": -2702420,
+      "is_hollow": true,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "image",
+      "id": 0,
+      "name": "Turntable Album Art",
+      "drawing_order": 12,
+      "position": {
+        "x": 54,
+        "y": 54
+      },
+      "alpha": 255,
+      "angle": 0,
+      "image_source": 1,
+      "path": null,
+      "scale": 1.0,
+      "width": 192,
+      "height": 192,
+      "scale_type": 0,
+      "corner_style": 1,
+      "corner": 96,
+      "top_left_corner": true,
+      "top_right_corner": true,
+      "bottom_left_corner": true,
+      "bottom_right_corner": true,
+      "is_tint_enabled": false,
+      "tint_color": -1
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Status Txt",
+      "drawing_order": 13,
+      "position": {
+        "x": 360,
+        "y": 63
+      },
+      "size": 11,
+      "color": -1812,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-SemiBold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 77,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Mini Clock",
+      "drawing_order": 14,
+      "position": {
+        "x": 567,
+        "y": 63
+      },
+      "size": 13,
+      "color": -12964569,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-SemiBold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 19,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Song Title",
+      "drawing_order": 15,
+      "position": {
+        "x": 286,
+        "y": 112
+      },
+      "size": 24,
+      "color": -12964569,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Righteous-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 74,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 16,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Song Artist",
+      "drawing_order": 16,
+      "position": {
+        "x": 286,
+        "y": 146
+      },
+      "size": 22,
+      "color": -11900080,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Satisfy-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 75,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 20,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "battery_bar",
+      "id": 0,
+      "name": "Song Progress",
+      "drawing_order": 17,
+      "position": {
+        "x": 286,
+        "y": 170
+      },
+      "width": 330,
+      "height": 10,
+      "base_color": -726568,
+      "base_roundness": 5,
+      "progress_bar_height": 8,
+      "progress_bar_roundness": 5,
+      "alpha": 255,
+      "angle": 0,
+      "style": 0,
+      "value_provider": 12,
+      "range": {
+        "min": 0,
+        "max": 100
+      },
+      "divisions": [
+        {
+          "color": -9924754,
+          "div": 50
+        },
+        {
+          "color": -9924754,
+          "div": 15
+        },
+        {
+          "color": -9924754,
+          "div": 5
+        },
+        {
+          "color": -9924754,
+          "div": 0
+        }
+      ],
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Prev Txt",
+      "drawing_order": 18,
+      "position": {
+        "x": 330,
+        "y": 230
+      },
+      "size": 12,
+      "color": -12964569,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-SemiBold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "PREV",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Play Txt",
+      "drawing_order": 19,
+      "position": {
+        "x": 446,
+        "y": 231
+      },
+      "size": 13,
+      "color": -1812,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-SemiBold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "PLAY / PAUSE",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Next Txt",
+      "drawing_order": 20,
+      "position": {
+        "x": 567,
+        "y": 230
+      },
+      "size": 12,
+      "color": -12964569,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-SemiBold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "NEXT",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "hotspot",
+      "id": 0,
+      "name": "Open Music Hotspot",
+      "drawing_order": 21,
+      "position": {
+        "x": 38,
+        "y": 38
+      },
+      "width": 224,
+      "height": 224,
+      "shape": 0,
+      "hotspot_mode": 1,
+      "uccw_type": 9,
+      "app_name": "Open Music Hotspot",
+      "intent": null,
+      "alpha": 255,
+      "angle": 0
+    },
+    {
+      "type": "hotspot",
+      "id": 0,
+      "name": "Prev Hotspot",
+      "drawing_order": 22,
+      "position": {
+        "x": 286,
+        "y": 202
+      },
+      "width": 88,
+      "height": 46,
+      "shape": 0,
+      "hotspot_mode": 1,
+      "uccw_type": 8,
+      "app_name": "Prev Hotspot",
+      "intent": null,
+      "alpha": 255,
+      "angle": 0
+    },
+    {
+      "type": "hotspot",
+      "id": 0,
+      "name": "Play Hotspot",
+      "drawing_order": 23,
+      "position": {
+        "x": 388,
+        "y": 198
+      },
+      "width": 116,
+      "height": 54,
+      "shape": 0,
+      "hotspot_mode": 1,
+      "uccw_type": 6,
+      "app_name": "Play Hotspot",
+      "intent": null,
+      "alpha": 255,
+      "angle": 0
+    },
+    {
+      "type": "hotspot",
+      "id": 0,
+      "name": "Next Hotspot",
+      "drawing_order": 24,
+      "position": {
+        "x": 518,
+        "y": 202
+      },
+      "width": 98,
+      "height": 46,
+      "shape": 0,
+      "hotspot_mode": 1,
+      "uccw_type": 7,
+      "app_name": "Next Hotspot",
+      "intent": null,
+      "alpha": 255,
+      "angle": 0
+    }
+  ]
+}

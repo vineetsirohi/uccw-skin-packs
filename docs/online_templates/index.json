@@ -2,6 +2,34 @@
   "manifest_version": 2,
   "collections": [
     {
+      "id": "pastel_lofi_scrapbook_2026",
+      "title": "Cozy Pastel Matcha & Scrapbook Studio",
+      "subtitle": "4 Cozy Lo-Fi Pastel Widgets: Taped Instant Photo Frame, Matcha Vinyl Player, Quote Notebook & Scallop Clock",
+      "description": "Warm buttercream, Matcha sage, and Sakura blush widgets for cozy aesthetic setups: Taped Instant Photo frame (pick any photo from your gallery), Matcha & Sakura Vinyl Mini Player, Spiral Notebook with live Quote of the Day, and Scalloped Flower Analog Clock.",
+      "author": "UCCW Studio",
+      "category": "ios",
+      "tags": [
+        "Pastel Matcha",
+        "Photo Scrapbook",
+        "Quote Notebook",
+        "Vinyl Player"
+      ],
+      "release_date": "2026-10-28",
+      "min_version_code": 326,
+      "featured": true,
+      "notify": true,
+      "access_type": "free",
+      "product_id": null,
+      "hero_thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/pastel_lofi_scrapbook_2026/Taped%20Instant%20Photo%20%26%20Weather%20Scrapbook_thumb.png",
+      "wallpapers": [
+        {
+          "name": "Cozy Matcha & Sakura Botanical Grid",
+          "url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/pastel_lofi_scrapbook_2026/Cozy%20Matcha%20%26%20Sakura%20Botanical%20Grid%20Wallpaper.jpg",
+          "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/pastel_lofi_scrapbook_2026/Cozy%20Matcha%20%26%20Sakura%20Botanical%20Grid%20Wallpaper_thumb.jpg"
+        }
+      ]
+    },
+    {
       "id": "aero_frosted_glass_2026",
       "title": "Translucent Frosted Aero Glass",
       "subtitle": "4 Spatial Semi-Transparent Frosted Glass Widgets with Specular Pearl Rims + Aurora Mesh Wallpaper",
@@ -310,6 +338,58 @@
     }
   ],
   "templates": [
+    {
+      "name": "Taped Instant Photo & Weather Scrapbook",
+      "collection_id": "pastel_lofi_scrapbook_2026",
+      "category": "ios",
+      "categories": [
+        "ios",
+        "modern"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/pastel_lofi_scrapbook_2026/Taped%20Instant%20Photo%20%26%20Weather%20Scrapbook.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/pastel_lofi_scrapbook_2026/Taped%20Instant%20Photo%20%26%20Weather%20Scrapbook_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/pastel_lofi_scrapbook_2026/Taped%20Instant%20Photo%20%26%20Weather%20Scrapbook_bg.png"
+    },
+    {
+      "name": "Matcha & Sakura Vinyl Mini Player",
+      "collection_id": "pastel_lofi_scrapbook_2026",
+      "category": "modern",
+      "categories": [
+        "modern",
+        "ios"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/pastel_lofi_scrapbook_2026/Matcha%20%26%20Sakura%20Vinyl%20Mini%20Player.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/pastel_lofi_scrapbook_2026/Matcha%20%26%20Sakura%20Vinyl%20Mini%20Player_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/pastel_lofi_scrapbook_2026/Matcha%20%26%20Sakura%20Vinyl%20Mini%20Player_bg.png"
+    },
+    {
+      "name": "Lo-Fi Quote of the Day Spiral Notebook",
+      "collection_id": "pastel_lofi_scrapbook_2026",
+      "category": "editorial",
+      "categories": [
+        "editorial",
+        "ios"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/pastel_lofi_scrapbook_2026/Lo-Fi%20Quote%20of%20the%20Day%20Spiral%20Notebook.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/pastel_lofi_scrapbook_2026/Lo-Fi%20Quote%20of%20the%20Day%20Spiral%20Notebook_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/pastel_lofi_scrapbook_2026/Lo-Fi%20Quote%20of%20the%20Day%20Spiral%20Notebook_bg.png"
+    },
+    {
+      "name": "Sakura & Matcha Scallop Analog Clock",
+      "collection_id": "pastel_lofi_scrapbook_2026",
+      "category": "rings",
+      "categories": [
+        "rings",
+        "classic"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/pastel_lofi_scrapbook_2026/Sakura%20%26%20Matcha%20Scallop%20Analog%20Clock.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/pastel_lofi_scrapbook_2026/Sakura%20%26%20Matcha%20Scallop%20Analog%20Clock_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/pastel_lofi_scrapbook_2026/Sakura%20%26%20Matcha%20Scallop%20Analog%20Clock_bg.png"
+    },
     {
       "name": "Aero Glass Weather & 3-Day Prism",
       "collection_id": "aero_frosted_glass_2026",
