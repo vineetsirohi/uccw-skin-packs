@@ -1,0 +1,942 @@
+{
+  "background": {
+    "type": "BackgroundProperties",
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "alpha": 255,
+    "angle": 0,
+    "background": "assets://skin_templates/editorial/Kinetic Pillar & Script Overlay Clock_bg.png",
+    "mode": 1,
+    "id": 0,
+    "name": "Background",
+    "image_scale_type": 2,
+    "fill_homescreen_widget": false,
+    "drawing_order": -1
+  },
+  "meta_data": {
+    "author": "UCCW Studio",
+    "height": 360,
+    "name": "Kinetic Pillar & Script Overlay Clock",
+    "scale": 1,
+    "width": 600,
+    "author_email": null,
+    "creation_date": 0,
+    "sdcard_root_address": null,
+    "modify_date": 0,
+    "other_data": null,
+    "screen_height": 2400,
+    "screen_width": 1080,
+    "skin_version": "version_3",
+    "min_version_code": 326,
+    "min_version_name": "2.2.26"
+  },
+  "objects": [
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Top Accent Rule",
+      "drawing_order": 1,
+      "position": {
+        "x": 28,
+        "y": 22
+      },
+      "alpha": 255,
+      "angle": 0,
+      "roundness": 2,
+      "width": 84,
+      "height": 4,
+      "stroke": 2.0,
+      "color": -42442,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Date Badge Pill",
+      "drawing_order": 2,
+      "position": {
+        "x": 372,
+        "y": 48
+      },
+      "alpha": 255,
+      "angle": 0,
+      "roundness": 19,
+      "width": 200,
+      "height": 38,
+      "stroke": 2.0,
+      "color": -42442,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Location Smoked Pill",
+      "drawing_order": 3,
+      "position": {
+        "x": 372,
+        "y": 98
+      },
+      "alpha": 215,
+      "angle": 0,
+      "roundness": 17,
+      "width": 200,
+      "height": 34,
+      "stroke": 2.0,
+      "color": -15197148,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Location Pill Rim",
+      "drawing_order": 4,
+      "position": {
+        "x": 372,
+        "y": 98
+      },
+      "alpha": 180,
+      "angle": 0,
+      "roundness": 17,
+      "width": 200,
+      "height": 34,
+      "stroke": 1.4,
+      "color": -1527719,
+      "is_hollow": true,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Main Horizon Hairline",
+      "drawing_order": 5,
+      "position": {
+        "x": 28,
+        "y": 212
+      },
+      "alpha": 110,
+      "angle": 0,
+      "roundness": 1,
+      "width": 544,
+      "height": 2,
+      "stroke": 2.0,
+      "color": -3616548,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Horizon Center Diamond",
+      "drawing_order": 6,
+      "position": {
+        "x": 294,
+        "y": 207
+      },
+      "alpha": 255,
+      "angle": 0,
+      "roundness": 3,
+      "width": 12,
+      "height": 12,
+      "stroke": 2.0,
+      "color": -42442,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Col Divider 1",
+      "drawing_order": 7,
+      "position": {
+        "x": 198,
+        "y": 232
+      },
+      "alpha": 85,
+      "angle": 0,
+      "roundness": 1,
+      "width": 2,
+      "height": 102,
+      "stroke": 2.0,
+      "color": -3616548,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Col Divider 2",
+      "drawing_order": 8,
+      "position": {
+        "x": 398,
+        "y": 232
+      },
+      "alpha": 85,
+      "angle": 0,
+      "roundness": 1,
+      "width": 2,
+      "height": 102,
+      "stroke": 2.0,
+      "color": -3616548,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Edition Header",
+      "drawing_order": 9,
+      "position": {
+        "x": 28,
+        "y": 46
+      },
+      "size": 12,
+      "color": -3616548,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-SemiBold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "CHRONOGRAPH \u00b7 EDITION",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -1342177280,
+        "dx": 0,
+        "dy": 2,
+        "radius": 4
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Pillar Time",
+      "drawing_order": 10,
+      "position": {
+        "x": 28,
+        "y": 168
+      },
+      "size": 118,
+      "color": -330000,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/BebasNeue-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 19,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -1342177280,
+        "dx": 0,
+        "dy": 2,
+        "radius": 6
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Script Weather",
+      "drawing_order": 11,
+      "position": {
+        "x": 246,
+        "y": 194
+      },
+      "size": 30,
+      "color": -1527719,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/KaushanScript-Regular.otf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 25,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 14,
+      "shadow": {
+        "color": -1342177280,
+        "dx": 0,
+        "dy": 2,
+        "radius": 5
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Badge Date",
+      "drawing_order": 12,
+      "position": {
+        "x": 472,
+        "y": 73
+      },
+      "size": 14,
+      "color": -330000,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-SemiBold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "{\"day_format\": 8, \"day_of_the_week_format\": 7, \"layout_format\": \"wdm\", \"month_format\": 4, \"separator\": \" \\u00b7 \", \"separator2\": \" \", \"separator3\": \" \", \"year_format\": 1}",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 2
+      },
+      "text_provider": {
+        "id": 20,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Badge City",
+      "drawing_order": 13,
+      "position": {
+        "x": 472,
+        "y": 120
+      },
+      "size": 13,
+      "color": -1527719,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-SemiBold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 52,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 15,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Badge Dawn",
+      "drawing_order": 14,
+      "position": {
+        "x": 472,
+        "y": 164
+      },
+      "size": 13,
+      "color": -3616548,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-SemiBold.ttf"
+      },
+      "prefix": "DAWN ",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 66,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -1342177280,
+        "dx": 0,
+        "dy": 2,
+        "radius": 4
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Col1 Hdr",
+      "drawing_order": 15,
+      "position": {
+        "x": 28,
+        "y": 248
+      },
+      "size": 11,
+      "color": -42442,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-SemiBold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "ATMOSPHERE",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -1342177280,
+        "dx": 0,
+        "dy": 2,
+        "radius": 4
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Col1 Temp",
+      "drawing_order": 16,
+      "position": {
+        "x": 28,
+        "y": 298
+      },
+      "size": 42,
+      "color": -330000,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/AbrilFatface-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "\u00b0",
+      "text": "",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 24,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -1342177280,
+        "dx": 0,
+        "dy": 2,
+        "radius": 6
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Col1 Max",
+      "drawing_order": 17,
+      "position": {
+        "x": 126,
+        "y": 282
+      },
+      "size": 13,
+      "color": -1527719,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-SemiBold.ttf"
+      },
+      "prefix": "H ",
+      "suffix": "\u00b0",
+      "text": "",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 30,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -1342177280,
+        "dx": 0,
+        "dy": 2,
+        "radius": 4
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Col1 Min",
+      "drawing_order": 18,
+      "position": {
+        "x": 126,
+        "y": 304
+      },
+      "size": 13,
+      "color": -3616548,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-SemiBold.ttf"
+      },
+      "prefix": "L ",
+      "suffix": "\u00b0",
+      "text": "",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 29,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -1342177280,
+        "dx": 0,
+        "dy": 2,
+        "radius": 4
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Col2 Hdr",
+      "drawing_order": 19,
+      "position": {
+        "x": 218,
+        "y": 248
+      },
+      "size": 11,
+      "color": -1527719,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-SemiBold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "NEXT SCHEDULE",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -1342177280,
+        "dx": 0,
+        "dy": 2,
+        "radius": 4
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Col2 Title",
+      "drawing_order": 20,
+      "position": {
+        "x": 218,
+        "y": 284
+      },
+      "size": 18,
+      "color": -330000,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ZillaSlab-Bold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 53,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 14,
+      "shadow": {
+        "color": -1342177280,
+        "dx": 0,
+        "dy": 2,
+        "radius": 5
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Col2 Time",
+      "drawing_order": 21,
+      "position": {
+        "x": 218,
+        "y": 312
+      },
+      "size": 13,
+      "color": -3616548,
+      "alpha": 255,
+      "angle": 0,
+      "bold": true,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Quicksand-Regular.otf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 54,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 16,
+      "shadow": {
+        "color": -1342177280,
+        "dx": 0,
+        "dy": 2,
+        "radius": 4
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Col3 Hdr",
+      "drawing_order": 22,
+      "position": {
+        "x": 418,
+        "y": 248
+      },
+      "size": 11,
+      "color": -42442,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-SemiBold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "TELEMETRY",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -1342177280,
+        "dx": 0,
+        "dy": 2,
+        "radius": 4
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Col3 Steps",
+      "drawing_order": 23,
+      "position": {
+        "x": 418,
+        "y": 284
+      },
+      "size": 18,
+      "color": -330000,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ZillaSlab-Bold.ttf"
+      },
+      "prefix": "",
+      "suffix": " STEPS",
+      "text": "",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 82,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -1342177280,
+        "dx": 0,
+        "dy": 2,
+        "radius": 5
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Col3 Bat",
+      "drawing_order": 24,
+      "position": {
+        "x": 418,
+        "y": 312
+      },
+      "size": 13,
+      "color": -1527719,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-SemiBold.ttf"
+      },
+      "prefix": "POWER ",
+      "suffix": "%",
+      "text": "",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 22,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -1342177280,
+        "dx": 0,
+        "dy": 2,
+        "radius": 4
+      }
+    },
+    {
+      "type": "hotspot",
+      "id": 0,
+      "name": "Clock Hotspot",
+      "drawing_order": 25,
+      "position": {
+        "x": 24,
+        "y": 20
+      },
+      "width": 340,
+      "height": 185,
+      "shape": 0,
+      "hotspot_mode": 1,
+      "uccw_type": 0,
+      "app_name": "Clock Hotspot",
+      "intent": null,
+      "alpha": 255,
+      "angle": 0
+    },
+    {
+      "type": "hotspot",
+      "id": 0,
+      "name": "Weather Hotspot",
+      "drawing_order": 26,
+      "position": {
+        "x": 24,
+        "y": 224
+      },
+      "width": 170,
+      "height": 120,
+      "shape": 0,
+      "hotspot_mode": 1,
+      "uccw_type": 1,
+      "app_name": "Weather Hotspot",
+      "intent": null,
+      "alpha": 255,
+      "angle": 0
+    },
+    {
+      "type": "hotspot",
+      "id": 0,
+      "name": "Calendar Hotspot",
+      "drawing_order": 27,
+      "position": {
+        "x": 210,
+        "y": 224
+      },
+      "width": 184,
+      "height": 120,
+      "shape": 0,
+      "hotspot_mode": 1,
+      "uccw_type": 2,
+      "app_name": "Calendar Hotspot",
+      "intent": null,
+      "alpha": 255,
+      "angle": 0
+    }
+  ]
+}

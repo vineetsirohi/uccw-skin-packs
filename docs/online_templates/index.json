@@ -2,6 +2,62 @@
   "manifest_version": 2,
   "collections": [
     {
+      "id": "aero_frosted_glass_2026",
+      "title": "Translucent Frosted Aero Glass",
+      "subtitle": "4 Spatial Semi-Transparent Frosted Glass Widgets with Specular Pearl Rims + Aurora Mesh Wallpaper",
+      "description": "True semi-transparent frosted glass widgets (`alpha: 110–145`) that let your homescreen wallpaper shimmer through: Aero Weather & 3-Day Prism, Frosted Analog & Telemetry Orb, Floating Pill Dock & Now Playing, and Aero Glass Monthly Calendar.",
+      "author": "UCCW Studio",
+      "category": "ios",
+      "tags": [
+        "Frosted Glass",
+        "Translucent",
+        "Now Playing",
+        "Aurora Mesh"
+      ],
+      "release_date": "2026-10-28",
+      "min_version_code": 326,
+      "featured": true,
+      "notify": true,
+      "access_type": "free",
+      "product_id": null,
+      "hero_thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/aero_frosted_glass_2026/Aero%20Glass%20Weather%20%26%203-Day%20Prism_thumb.png",
+      "wallpapers": [
+        {
+          "name": "Iridescent Aurora Mesh",
+          "url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/aero_frosted_glass_2026/Iridescent%20Aurora%20Mesh%20Wallpaper.jpg",
+          "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/aero_frosted_glass_2026/Iridescent%20Aurora%20Mesh%20Wallpaper_thumb.jpg"
+        }
+      ]
+    },
+    {
+      "id": "frameless_editorial_typo_2026",
+      "title": "Frameless Editorial Typography",
+      "subtitle": "4 100% Transparent Typographic & Meridian Widgets for Minimalist / Niagara Setups + Gallery Wallpaper",
+      "description": "Zero opaque boxes covering your wallpaper: pure architectural serif & display typography (`AbrilFatface`, `BebasNeue`, `KaushanScript`, `ZillaSlab`), 2px coral-vermilion hairline spines, and open-air meridian timepieces.",
+      "author": "UCCW Studio",
+      "category": "classic",
+      "tags": [
+        "Frameless",
+        "Editorial Typography",
+        "Minimalist",
+        "Transparent"
+      ],
+      "release_date": "2026-10-28",
+      "min_version_code": 326,
+      "featured": true,
+      "notify": true,
+      "access_type": "free",
+      "product_id": null,
+      "hero_thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/frameless_editorial_typo_2026/Editorial%20Split-Time%20%26%20Vertical%20Spine_thumb.png",
+      "wallpapers": [
+        {
+          "name": "Architectural Shadow & Warm Mist",
+          "url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/frameless_editorial_typo_2026/Architectural%20Shadow%20%26%20Warm%20Mist%20Wallpaper.jpg",
+          "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/frameless_editorial_typo_2026/Architectural%20Shadow%20%26%20Warm%20Mist%20Wallpaper_thumb.jpg"
+        }
+      ]
+    },
+    {
       "id": "desert_dune_mirage_2026",
       "title": "Desert Dune & Travertine",
       "subtitle": "4 Sculpted Travertine Arch, Sundial & Floating Pill Widgets + Matching Wallpapers",
@@ -254,6 +310,110 @@
     }
   ],
   "templates": [
+    {
+      "name": "Aero Glass Weather & 3-Day Prism",
+      "collection_id": "aero_frosted_glass_2026",
+      "category": "ios",
+      "categories": [
+        "ios",
+        "modern"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/aero_frosted_glass_2026/Aero%20Glass%20Weather%20%26%203-Day%20Prism.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/aero_frosted_glass_2026/Aero%20Glass%20Weather%20%26%203-Day%20Prism_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/aero_frosted_glass_2026/Aero%20Glass%20Weather%20%26%203-Day%20Prism_bg.png"
+    },
+    {
+      "name": "Aero Frosted Analog & Telemetry Orb",
+      "collection_id": "aero_frosted_glass_2026",
+      "category": "rings",
+      "categories": [
+        "rings",
+        "ios"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/aero_frosted_glass_2026/Aero%20Frosted%20Analog%20%26%20Telemetry%20Orb.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/aero_frosted_glass_2026/Aero%20Frosted%20Analog%20%26%20Telemetry%20Orb_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/aero_frosted_glass_2026/Aero%20Frosted%20Analog%20%26%20Telemetry%20Orb_bg.png"
+    },
+    {
+      "name": "Aero Floating Pill Dock & Now Playing",
+      "collection_id": "aero_frosted_glass_2026",
+      "category": "ios",
+      "categories": [
+        "ios",
+        "modern"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/aero_frosted_glass_2026/Aero%20Floating%20Pill%20Dock%20%26%20Now%20Playing.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/aero_frosted_glass_2026/Aero%20Floating%20Pill%20Dock%20%26%20Now%20Playing_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/aero_frosted_glass_2026/Aero%20Floating%20Pill%20Dock%20%26%20Now%20Playing_bg.png"
+    },
+    {
+      "name": "Aero Glass Monthly Calendar & Event",
+      "collection_id": "aero_frosted_glass_2026",
+      "category": "ios",
+      "categories": [
+        "ios",
+        "modern"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/aero_frosted_glass_2026/Aero%20Glass%20Monthly%20Calendar%20%26%20Event.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/aero_frosted_glass_2026/Aero%20Glass%20Monthly%20Calendar%20%26%20Event_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/aero_frosted_glass_2026/Aero%20Glass%20Monthly%20Calendar%20%26%20Event_bg.png"
+    },
+    {
+      "name": "Editorial Split-Time & Vertical Spine",
+      "collection_id": "frameless_editorial_typo_2026",
+      "category": "editorial",
+      "categories": [
+        "editorial",
+        "modern"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/frameless_editorial_typo_2026/Editorial%20Split-Time%20%26%20Vertical%20Spine.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/frameless_editorial_typo_2026/Editorial%20Split-Time%20%26%20Vertical%20Spine_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/frameless_editorial_typo_2026/Editorial%20Split-Time%20%26%20Vertical%20Spine_bg.png"
+    },
+    {
+      "name": "Kinetic Pillar & Script Overlay Clock",
+      "collection_id": "frameless_editorial_typo_2026",
+      "category": "editorial",
+      "categories": [
+        "editorial",
+        "modern"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/frameless_editorial_typo_2026/Kinetic%20Pillar%20%26%20Script%20Overlay%20Clock.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/frameless_editorial_typo_2026/Kinetic%20Pillar%20%26%20Script%20Overlay%20Clock_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/frameless_editorial_typo_2026/Kinetic%20Pillar%20%26%20Script%20Overlay%20Clock_bg.png"
+    },
+    {
+      "name": "Minimalist Horizon Weather & Agenda Strip",
+      "collection_id": "frameless_editorial_typo_2026",
+      "category": "editorial",
+      "categories": [
+        "editorial",
+        "modern"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/frameless_editorial_typo_2026/Minimalist%20Horizon%20Weather%20%26%20Agenda%20Strip.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/frameless_editorial_typo_2026/Minimalist%20Horizon%20Weather%20%26%20Agenda%20Strip_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/frameless_editorial_typo_2026/Minimalist%20Horizon%20Weather%20%26%20Agenda%20Strip_bg.png"
+    },
+    {
+      "name": "Frameless Meridian Analog & Date",
+      "collection_id": "frameless_editorial_typo_2026",
+      "category": "rings",
+      "categories": [
+        "rings",
+        "classic"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/frameless_editorial_typo_2026/Frameless%20Meridian%20Analog%20%26%20Date.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/frameless_editorial_typo_2026/Frameless%20Meridian%20Analog%20%26%20Date_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/frameless_editorial_typo_2026/Frameless%20Meridian%20Analog%20%26%20Date_bg.png"
+    },
     {
       "name": "Desert Archway Editorial Clock & Weather",
       "collection_id": "desert_dune_mirage_2026",

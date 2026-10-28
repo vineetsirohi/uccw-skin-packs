@@ -1,0 +1,859 @@
+{
+  "background": {
+    "type": "BackgroundProperties",
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "alpha": 255,
+    "angle": 0,
+    "background": "assets://skin_templates/editorial/Editorial Split-Time & Vertical Spine_bg.png",
+    "mode": 1,
+    "id": 0,
+    "name": "Background",
+    "image_scale_type": 2,
+    "fill_homescreen_widget": false,
+    "drawing_order": -1
+  },
+  "meta_data": {
+    "author": "UCCW Studio",
+    "height": 320,
+    "name": "Editorial Split-Time & Vertical Spine",
+    "scale": 1,
+    "width": 640,
+    "author_email": null,
+    "creation_date": 0,
+    "sdcard_root_address": null,
+    "modify_date": 0,
+    "other_data": null,
+    "screen_height": 2400,
+    "screen_width": 1080,
+    "skin_version": "version_3",
+    "min_version_code": 326,
+    "min_version_name": "2.2.26"
+  },
+  "objects": [
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Vertical Spine Rule",
+      "drawing_order": 1,
+      "position": {
+        "x": 248,
+        "y": 24
+      },
+      "alpha": 255,
+      "angle": 0,
+      "roundness": 1,
+      "width": 3,
+      "height": 272,
+      "stroke": 2.0,
+      "color": -42442,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Spine Top Node",
+      "drawing_order": 2,
+      "position": {
+        "x": 244,
+        "y": 20
+      },
+      "alpha": 255,
+      "angle": 0,
+      "roundness": 5,
+      "width": 11,
+      "height": 11,
+      "stroke": 2.0,
+      "color": -42442,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Spine Bottom Node",
+      "drawing_order": 3,
+      "position": {
+        "x": 244,
+        "y": 289
+      },
+      "alpha": 255,
+      "angle": 0,
+      "roundness": 5,
+      "width": 11,
+      "height": 11,
+      "stroke": 2.0,
+      "color": -1527719,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Mid Horizontal Hairline",
+      "drawing_order": 4,
+      "position": {
+        "x": 276,
+        "y": 192
+      },
+      "alpha": 95,
+      "angle": 0,
+      "roundness": 1,
+      "width": 340,
+      "height": 2,
+      "stroke": 2.0,
+      "color": -3616548,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Date Tag Pill",
+      "drawing_order": 5,
+      "position": {
+        "x": 276,
+        "y": 26
+      },
+      "alpha": 255,
+      "angle": 0,
+      "roundness": 16,
+      "width": 152,
+      "height": 32,
+      "stroke": 2.0,
+      "color": -42442,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Up Next Tag Pill",
+      "drawing_order": 6,
+      "position": {
+        "x": 276,
+        "y": 210
+      },
+      "alpha": 210,
+      "angle": 0,
+      "roundness": 13,
+      "width": 96,
+      "height": 26,
+      "stroke": 2.0,
+      "color": -15197148,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Up Next Tag Rim",
+      "drawing_order": 7,
+      "position": {
+        "x": 276,
+        "y": 210
+      },
+      "alpha": 190,
+      "angle": 0,
+      "roundness": 13,
+      "width": 96,
+      "height": 26,
+      "stroke": 1.4,
+      "color": -1527719,
+      "is_hollow": true,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Split Hour",
+      "drawing_order": 8,
+      "position": {
+        "x": 128,
+        "y": 144
+      },
+      "size": 116,
+      "color": -330000,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/AbrilFatface-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 10,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -1342177280,
+        "dx": 0,
+        "dy": 2,
+        "radius": 6
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Split Minute",
+      "drawing_order": 9,
+      "position": {
+        "x": 128,
+        "y": 268
+      },
+      "size": 116,
+      "color": -1527719,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/AbrilFatface-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 14,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -1342177280,
+        "dx": 0,
+        "dy": 2,
+        "radius": 6
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "AmPm Micro",
+      "drawing_order": 10,
+      "position": {
+        "x": 226,
+        "y": 294
+      },
+      "size": 13,
+      "color": -3616548,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-SemiBold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 2
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 16,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -1342177280,
+        "dx": 0,
+        "dy": 2,
+        "radius": 4
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Spine Date",
+      "drawing_order": 11,
+      "position": {
+        "x": 352,
+        "y": 48
+      },
+      "size": 12,
+      "color": -330000,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-SemiBold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "{\"day_format\": 8, \"day_of_the_week_format\": 7, \"layout_format\": \"wdm\", \"month_format\": 4, \"separator\": \" \\u00b7 \", \"separator2\": \" \", \"separator3\": \" \", \"year_format\": 1}",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 2
+      },
+      "text_provider": {
+        "id": 20,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Script City",
+      "drawing_order": 12,
+      "position": {
+        "x": 614,
+        "y": 50
+      },
+      "size": 21,
+      "color": -1527719,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/KaushanScript-Regular.otf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 2
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 52,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 13,
+      "shadow": {
+        "color": -1342177280,
+        "dx": 0,
+        "dy": 2,
+        "radius": 4
+      }
+    },
+    {
+      "type": "weather_image",
+      "id": 0,
+      "name": "Weather Icon",
+      "drawing_order": 13,
+      "position": {
+        "x": 276,
+        "y": 76
+      },
+      "scale": 0.68,
+      "alpha": 255,
+      "angle": 0,
+      "image_source": 0,
+      "default_index": 1,
+      "path": null
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Hero Temp",
+      "drawing_order": 14,
+      "position": {
+        "x": 378,
+        "y": 140
+      },
+      "size": 58,
+      "color": -330000,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/AbrilFatface-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "\u00b0",
+      "text": "",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 24,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -1342177280,
+        "dx": 0,
+        "dy": 2,
+        "radius": 6
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Cond Label",
+      "drawing_order": 15,
+      "position": {
+        "x": 378,
+        "y": 172
+      },
+      "size": 16,
+      "color": -3616548,
+      "alpha": 255,
+      "angle": 0,
+      "bold": true,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Quicksand-Regular.otf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 25,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 18,
+      "shadow": {
+        "color": -1342177280,
+        "dx": 0,
+        "dy": 2,
+        "radius": 4
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "High Low",
+      "drawing_order": 16,
+      "position": {
+        "x": 614,
+        "y": 138
+      },
+      "size": 14,
+      "color": -1527719,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-SemiBold.ttf"
+      },
+      "prefix": "HIGH ",
+      "suffix": "\u00b0",
+      "text": "",
+      "text_alignment": {
+        "align": 2
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 30,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -1342177280,
+        "dx": 0,
+        "dy": 2,
+        "radius": 4
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Sunset Label",
+      "drawing_order": 17,
+      "position": {
+        "x": 614,
+        "y": 168
+      },
+      "size": 13,
+      "color": -3616548,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-SemiBold.ttf"
+      },
+      "prefix": "DUSK ",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 2
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 67,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -1342177280,
+        "dx": 0,
+        "dy": 2,
+        "radius": 4
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Next Pill Txt",
+      "drawing_order": 18,
+      "position": {
+        "x": 324,
+        "y": 228
+      },
+      "size": 11,
+      "color": -1527719,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-SemiBold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "UP NEXT",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Event Time",
+      "drawing_order": 19,
+      "position": {
+        "x": 614,
+        "y": 228
+      },
+      "size": 12,
+      "color": -3616548,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-SemiBold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 2
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 54,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 18,
+      "shadow": {
+        "color": -1342177280,
+        "dx": 0,
+        "dy": 2,
+        "radius": 4
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Event Title",
+      "drawing_order": 20,
+      "position": {
+        "x": 276,
+        "y": 264
+      },
+      "size": 20,
+      "color": -330000,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ZillaSlab-Bold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 53,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 22,
+      "shadow": {
+        "color": -1342177280,
+        "dx": 0,
+        "dy": 2,
+        "radius": 5
+      }
+    },
+    {
+      "type": "battery_bar",
+      "id": 0,
+      "name": "Frameless Bat Bar",
+      "drawing_order": 21,
+      "position": {
+        "x": 276,
+        "y": 286
+      },
+      "width": 246,
+      "height": 6,
+      "base_color": -1607255224,
+      "base_roundness": 3,
+      "progress_bar_height": 4,
+      "progress_bar_roundness": 3,
+      "alpha": 255,
+      "angle": 0,
+      "style": 0,
+      "value_provider": 0,
+      "range": {
+        "min": 0,
+        "max": 100
+      },
+      "divisions": [
+        {
+          "color": -42442,
+          "div": 50
+        },
+        {
+          "color": -42442,
+          "div": 15
+        },
+        {
+          "color": -42442,
+          "div": 5
+        },
+        {
+          "color": -42442,
+          "div": 0
+        }
+      ],
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Bat Readout",
+      "drawing_order": 22,
+      "position": {
+        "x": 614,
+        "y": 294
+      },
+      "size": 13,
+      "color": -1527719,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-SemiBold.ttf"
+      },
+      "prefix": "BAT ",
+      "suffix": "%",
+      "text": "",
+      "text_alignment": {
+        "align": 2
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 22,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -1342177280,
+        "dx": 0,
+        "dy": 2,
+        "radius": 4
+      }
+    },
+    {
+      "type": "hotspot",
+      "id": 0,
+      "name": "Clock Hotspot",
+      "drawing_order": 23,
+      "position": {
+        "x": 14,
+        "y": 18
+      },
+      "width": 230,
+      "height": 284,
+      "shape": 0,
+      "hotspot_mode": 1,
+      "uccw_type": 0,
+      "app_name": "Clock Hotspot",
+      "intent": null,
+      "alpha": 255,
+      "angle": 0
+    },
+    {
+      "type": "hotspot",
+      "id": 0,
+      "name": "Weather Hotspot",
+      "drawing_order": 24,
+      "position": {
+        "x": 270,
+        "y": 20
+      },
+      "width": 350,
+      "height": 168,
+      "shape": 0,
+      "hotspot_mode": 1,
+      "uccw_type": 1,
+      "app_name": "Weather Hotspot",
+      "intent": null,
+      "alpha": 255,
+      "angle": 0
+    },
+    {
+      "type": "hotspot",
+      "id": 0,
+      "name": "Calendar Hotspot",
+      "drawing_order": 25,
+      "position": {
+        "x": 270,
+        "y": 200
+      },
+      "width": 350,
+      "height": 104,
+      "shape": 0,
+      "hotspot_mode": 1,
+      "uccw_type": 2,
+      "app_name": "Calendar Hotspot",
+      "intent": null,
+      "alpha": 255,
+      "angle": 0
+    }
+  ]
+}

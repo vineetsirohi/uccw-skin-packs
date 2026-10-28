@@ -1,0 +1,876 @@
+{
+  "background": {
+    "type": "BackgroundProperties",
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "alpha": 255,
+    "angle": 0,
+    "background": "assets://skin_templates/editorial/Minimalist Horizon Weather & Agenda Strip_bg.png",
+    "mode": 1,
+    "id": 0,
+    "name": "Background",
+    "image_scale_type": 2,
+    "fill_homescreen_widget": false,
+    "drawing_order": -1
+  },
+  "meta_data": {
+    "author": "UCCW Studio",
+    "height": 240,
+    "name": "Minimalist Horizon Weather & Agenda Strip",
+    "scale": 1,
+    "width": 680,
+    "author_email": null,
+    "creation_date": 0,
+    "sdcard_root_address": null,
+    "modify_date": 0,
+    "other_data": null,
+    "screen_height": 2400,
+    "screen_width": 1080,
+    "skin_version": "version_3",
+    "min_version_code": 326,
+    "min_version_name": "2.2.26"
+  },
+  "objects": [
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Top Horizon Hairline",
+      "drawing_order": 1,
+      "position": {
+        "x": 20,
+        "y": 18
+      },
+      "alpha": 140,
+      "angle": 0,
+      "roundness": 1,
+      "width": 640,
+      "height": 2,
+      "stroke": 2.0,
+      "color": -330000,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Top Left Accent Bar",
+      "drawing_order": 2,
+      "position": {
+        "x": 20,
+        "y": 16
+      },
+      "alpha": 255,
+      "angle": 0,
+      "roundness": 3,
+      "width": 92,
+      "height": 6,
+      "stroke": 2.0,
+      "color": -42442,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Bottom Horizon Hairline",
+      "drawing_order": 3,
+      "position": {
+        "x": 20,
+        "y": 220
+      },
+      "alpha": 140,
+      "angle": 0,
+      "roundness": 1,
+      "width": 640,
+      "height": 2,
+      "stroke": 2.0,
+      "color": -330000,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Vert Divider Left",
+      "drawing_order": 4,
+      "position": {
+        "x": 236,
+        "y": 38
+      },
+      "alpha": 85,
+      "angle": 0,
+      "roundness": 1,
+      "width": 2,
+      "height": 164,
+      "stroke": 2.0,
+      "color": -3616548,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Vert Divider Right",
+      "drawing_order": 5,
+      "position": {
+        "x": 456,
+        "y": 38
+      },
+      "alpha": 85,
+      "angle": 0,
+      "roundness": 1,
+      "width": 2,
+      "height": 164,
+      "stroke": 2.0,
+      "color": -3616548,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Date Pill",
+      "drawing_order": 6,
+      "position": {
+        "x": 24,
+        "y": 162
+      },
+      "alpha": 215,
+      "angle": 0,
+      "roundness": 18,
+      "width": 192,
+      "height": 36,
+      "stroke": 2.0,
+      "color": -15197148,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Date Pill Rim",
+      "drawing_order": 7,
+      "position": {
+        "x": 24,
+        "y": 162
+      },
+      "alpha": 180,
+      "angle": 0,
+      "roundness": 18,
+      "width": 192,
+      "height": 36,
+      "stroke": 1.4,
+      "color": -1527719,
+      "is_hollow": true,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Agenda Accent Pill",
+      "drawing_order": 8,
+      "position": {
+        "x": 476,
+        "y": 142
+      },
+      "alpha": 255,
+      "angle": 0,
+      "roundness": 12,
+      "width": 84,
+      "height": 24,
+      "stroke": 2.0,
+      "color": -42442,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Strip Time",
+      "drawing_order": 9,
+      "position": {
+        "x": 120,
+        "y": 132
+      },
+      "size": 74,
+      "color": -330000,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/AbrilFatface-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 19,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -1342177280,
+        "dx": 0,
+        "dy": 2,
+        "radius": 6
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Strip Date",
+      "drawing_order": 10,
+      "position": {
+        "x": 120,
+        "y": 186
+      },
+      "size": 13,
+      "color": -1527719,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-SemiBold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "{\"day_format\": 8, \"day_of_the_week_format\": 7, \"layout_format\": \"wdm\", \"month_format\": 4, \"separator\": \" \\u00b7 \", \"separator2\": \" \", \"separator3\": \" \", \"year_format\": 1}",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 2
+      },
+      "text_provider": {
+        "id": 20,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "weather_image",
+      "id": 0,
+      "name": "Strip Weather Icon",
+      "drawing_order": 11,
+      "position": {
+        "x": 252,
+        "y": 34
+      },
+      "scale": 0.52,
+      "alpha": 255,
+      "angle": 0,
+      "image_source": 0,
+      "default_index": 1,
+      "path": null
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Strip Curr Temp",
+      "drawing_order": 12,
+      "position": {
+        "x": 326,
+        "y": 86
+      },
+      "size": 40,
+      "color": -330000,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/AbrilFatface-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "\u00b0",
+      "text": "",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 24,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -1342177280,
+        "dx": 0,
+        "dy": 2,
+        "radius": 6
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Strip Cond",
+      "drawing_order": 13,
+      "position": {
+        "x": 326,
+        "y": 112
+      },
+      "size": 13,
+      "color": -3616548,
+      "alpha": 255,
+      "angle": 0,
+      "bold": true,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Quicksand-Regular.otf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 25,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 14,
+      "shadow": {
+        "color": -1342177280,
+        "dx": 0,
+        "dy": 2,
+        "radius": 4
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "F1 Day",
+      "drawing_order": 14,
+      "position": {
+        "x": 276,
+        "y": 156
+      },
+      "size": 12,
+      "color": -3616548,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-SemiBold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 32,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -1342177280,
+        "dx": 0,
+        "dy": 2,
+        "radius": 4
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "F1 Temp",
+      "drawing_order": 15,
+      "position": {
+        "x": 276,
+        "y": 192
+      },
+      "size": 22,
+      "color": -330000,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/AbrilFatface-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "\u00b0",
+      "text": "",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 34,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -1342177280,
+        "dx": 0,
+        "dy": 2,
+        "radius": 5
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "F2 Day",
+      "drawing_order": 16,
+      "position": {
+        "x": 346,
+        "y": 156
+      },
+      "size": 12,
+      "color": -3616548,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-SemiBold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 36,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -1342177280,
+        "dx": 0,
+        "dy": 2,
+        "radius": 4
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "F2 Temp",
+      "drawing_order": 17,
+      "position": {
+        "x": 346,
+        "y": 192
+      },
+      "size": 22,
+      "color": -330000,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/AbrilFatface-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "\u00b0",
+      "text": "",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 38,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -1342177280,
+        "dx": 0,
+        "dy": 2,
+        "radius": 5
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "F3 Day",
+      "drawing_order": 18,
+      "position": {
+        "x": 416,
+        "y": 156
+      },
+      "size": 12,
+      "color": -3616548,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-SemiBold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 40,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -1342177280,
+        "dx": 0,
+        "dy": 2,
+        "radius": 4
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "F3 Temp",
+      "drawing_order": 19,
+      "position": {
+        "x": 416,
+        "y": 192
+      },
+      "size": 22,
+      "color": -1527719,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/AbrilFatface-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "\u00b0",
+      "text": "",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 42,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -1342177280,
+        "dx": 0,
+        "dy": 2,
+        "radius": 5
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Strip City",
+      "drawing_order": 20,
+      "position": {
+        "x": 476,
+        "y": 62
+      },
+      "size": 14,
+      "color": -1527719,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-SemiBold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 52,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 15,
+      "shadow": {
+        "color": -1342177280,
+        "dx": 0,
+        "dy": 2,
+        "radius": 4
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Strip Dawn Dusk",
+      "drawing_order": 21,
+      "position": {
+        "x": 476,
+        "y": 88
+      },
+      "size": 12,
+      "color": -3616548,
+      "alpha": 255,
+      "angle": 0,
+      "bold": true,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Quicksand-Regular.otf"
+      },
+      "prefix": "SUNSET \u00b7 ",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 67,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -1342177280,
+        "dx": 0,
+        "dy": 2,
+        "radius": 4
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Agenda Tag Txt",
+      "drawing_order": 22,
+      "position": {
+        "x": 518,
+        "y": 159
+      },
+      "size": 10,
+      "color": -330000,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-SemiBold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "AGENDA",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Strip Cal Title",
+      "drawing_order": 23,
+      "position": {
+        "x": 476,
+        "y": 194
+      },
+      "size": 17,
+      "color": -330000,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ZillaSlab-Bold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 53,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 15,
+      "shadow": {
+        "color": -1342177280,
+        "dx": 0,
+        "dy": 2,
+        "radius": 5
+      }
+    },
+    {
+      "type": "hotspot",
+      "id": 0,
+      "name": "Clock Hotspot",
+      "drawing_order": 24,
+      "position": {
+        "x": 20,
+        "y": 22
+      },
+      "width": 210,
+      "height": 194,
+      "shape": 0,
+      "hotspot_mode": 1,
+      "uccw_type": 0,
+      "app_name": "Clock Hotspot",
+      "intent": null,
+      "alpha": 255,
+      "angle": 0
+    },
+    {
+      "type": "hotspot",
+      "id": 0,
+      "name": "Weather Hotspot",
+      "drawing_order": 25,
+      "position": {
+        "x": 240,
+        "y": 22
+      },
+      "width": 210,
+      "height": 194,
+      "shape": 0,
+      "hotspot_mode": 1,
+      "uccw_type": 1,
+      "app_name": "Weather Hotspot",
+      "intent": null,
+      "alpha": 255,
+      "angle": 0
+    },
+    {
+      "type": "hotspot",
+      "id": 0,
+      "name": "Calendar Hotspot",
+      "drawing_order": 26,
+      "position": {
+        "x": 462,
+        "y": 22
+      },
+      "width": 198,
+      "height": 194,
+      "shape": 0,
+      "hotspot_mode": 1,
+      "uccw_type": 2,
+      "app_name": "Calendar Hotspot",
+      "intent": null,
+      "alpha": 255,
+      "angle": 0
+    }
+  ]
+}

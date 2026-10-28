@@ -1,0 +1,1237 @@
+{
+  "background": {
+    "type": "BackgroundProperties",
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "alpha": 255,
+    "angle": 0,
+    "background": "assets://skin_templates/ios/Aero Glass Weather & 3-Day Prism_bg.png",
+    "mode": 1,
+    "id": 0,
+    "name": "Background",
+    "image_scale_type": 2,
+    "fill_homescreen_widget": false,
+    "drawing_order": -1
+  },
+  "meta_data": {
+    "author": "UCCW Studio",
+    "height": 380,
+    "name": "Aero Glass Weather & 3-Day Prism",
+    "scale": 1,
+    "width": 660,
+    "author_email": null,
+    "creation_date": 0,
+    "sdcard_root_address": null,
+    "modify_date": 0,
+    "other_data": null,
+    "screen_height": 2400,
+    "screen_width": 1080,
+    "skin_version": "version_3",
+    "min_version_code": 326,
+    "min_version_name": "2.2.26"
+  },
+  "objects": [
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Left Frosted Glass Pane",
+      "drawing_order": 1,
+      "position": {
+        "x": 18,
+        "y": 18
+      },
+      "alpha": 110,
+      "angle": 0,
+      "roundness": 46,
+      "width": 352,
+      "height": 344,
+      "stroke": 2.0,
+      "color": -14931134,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Left Specular Outer Rim",
+      "drawing_order": 2,
+      "position": {
+        "x": 18,
+        "y": 18
+      },
+      "alpha": 175,
+      "angle": 0,
+      "roundness": 46,
+      "width": 352,
+      "height": 344,
+      "stroke": 1.8,
+      "color": -1,
+      "is_hollow": true,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Left Specular Inner Rim",
+      "drawing_order": 3,
+      "position": {
+        "x": 24,
+        "y": 24
+      },
+      "alpha": 65,
+      "angle": 0,
+      "roundness": 40,
+      "width": 340,
+      "height": 332,
+      "stroke": 1.2,
+      "color": -9967367,
+      "is_hollow": true,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "City Glass Pill",
+      "drawing_order": 4,
+      "position": {
+        "x": 42,
+        "y": 40
+      },
+      "alpha": 135,
+      "angle": 0,
+      "roundness": 17,
+      "width": 196,
+      "height": 34,
+      "stroke": 2.0,
+      "color": -15721682,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "City Pill Rim",
+      "drawing_order": 5,
+      "position": {
+        "x": 42,
+        "y": 40
+      },
+      "alpha": 150,
+      "angle": 0,
+      "roundness": 17,
+      "width": 196,
+      "height": 34,
+      "stroke": 1.2,
+      "color": -9967367,
+      "is_hollow": true,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Weather Sub-Glass Well",
+      "drawing_order": 6,
+      "position": {
+        "x": 42,
+        "y": 206
+      },
+      "alpha": 125,
+      "angle": 0,
+      "roundness": 32,
+      "width": 304,
+      "height": 132,
+      "stroke": 2.0,
+      "color": -15721682,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Weather Well Rim",
+      "drawing_order": 7,
+      "position": {
+        "x": 42,
+        "y": 206
+      },
+      "alpha": 110,
+      "angle": 0,
+      "roundness": 32,
+      "width": 304,
+      "height": 132,
+      "stroke": 1.2,
+      "color": -1,
+      "is_hollow": true,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Right Frosted Glass Pane",
+      "drawing_order": 8,
+      "position": {
+        "x": 388,
+        "y": 18
+      },
+      "alpha": 110,
+      "angle": 0,
+      "roundness": 46,
+      "width": 254,
+      "height": 344,
+      "stroke": 2.0,
+      "color": -14931134,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Right Specular Outer Rim",
+      "drawing_order": 9,
+      "position": {
+        "x": 388,
+        "y": 18
+      },
+      "alpha": 175,
+      "angle": 0,
+      "roundness": 46,
+      "width": 254,
+      "height": 344,
+      "stroke": 1.8,
+      "color": -1,
+      "is_hollow": true,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Day 1 Glass Capsule",
+      "drawing_order": 10,
+      "position": {
+        "x": 410,
+        "y": 42
+      },
+      "alpha": 125,
+      "angle": 0,
+      "roundness": 26,
+      "width": 210,
+      "height": 68,
+      "stroke": 2.0,
+      "color": -15721682,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Day 1 Capsule Rim",
+      "drawing_order": 11,
+      "position": {
+        "x": 410,
+        "y": 42
+      },
+      "alpha": 115,
+      "angle": 0,
+      "roundness": 26,
+      "width": 210,
+      "height": 68,
+      "stroke": 1.2,
+      "color": -1,
+      "is_hollow": true,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Day 2 Glass Capsule",
+      "drawing_order": 12,
+      "position": {
+        "x": 410,
+        "y": 124
+      },
+      "alpha": 125,
+      "angle": 0,
+      "roundness": 26,
+      "width": 210,
+      "height": 68,
+      "stroke": 2.0,
+      "color": -15721682,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Day 2 Capsule Rim",
+      "drawing_order": 13,
+      "position": {
+        "x": 410,
+        "y": 124
+      },
+      "alpha": 115,
+      "angle": 0,
+      "roundness": 26,
+      "width": 210,
+      "height": 68,
+      "stroke": 1.2,
+      "color": -1,
+      "is_hollow": true,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Day 3 Glass Capsule",
+      "drawing_order": 14,
+      "position": {
+        "x": 410,
+        "y": 206
+      },
+      "alpha": 125,
+      "angle": 0,
+      "roundness": 26,
+      "width": 210,
+      "height": 68,
+      "stroke": 2.0,
+      "color": -15721682,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Day 3 Capsule Rim",
+      "drawing_order": 15,
+      "position": {
+        "x": 410,
+        "y": 206
+      },
+      "alpha": 115,
+      "angle": 0,
+      "roundness": 26,
+      "width": 210,
+      "height": 68,
+      "stroke": 1.2,
+      "color": -1,
+      "is_hollow": true,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Sun Cycle Glass Pill",
+      "drawing_order": 16,
+      "position": {
+        "x": 410,
+        "y": 292
+      },
+      "alpha": 145,
+      "angle": 0,
+      "roundness": 23,
+      "width": 210,
+      "height": 46,
+      "stroke": 2.0,
+      "color": -15721682,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Sun Cycle Rim",
+      "drawing_order": 17,
+      "position": {
+        "x": 410,
+        "y": 292
+      },
+      "alpha": 155,
+      "angle": 0,
+      "roundness": 23,
+      "width": 210,
+      "height": 46,
+      "stroke": 1.3,
+      "color": -757066,
+      "is_hollow": true,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "City Label",
+      "drawing_order": 18,
+      "position": {
+        "x": 140,
+        "y": 62
+      },
+      "size": 12,
+      "color": -9967367,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-SemiBold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 52,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 15,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Top Date",
+      "drawing_order": 19,
+      "position": {
+        "x": 344,
+        "y": 62
+      },
+      "size": 12,
+      "color": -2562315,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-SemiBold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "{\"day_format\": 8, \"day_of_the_week_format\": 7, \"layout_format\": \"wdm\", \"month_format\": 4, \"separator\": \" \\u00b7 \", \"separator2\": \" \", \"separator3\": \" \", \"year_format\": 1}",
+      "text_alignment": {
+        "align": 2
+      },
+      "text_case": {
+        "text_case": 2
+      },
+      "text_provider": {
+        "id": 20,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Aero Time",
+      "drawing_order": 20,
+      "position": {
+        "x": 194,
+        "y": 174
+      },
+      "size": 84,
+      "color": -1,
+      "alpha": 255,
+      "angle": 0,
+      "bold": true,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-Light.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 19,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -1342177280,
+        "dx": 0,
+        "dy": 2,
+        "radius": 5
+      }
+    },
+    {
+      "type": "weather_image",
+      "id": 0,
+      "name": "Weather Icon",
+      "drawing_order": 21,
+      "position": {
+        "x": 58,
+        "y": 222
+      },
+      "scale": 0.62,
+      "alpha": 255,
+      "angle": 0,
+      "image_source": 0,
+      "default_index": 1,
+      "path": null
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Curr Temp",
+      "drawing_order": 22,
+      "position": {
+        "x": 152,
+        "y": 276
+      },
+      "size": 46,
+      "color": -1,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-SemiBold.ttf"
+      },
+      "prefix": "",
+      "suffix": "\u00b0",
+      "text": "",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 24,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -1342177280,
+        "dx": 0,
+        "dy": 2,
+        "radius": 4
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Curr Cond",
+      "drawing_order": 23,
+      "position": {
+        "x": 152,
+        "y": 306
+      },
+      "size": 14,
+      "color": -9967367,
+      "alpha": 255,
+      "angle": 0,
+      "bold": true,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Quicksand-Regular.otf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 25,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 15,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "High Low",
+      "drawing_order": 24,
+      "position": {
+        "x": 326,
+        "y": 264
+      },
+      "size": 13,
+      "color": -757066,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-SemiBold.ttf"
+      },
+      "prefix": "H ",
+      "suffix": "\u00b0",
+      "text": "",
+      "text_alignment": {
+        "align": 2
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 30,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Feels Like",
+      "drawing_order": 25,
+      "position": {
+        "x": 326,
+        "y": 292
+      },
+      "size": 12,
+      "color": -2562315,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-SemiBold.ttf"
+      },
+      "prefix": "FL ",
+      "suffix": "\u00b0",
+      "text": "",
+      "text_alignment": {
+        "align": 2
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 70,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "F1 Day",
+      "drawing_order": 26,
+      "position": {
+        "x": 434,
+        "y": 82
+      },
+      "size": 14,
+      "color": -9967367,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-SemiBold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 32,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "F1 Cond",
+      "drawing_order": 27,
+      "position": {
+        "x": 514,
+        "y": 82
+      },
+      "size": 12,
+      "color": -2562315,
+      "alpha": 255,
+      "angle": 0,
+      "bold": true,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Quicksand-Regular.otf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 35,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 8,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "F1 Temp",
+      "drawing_order": 28,
+      "position": {
+        "x": 598,
+        "y": 84
+      },
+      "size": 22,
+      "color": -1,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-SemiBold.ttf"
+      },
+      "prefix": "",
+      "suffix": "\u00b0",
+      "text": "",
+      "text_alignment": {
+        "align": 2
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 34,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "F2 Day",
+      "drawing_order": 29,
+      "position": {
+        "x": 434,
+        "y": 164
+      },
+      "size": 14,
+      "color": -9967367,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-SemiBold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 36,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "F2 Cond",
+      "drawing_order": 30,
+      "position": {
+        "x": 514,
+        "y": 164
+      },
+      "size": 12,
+      "color": -2562315,
+      "alpha": 255,
+      "angle": 0,
+      "bold": true,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Quicksand-Regular.otf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 39,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 8,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "F2 Temp",
+      "drawing_order": 31,
+      "position": {
+        "x": 598,
+        "y": 166
+      },
+      "size": 22,
+      "color": -1,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-SemiBold.ttf"
+      },
+      "prefix": "",
+      "suffix": "\u00b0",
+      "text": "",
+      "text_alignment": {
+        "align": 2
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 38,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "F3 Day",
+      "drawing_order": 32,
+      "position": {
+        "x": 434,
+        "y": 246
+      },
+      "size": 14,
+      "color": -4160260,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-SemiBold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 40,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "F3 Cond",
+      "drawing_order": 33,
+      "position": {
+        "x": 514,
+        "y": 246
+      },
+      "size": 12,
+      "color": -2562315,
+      "alpha": 255,
+      "angle": 0,
+      "bold": true,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Quicksand-Regular.otf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 43,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 8,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "F3 Temp",
+      "drawing_order": 34,
+      "position": {
+        "x": 598,
+        "y": 248
+      },
+      "size": 22,
+      "color": -1,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-SemiBold.ttf"
+      },
+      "prefix": "",
+      "suffix": "\u00b0",
+      "text": "",
+      "text_alignment": {
+        "align": 2
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 42,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Dawn Txt",
+      "drawing_order": 35,
+      "position": {
+        "x": 466,
+        "y": 320
+      },
+      "size": 12,
+      "color": -9967367,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-SemiBold.ttf"
+      },
+      "prefix": "DAWN ",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 66,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Dusk Txt",
+      "drawing_order": 36,
+      "position": {
+        "x": 564,
+        "y": 320
+      },
+      "size": 12,
+      "color": -757066,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-SemiBold.ttf"
+      },
+      "prefix": "DUSK ",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 67,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "hotspot",
+      "id": 0,
+      "name": "Clock Hotspot",
+      "drawing_order": 37,
+      "position": {
+        "x": 18,
+        "y": 18
+      },
+      "width": 352,
+      "height": 184,
+      "shape": 0,
+      "hotspot_mode": 1,
+      "uccw_type": 0,
+      "app_name": "Clock Hotspot",
+      "intent": null,
+      "alpha": 255,
+      "angle": 0
+    },
+    {
+      "type": "hotspot",
+      "id": 0,
+      "name": "Weather Hotspot",
+      "drawing_order": 38,
+      "position": {
+        "x": 18,
+        "y": 206
+      },
+      "width": 624,
+      "height": 156,
+      "shape": 0,
+      "hotspot_mode": 1,
+      "uccw_type": 1,
+      "app_name": "Weather Hotspot",
+      "intent": null,
+      "alpha": 255,
+      "angle": 0
+    }
+  ]
+}
