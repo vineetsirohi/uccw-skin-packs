@@ -1,0 +1,273 @@
+{
+  "version": 1,
+  "updated_at": "2026-10-26",
+  "plugins": [
+    {
+      "id": "open_meteo_air_quality",
+      "title": "Air Quality & UV Index",
+      "subtitle": "Live US/EU AQI, UV Index, PM2.5 & PM10 for your location",
+      "category": "Weather & Environment",
+      "requires_location": true,
+      "presets": [
+        {
+          "label": "US Air Quality Index (AQI)",
+          "spec": "https://air-quality-api.open-meteo.com/v1/air-quality?latitude={lat}&longitude={lon}&current=us_aqi|current.us_aqi",
+          "prefix": "",
+          "suffix": " AQI"
+        },
+        {
+          "label": "European Air Quality Index (EAQI)",
+          "spec": "https://air-quality-api.open-meteo.com/v1/air-quality?latitude={lat}&longitude={lon}&current=european_aqi|current.european_aqi",
+          "prefix": "",
+          "suffix": " EAQI"
+        },
+        {
+          "label": "Current UV Index",
+          "spec": "https://air-quality-api.open-meteo.com/v1/air-quality?latitude={lat}&longitude={lon}&current=uv_index|current.uv_index",
+          "prefix": "UV ",
+          "suffix": ""
+        },
+        {
+          "label": "PM2.5 Fine Particles (µg/m³)",
+          "spec": "https://air-quality-api.open-meteo.com/v1/air-quality?latitude={lat}&longitude={lon}&current=pm2_5|current.pm2_5",
+          "prefix": "",
+          "suffix": " µg/m³"
+        },
+        {
+          "label": "PM10 Coarse Dust (µg/m³)",
+          "spec": "https://air-quality-api.open-meteo.com/v1/air-quality?latitude={lat}&longitude={lon}&current=pm10|current.pm10",
+          "prefix": "",
+          "suffix": " µg/m³"
+        }
+      ]
+    },
+    {
+      "id": "open_meteo_solar_atmosphere",
+      "title": "Solar & Atmospheric Telemetry",
+      "subtitle": "Solar irradiance, max UV, dew point, wind gusts & pressure",
+      "category": "Weather & Environment",
+      "requires_location": true,
+      "presets": [
+        {
+          "label": "Solar Radiation (W/m²)",
+          "spec": "https://api.open-meteo.com/v1/forecast?latitude={lat}&longitude={lon}&current=shortwave_radiation|current.shortwave_radiation",
+          "prefix": "",
+          "suffix": " W/m²"
+        },
+        {
+          "label": "Daily Max UV Index",
+          "spec": "https://api.open-meteo.com/v1/forecast?latitude={lat}&longitude={lon}&daily=uv_index_max&timezone={tz_url}|daily.uv_index_max.0",
+          "prefix": "UV Max ",
+          "suffix": ""
+        },
+        {
+          "label": "Dew Point Temperature",
+          "spec": "https://api.open-meteo.com/v1/forecast?latitude={lat}&longitude={lon}&current=dew_point_2m&temperature_unit={temp_unit}|current.dew_point_2m",
+          "prefix": "",
+          "suffix": "°"
+        },
+        {
+          "label": "Wind Gusts",
+          "spec": "https://api.open-meteo.com/v1/forecast?latitude={lat}&longitude={lon}&current=wind_gusts_10m&wind_speed_unit={speed_unit}|current.wind_gusts_10m",
+          "prefix": "Gusts ",
+          "suffix": ""
+        },
+        {
+          "label": "Surface Barometric Pressure (hPa)",
+          "spec": "https://api.open-meteo.com/v1/forecast?latitude={lat}&longitude={lon}&current=surface_pressure|current.surface_pressure",
+          "prefix": "",
+          "suffix": " hPa"
+        }
+      ]
+    },
+    {
+      "id": "coingecko_crypto_ticker",
+      "title": "Crypto Market Ticker",
+      "subtitle": "Live Bitcoin, Ethereum, Solana & custom coin prices",
+      "category": "Finance & Markets",
+      "requires_location": false,
+      "presets": [
+        {
+          "label": "Bitcoin (BTC) in Local Currency",
+          "spec": "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies={currency_lower}|bitcoin.{currency_lower}",
+          "prefix": "BTC ",
+          "suffix": ""
+        },
+        {
+          "label": "Bitcoin (BTC) in USD ($)",
+          "spec": "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd|bitcoin.usd",
+          "prefix": "$",
+          "suffix": ""
+        },
+        {
+          "label": "Ethereum (ETH) in Local Currency",
+          "spec": "https://api.coingecko.com/api/v3/simple/price?ids=ethereum&vs_currencies={currency_lower}|ethereum.{currency_lower}",
+          "prefix": "ETH ",
+          "suffix": ""
+        },
+        {
+          "label": "Ethereum (ETH) in USD ($)",
+          "spec": "https://api.coingecko.com/api/v3/simple/price?ids=ethereum&vs_currencies=usd|ethereum.usd",
+          "prefix": "$",
+          "suffix": ""
+        },
+        {
+          "label": "Solana (SOL) in USD ($)",
+          "spec": "https://api.coingecko.com/api/v3/simple/price?ids=solana&vs_currencies=usd|solana.usd",
+          "prefix": "$",
+          "suffix": ""
+        },
+        {
+          "label": "Custom Coin (Enter CoinGecko ID)",
+          "spec": "https://api.coingecko.com/api/v3/simple/price?ids={input}&vs_currencies={currency_lower}|{input}.{currency_lower}",
+          "prefix": "",
+          "suffix": "",
+          "input_key": "input",
+          "input_label": "CoinGecko ID (e.g. dogecoin, cardano, ripple)",
+          "input_default": "dogecoin"
+        }
+      ]
+    },
+    {
+      "id": "frankfurter_forex_rates",
+      "title": "Currency Exchange Rates",
+      "subtitle": "Live ECB foreign exchange rates for USD, EUR, GBP & local currency",
+      "category": "Finance & Markets",
+      "requires_location": false,
+      "presets": [
+        {
+          "label": "1 USD to Local Currency",
+          "spec": "https://api.frankfurter.dev/v1/latest?base=USD&symbols={currency}|rates.{currency}",
+          "prefix": "1 USD = ",
+          "suffix": ""
+        },
+        {
+          "label": "1 EUR to Local Currency",
+          "spec": "https://api.frankfurter.dev/v1/latest?base=EUR&symbols={currency}|rates.{currency}",
+          "prefix": "1 EUR = ",
+          "suffix": ""
+        },
+        {
+          "label": "1 GBP to Local Currency",
+          "spec": "https://api.frankfurter.dev/v1/latest?base=GBP&symbols={currency}|rates.{currency}",
+          "prefix": "1 GBP = ",
+          "suffix": ""
+        },
+        {
+          "label": "1 USD to EUR (€)",
+          "spec": "https://api.frankfurter.dev/v1/latest?base=USD&symbols=EUR|rates.EUR",
+          "prefix": "€",
+          "suffix": ""
+        },
+        {
+          "label": "1 USD to INR (₹)",
+          "spec": "https://api.frankfurter.dev/v1/latest?base=USD&symbols=INR|rates.INR",
+          "prefix": "₹",
+          "suffix": ""
+        },
+        {
+          "label": "1 USD to JPY (¥)",
+          "spec": "https://api.frankfurter.dev/v1/latest?base=USD&symbols=JPY|rates.JPY",
+          "prefix": "¥",
+          "suffix": ""
+        }
+      ]
+    },
+    {
+      "id": "nager_public_holidays",
+      "title": "Next Public Holiday",
+      "subtitle": "Upcoming national holiday in your country ({country_code})",
+      "category": "Calendar & Culture",
+      "requires_location": false,
+      "presets": [
+        {
+          "label": "Next Public Holiday Name",
+          "spec": "https://date.nager.at/api/v3/NextPublicHolidays/{country_code}|0.localName",
+          "prefix": "",
+          "suffix": ""
+        },
+        {
+          "label": "Next Public Holiday Date (YYYY-MM-DD)",
+          "spec": "https://date.nager.at/api/v3/NextPublicHolidays/{country_code}|0.date",
+          "prefix": "",
+          "suffix": ""
+        }
+      ]
+    },
+    {
+      "id": "wikipedia_on_this_day",
+      "title": "On This Day in History",
+      "subtitle": "Historical event for today's date from Wikipedia",
+      "category": "Calendar & Culture",
+      "requires_location": false,
+      "presets": [
+        {
+          "label": "Today's Historical Event Summary",
+          "spec": "https://{lang}.wikipedia.org/api/rest_v1/feed/onthisday/selected/{month_2}/{day_2}|selected.0.text",
+          "prefix": "",
+          "suffix": ""
+        },
+        {
+          "label": "Today's Historical Event Year",
+          "spec": "https://{lang}.wikipedia.org/api/rest_v1/feed/onthisday/selected/{month_2}/{day_2}|selected.0.year",
+          "prefix": "Year ",
+          "suffix": ""
+        }
+      ]
+    },
+    {
+      "id": "space_earth_telemetry",
+      "title": "Space & Earth Observatory",
+      "subtitle": "ISS orbital telemetry & USGS significant earthquake monitor",
+      "category": "Space & Science",
+      "requires_location": false,
+      "presets": [
+        {
+          "label": "ISS Orbital Altitude (km)",
+          "spec": "https://api.wheretheiss.at/v1/satellites/25544|altitude",
+          "prefix": "ISS ",
+          "suffix": " km"
+        },
+        {
+          "label": "ISS Orbital Velocity (km/h)",
+          "spec": "https://api.wheretheiss.at/v1/satellites/25544|velocity",
+          "prefix": "",
+          "suffix": " km/h"
+        },
+        {
+          "label": "Latest Significant Earthquake (USGS)",
+          "spec": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/significant_month.geojson|features.0.properties.title",
+          "prefix": "",
+          "suffix": ""
+        }
+      ]
+    },
+    {
+      "id": "daily_wisdom_facts",
+      "title": "Daily Wisdom & Facts",
+      "subtitle": "Stoic quotes, daily advice & verified fact of the day",
+      "category": "Calendar & Culture",
+      "requires_location": false,
+      "presets": [
+        {
+          "label": "Daily Stoic Quote",
+          "spec": "https://stoic.tekloon.net/stoic-quote|data.quote",
+          "prefix": "",
+          "suffix": ""
+        },
+        {
+          "label": "Fact of the Day",
+          "spec": "https://uselessfacts.jsph.pl/api/v2/facts/today?language=en|text",
+          "prefix": "",
+          "suffix": ""
+        },
+        {
+          "label": "Daily Advice Slip",
+          "spec": "https://api.adviceslip.com/advice|slip.advice",
+          "prefix": "",
+          "suffix": ""
+        }
+      ]
+    }
+  ]
+}

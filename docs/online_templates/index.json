@@ -2,6 +2,39 @@
   "manifest_version": 2,
   "collections": [
     {
+      "id": "desert_dune_mirage_2026",
+      "title": "Desert Dune & Travertine",
+      "subtitle": "4 Sculpted Travertine Arch, Sundial & Floating Pill Widgets + Matching Wallpapers",
+      "description": "Non-rectangular architectural silhouettes crafted in warm sunlit Travertine Limestone, Slate-Cerulean Sky, Burnt Ochre, and Deep Espresso: Moroccan Travertine Archway Clock & Weather, Sun & Shadow Roman Sundial Medallion, Interlocking Floating Pill Cluster, and Twin-Arch Calendar & Desert Window.",
+      "author": "UCCW Studio",
+      "category": "ios",
+      "tags": [
+        "Travertine Arch",
+        "Desert Sundial",
+        "Floating Pills",
+        "Editorial Serif"
+      ],
+      "release_date": "2026-10-28",
+      "min_version_code": 326,
+      "featured": true,
+      "notify": true,
+      "access_type": "free",
+      "product_id": null,
+      "hero_thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/desert_dune_mirage_2026/Desert%20Archway%20Editorial%20Clock%20%26%20Weather_thumb.png",
+      "wallpapers": [
+        {
+          "name": "Desert Dune Travertine (Portrait)",
+          "url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/desert_dune_mirage_2026/Desert%20Dune%20Travertine%20Portrait%20Wallpaper.jpg",
+          "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/desert_dune_mirage_2026/Desert%20Dune%20Travertine%20Portrait%20Wallpaper_thumb.jpg"
+        },
+        {
+          "name": "Desert Dune Solstice (Wide Panoramic)",
+          "url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/desert_dune_mirage_2026/Desert%20Dune%20Solstice%20Wide%20Wallpaper.jpg",
+          "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/desert_dune_mirage_2026/Desert%20Dune%20Solstice%20Wide%20Wallpaper_thumb.jpg"
+        }
+      ]
+    },
+    {
       "id": "terracotta_wave_studio_2026",
       "title": "Terracotta Wave & Organic Studio",
       "subtitle": "Warm Mid-Century Topographic Waves, Pill Badges & Calendar",
@@ -221,6 +254,58 @@
     }
   ],
   "templates": [
+    {
+      "name": "Desert Archway Editorial Clock & Weather",
+      "collection_id": "desert_dune_mirage_2026",
+      "category": "ios",
+      "categories": [
+        "ios",
+        "modern"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/desert_dune_mirage_2026/Desert%20Archway%20Editorial%20Clock%20%26%20Weather.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/desert_dune_mirage_2026/Desert%20Archway%20Editorial%20Clock%20%26%20Weather_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/desert_dune_mirage_2026/Desert%20Archway%20Editorial%20Clock%20%26%20Weather_bg.png"
+    },
+    {
+      "name": "Sun & Shadow Sundial Analog Timepiece",
+      "collection_id": "desert_dune_mirage_2026",
+      "category": "rings",
+      "categories": [
+        "rings",
+        "classic"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/desert_dune_mirage_2026/Sun%20%26%20Shadow%20Sundial%20Analog%20Timepiece.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/desert_dune_mirage_2026/Sun%20%26%20Shadow%20Sundial%20Analog%20Timepiece_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/desert_dune_mirage_2026/Sun%20%26%20Shadow%20Sundial%20Analog%20Timepiece_bg.png"
+    },
+    {
+      "name": "Dune Crest Floating Pill Cluster",
+      "collection_id": "desert_dune_mirage_2026",
+      "category": "modern",
+      "categories": [
+        "modern",
+        "ios"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/desert_dune_mirage_2026/Dune%20Crest%20Floating%20Pill%20Cluster.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/desert_dune_mirage_2026/Dune%20Crest%20Floating%20Pill%20Cluster_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/desert_dune_mirage_2026/Dune%20Crest%20Floating%20Pill%20Cluster_bg.png"
+    },
+    {
+      "name": "Twin-Arch Calendar & Desert Window",
+      "collection_id": "desert_dune_mirage_2026",
+      "category": "ios",
+      "categories": [
+        "ios",
+        "modern"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/desert_dune_mirage_2026/Twin-Arch%20Calendar%20%26%20Desert%20Window.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/desert_dune_mirage_2026/Twin-Arch%20Calendar%20%26%20Desert%20Window_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/desert_dune_mirage_2026/Twin-Arch%20Calendar%20%26%20Desert%20Window_bg.png"
+    },
     {
       "name": "Terracotta Wave Weather & 3-Day Outlook",
       "collection_id": "terracotta_wave_studio_2026",
