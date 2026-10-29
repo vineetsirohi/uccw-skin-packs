@@ -520,9 +520,12 @@
       classic: "Rings & Dial"
     };
 
+    const PAGE_SIZE = 8;
     let manifestData = null;
     let activeCategory = "all";
     let searchQuery = "";
+    let visiblePackLimit = PAGE_SIZE;
+    let loadMoreObserver = null;
     let currentShowcasePack = null;
 
     function showToast(msg) {
@@ -581,6 +584,7 @@
         btn.textContent = CATEGORY_LABELS[cat] || cat;
         btn.onclick = () => {
           activeCategory = cat;
+          visiblePackLimit = PAGE_SIZE;
           renderCategoryChips(collections);
           renderPacks();
         };
@@ -612,8 +616,21 @@
         return;
       }
 
+      if (targetPackId) {
+        const targetIdx = filtered.findIndex(c => c.id === targetPackId);
+        if (targetIdx >= visiblePackLimit) {
+          visiblePackLimit = targetIdx + 4;
+        }
+      }
+
+      if (loadMoreObserver) {
+        loadMoreObserver.disconnect();
+        loadMoreObserver = null;
+      }
+
       container.innerHTML = "";
-      filtered.forEach(col => {
+      const visibleSlice = filtered.slice(0, visiblePackLimit);
+      visibleSlice.forEach(col => {
         const packWidgets = allTemplates.filter(t => t.collection_id === col.id);
         const wallpapers = col.wallpapers || [];
         const firstWp = wallpapers[0] || null;
@@ -713,6 +730,32 @@
 
         container.appendChild(card);
       });
+
+      if (filtered.length > visibleSlice.length) {
+        const remaining = filtered.length - visibleSlice.length;
+        const sentinel = document.createElement("div");
+        sentinel.style.cssText = "text-align:center;padding:18px 0 8px;";
+        const moreBtn = document.createElement("button");
+        moreBtn.className = "btn";
+        moreBtn.type = "button";
+        moreBtn.textContent = `Load More Skin Packs (${remaining} more)`;
+        moreBtn.onclick = () => {
+          visiblePackLimit += PAGE_SIZE;
+          renderPacks();
+        };
+        sentinel.appendChild(moreBtn);
+        container.appendChild(sentinel);
+
+        if ("IntersectionObserver" in window) {
+          loadMoreObserver = new IntersectionObserver((entries) => {
+            if (entries.some(e => e.isIntersecting)) {
+              visiblePackLimit += PAGE_SIZE;
+              renderPacks();
+            }
+          }, { rootMargin: "600px" });
+          loadMoreObserver.observe(sentinel);
+        }
+      }
 
       if (targetPackId) {
         const targetEl = document.getElementById(`pack-${targetPackId}`);
@@ -897,6 +940,7 @@
     };
     document.getElementById("searchInput").oninput = (e) => {
       searchQuery = e.target.value || "";
+      visiblePackLimit = PAGE_SIZE;
       renderPacks();
     };
 
