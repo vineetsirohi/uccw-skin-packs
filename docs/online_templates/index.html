@@ -310,9 +310,7 @@
     .grid-tile.wallpaper-tile .tile-label {
       width: 100%;
       padding: 8px 10px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
+      margin-top: 0;
     }
     .tile-badge {
       position: absolute;
@@ -338,12 +336,42 @@
       font-size: 12px;
       font-weight: 500;
       color: var(--text-secondary);
-      text-align: center;
       margin-top: 8px;
       width: 100%;
-      white-space: nowrap;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+    }
+    .tile-title {
+      flex: 1;
+      min-width: 0;
+      text-align: left;
+      line-height: 1.3;
+      color: var(--text);
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
       overflow: hidden;
-      text-overflow: ellipsis;
+      word-break: break-word;
+    }
+    .tile-action-pill {
+      display: inline-flex;
+      align-items: center;
+      padding: 4px 10px;
+      border-radius: 999px;
+      font-size: 11px;
+      font-weight: 700;
+      background-color: var(--uccw-red-tint);
+      border: 1px solid rgba(239, 72, 91, 0.45);
+      color: #FF8A97;
+      white-space: nowrap;
+      flex-shrink: 0;
+    }
+    .tile-action-pill.pill-blue {
+      background-color: rgba(77, 163, 255, 0.14);
+      border-color: rgba(77, 163, 255, 0.45);
+      color: #74B9FF;
     }
 
     /* Footer Action Row */
@@ -658,11 +686,11 @@
             <a href="${wp.url}" target="_blank" rel="noopener" style="width:100%;display:block;" title="Open full-resolution 1080×2400 wallpaper">
               <img src="${wp.thumb_url || wp.url}" alt="${wp.name}" loading="lazy" crossorigin="anonymous" />
             </a>
-            <div class="tile-label" style="gap:6px;">
-              <span style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">${wp.name}</span>
-              <span style="display:inline-flex;gap:8px;flex-shrink:0;">
-                <a href="${getOpenInAppHref(col.id, { autoImport: false, applyWallpaper: true })}" class="open-in-app-link" style="color:#4DA3FF;font-weight:700;" title="1-tap apply wallpaper in UCCW">Apply</a>
-                <a href="${wp.url}" download target="_blank" rel="noopener" style="color:var(--uccw-red);font-weight:700;" title="Download full-resolution HD wallpaper">⬇ HD</a>
+            <div class="tile-label">
+              <span class="tile-title">${wp.name}</span>
+              <span style="display:inline-flex;gap:6px;flex-shrink:0;">
+                <a href="${getOpenInAppHref(col.id, { autoImport: false, applyWallpaper: true })}" class="open-in-app-link tile-action-pill pill-blue" title="1-tap apply wallpaper in UCCW">Apply</a>
+                <a href="${wp.url}" download target="_blank" rel="noopener" class="tile-action-pill" title="Download full-resolution HD wallpaper">⬇ HD</a>
               </span>
             </div>
           </div>
@@ -671,9 +699,9 @@
         const widgetTilesHtml = packWidgets.map(w => `
           <a class="grid-tile widget-tile open-in-app-link" href="${getOpenInAppHref(col.id, { autoImport: false, skinName: w.name })}" style="text-decoration:none;color:inherit;cursor:pointer;" title="1-tap import only ${w.name} in UCCW">
             <img src="${w.thumb_url}" alt="${w.name}" loading="lazy" crossorigin="anonymous" />
-            <div class="tile-label" style="gap:6px;">
-              <span style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">${w.name}</span>
-              <span style="color:var(--uccw-red);font-weight:700;flex-shrink:0;">+ Import</span>
+            <div class="tile-label">
+              <span class="tile-title">${w.name}</span>
+              <span class="tile-action-pill">+ Import</span>
             </div>
           </a>
         `).join("");
