@@ -1,0 +1,982 @@
+{
+  "background": {
+    "type": "BackgroundProperties",
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "alpha": 255,
+    "angle": 0,
+    "background": "assets://skin_templates/ios/Sage Pebble Clock, Weather & Sun Arc_bg.png",
+    "mode": 1,
+    "id": 0,
+    "name": "Background",
+    "image_scale_type": 2,
+    "fill_homescreen_widget": false,
+    "drawing_order": -1
+  },
+  "meta_data": {
+    "author": "UCCW Studio",
+    "height": 380,
+    "name": "Sage Pebble Clock, Weather & Sun Arc",
+    "scale": 1,
+    "width": 660,
+    "author_email": null,
+    "creation_date": 0,
+    "sdcard_root_address": null,
+    "modify_date": 0,
+    "other_data": null,
+    "screen_height": 2400,
+    "screen_width": 1080,
+    "skin_version": "version_3",
+    "min_version_code": 326,
+    "min_version_name": "2.2.26"
+  },
+  "objects": [
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Left Linen Pebble Card",
+      "drawing_order": 1,
+      "position": {
+        "x": 18,
+        "y": 18
+      },
+      "alpha": 255,
+      "angle": 0,
+      "roundness": 72,
+      "width": 336,
+      "height": 344,
+      "stroke": 2.0,
+      "color": -658709,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Left Pebble Rim",
+      "drawing_order": 2,
+      "position": {
+        "x": 18,
+        "y": 18
+      },
+      "alpha": 255,
+      "angle": 0,
+      "roundness": 72,
+      "width": 336,
+      "height": 344,
+      "stroke": 2.2,
+      "color": -5061448,
+      "is_hollow": true,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Sage Date Pill",
+      "drawing_order": 3,
+      "position": {
+        "x": 48,
+        "y": 44
+      },
+      "alpha": 255,
+      "angle": 0,
+      "roundness": 18,
+      "width": 188,
+      "height": 36,
+      "stroke": 2.0,
+      "color": -11900067,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Bottom Agenda Pebble",
+      "drawing_order": 4,
+      "position": {
+        "x": 44,
+        "y": 240
+      },
+      "alpha": 255,
+      "angle": 0,
+      "roundness": 38,
+      "width": 284,
+      "height": 96,
+      "stroke": 2.0,
+      "color": -2300450,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Up Next Clay Pill",
+      "drawing_order": 5,
+      "position": {
+        "x": 62,
+        "y": 254
+      },
+      "alpha": 255,
+      "angle": 0,
+      "roundness": 12,
+      "width": 88,
+      "height": 24,
+      "stroke": 2.0,
+      "color": -3768998,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Right Forest Pebble Pod",
+      "drawing_order": 6,
+      "position": {
+        "x": 372,
+        "y": 18
+      },
+      "alpha": 255,
+      "angle": 0,
+      "roundness": 68,
+      "width": 270,
+      "height": 344,
+      "stroke": 2.0,
+      "color": -14931420,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Right Pod Rim",
+      "drawing_order": 7,
+      "position": {
+        "x": 372,
+        "y": 18
+      },
+      "alpha": 255,
+      "angle": 0,
+      "roundness": 68,
+      "width": 270,
+      "height": 344,
+      "stroke": 2.0,
+      "color": -5061448,
+      "is_hollow": true,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Forecast Tray Pill",
+      "drawing_order": 8,
+      "position": {
+        "x": 394,
+        "y": 192
+      },
+      "alpha": 255,
+      "angle": 0,
+      "roundness": 34,
+      "width": 226,
+      "height": 94,
+      "stroke": 2.0,
+      "color": -14272464,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Sun Cycle Pill",
+      "drawing_order": 9,
+      "position": {
+        "x": 394,
+        "y": 298
+      },
+      "alpha": 255,
+      "angle": 0,
+      "roundness": 21,
+      "width": 226,
+      "height": 42,
+      "stroke": 2.0,
+      "color": -11900067,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Pebble Date",
+      "drawing_order": 10,
+      "position": {
+        "x": 142,
+        "y": 67
+      },
+      "size": 12,
+      "color": -658709,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-SemiBold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "{\"day_format\": 8, \"day_of_the_week_format\": 7, \"layout_format\": \"wdm\", \"month_format\": 4, \"separator\": \" \\u00b7 \", \"separator2\": \" \", \"separator3\": \" \", \"year_format\": 1}",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 2
+      },
+      "text_provider": {
+        "id": 20,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Zen Time",
+      "drawing_order": 11,
+      "position": {
+        "x": 186,
+        "y": 198
+      },
+      "size": 86,
+      "color": -14931420,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/AbrilFatface-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 19,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Next Pill Txt",
+      "drawing_order": 12,
+      "position": {
+        "x": 106,
+        "y": 270
+      },
+      "size": 10,
+      "color": -658709,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-SemiBold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "MINDFUL DAY",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Event Time",
+      "drawing_order": 13,
+      "position": {
+        "x": 308,
+        "y": 270
+      },
+      "size": 11,
+      "color": -11377060,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-SemiBold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 2
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 54,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 18,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Event Title",
+      "drawing_order": 14,
+      "position": {
+        "x": 62,
+        "y": 308
+      },
+      "size": 18,
+      "color": -14931420,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ZillaSlab-Bold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 53,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 19,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "weather_image",
+      "id": 0,
+      "name": "Weather Icon",
+      "drawing_order": 15,
+      "position": {
+        "x": 392,
+        "y": 42
+      },
+      "scale": 0.64,
+      "alpha": 255,
+      "angle": 0,
+      "image_source": 0,
+      "default_index": 1,
+      "path": null
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Forest Temp",
+      "drawing_order": 16,
+      "position": {
+        "x": 616,
+        "y": 112
+      },
+      "size": 52,
+      "color": -658709,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/AbrilFatface-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "\u00b0",
+      "text": "",
+      "text_alignment": {
+        "align": 2
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 24,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Forest Cond",
+      "drawing_order": 17,
+      "position": {
+        "x": 616,
+        "y": 144
+      },
+      "size": 14,
+      "color": -2300450,
+      "alpha": 255,
+      "angle": 0,
+      "bold": true,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Quicksand-Regular.otf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 2
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 25,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 15,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Forest Loc",
+      "drawing_order": 18,
+      "position": {
+        "x": 616,
+        "y": 170
+      },
+      "size": 12,
+      "color": -3768998,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-SemiBold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 2
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 52,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 16,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "F1 Day",
+      "drawing_order": 19,
+      "position": {
+        "x": 434,
+        "y": 224
+      },
+      "size": 12,
+      "color": -2300450,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-SemiBold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 32,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "F1 Temp",
+      "drawing_order": 20,
+      "position": {
+        "x": 434,
+        "y": 262
+      },
+      "size": 22,
+      "color": -658709,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/AbrilFatface-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "\u00b0",
+      "text": "",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 34,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "F2 Day",
+      "drawing_order": 21,
+      "position": {
+        "x": 507,
+        "y": 224
+      },
+      "size": 12,
+      "color": -2300450,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-SemiBold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 36,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "F2 Temp",
+      "drawing_order": 22,
+      "position": {
+        "x": 507,
+        "y": 262
+      },
+      "size": 22,
+      "color": -658709,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/AbrilFatface-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "\u00b0",
+      "text": "",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 38,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "F3 Day",
+      "drawing_order": 23,
+      "position": {
+        "x": 580,
+        "y": 224
+      },
+      "size": 12,
+      "color": -2300450,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-SemiBold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 40,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "F3 Temp",
+      "drawing_order": 24,
+      "position": {
+        "x": 580,
+        "y": 262
+      },
+      "size": 22,
+      "color": -3768998,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/AbrilFatface-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "\u00b0",
+      "text": "",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 42,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Dawn Txt",
+      "drawing_order": 25,
+      "position": {
+        "x": 454,
+        "y": 324
+      },
+      "size": 12,
+      "color": -658709,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-SemiBold.ttf"
+      },
+      "prefix": "DAWN ",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 66,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Dusk Txt",
+      "drawing_order": 26,
+      "position": {
+        "x": 562,
+        "y": 324
+      },
+      "size": 12,
+      "color": -2300450,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-SemiBold.ttf"
+      },
+      "prefix": "DUSK ",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 67,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "hotspot",
+      "id": 0,
+      "name": "Clock Hotspot",
+      "drawing_order": 27,
+      "position": {
+        "x": 18,
+        "y": 18
+      },
+      "width": 336,
+      "height": 214,
+      "shape": 0,
+      "hotspot_mode": 1,
+      "uccw_type": 0,
+      "app_name": "Clock Hotspot",
+      "intent": null,
+      "alpha": 255,
+      "angle": 0
+    },
+    {
+      "type": "hotspot",
+      "id": 0,
+      "name": "Calendar Hotspot",
+      "drawing_order": 28,
+      "position": {
+        "x": 18,
+        "y": 236
+      },
+      "width": 336,
+      "height": 126,
+      "shape": 0,
+      "hotspot_mode": 1,
+      "uccw_type": 2,
+      "app_name": "Calendar Hotspot",
+      "intent": null,
+      "alpha": 255,
+      "angle": 0
+    },
+    {
+      "type": "hotspot",
+      "id": 0,
+      "name": "Weather Hotspot",
+      "drawing_order": 29,
+      "position": {
+        "x": 372,
+        "y": 18
+      },
+      "width": 270,
+      "height": 344,
+      "shape": 0,
+      "hotspot_mode": 1,
+      "uccw_type": 1,
+      "app_name": "Weather Hotspot",
+      "intent": null,
+      "alpha": 255,
+      "angle": 0
+    }
+  ]
+}

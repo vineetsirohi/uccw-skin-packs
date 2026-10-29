@@ -1,0 +1,1043 @@
+{
+  "background": {
+    "type": "BackgroundProperties",
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "alpha": 255,
+    "angle": 0,
+    "background": "assets://skin_templates/modern/Neo-Tokyo Spec Sheet & Barcode Telemetry_bg.png",
+    "mode": 1,
+    "id": 0,
+    "name": "Background",
+    "image_scale_type": 2,
+    "fill_homescreen_widget": false,
+    "drawing_order": -1
+  },
+  "meta_data": {
+    "author": "UCCW Studio",
+    "height": 340,
+    "name": "Neo-Tokyo Spec Sheet & Barcode Telemetry",
+    "scale": 1,
+    "width": 660,
+    "author_email": null,
+    "creation_date": 0,
+    "sdcard_root_address": null,
+    "modify_date": 0,
+    "other_data": null,
+    "screen_height": 2400,
+    "screen_width": 1080,
+    "skin_version": "version_3",
+    "min_version_code": 326,
+    "min_version_name": "2.2.26"
+  },
+  "objects": [
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Spec Offset Shadow",
+      "drawing_order": 1,
+      "position": {
+        "x": 26,
+        "y": 26
+      },
+      "alpha": 255,
+      "angle": 0,
+      "roundness": 4,
+      "width": 616,
+      "height": 296,
+      "stroke": 2.0,
+      "color": -15592942,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Spec Paper Base",
+      "drawing_order": 2,
+      "position": {
+        "x": 18,
+        "y": 18
+      },
+      "alpha": 255,
+      "angle": 0,
+      "roundness": 4,
+      "width": 616,
+      "height": 296,
+      "stroke": 2.0,
+      "color": -790554,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Left Orange Spine",
+      "drawing_order": 3,
+      "position": {
+        "x": 18,
+        "y": 18
+      },
+      "alpha": 255,
+      "angle": 0,
+      "roundness": 0,
+      "width": 148,
+      "height": 296,
+      "stroke": 2.0,
+      "color": -50432,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Top Right Dark Header",
+      "drawing_order": 4,
+      "position": {
+        "x": 166,
+        "y": 18
+      },
+      "alpha": 255,
+      "angle": 0,
+      "roundness": 0,
+      "width": 468,
+      "height": 44,
+      "stroke": 2.0,
+      "color": -15592942,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Mid Right Ash Strip",
+      "drawing_order": 5,
+      "position": {
+        "x": 166,
+        "y": 184
+      },
+      "alpha": 255,
+      "angle": 0,
+      "roundness": 0,
+      "width": 468,
+      "height": 130,
+      "stroke": 2.0,
+      "color": -1909294,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Spec Outer Wireframe",
+      "drawing_order": 6,
+      "position": {
+        "x": 18,
+        "y": 18
+      },
+      "alpha": 255,
+      "angle": 0,
+      "roundness": 4,
+      "width": 616,
+      "height": 296,
+      "stroke": 3.5,
+      "color": -15592942,
+      "is_hollow": true,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Spine Wireframe Rule",
+      "drawing_order": 7,
+      "position": {
+        "x": 164,
+        "y": 18
+      },
+      "alpha": 255,
+      "angle": 0,
+      "roundness": 0,
+      "width": 4,
+      "height": 296,
+      "stroke": 2.0,
+      "color": -15592942,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Mid Horiz Rule",
+      "drawing_order": 8,
+      "position": {
+        "x": 166,
+        "y": 182
+      },
+      "alpha": 255,
+      "angle": 0,
+      "roundness": 0,
+      "width": 468,
+      "height": 4,
+      "stroke": 2.0,
+      "color": -15592942,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Bottom Col Rule",
+      "drawing_order": 9,
+      "position": {
+        "x": 400,
+        "y": 184
+      },
+      "alpha": 255,
+      "angle": 0,
+      "roundness": 0,
+      "width": 4,
+      "height": 130,
+      "stroke": 2.0,
+      "color": -15592942,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Spine Spec Id",
+      "drawing_order": 10,
+      "position": {
+        "x": 92,
+        "y": 48
+      },
+      "size": 13,
+      "color": -15592942,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "SPEC // 2026",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Spine Dom",
+      "drawing_order": 11,
+      "position": {
+        "x": 92,
+        "y": 152
+      },
+      "size": 86,
+      "color": -15592942,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Anton-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 8,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Spine Month",
+      "drawing_order": 12,
+      "position": {
+        "x": 92,
+        "y": 194
+      },
+      "size": 28,
+      "color": -790554,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/BebasNeue-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 4,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Spine Dow",
+      "drawing_order": 13,
+      "position": {
+        "x": 92,
+        "y": 226
+      },
+      "size": 16,
+      "color": -15592942,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "[ ",
+      "suffix": " ]",
+      "text": "",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 7,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Spine Barcode",
+      "drawing_order": 14,
+      "position": {
+        "x": 92,
+        "y": 292
+      },
+      "size": 34,
+      "color": -15592942,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/barcode.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "TYO26",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Header Sys",
+      "drawing_order": 15,
+      "position": {
+        "x": 184,
+        "y": 46
+      },
+      "size": 13,
+      "color": -790554,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "SECTOR // ",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 52,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 16,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Header Temp",
+      "drawing_order": 16,
+      "position": {
+        "x": 616,
+        "y": 46
+      },
+      "size": 14,
+      "color": -50432,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "EXT ",
+      "suffix": "\u00b0",
+      "text": "",
+      "text_alignment": {
+        "align": 2
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 24,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Spec Time",
+      "drawing_order": 17,
+      "position": {
+        "x": 184,
+        "y": 162
+      },
+      "size": 92,
+      "color": -15592942,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/BebasNeue-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 19,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Spec Cond Hdr",
+      "drawing_order": 18,
+      "position": {
+        "x": 616,
+        "y": 104
+      },
+      "size": 12,
+      "color": -10856881,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "METEOROLOGY",
+      "text_alignment": {
+        "align": 2
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Spec Cond Val",
+      "drawing_order": 19,
+      "position": {
+        "x": 616,
+        "y": 136
+      },
+      "size": 24,
+      "color": -15592942,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/BebasNeue-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 2
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 25,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 14,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Spec Wind Val",
+      "drawing_order": 20,
+      "position": {
+        "x": 616,
+        "y": 164
+      },
+      "size": 13,
+      "color": -50432,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "WIND // ",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 2
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 27,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Step Hdr",
+      "drawing_order": 21,
+      "position": {
+        "x": 184,
+        "y": 212
+      },
+      "size": 12,
+      "color": -10856881,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "01 // KINETIC STEPS",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Step Val",
+      "drawing_order": 22,
+      "position": {
+        "x": 184,
+        "y": 256
+      },
+      "size": 34,
+      "color": -15592942,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/BebasNeue-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": " ST",
+      "text": "",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 82,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "battery_bar",
+      "id": 0,
+      "name": "Step Gauge",
+      "drawing_order": 23,
+      "position": {
+        "x": 184,
+        "y": 276
+      },
+      "width": 196,
+      "height": 14,
+      "base_color": -790554,
+      "base_roundness": 7,
+      "progress_bar_height": 12,
+      "progress_bar_roundness": 7,
+      "alpha": 255,
+      "angle": 0,
+      "style": 0,
+      "value_provider": 11,
+      "range": {
+        "min": 0,
+        "max": 100
+      },
+      "divisions": [
+        {
+          "color": -50432,
+          "div": 50
+        },
+        {
+          "color": -50432,
+          "div": 15
+        },
+        {
+          "color": -50432,
+          "div": 5
+        },
+        {
+          "color": -50432,
+          "div": 0
+        }
+      ],
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Bat Hdr",
+      "drawing_order": 24,
+      "position": {
+        "x": 420,
+        "y": 212
+      },
+      "size": 12,
+      "color": -10856881,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "02 // CORE CELL",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Bat Val",
+      "drawing_order": 25,
+      "position": {
+        "x": 420,
+        "y": 256
+      },
+      "size": 34,
+      "color": -15592942,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/BebasNeue-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "%",
+      "text": "",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 22,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Ram Val",
+      "drawing_order": 26,
+      "position": {
+        "x": 614,
+        "y": 254
+      },
+      "size": 13,
+      "color": -50432,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "RAM ",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 2
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 63,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "battery_bar",
+      "id": 0,
+      "name": "Bat Gauge",
+      "drawing_order": 27,
+      "position": {
+        "x": 420,
+        "y": 276
+      },
+      "width": 194,
+      "height": 14,
+      "base_color": -790554,
+      "base_roundness": 7,
+      "progress_bar_height": 12,
+      "progress_bar_roundness": 7,
+      "alpha": 255,
+      "angle": 0,
+      "style": 0,
+      "value_provider": 0,
+      "range": {
+        "min": 0,
+        "max": 100
+      },
+      "divisions": [
+        {
+          "color": -15592942,
+          "div": 50
+        },
+        {
+          "color": -15592942,
+          "div": 15
+        },
+        {
+          "color": -15592942,
+          "div": 5
+        },
+        {
+          "color": -15592942,
+          "div": 0
+        }
+      ],
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "hotspot",
+      "id": 0,
+      "name": "Clock Hotspot",
+      "drawing_order": 28,
+      "position": {
+        "x": 166,
+        "y": 62
+      },
+      "width": 260,
+      "height": 120,
+      "shape": 0,
+      "hotspot_mode": 1,
+      "uccw_type": 0,
+      "app_name": "Clock Hotspot",
+      "intent": null,
+      "alpha": 255,
+      "angle": 0
+    },
+    {
+      "type": "hotspot",
+      "id": 0,
+      "name": "Weather Hotspot",
+      "drawing_order": 29,
+      "position": {
+        "x": 430,
+        "y": 18
+      },
+      "width": 204,
+      "height": 164,
+      "shape": 0,
+      "hotspot_mode": 1,
+      "uccw_type": 1,
+      "app_name": "Weather Hotspot",
+      "intent": null,
+      "alpha": 255,
+      "angle": 0
+    }
+  ]
+}

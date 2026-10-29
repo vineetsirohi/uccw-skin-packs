@@ -1,0 +1,543 @@
+{
+  "background": {
+    "type": "BackgroundProperties",
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "alpha": 255,
+    "angle": 0,
+    "background": "assets://skin_templates/rings/Botanical Linen Analog & Date Pebble_bg.png",
+    "mode": 1,
+    "id": 0,
+    "name": "Background",
+    "image_scale_type": 2,
+    "fill_homescreen_widget": false,
+    "drawing_order": -1
+  },
+  "meta_data": {
+    "author": "UCCW Studio",
+    "height": 500,
+    "name": "Botanical Linen Analog & Date Pebble",
+    "scale": 1,
+    "width": 500,
+    "author_email": null,
+    "creation_date": 0,
+    "sdcard_root_address": null,
+    "modify_date": 0,
+    "other_data": null,
+    "screen_height": 2400,
+    "screen_width": 1080,
+    "skin_version": "version_3",
+    "min_version_code": 326,
+    "min_version_name": "2.2.26"
+  },
+  "objects": [
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Dial Sage Date Pill",
+      "drawing_order": 1,
+      "position": {
+        "x": 156,
+        "y": 144
+      },
+      "alpha": 255,
+      "angle": 0,
+      "roundness": 16,
+      "width": 160,
+      "height": 32,
+      "stroke": 2.0,
+      "color": -11900067,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Weather Pebble Halo",
+      "drawing_order": 2,
+      "position": {
+        "x": 308,
+        "y": 308
+      },
+      "alpha": 255,
+      "angle": 0,
+      "roundness": 90,
+      "width": 180,
+      "height": 180,
+      "stroke": 2.0,
+      "color": -658709,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Weather Pebble Fill",
+      "drawing_order": 3,
+      "position": {
+        "x": 314,
+        "y": 314
+      },
+      "alpha": 255,
+      "angle": 0,
+      "roundness": 84,
+      "width": 168,
+      "height": 168,
+      "stroke": 2.0,
+      "color": -14931420,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Weather Pebble Rim",
+      "drawing_order": 4,
+      "position": {
+        "x": 314,
+        "y": 314
+      },
+      "alpha": 255,
+      "angle": 0,
+      "roundness": 84,
+      "width": 168,
+      "height": 168,
+      "stroke": 2.4,
+      "color": -11900067,
+      "is_hollow": true,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Roman XII",
+      "drawing_order": 5,
+      "position": {
+        "x": 236,
+        "y": 82
+      },
+      "size": 30,
+      "color": -14931420,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/AbrilFatface-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "XII",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Roman III",
+      "drawing_order": 6,
+      "position": {
+        "x": 404,
+        "y": 246
+      },
+      "size": 28,
+      "color": -11900067,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/AbrilFatface-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "III",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Roman VI",
+      "drawing_order": 7,
+      "position": {
+        "x": 236,
+        "y": 414
+      },
+      "size": 28,
+      "color": -14931420,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/AbrilFatface-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "VI",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Roman IX",
+      "drawing_order": 8,
+      "position": {
+        "x": 68,
+        "y": 246
+      },
+      "size": 28,
+      "color": -11900067,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/AbrilFatface-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "IX",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Dial Date",
+      "drawing_order": 9,
+      "position": {
+        "x": 236,
+        "y": 165
+      },
+      "size": 12,
+      "color": -658709,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-SemiBold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "{\"day_format\": 8, \"day_of_the_week_format\": 7, \"layout_format\": \"wdm\", \"month_format\": 4, \"separator\": \" \\u00b7 \", \"separator2\": \" \", \"separator3\": \" \", \"year_format\": 1}",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 2
+      },
+      "text_provider": {
+        "id": 20,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "standard_analog_clock_object",
+      "id": 0,
+      "name": "Botanical Hands",
+      "drawing_order": 10,
+      "position": {
+        "x": 56,
+        "y": 56
+      },
+      "alpha": 255,
+      "angle": 0,
+      "scale": 1.2,
+      "step_mode": 0,
+      "hour_mode": 0,
+      "timezone_id": "",
+      "hour_image": "assets://defaultAnalogClockHands/capsule_hour.png",
+      "minute_image": "assets://defaultAnalogClockHands/capsule_minute.png",
+      "hour_color": -14931420,
+      "minute_color": -3768998
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Botanical Cap",
+      "drawing_order": 11,
+      "position": {
+        "x": 226,
+        "y": 226
+      },
+      "alpha": 255,
+      "angle": 0,
+      "roundness": 10,
+      "width": 20,
+      "height": 20,
+      "stroke": 2,
+      "color": -11900067,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Pebble Temp",
+      "drawing_order": 12,
+      "position": {
+        "x": 398,
+        "y": 392
+      },
+      "size": 38,
+      "color": -658709,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/AbrilFatface-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "\u00b0",
+      "text": "",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 24,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Pebble Cond",
+      "drawing_order": 13,
+      "position": {
+        "x": 398,
+        "y": 420
+      },
+      "size": 12,
+      "color": -2300450,
+      "alpha": 255,
+      "angle": 0,
+      "bold": true,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Quicksand-Regular.otf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 25,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 11,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Pebble Steps",
+      "drawing_order": 14,
+      "position": {
+        "x": 398,
+        "y": 446
+      },
+      "size": 11,
+      "color": -3768998,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-SemiBold.ttf"
+      },
+      "prefix": "",
+      "suffix": " ST",
+      "text": "",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 82,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "hotspot",
+      "id": 0,
+      "name": "Clock Hotspot",
+      "drawing_order": 15,
+      "position": {
+        "x": 40,
+        "y": 40
+      },
+      "width": 350,
+      "height": 350,
+      "shape": 0,
+      "hotspot_mode": 1,
+      "uccw_type": 0,
+      "app_name": "Clock Hotspot",
+      "intent": null,
+      "alpha": 255,
+      "angle": 0
+    },
+    {
+      "type": "hotspot",
+      "id": 0,
+      "name": "Weather Hotspot",
+      "drawing_order": 16,
+      "position": {
+        "x": 314,
+        "y": 314
+      },
+      "width": 168,
+      "height": 168,
+      "shape": 0,
+      "hotspot_mode": 1,
+      "uccw_type": 1,
+      "app_name": "Weather Hotspot",
+      "intent": null,
+      "alpha": 255,
+      "angle": 0
+    }
+  ]
+}

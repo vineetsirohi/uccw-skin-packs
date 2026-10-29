@@ -2,6 +2,90 @@
   "manifest_version": 2,
   "collections": [
     {
+      "id": "neumorphic_soft_clay_2026",
+      "title": "Neumorphic Soft-Clay Tactile",
+      "subtitle": "4 Extruded Matte Ceramic, Recessed LCD & Tactile Keycap Widgets + Ceramic Relief Wallpaper",
+      "description": "Tactile industrial-design widgets crafted in Matte Ceramic (`#E6EBF2`) with dual top-left specular highlight and bottom-right soft shadow embossing, recessed dark slate LCD wells (`#1C232D`), and safety-orange hardware accents.",
+      "author": "UCCW Studio",
+      "category": "modern",
+      "tags": [
+        "Neumorphic",
+        "Soft Clay",
+        "Tactile Audio",
+        "Recessed LCD"
+      ],
+      "release_date": "2026-10-29",
+      "min_version_code": 326,
+      "featured": true,
+      "notify": true,
+      "access_type": "free",
+      "product_id": null,
+      "hero_thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/neumorphic_soft_clay_2026/Soft-Clay%20Extruded%20Clock%20%26%20Recessed%20Weather_thumb.png",
+      "wallpapers": [
+        {
+          "name": "Soft Extruded Matte Ceramic Relief Wallpaper",
+          "url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/neumorphic_soft_clay_2026/Soft%20Extruded%20Matte%20Ceramic%20Relief%20Wallpaper.jpg",
+          "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/neumorphic_soft_clay_2026/Soft%20Extruded%20Matte%20Ceramic%20Relief%20Wallpaper_thumb.jpg"
+        }
+      ]
+    },
+    {
+      "id": "botanical_sage_zen_2026",
+      "title": "Botanical Sage & Pebble Zen",
+      "subtitle": "4 Calm Nordic Sage, Warm Linen & Eucalyptus Pebble Widgets + Misty Mountain Ridge Wallpaper",
+      "description": "Calm, nature-inspired river-pebble silhouettes in Warm Raw Linen (`#F5F2EB`), Nordic Sage (`#4A6B5D`), and Deep Forest (`#1C2A24`): Sage Pebble Clock & Sun Cycle, Zen Mindfulness Step & Energy Rings, Botanical Linen Analog, and Calendar & Quote Sanctuary.",
+      "author": "UCCW Studio",
+      "category": "ios",
+      "tags": [
+        "Botanical Sage",
+        "Pebble Zen",
+        "Activity Rings",
+        "Daily Quote"
+      ],
+      "release_date": "2026-10-28",
+      "min_version_code": 326,
+      "featured": true,
+      "notify": true,
+      "access_type": "free",
+      "product_id": null,
+      "hero_thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/botanical_sage_zen_2026/Sage%20Pebble%20Clock%2C%20Weather%20%26%20Sun%20Arc_thumb.png",
+      "wallpapers": [
+        {
+          "name": "Misty Pine & Sage Mountain Ridge",
+          "url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/botanical_sage_zen_2026/Misty%20Pine%20%26%20Sage%20Mountain%20Ridge%20Wallpaper.jpg",
+          "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/botanical_sage_zen_2026/Misty%20Pine%20%26%20Sage%20Mountain%20Ridge%20Wallpaper_thumb.jpg"
+        }
+      ]
+    },
+    {
+      "id": "swiss_brutalist_grid_2026",
+      "title": "Swiss & Neo-Tokyo Brutalist Grid",
+      "subtitle": "4 Exposed-Wireframe Poster & Spec-Sheet Widgets in Paper White, Carbon Black & Signal Orange",
+      "description": "International Typographic Style meets Japanese hardware spec sheets: 6px offset brutalist block shadows, exposed 3px black wireframe cells, Signal Orange (`#FF3B00`) modules, oversized `Anton` & `BebasNeue` numerals, and real barcode serial strips.",
+      "author": "UCCW Studio",
+      "category": "retro",
+      "tags": [
+        "Swiss Brutalist",
+        "Exposed Grid",
+        "Signal Orange",
+        "Barcode Spec"
+      ],
+      "release_date": "2026-10-28",
+      "min_version_code": 326,
+      "featured": true,
+      "notify": true,
+      "access_type": "free",
+      "product_id": null,
+      "hero_thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/swiss_brutalist_grid_2026/Swiss%20Poster%20Exposed%20Grid%20Clock%20%26%20Weather_thumb.png",
+      "wallpapers": [
+        {
+          "name": "Swiss International Grid & Orange Accent",
+          "url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/swiss_brutalist_grid_2026/Swiss%20International%20Grid%20%26%20Orange%20Accent%20Wallpaper.jpg",
+          "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/swiss_brutalist_grid_2026/Swiss%20International%20Grid%20%26%20Orange%20Accent%20Wallpaper_thumb.jpg"
+        }
+      ]
+    },
+    {
       "id": "pastel_lofi_scrapbook_2026",
       "title": "Cozy Pastel Matcha & Scrapbook Studio",
       "subtitle": "4 Cozy Lo-Fi Pastel Widgets: Taped Instant Photo Frame, Matcha Vinyl Player, Quote Notebook & Scallop Clock",
@@ -338,6 +422,162 @@
     }
   ],
   "templates": [
+    {
+      "name": "Soft-Clay Extruded Clock & Recessed Weather",
+      "collection_id": "neumorphic_soft_clay_2026",
+      "category": "modern",
+      "categories": [
+        "modern",
+        "ios"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/neumorphic_soft_clay_2026/Soft-Clay%20Extruded%20Clock%20%26%20Recessed%20Weather.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/neumorphic_soft_clay_2026/Soft-Clay%20Extruded%20Clock%20%26%20Recessed%20Weather_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/neumorphic_soft_clay_2026/Soft-Clay%20Extruded%20Clock%20%26%20Recessed%20Weather_bg.png"
+    },
+    {
+      "name": "Tactile Studio Media Controller & Vinyl Well",
+      "collection_id": "neumorphic_soft_clay_2026",
+      "category": "modern",
+      "categories": [
+        "modern",
+        "retro"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/neumorphic_soft_clay_2026/Tactile%20Studio%20Media%20Controller%20%26%20Vinyl%20Well.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/neumorphic_soft_clay_2026/Tactile%20Studio%20Media%20Controller%20%26%20Vinyl%20Well_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/neumorphic_soft_clay_2026/Tactile%20Studio%20Media%20Controller%20%26%20Vinyl%20Well_bg.png"
+    },
+    {
+      "name": "Embossed Ceramic Rotary Analog & Gauges",
+      "collection_id": "neumorphic_soft_clay_2026",
+      "category": "rings",
+      "categories": [
+        "rings",
+        "modern"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/neumorphic_soft_clay_2026/Embossed%20Ceramic%20Rotary%20Analog%20%26%20Gauges.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/neumorphic_soft_clay_2026/Embossed%20Ceramic%20Rotary%20Analog%20%26%20Gauges_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/neumorphic_soft_clay_2026/Embossed%20Ceramic%20Rotary%20Analog%20%26%20Gauges_bg.png"
+    },
+    {
+      "name": "Neumorphic Tactile Calendar & Telemetry Matrix",
+      "collection_id": "neumorphic_soft_clay_2026",
+      "category": "modern",
+      "categories": [
+        "modern",
+        "ios"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/neumorphic_soft_clay_2026/Neumorphic%20Tactile%20Calendar%20%26%20Telemetry%20Matrix.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/neumorphic_soft_clay_2026/Neumorphic%20Tactile%20Calendar%20%26%20Telemetry%20Matrix_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/neumorphic_soft_clay_2026/Neumorphic%20Tactile%20Calendar%20%26%20Telemetry%20Matrix_bg.png"
+    },
+    {
+      "name": "Sage Pebble Clock, Weather & Sun Arc",
+      "collection_id": "botanical_sage_zen_2026",
+      "category": "ios",
+      "categories": [
+        "ios",
+        "modern"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/botanical_sage_zen_2026/Sage%20Pebble%20Clock%2C%20Weather%20%26%20Sun%20Arc.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/botanical_sage_zen_2026/Sage%20Pebble%20Clock%2C%20Weather%20%26%20Sun%20Arc_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/botanical_sage_zen_2026/Sage%20Pebble%20Clock%2C%20Weather%20%26%20Sun%20Arc_bg.png"
+    },
+    {
+      "name": "Zen Mindfulness Step & Activity Rings",
+      "collection_id": "botanical_sage_zen_2026",
+      "category": "rings",
+      "categories": [
+        "rings",
+        "ios"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/botanical_sage_zen_2026/Zen%20Mindfulness%20Step%20%26%20Activity%20Rings.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/botanical_sage_zen_2026/Zen%20Mindfulness%20Step%20%26%20Activity%20Rings_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/botanical_sage_zen_2026/Zen%20Mindfulness%20Step%20%26%20Activity%20Rings_bg.png"
+    },
+    {
+      "name": "Botanical Linen Analog & Date Pebble",
+      "collection_id": "botanical_sage_zen_2026",
+      "category": "rings",
+      "categories": [
+        "rings",
+        "classic"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/botanical_sage_zen_2026/Botanical%20Linen%20Analog%20%26%20Date%20Pebble.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/botanical_sage_zen_2026/Botanical%20Linen%20Analog%20%26%20Date%20Pebble_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/botanical_sage_zen_2026/Botanical%20Linen%20Analog%20%26%20Date%20Pebble_bg.png"
+    },
+    {
+      "name": "Forest & Linen Calendar & Quote Sanctuary",
+      "collection_id": "botanical_sage_zen_2026",
+      "category": "ios",
+      "categories": [
+        "ios",
+        "editorial"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/botanical_sage_zen_2026/Forest%20%26%20Linen%20Calendar%20%26%20Quote%20Sanctuary.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/botanical_sage_zen_2026/Forest%20%26%20Linen%20Calendar%20%26%20Quote%20Sanctuary_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/botanical_sage_zen_2026/Forest%20%26%20Linen%20Calendar%20%26%20Quote%20Sanctuary_bg.png"
+    },
+    {
+      "name": "Swiss Poster Exposed Grid Clock & Weather",
+      "collection_id": "swiss_brutalist_grid_2026",
+      "category": "editorial",
+      "categories": [
+        "editorial",
+        "retro"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/swiss_brutalist_grid_2026/Swiss%20Poster%20Exposed%20Grid%20Clock%20%26%20Weather.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/swiss_brutalist_grid_2026/Swiss%20Poster%20Exposed%20Grid%20Clock%20%26%20Weather_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/swiss_brutalist_grid_2026/Swiss%20Poster%20Exposed%20Grid%20Clock%20%26%20Weather_bg.png"
+    },
+    {
+      "name": "Neo-Tokyo Spec Sheet & Barcode Telemetry",
+      "collection_id": "swiss_brutalist_grid_2026",
+      "category": "modern",
+      "categories": [
+        "modern",
+        "editorial"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/swiss_brutalist_grid_2026/Neo-Tokyo%20Spec%20Sheet%20%26%20Barcode%20Telemetry.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/swiss_brutalist_grid_2026/Neo-Tokyo%20Spec%20Sheet%20%26%20Barcode%20Telemetry_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/swiss_brutalist_grid_2026/Neo-Tokyo%20Spec%20Sheet%20%26%20Barcode%20Telemetry_bg.png"
+    },
+    {
+      "name": "Brutalist International Analog & Coordinates",
+      "collection_id": "swiss_brutalist_grid_2026",
+      "category": "rings",
+      "categories": [
+        "rings",
+        "retro"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/swiss_brutalist_grid_2026/Brutalist%20International%20Analog%20%26%20Coordinates.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/swiss_brutalist_grid_2026/Brutalist%20International%20Analog%20%26%20Coordinates_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/swiss_brutalist_grid_2026/Brutalist%20International%20Analog%20%26%20Coordinates_bg.png"
+    },
+    {
+      "name": "Modular Wireframe Calendar & Agenda Poster",
+      "collection_id": "swiss_brutalist_grid_2026",
+      "category": "editorial",
+      "categories": [
+        "editorial",
+        "modern"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/swiss_brutalist_grid_2026/Modular%20Wireframe%20Calendar%20%26%20Agenda%20Poster.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/swiss_brutalist_grid_2026/Modular%20Wireframe%20Calendar%20%26%20Agenda%20Poster_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/swiss_brutalist_grid_2026/Modular%20Wireframe%20Calendar%20%26%20Agenda%20Poster_bg.png"
+    },
     {
       "name": "Taped Instant Photo & Weather Scrapbook",
       "collection_id": "pastel_lofi_scrapbook_2026",

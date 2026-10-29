@@ -537,10 +537,12 @@
       return `https://play.google.com/store/apps/details?id=in.vineetsirohi.customwidget&referrer=${ref}`;
     }
 
-    function getOpenInAppHref(packId) {
+    function getOpenInAppHref(packId, { autoImport = true, applyWallpaper = false } = {}) {
       const safeId = encodeURIComponent(packId);
       const playFallback = encodeURIComponent(getPlayStoreUrl(packId));
-      return `intent://packs?id=${safeId}#Intent;scheme=uccw;action=android.intent.action.VIEW;category=android.intent.category.BROWSABLE;package=in.vineetsirohi.customwidget;i.INTENT_FILTER=2;S.EXTRA_COLLECTION_ID=${safeId};B.EXTRA_IMPORT_COLLECTION=false;S.browser_fallback_url=${playFallback};end`;
+      const impStr = autoImport ? "1" : "0";
+      const wpStr = applyWallpaper ? "1" : "0";
+      return `intent://packs?id=${safeId}&import=${impStr}&wallpaper=${wpStr}#Intent;scheme=uccw;action=android.intent.action.VIEW;category=android.intent.category.BROWSABLE;package=in.vineetsirohi.customwidget;i.INTENT_FILTER=2;S.EXTRA_COLLECTION_ID=${safeId};B.EXTRA_IMPORT_COLLECTION=${autoImport ? "true" : "false"};B.EXTRA_APPLY_WALLPAPER=${applyWallpaper ? "true" : "false"};S.browser_fallback_url=${playFallback};end`;
     }
 
     function getSharePackUrl(packId) {
@@ -632,14 +634,19 @@
             : `${packWidgets.length} widgets`;
 
         const wpTilesHtml = wallpapers.map(wp => `
-          <a class="grid-tile wallpaper-tile" href="${wp.url}" target="_blank" rel="noopener" title="Open full-resolution wallpaper">
+          <div class="grid-tile wallpaper-tile">
             <span class="tile-badge">Wallpaper</span>
-            <img src="${wp.thumb_url || wp.url}" alt="${wp.name}" loading="lazy" crossorigin="anonymous" />
-            <div class="tile-label">
-              <span>${wp.name}</span>
-              <span style="color:var(--uccw-red);font-weight:700;">HD ↗</span>
+            <a href="${wp.url}" target="_blank" rel="noopener" style="width:100%;display:block;" title="Open full-resolution 1080×2400 wallpaper">
+              <img src="${wp.thumb_url || wp.url}" alt="${wp.name}" loading="lazy" crossorigin="anonymous" />
+            </a>
+            <div class="tile-label" style="gap:6px;">
+              <span style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">${wp.name}</span>
+              <span style="display:inline-flex;gap:8px;flex-shrink:0;">
+                <a href="${getOpenInAppHref(col.id, { autoImport: false, applyWallpaper: true })}" class="open-in-app-link" style="color:#4DA3FF;font-weight:700;" title="1-tap apply wallpaper in UCCW">Apply</a>
+                <a href="${wp.url}" download target="_blank" rel="noopener" style="color:var(--uccw-red);font-weight:700;" title="Download full-resolution HD wallpaper">⬇ HD</a>
+              </span>
             </div>
-          </a>
+          </div>
         `).join("");
 
         const widgetTilesHtml = packWidgets.map(w => `
@@ -650,6 +657,7 @@
         `).join("");
 
         const authorMeta = [col.author, col.release_date].filter(Boolean).join(" · ");
+        const hasWp = wallpapers.length > 0;
 
         card.innerHTML = `
           ${firstWp ? `<img class="pack-backdrop" src="${firstWp.thumb_url || firstWp.url}" alt="" loading="lazy" />` : ""}
@@ -670,22 +678,33 @@
               <div class="pack-actions">
                 <button class="btn copy-link-btn" type="button">Copy Link</button>
                 <button class="btn showcase-btn" type="button">Showcase Image</button>
-                <a class="btn btn-primary open-in-app-btn" href="${getOpenInAppHref(col.id)}">
-                  Open in UCCW
-                </a>
+                ${hasWp ? `
+                  <a class="btn open-in-app-link" href="${getOpenInAppHref(col.id, { autoImport: true, applyWallpaper: false })}" title="Import all widgets in this pack without changing your wallpaper">
+                    Import Widgets Only
+                  </a>
+                  <a class="btn btn-primary open-in-app-link" href="${getOpenInAppHref(col.id, { autoImport: true, applyWallpaper: true })}" title="1-tap import all widgets and apply matching homescreen wallpaper in UCCW">
+                    ⚡ Import Widgets + Wallpaper
+                  </a>
+                ` : `
+                  <a class="btn btn-primary open-in-app-link" href="${getOpenInAppHref(col.id, { autoImport: true, applyWallpaper: false })}">
+                    ⚡ Import Widgets
+                  </a>
+                `}
               </div>
             </div>
           </div>
         `;
 
-        card.querySelector(".open-in-app-btn").onclick = (e) => {
-          const isAndroid = /Android/i.test(navigator.userAgent || "");
-          if (!isAndroid) {
-            e.preventDefault();
-            navigator.clipboard.writeText(getSharePackUrl(col.id));
-            showToast("Link copied — open on your Android phone to import in UCCW");
-          }
-        };
+        card.querySelectorAll(".open-in-app-link").forEach(linkEl => {
+          linkEl.onclick = (e) => {
+            const isAndroid = /Android/i.test(navigator.userAgent || "");
+            if (!isAndroid) {
+              e.preventDefault();
+              navigator.clipboard.writeText(getSharePackUrl(col.id));
+              showToast("Link copied — open on your Android phone to import in UCCW");
+            }
+          };
+        });
         card.querySelector(".showcase-btn").onclick = () => openShowcaseModal(col, packWidgets, firstWp);
         card.querySelector(".copy-link-btn").onclick = () => {
           navigator.clipboard.writeText(getSharePackUrl(col.id));
@@ -730,7 +749,7 @@
       document.getElementById("modalPackTitle").textContent = col.title;
       modal.classList.add("open");
 
-      const shareUrl = `https://vineetsirohi.github.io/uccw-skin-packs/?pack=${col.id}`;
+      const shareUrl = `https://uccw.pages.dev/?pack=${col.id}`;
       const playUrl = getPlayStoreUrl(col.id);
       const widgetListMd = packWidgets.map(w => `- ${w.name}`).join("\n");
       const md = [

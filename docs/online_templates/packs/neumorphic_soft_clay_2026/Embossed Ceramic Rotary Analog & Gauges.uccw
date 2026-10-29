@@ -1,0 +1,722 @@
+{
+  "background": {
+    "type": "BackgroundProperties",
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "alpha": 255,
+    "angle": 0,
+    "background": "assets://skin_templates/rings/Embossed Ceramic Rotary Analog & Gauges_bg.png",
+    "mode": 1,
+    "id": 0,
+    "name": "Background",
+    "image_scale_type": 2,
+    "fill_homescreen_widget": false,
+    "drawing_order": -1
+  },
+  "meta_data": {
+    "author": "UCCW Studio",
+    "height": 500,
+    "name": "Embossed Ceramic Rotary Analog & Gauges",
+    "scale": 1,
+    "width": 500,
+    "author_email": null,
+    "creation_date": 0,
+    "sdcard_root_address": null,
+    "modify_date": 0,
+    "other_data": null,
+    "screen_height": 2400,
+    "screen_width": 1080,
+    "skin_version": "version_3",
+    "min_version_code": 326,
+    "min_version_name": "2.2.26"
+  },
+  "objects": [
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Dial LCD Pill",
+      "drawing_order": 1,
+      "position": {
+        "x": 160,
+        "y": 150
+      },
+      "alpha": 255,
+      "angle": 0,
+      "roundness": 17,
+      "width": 152,
+      "height": 34,
+      "stroke": 2.0,
+      "color": -14933203,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "battery_circle",
+      "id": 0,
+      "name": "Dial Battery Ring",
+      "drawing_order": 2,
+      "position": {
+        "x": 114,
+        "y": 114
+      },
+      "width": 244,
+      "height": 244,
+      "stroke": 10.0,
+      "style": 0,
+      "alpha": 255,
+      "angle": 0,
+      "value_provider": 0,
+      "range": {
+        "min": 0,
+        "max": 100
+      },
+      "divisions": [
+        {
+          "color": -16734058,
+          "div": 50
+        },
+        {
+          "color": -16734058,
+          "div": 15
+        },
+        {
+          "color": -16734058,
+          "div": 5
+        },
+        {
+          "color": -16734058,
+          "div": 0
+        }
+      ],
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "battery_circle",
+      "id": 0,
+      "name": "Dial Step Ring",
+      "drawing_order": 3,
+      "position": {
+        "x": 132,
+        "y": 132
+      },
+      "width": 208,
+      "height": 208,
+      "stroke": 8.0,
+      "style": 0,
+      "alpha": 255,
+      "angle": 0,
+      "value_provider": 11,
+      "range": {
+        "min": 0,
+        "max": 100
+      },
+      "divisions": [
+        {
+          "color": -42458,
+          "div": 50
+        },
+        {
+          "color": -42458,
+          "div": 15
+        },
+        {
+          "color": -42458,
+          "div": 5
+        },
+        {
+          "color": -42458,
+          "div": 0
+        }
+      ],
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Num 12",
+      "drawing_order": 4,
+      "position": {
+        "x": 236,
+        "y": 70
+      },
+      "size": 20,
+      "color": -14537928,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ChakraPetch-Bold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "12",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Num 03",
+      "drawing_order": 5,
+      "position": {
+        "x": 408,
+        "y": 243
+      },
+      "size": 20,
+      "color": -14537928,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ChakraPetch-Bold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "03",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Num 06",
+      "drawing_order": 6,
+      "position": {
+        "x": 236,
+        "y": 416
+      },
+      "size": 20,
+      "color": -14537928,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ChakraPetch-Bold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "06",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Num 09",
+      "drawing_order": 7,
+      "position": {
+        "x": 64,
+        "y": 243
+      },
+      "size": 20,
+      "color": -14537928,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ChakraPetch-Bold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "09",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Dial Date",
+      "drawing_order": 8,
+      "position": {
+        "x": 236,
+        "y": 172
+      },
+      "size": 12,
+      "color": -1905419,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "{\"day_format\": 8, \"day_of_the_week_format\": 7, \"layout_format\": \"wdm\", \"month_format\": 4, \"separator\": \"\\u00b7\", \"separator2\": \" \", \"separator3\": \" \", \"year_format\": 1}",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 2
+      },
+      "text_provider": {
+        "id": 20,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Dial Bat Sub",
+      "drawing_order": 9,
+      "position": {
+        "x": 236,
+        "y": 304
+      },
+      "size": 11,
+      "color": -10194299,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "PWR ",
+      "suffix": "%",
+      "text": "",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 22,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "standard_analog_clock_object",
+      "id": 0,
+      "name": "Ceramic Rotary Analog",
+      "drawing_order": 10,
+      "position": {
+        "x": 64,
+        "y": 64
+      },
+      "alpha": 255,
+      "angle": 0,
+      "scale": 1.15,
+      "step_mode": 0,
+      "hour_mode": 0,
+      "timezone_id": "",
+      "hour_image": "assets://defaultAnalogClockHands/capsule_hour.png",
+      "minute_image": "assets://defaultAnalogClockHands/capsule_minute.png",
+      "hour_color": -14537928,
+      "minute_color": -42458
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Center Hub Outer",
+      "drawing_order": 11,
+      "position": {
+        "x": 224,
+        "y": 224
+      },
+      "alpha": 255,
+      "angle": 0,
+      "roundness": 12,
+      "width": 24,
+      "height": 24,
+      "stroke": 2,
+      "color": -14537928,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Center Hub Pip",
+      "drawing_order": 12,
+      "position": {
+        "x": 231,
+        "y": 231
+      },
+      "alpha": 255,
+      "angle": 0,
+      "roundness": 5,
+      "width": 10,
+      "height": 10,
+      "stroke": 2,
+      "color": -42458,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Corner Weather Key Highlight",
+      "drawing_order": 13,
+      "position": {
+        "x": 310,
+        "y": 310
+      },
+      "alpha": 235,
+      "angle": 0,
+      "roundness": 44,
+      "width": 158,
+      "height": 158,
+      "stroke": 2.0,
+      "color": -1,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Corner Weather Key Shadow",
+      "drawing_order": 14,
+      "position": {
+        "x": 318,
+        "y": 318
+      },
+      "alpha": 235,
+      "angle": 0,
+      "roundness": 44,
+      "width": 158,
+      "height": 158,
+      "stroke": 2.0,
+      "color": -3813669,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Corner Weather Key Surface",
+      "drawing_order": 15,
+      "position": {
+        "x": 314,
+        "y": 314
+      },
+      "alpha": 255,
+      "angle": 0,
+      "roundness": 44,
+      "width": 158,
+      "height": 158,
+      "stroke": 2.0,
+      "color": -1249034,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Corner Orange Pip",
+      "drawing_order": 16,
+      "position": {
+        "x": 336,
+        "y": 336
+      },
+      "alpha": 255,
+      "angle": 0,
+      "roundness": 5,
+      "width": 10,
+      "height": 10,
+      "stroke": 2.0,
+      "color": -42458,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Corner Temp",
+      "drawing_order": 17,
+      "position": {
+        "x": 393,
+        "y": 396
+      },
+      "size": 40,
+      "color": -14537928,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ChakraPetch-Bold.ttf"
+      },
+      "prefix": "",
+      "suffix": "\u00b0",
+      "text": "",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 24,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Corner Cond",
+      "drawing_order": 18,
+      "position": {
+        "x": 393,
+        "y": 424
+      },
+      "size": 12,
+      "color": -10194299,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-SemiBold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 25,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 11,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Corner Steps",
+      "drawing_order": 19,
+      "position": {
+        "x": 393,
+        "y": 448
+      },
+      "size": 11,
+      "color": -16734058,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": " ST",
+      "text": "",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 82,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "hotspot",
+      "id": 0,
+      "name": "Clock Hotspot",
+      "drawing_order": 20,
+      "position": {
+        "x": 40,
+        "y": 40
+      },
+      "width": 340,
+      "height": 340,
+      "shape": 0,
+      "hotspot_mode": 1,
+      "uccw_type": 0,
+      "app_name": "Clock Hotspot",
+      "intent": null,
+      "alpha": 255,
+      "angle": 0
+    },
+    {
+      "type": "hotspot",
+      "id": 0,
+      "name": "Weather Hotspot",
+      "drawing_order": 21,
+      "position": {
+        "x": 314,
+        "y": 314
+      },
+      "width": 158,
+      "height": 158,
+      "shape": 0,
+      "hotspot_mode": 1,
+      "uccw_type": 1,
+      "app_name": "Weather Hotspot",
+      "intent": null,
+      "alpha": 255,
+      "angle": 0
+    }
+  ]
+}

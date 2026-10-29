@@ -1,0 +1,816 @@
+{
+  "background": {
+    "type": "BackgroundProperties",
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "alpha": 255,
+    "angle": 0,
+    "background": "assets://skin_templates/editorial/Modular Wireframe Calendar & Agenda Poster_bg.png",
+    "mode": 1,
+    "id": 0,
+    "name": "Background",
+    "image_scale_type": 2,
+    "fill_homescreen_widget": false,
+    "drawing_order": -1
+  },
+  "meta_data": {
+    "author": "UCCW Studio",
+    "height": 400,
+    "name": "Modular Wireframe Calendar & Agenda Poster",
+    "scale": 1,
+    "width": 660,
+    "author_email": null,
+    "creation_date": 0,
+    "sdcard_root_address": null,
+    "modify_date": 0,
+    "other_data": null,
+    "screen_height": 2400,
+    "screen_width": 1080,
+    "skin_version": "version_3",
+    "min_version_code": 326,
+    "min_version_name": "2.2.26"
+  },
+  "objects": [
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Left Module Shadow",
+      "drawing_order": 1,
+      "position": {
+        "x": 26,
+        "y": 26
+      },
+      "alpha": 255,
+      "angle": 0,
+      "roundness": 4,
+      "width": 332,
+      "height": 356,
+      "stroke": 2.0,
+      "color": -15592942,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Left Paper Card",
+      "drawing_order": 2,
+      "position": {
+        "x": 18,
+        "y": 18
+      },
+      "alpha": 255,
+      "angle": 0,
+      "roundness": 4,
+      "width": 332,
+      "height": 356,
+      "stroke": 2.0,
+      "color": -790554,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Left Orange Banner",
+      "drawing_order": 3,
+      "position": {
+        "x": 18,
+        "y": 18
+      },
+      "alpha": 255,
+      "angle": 0,
+      "roundness": 0,
+      "width": 332,
+      "height": 54,
+      "stroke": 2.0,
+      "color": -50432,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Left Banner Rule",
+      "drawing_order": 4,
+      "position": {
+        "x": 18,
+        "y": 70
+      },
+      "alpha": 255,
+      "angle": 0,
+      "roundness": 0,
+      "width": 332,
+      "height": 4,
+      "stroke": 2.0,
+      "color": -15592942,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Left Card Wireframe",
+      "drawing_order": 5,
+      "position": {
+        "x": 18,
+        "y": 18
+      },
+      "alpha": 255,
+      "angle": 0,
+      "roundness": 4,
+      "width": 332,
+      "height": 356,
+      "stroke": 3.5,
+      "color": -15592942,
+      "is_hollow": true,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Right Module Shadow",
+      "drawing_order": 6,
+      "position": {
+        "x": 380,
+        "y": 26
+      },
+      "alpha": 255,
+      "angle": 0,
+      "roundness": 4,
+      "width": 256,
+      "height": 356,
+      "stroke": 2.0,
+      "color": -15592942,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Right Paper Card",
+      "drawing_order": 7,
+      "position": {
+        "x": 372,
+        "y": 18
+      },
+      "alpha": 255,
+      "angle": 0,
+      "roundness": 4,
+      "width": 256,
+      "height": 356,
+      "stroke": 2.0,
+      "color": -790554,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Right Top Carbon Box",
+      "drawing_order": 8,
+      "position": {
+        "x": 372,
+        "y": 18
+      },
+      "alpha": 255,
+      "angle": 0,
+      "roundness": 0,
+      "width": 256,
+      "height": 184,
+      "stroke": 2.0,
+      "color": -15592942,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Right Agenda Tag",
+      "drawing_order": 9,
+      "position": {
+        "x": 392,
+        "y": 38
+      },
+      "alpha": 255,
+      "angle": 0,
+      "roundness": 2,
+      "width": 118,
+      "height": 26,
+      "stroke": 2.0,
+      "color": -50432,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Right Card Wireframe",
+      "drawing_order": 10,
+      "position": {
+        "x": 372,
+        "y": 18
+      },
+      "alpha": 255,
+      "angle": 0,
+      "roundness": 4,
+      "width": 256,
+      "height": 356,
+      "stroke": 3.5,
+      "color": -15592942,
+      "is_hollow": true,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Cal Index",
+      "drawing_order": 11,
+      "position": {
+        "x": 36,
+        "y": 52
+      },
+      "size": 12,
+      "color": -15592942,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "01 //",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Cal Month",
+      "drawing_order": 12,
+      "position": {
+        "x": 332,
+        "y": 56
+      },
+      "size": 28,
+      "color": -790554,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/BebasNeue-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 2
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 3,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "is_calendar_grid": true,
+      "id": 0,
+      "name": "Brutalist Calendar",
+      "drawing_order": 13,
+      "position": {
+        "x": 34,
+        "y": 108
+      },
+      "width": 300,
+      "row_spacing": 41,
+      "size": 14,
+      "rows_mode": 2,
+      "header_format": 2,
+      "first_day_of_week": 1,
+      "highlight_shape": 0,
+      "color": -50432,
+      "today_text_color": -1,
+      "weekday_color": -15592942,
+      "weekend_color": -50432,
+      "header_color": -10856881,
+      "alpha": 255,
+      "angle": 0,
+      "bold": true,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Roboto-Bold.ttf"
+      },
+      "text": "",
+      "prefix": "",
+      "suffix": "",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Event Tag Txt",
+      "drawing_order": 14,
+      "position": {
+        "x": 451,
+        "y": 56
+      },
+      "size": 11,
+      "color": -790554,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "02 // SCHEDULE",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Event Title",
+      "drawing_order": 15,
+      "position": {
+        "x": 392,
+        "y": 108
+      },
+      "size": 26,
+      "color": -790554,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/BebasNeue-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 53,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 16,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Event Time",
+      "drawing_order": 16,
+      "position": {
+        "x": 392,
+        "y": 140
+      },
+      "size": 13,
+      "color": -1909294,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 54,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 20,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Event Loc",
+      "drawing_order": 17,
+      "position": {
+        "x": 392,
+        "y": 174
+      },
+      "size": 12,
+      "color": -50432,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "LOC // ",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 52,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 15,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Met Hdr",
+      "drawing_order": 18,
+      "position": {
+        "x": 392,
+        "y": 232
+      },
+      "size": 11,
+      "color": -10856881,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "03 // ATMOSPHERE",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Met Temp",
+      "drawing_order": 19,
+      "position": {
+        "x": 392,
+        "y": 288
+      },
+      "size": 48,
+      "color": -15592942,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Anton-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "\u00b0",
+      "text": "",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 24,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Met Cond",
+      "drawing_order": 20,
+      "position": {
+        "x": 608,
+        "y": 266
+      },
+      "size": 18,
+      "color": -50432,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/BebasNeue-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 2
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 25,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 12,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Met Bat",
+      "drawing_order": 21,
+      "position": {
+        "x": 608,
+        "y": 290
+      },
+      "size": 12,
+      "color": -15592942,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "CELL ",
+      "suffix": "%",
+      "text": "",
+      "text_alignment": {
+        "align": 2
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 22,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Bottom Barcode",
+      "drawing_order": 22,
+      "position": {
+        "x": 500,
+        "y": 352
+      },
+      "size": 34,
+      "color": -15592942,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/barcode.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "GRID2026",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "hotspot",
+      "id": 0,
+      "name": "Calendar Hotspot",
+      "drawing_order": 23,
+      "position": {
+        "x": 18,
+        "y": 18
+      },
+      "width": 610,
+      "height": 190,
+      "shape": 0,
+      "hotspot_mode": 1,
+      "uccw_type": 2,
+      "app_name": "Calendar Hotspot",
+      "intent": null,
+      "alpha": 255,
+      "angle": 0
+    },
+    {
+      "type": "hotspot",
+      "id": 0,
+      "name": "Weather Hotspot",
+      "drawing_order": 24,
+      "position": {
+        "x": 372,
+        "y": 206
+      },
+      "width": 256,
+      "height": 168,
+      "shape": 0,
+      "hotspot_mode": 1,
+      "uccw_type": 1,
+      "app_name": "Weather Hotspot",
+      "intent": null,
+      "alpha": 255,
+      "angle": 0
+    }
+  ]
+}

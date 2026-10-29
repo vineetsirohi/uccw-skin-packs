@@ -1,0 +1,1036 @@
+{
+  "background": {
+    "type": "BackgroundProperties",
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "alpha": 255,
+    "angle": 0,
+    "background": "assets://skin_templates/modern/Tactile Studio Media Controller & Vinyl Well_bg.png",
+    "mode": 1,
+    "id": 0,
+    "name": "Background",
+    "image_scale_type": 2,
+    "fill_homescreen_widget": false,
+    "drawing_order": -1
+  },
+  "meta_data": {
+    "author": "UCCW Studio",
+    "height": 320,
+    "name": "Tactile Studio Media Controller & Vinyl Well",
+    "scale": 1,
+    "width": 660,
+    "author_email": null,
+    "creation_date": 0,
+    "sdcard_root_address": null,
+    "modify_date": 0,
+    "other_data": null,
+    "screen_height": 2400,
+    "screen_width": 1080,
+    "skin_version": "version_3",
+    "min_version_code": 326,
+    "min_version_name": "2.2.26"
+  },
+  "objects": [
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Media Chassis Highlight",
+      "drawing_order": 1,
+      "position": {
+        "x": 12,
+        "y": 12
+      },
+      "alpha": 235,
+      "angle": 0,
+      "roundness": 48,
+      "width": 624,
+      "height": 284,
+      "stroke": 2.0,
+      "color": -1,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Media Chassis Shadow",
+      "drawing_order": 2,
+      "position": {
+        "x": 24,
+        "y": 24
+      },
+      "alpha": 235,
+      "angle": 0,
+      "roundness": 48,
+      "width": 624,
+      "height": 284,
+      "stroke": 2.0,
+      "color": -3813669,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Media Chassis Surface",
+      "drawing_order": 3,
+      "position": {
+        "x": 18,
+        "y": 18
+      },
+      "alpha": 255,
+      "angle": 0,
+      "roundness": 48,
+      "width": 624,
+      "height": 284,
+      "stroke": 2.0,
+      "color": -1643534,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Platter Recessed Shadow",
+      "drawing_order": 4,
+      "position": {
+        "x": 42,
+        "y": 54
+      },
+      "alpha": 255,
+      "angle": 0,
+      "roundness": 106,
+      "width": 212,
+      "height": 212,
+      "stroke": 2.0,
+      "color": -3813669,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Platter Recessed Rim",
+      "drawing_order": 5,
+      "position": {
+        "x": 46,
+        "y": 58
+      },
+      "alpha": 255,
+      "angle": 0,
+      "roundness": 102,
+      "width": 204,
+      "height": 204,
+      "stroke": 2.0,
+      "color": -2695189,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "image",
+      "id": 0,
+      "name": "Vinyl Platter Art",
+      "drawing_order": 6,
+      "position": {
+        "x": 58,
+        "y": 70
+      },
+      "alpha": 255,
+      "angle": 0,
+      "image_source": 1,
+      "path": null,
+      "scale": 1.0,
+      "width": 180,
+      "height": 180,
+      "scale_type": 0,
+      "corner_style": 1,
+      "corner": 90,
+      "top_left_corner": true,
+      "top_right_corner": true,
+      "bottom_left_corner": true,
+      "bottom_right_corner": true,
+      "is_tint_enabled": false,
+      "tint_color": -1
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Vinyl Center Ring",
+      "drawing_order": 7,
+      "position": {
+        "x": 124,
+        "y": 136
+      },
+      "alpha": 255,
+      "angle": 0,
+      "roundness": 24,
+      "width": 48,
+      "height": 48,
+      "stroke": 2.0,
+      "color": -1249034,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Vinyl Center Hole",
+      "drawing_order": 8,
+      "position": {
+        "x": 140,
+        "y": 152
+      },
+      "alpha": 255,
+      "angle": 0,
+      "roundness": 8,
+      "width": 16,
+      "height": 16,
+      "stroke": 2.0,
+      "color": -14933203,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Track LCD Bevel",
+      "drawing_order": 9,
+      "position": {
+        "x": 282,
+        "y": 42
+      },
+      "alpha": 255,
+      "angle": 0,
+      "roundness": 26,
+      "width": 232,
+      "height": 118,
+      "stroke": 2.0,
+      "color": -3813669,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Track LCD Screen",
+      "drawing_order": 10,
+      "position": {
+        "x": 285,
+        "y": 45
+      },
+      "alpha": 255,
+      "angle": 0,
+      "roundness": 24,
+      "width": 226,
+      "height": 112,
+      "stroke": 2.0,
+      "color": -14933203,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Track LED Pip",
+      "drawing_order": 11,
+      "position": {
+        "x": 304,
+        "y": 62
+      },
+      "alpha": 255,
+      "angle": 0,
+      "roundness": 5,
+      "width": 10,
+      "height": 10,
+      "stroke": 2.0,
+      "color": -16734058,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Mini Telemetry Key Highlight",
+      "drawing_order": 12,
+      "position": {
+        "x": 525,
+        "y": 41
+      },
+      "alpha": 235,
+      "angle": 0,
+      "roundness": 24,
+      "width": 92,
+      "height": 114,
+      "stroke": 2.0,
+      "color": -1,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Mini Telemetry Key Shadow",
+      "drawing_order": 13,
+      "position": {
+        "x": 531,
+        "y": 47
+      },
+      "alpha": 235,
+      "angle": 0,
+      "roundness": 24,
+      "width": 92,
+      "height": 114,
+      "stroke": 2.0,
+      "color": -3813669,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Mini Telemetry Key Surface",
+      "drawing_order": 14,
+      "position": {
+        "x": 528,
+        "y": 44
+      },
+      "alpha": 255,
+      "angle": 0,
+      "roundness": 24,
+      "width": 92,
+      "height": 114,
+      "stroke": 2.0,
+      "color": -1249034,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Prev Keycap Highlight",
+      "drawing_order": 15,
+      "position": {
+        "x": 280,
+        "y": 180
+      },
+      "alpha": 235,
+      "angle": 0,
+      "roundness": 26,
+      "width": 96,
+      "height": 88,
+      "stroke": 2.0,
+      "color": -1,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Prev Keycap Shadow",
+      "drawing_order": 16,
+      "position": {
+        "x": 288,
+        "y": 188
+      },
+      "alpha": 235,
+      "angle": 0,
+      "roundness": 26,
+      "width": 96,
+      "height": 88,
+      "stroke": 2.0,
+      "color": -3813669,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Prev Keycap Surface",
+      "drawing_order": 17,
+      "position": {
+        "x": 284,
+        "y": 184
+      },
+      "alpha": 255,
+      "angle": 0,
+      "roundness": 26,
+      "width": 96,
+      "height": 88,
+      "stroke": 2.0,
+      "color": -1249034,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Play Keycap Highlight",
+      "drawing_order": 18,
+      "position": {
+        "x": 392,
+        "y": 180
+      },
+      "alpha": 235,
+      "angle": 0,
+      "roundness": 26,
+      "width": 112,
+      "height": 88,
+      "stroke": 2.0,
+      "color": -1,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Play Keycap Shadow",
+      "drawing_order": 19,
+      "position": {
+        "x": 400,
+        "y": 188
+      },
+      "alpha": 235,
+      "angle": 0,
+      "roundness": 26,
+      "width": 112,
+      "height": 88,
+      "stroke": 2.0,
+      "color": -3813669,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Play Keycap Surface",
+      "drawing_order": 20,
+      "position": {
+        "x": 396,
+        "y": 184
+      },
+      "alpha": 255,
+      "angle": 0,
+      "roundness": 26,
+      "width": 112,
+      "height": 88,
+      "stroke": 2.0,
+      "color": -42458,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Next Keycap Highlight",
+      "drawing_order": 21,
+      "position": {
+        "x": 520,
+        "y": 180
+      },
+      "alpha": 235,
+      "angle": 0,
+      "roundness": 26,
+      "width": 96,
+      "height": 88,
+      "stroke": 2.0,
+      "color": -1,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Next Keycap Shadow",
+      "drawing_order": 22,
+      "position": {
+        "x": 528,
+        "y": 188
+      },
+      "alpha": 235,
+      "angle": 0,
+      "roundness": 26,
+      "width": 96,
+      "height": 88,
+      "stroke": 2.0,
+      "color": -3813669,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Next Keycap Surface",
+      "drawing_order": 23,
+      "position": {
+        "x": 524,
+        "y": 184
+      },
+      "alpha": 255,
+      "angle": 0,
+      "roundness": 26,
+      "width": 96,
+      "height": 88,
+      "stroke": 2.0,
+      "color": -1249034,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "LCD Header",
+      "drawing_order": 24,
+      "position": {
+        "x": 322,
+        "y": 71
+      },
+      "size": 10,
+      "color": -16734058,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "STUDIO MONITOR",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "LCD Mini Time",
+      "drawing_order": 25,
+      "position": {
+        "x": 494,
+        "y": 71
+      },
+      "size": 11,
+      "color": -1905419,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 2
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 19,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Track Title",
+      "drawing_order": 26,
+      "position": {
+        "x": 304,
+        "y": 110
+      },
+      "size": 18,
+      "color": -1905419,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ChakraPetch-Bold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 74,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 16,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Track Artist",
+      "drawing_order": 27,
+      "position": {
+        "x": 304,
+        "y": 136
+      },
+      "size": 12,
+      "color": -42458,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-SemiBold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 75,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 20,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Deck Temp",
+      "drawing_order": 28,
+      "position": {
+        "x": 574,
+        "y": 104
+      },
+      "size": 26,
+      "color": -14537928,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ChakraPetch-Bold.ttf"
+      },
+      "prefix": "",
+      "suffix": "\u00b0",
+      "text": "",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 24,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Deck Bat",
+      "drawing_order": 29,
+      "position": {
+        "x": 574,
+        "y": 134
+      },
+      "size": 11,
+      "color": -10194299,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "BAT ",
+      "suffix": "%",
+      "text": "",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 22,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Prev Label",
+      "drawing_order": 30,
+      "position": {
+        "x": 332,
+        "y": 234
+      },
+      "size": 13,
+      "color": -14537928,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "PREV",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Play Label",
+      "drawing_order": 31,
+      "position": {
+        "x": 452,
+        "y": 234
+      },
+      "size": 14,
+      "color": -1,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "PLAY",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Next Label",
+      "drawing_order": 32,
+      "position": {
+        "x": 572,
+        "y": 234
+      },
+      "size": 13,
+      "color": -14537928,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "NEXT",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "hotspot",
+      "id": 0,
+      "name": "Music Prev Hotspot",
+      "drawing_order": 33,
+      "position": {
+        "x": 284,
+        "y": 184
+      },
+      "width": 96,
+      "height": 88,
+      "shape": 0,
+      "hotspot_mode": 1,
+      "uccw_type": 12,
+      "app_name": "Music Prev Hotspot",
+      "intent": null,
+      "alpha": 255,
+      "angle": 0
+    },
+    {
+      "type": "hotspot",
+      "id": 0,
+      "name": "Music Play Hotspot",
+      "drawing_order": 34,
+      "position": {
+        "x": 396,
+        "y": 184
+      },
+      "width": 112,
+      "height": 88,
+      "shape": 0,
+      "hotspot_mode": 1,
+      "uccw_type": 10,
+      "app_name": "Music Play Hotspot",
+      "intent": null,
+      "alpha": 255,
+      "angle": 0
+    },
+    {
+      "type": "hotspot",
+      "id": 0,
+      "name": "Music Next Hotspot",
+      "drawing_order": 35,
+      "position": {
+        "x": 524,
+        "y": 184
+      },
+      "width": 96,
+      "height": 88,
+      "shape": 0,
+      "hotspot_mode": 1,
+      "uccw_type": 11,
+      "app_name": "Music Next Hotspot",
+      "intent": null,
+      "alpha": 255,
+      "angle": 0
+    },
+    {
+      "type": "hotspot",
+      "id": 0,
+      "name": "Clock Hotspot",
+      "drawing_order": 36,
+      "position": {
+        "x": 282,
+        "y": 42
+      },
+      "width": 232,
+      "height": 118,
+      "shape": 0,
+      "hotspot_mode": 1,
+      "uccw_type": 0,
+      "app_name": "Clock Hotspot",
+      "intent": null,
+      "alpha": 255,
+      "angle": 0
+    }
+  ]
+}
