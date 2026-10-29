@@ -1,0 +1,410 @@
+{
+  "background": {
+    "type": "BackgroundProperties",
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "alpha": 255,
+    "angle": 0,
+    "background": "assets://skin_templates/classic/Square Meridian & Turntable Chrono_bg.png",
+    "mode": 1,
+    "id": 0,
+    "name": "Background",
+    "image_scale_type": 2,
+    "fill_homescreen_widget": false,
+    "drawing_order": -1
+  },
+  "meta_data": {
+    "author": "UCCW Studio",
+    "height": 500,
+    "name": "Square Meridian & Turntable Chrono",
+    "scale": 1,
+    "width": 500,
+    "author_email": null,
+    "creation_date": 0,
+    "sdcard_root_address": null,
+    "modify_date": 0,
+    "other_data": null,
+    "screen_height": 2400,
+    "screen_width": 1080,
+    "skin_version": "version_3",
+    "min_version_code": 326,
+    "min_version_name": "2.2.26"
+  },
+  "objects": [
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Meridian Brand",
+      "drawing_order": 1,
+      "position": {
+        "x": 250,
+        "y": 118
+      },
+      "size": 11,
+      "color": -1722233,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "MERIDIAN \u00b7 ACOUSTIC CHRONO",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Rotor Date",
+      "drawing_order": 2,
+      "position": {
+        "x": 250,
+        "y": 142
+      },
+      "size": 12,
+      "color": -7035976,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Roboto-Bold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "{\"day_format\": 8, \"day_of_the_week_format\": 7, \"layout_format\": \"wdm\", \"month_format\": 4, \"separator\": \" \\u00b7 \", \"separator2\": \" \", \"separator3\": \" \", \"year_format\": 1}",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 2
+      },
+      "text_provider": {
+        "id": 20,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Rotor Status",
+      "drawing_order": 3,
+      "position": {
+        "x": 250,
+        "y": 306
+      },
+      "size": 11,
+      "color": -13058568,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 77,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "battery_circle",
+      "id": 0,
+      "name": "Media Rotor Ring",
+      "drawing_order": 4,
+      "position": {
+        "x": 112,
+        "y": 76
+      },
+      "width": 276,
+      "height": 276,
+      "stroke": 4.5,
+      "style": 0,
+      "alpha": 255,
+      "angle": 0,
+      "value_provider": 12,
+      "range": {
+        "min": 0,
+        "max": 100
+      },
+      "divisions": [
+        {
+          "color": -1722233,
+          "div": 50
+        },
+        {
+          "color": -1722233,
+          "div": 15
+        },
+        {
+          "color": -1722233,
+          "div": 5
+        },
+        {
+          "color": -1722233,
+          "div": 0
+        }
+      ],
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Track Title",
+      "drawing_order": 5,
+      "position": {
+        "x": 68,
+        "y": 415
+      },
+      "size": 18,
+      "color": -460036,
+      "alpha": 255,
+      "angle": 0,
+      "bold": true,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-SemiBold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 74,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 20,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Track Artist",
+      "drawing_order": 6,
+      "position": {
+        "x": 68,
+        "y": 440
+      },
+      "size": 12,
+      "color": -1722233,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 75,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 26,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Play Glyph",
+      "drawing_order": 7,
+      "position": {
+        "x": 419,
+        "y": 427
+      },
+      "size": 16,
+      "color": -16052197,
+      "alpha": 255,
+      "angle": 0,
+      "bold": true,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Roboto-Bold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "PLAY",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "standard_analog_clock_object",
+      "id": 0,
+      "name": "Rotor Matrix Hands",
+      "drawing_order": 8,
+      "position": {
+        "x": 88,
+        "y": 52
+      },
+      "alpha": 255,
+      "angle": 0,
+      "scale": 1.08,
+      "step_mode": 0,
+      "hour_mode": 0,
+      "timezone_id": "",
+      "hour_image": "assets://defaultAnalogClockHands/matrix_hour.png",
+      "minute_image": "assets://defaultAnalogClockHands/matrix_minute.png",
+      "hour_color": -460036,
+      "minute_color": -1722233
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Rotor Cap",
+      "drawing_order": 9,
+      "position": {
+        "x": 242,
+        "y": 206
+      },
+      "alpha": 255,
+      "angle": 0,
+      "roundness": 8,
+      "width": 16,
+      "height": 16,
+      "stroke": 2,
+      "color": -45778,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "hotspot",
+      "id": 0,
+      "name": "Clock Hotspot",
+      "drawing_order": 10,
+      "position": {
+        "x": 60,
+        "y": 50
+      },
+      "width": 360,
+      "height": 320,
+      "shape": 0,
+      "hotspot_mode": 1,
+      "uccw_type": 0,
+      "app_name": "Clock Hotspot",
+      "intent": null,
+      "alpha": 255,
+      "angle": 0
+    },
+    {
+      "type": "hotspot",
+      "id": 0,
+      "name": "Media Hotspot",
+      "drawing_order": 11,
+      "position": {
+        "x": 48,
+        "y": 384
+      },
+      "width": 404,
+      "height": 72,
+      "shape": 0,
+      "hotspot_mode": 1,
+      "uccw_type": 5,
+      "app_name": "Media Hotspot",
+      "intent": null,
+      "alpha": 255,
+      "angle": 0
+    }
+  ]
+}

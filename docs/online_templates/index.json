@@ -2,6 +2,34 @@
   "manifest_version": 2,
   "collections": [
     {
+      "id": "grand_horology_atelier_2026",
+      "title": "Grand Horology & Mechanical Atelier",
+      "subtitle": "6 Distinct Haute-Horlogerie Analog Clocks (Open-Heart, Tonneau GMT, Octagon, Cushion, Bullhead & Turntable) + Rose-Gold Wallpaper",
+      "description": "Collector's box set of 6 bespoke mechanical & instrument analog timepieces crafted in Deep Midnight Enamel (`#0B101B`), Brushed Champagne Rose-Gold (`#E5B887`), Platinum Steel, and Horological Vermilion (`#FF4D2E`): Open-Heart Tourbillon & Power Reserve, Tonneau World-Timer Dual GMT, 8-Screw Octagonal Chrono & Barometer, Asymmetric Cushion Panoramadatum & Solar Arc, Bullhead Tachymeter & Step Chrono, and Chamfered Square Turntable Now-Playing Chrono.",
+      "author": "UCCW Studio",
+      "category": "classic",
+      "tags": [
+        "Grand Horology",
+        "6 Analog Clocks",
+        "Dual GMT & Chrono",
+        "Open-Heart Tourbillon"
+      ],
+      "release_date": "2026-10-29",
+      "min_version_code": 326,
+      "featured": true,
+      "notify": true,
+      "access_type": "free",
+      "product_id": null,
+      "hero_thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/grand_horology_atelier_2026/Atelier%20Open-Heart%20%26%20Power%20Reserve_thumb.png",
+      "wallpapers": [
+        {
+          "name": "Grand Horology Guilloche & Rose Gold Wallpaper",
+          "url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/grand_horology_atelier_2026/Grand%20Horology%20Guilloche%20%26%20Rose%20Gold%20Wallpaper.jpg",
+          "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/grand_horology_atelier_2026/Grand%20Horology%20Guilloche%20%26%20Rose%20Gold%20Wallpaper_thumb.jpg"
+        }
+      ]
+    },
+    {
       "id": "neumorphic_soft_clay_2026",
       "title": "Neumorphic Soft-Clay Tactile",
       "subtitle": "4 Extruded Matte Ceramic, Recessed LCD & Tactile Keycap Widgets + Ceramic Relief Wallpaper",
@@ -422,6 +450,84 @@
     }
   ],
   "templates": [
+    {
+      "name": "Atelier Open-Heart & Power Reserve",
+      "collection_id": "grand_horology_atelier_2026",
+      "category": "classic",
+      "categories": [
+        "classic",
+        "rings"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/grand_horology_atelier_2026/Atelier%20Open-Heart%20%26%20Power%20Reserve.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/grand_horology_atelier_2026/Atelier%20Open-Heart%20%26%20Power%20Reserve_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/grand_horology_atelier_2026/Atelier%20Open-Heart%20%26%20Power%20Reserve_bg.png"
+    },
+    {
+      "name": "Tonneau World-Timer Dual GMT",
+      "collection_id": "grand_horology_atelier_2026",
+      "category": "classic",
+      "categories": [
+        "classic",
+        "modern"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/grand_horology_atelier_2026/Tonneau%20World-Timer%20Dual%20GMT.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/grand_horology_atelier_2026/Tonneau%20World-Timer%20Dual%20GMT_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/grand_horology_atelier_2026/Tonneau%20World-Timer%20Dual%20GMT_bg.png"
+    },
+    {
+      "name": "Octagonal Chrono & Barometer",
+      "collection_id": "grand_horology_atelier_2026",
+      "category": "rings",
+      "categories": [
+        "rings",
+        "classic"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/grand_horology_atelier_2026/Octagonal%20Chrono%20%26%20Barometer.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/grand_horology_atelier_2026/Octagonal%20Chrono%20%26%20Barometer_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/grand_horology_atelier_2026/Octagonal%20Chrono%20%26%20Barometer_bg.png"
+    },
+    {
+      "name": "Cushion Panoramadatum & Solar Arc",
+      "collection_id": "grand_horology_atelier_2026",
+      "category": "classic",
+      "categories": [
+        "classic",
+        "editorial"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/grand_horology_atelier_2026/Cushion%20Panoramadatum%20%26%20Solar%20Arc.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/grand_horology_atelier_2026/Cushion%20Panoramadatum%20%26%20Solar%20Arc_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/grand_horology_atelier_2026/Cushion%20Panoramadatum%20%26%20Solar%20Arc_bg.png"
+    },
+    {
+      "name": "Bullhead Tachymeter & Activity Chrono",
+      "collection_id": "grand_horology_atelier_2026",
+      "category": "rings",
+      "categories": [
+        "rings",
+        "retro"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/grand_horology_atelier_2026/Bullhead%20Tachymeter%20%26%20Activity%20Chrono.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/grand_horology_atelier_2026/Bullhead%20Tachymeter%20%26%20Activity%20Chrono_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/grand_horology_atelier_2026/Bullhead%20Tachymeter%20%26%20Activity%20Chrono_bg.png"
+    },
+    {
+      "name": "Square Meridian & Turntable Chrono",
+      "collection_id": "grand_horology_atelier_2026",
+      "category": "classic",
+      "categories": [
+        "classic",
+        "retro"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/grand_horology_atelier_2026/Square%20Meridian%20%26%20Turntable%20Chrono.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/grand_horology_atelier_2026/Square%20Meridian%20%26%20Turntable%20Chrono_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/grand_horology_atelier_2026/Square%20Meridian%20%26%20Turntable%20Chrono_bg.png"
+    },
     {
       "name": "Soft-Clay Extruded Clock & Recessed Weather",
       "collection_id": "neumorphic_soft_clay_2026",
