@@ -540,12 +540,14 @@
       return `https://play.google.com/store/apps/details?id=in.vineetsirohi.customwidget&referrer=${ref}`;
     }
 
-    function getOpenInAppHref(packId, { autoImport = true, applyWallpaper = false } = {}) {
+    function getOpenInAppHref(packId, { autoImport = true, applyWallpaper = false, skinName = null } = {}) {
       const safeId = encodeURIComponent(packId);
       const playFallback = encodeURIComponent(getPlayStoreUrl(packId));
       const impStr = autoImport ? "1" : "0";
       const wpStr = applyWallpaper ? "1" : "0";
-      return `intent://packs?id=${safeId}&import=${impStr}&wallpaper=${wpStr}#Intent;scheme=uccw;action=android.intent.action.VIEW;category=android.intent.category.BROWSABLE;package=in.vineetsirohi.customwidget;i.INTENT_FILTER=2;S.EXTRA_COLLECTION_ID=${safeId};B.EXTRA_IMPORT_COLLECTION=${autoImport ? "true" : "false"};B.EXTRA_APPLY_WALLPAPER=${applyWallpaper ? "true" : "false"};S.browser_fallback_url=${playFallback};end`;
+      const skinQuery = skinName ? `&skin=${encodeURIComponent(skinName)}` : "";
+      const skinExtra = skinName ? `S.EXTRA_SKIN_NAME=${encodeURIComponent(skinName)};` : "";
+      return `intent://packs?id=${safeId}&import=${impStr}&wallpaper=${wpStr}${skinQuery}#Intent;scheme=uccw;action=android.intent.action.VIEW;category=android.intent.category.BROWSABLE;package=in.vineetsirohi.customwidget;i.INTENT_FILTER=2;S.EXTRA_COLLECTION_ID=${safeId};B.EXTRA_IMPORT_COLLECTION=${autoImport ? "true" : "false"};B.EXTRA_APPLY_WALLPAPER=${applyWallpaper ? "true" : "false"};${skinExtra}S.browser_fallback_url=${playFallback};end`;
     }
 
     function getSharePackUrl(packId) {
@@ -667,10 +669,13 @@
         `).join("");
 
         const widgetTilesHtml = packWidgets.map(w => `
-          <div class="grid-tile widget-tile">
+          <a class="grid-tile widget-tile open-in-app-link" href="${getOpenInAppHref(col.id, { autoImport: false, skinName: w.name })}" style="text-decoration:none;color:inherit;cursor:pointer;" title="1-tap import only ${w.name} in UCCW">
             <img src="${w.thumb_url}" alt="${w.name}" loading="lazy" crossorigin="anonymous" />
-            <div class="tile-label">${w.name}</div>
-          </div>
+            <div class="tile-label" style="gap:6px;">
+              <span style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">${w.name}</span>
+              <span style="color:var(--uccw-red);font-weight:700;flex-shrink:0;">+ Import</span>
+            </div>
+          </a>
         `).join("");
 
         const authorMeta = [col.author, col.release_date].filter(Boolean).join(" · ");
