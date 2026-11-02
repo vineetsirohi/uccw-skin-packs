@@ -37,7 +37,7 @@
       "type": "image",
       "id": 0,
       "name": "Cyber Album Art",
-      "drawing_order": 0,
+      "drawing_order": 1,
       "position": {
         "x": 42,
         "y": 42
@@ -62,13 +62,54 @@
     {
       "type": "text_object",
       "id": 0,
+      "name": "Stream Tag",
+      "drawing_order": 2,
+      "position": {
+        "x": 298,
+        "y": 64
+      },
+      "size": 16,
+      "color": -16715521,
+      "alpha": 255,
+      "angle": 0,
+      "bold": true,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "AUDIO_STREAM // SONIC LINK",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
       "name": "Audio Status",
-      "drawing_order": 1,
+      "drawing_order": 3,
       "position": {
         "x": 646,
-        "y": 62
+        "y": 64
       },
-      "size": 13,
+      "size": 16,
       "color": -201206,
       "alpha": 255,
       "angle": 0,
@@ -104,7 +145,7 @@
       "type": "text_object",
       "id": 0,
       "name": "Track Title",
-      "drawing_order": 2,
+      "drawing_order": 4,
       "position": {
         "x": 298,
         "y": 114
@@ -133,7 +174,7 @@
         "file": ""
       },
       "event_index": 0,
-      "max_length": 22,
+      "max_length": 20,
       "shadow": {
         "color": -16777216,
         "dx": 0,
@@ -145,12 +186,12 @@
       "type": "text_object",
       "id": 0,
       "name": "Track Artist",
-      "drawing_order": 3,
+      "drawing_order": 5,
       "position": {
         "x": 298,
         "y": 148
       },
-      "size": 16,
+      "size": 17,
       "color": -65409,
       "alpha": 255,
       "angle": 0,
@@ -174,7 +215,7 @@
         "file": ""
       },
       "event_index": 0,
-      "max_length": 26,
+      "max_length": 24,
       "shadow": {
         "color": -16777216,
         "dx": 0,
@@ -186,17 +227,17 @@
       "type": "battery_bar",
       "id": 0,
       "name": "Audio Progress",
-      "drawing_order": 4,
+      "drawing_order": 6,
       "position": {
         "x": 298,
         "y": 174
       },
       "width": 348,
       "height": 14,
-      "base_color": 1847601216,
-      "base_roundness": 4,
+      "base_color": 1847469624,
+      "base_roundness": 7,
       "progress_bar_height": 12,
-      "progress_bar_roundness": 4,
+      "progress_bar_roundness": 7,
       "alpha": 255,
       "angle": 0,
       "style": 0,
@@ -225,6 +266,129 @@
       ],
       "shadow": {
         "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Btn Prev",
+      "drawing_order": 7,
+      "position": {
+        "x": 333,
+        "y": 268
+      },
+      "size": 16,
+      "color": -16715521,
+      "alpha": 255,
+      "angle": 0,
+      "bold": true,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "<< PREV",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Btn Play",
+      "drawing_order": 8,
+      "position": {
+        "x": 472,
+        "y": 268
+      },
+      "size": 16,
+      "color": -16118508,
+      "alpha": 255,
+      "angle": 0,
+      "bold": true,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "PLAY / PAUSE",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Btn Next",
+      "drawing_order": 9,
+      "position": {
+        "x": 611,
+        "y": 268
+      },
+      "size": 16,
+      "color": -16715521,
+      "alpha": 255,
+      "angle": 0,
+      "bold": true,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "NEXT >>",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
         "dx": 0,
         "dy": 0,
         "radius": 0

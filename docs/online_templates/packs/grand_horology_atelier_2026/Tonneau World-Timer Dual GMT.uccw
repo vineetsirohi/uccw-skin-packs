@@ -40,9 +40,9 @@
       "drawing_order": 1,
       "position": {
         "x": 250,
-        "y": 138
+        "y": 142
       },
-      "size": 12,
+      "size": 16,
       "color": -1722233,
       "alpha": 255,
       "angle": 0,
@@ -54,7 +54,7 @@
       },
       "prefix": "",
       "suffix": "",
-      "text": "WORLD TIMER \u00b7 GMT",
+      "text": "WORLD TIMER",
       "text_alignment": {
         "align": 1
       },
@@ -81,9 +81,9 @@
       "drawing_order": 2,
       "position": {
         "x": 250,
-        "y": 164
+        "y": 170
       },
-      "size": 13,
+      "size": 17,
       "color": -460036,
       "alpha": 255,
       "angle": 0,
@@ -107,7 +107,7 @@
         "file": ""
       },
       "event_index": 0,
-      "max_length": 14,
+      "max_length": 13,
       "shadow": {
         "color": -16777216,
         "dx": 0,
@@ -124,7 +124,7 @@
         "x": 142,
         "y": 254
       },
-      "size": 15,
+      "size": 18,
       "color": -7035976,
       "alpha": 255,
       "angle": 0,
@@ -165,7 +165,7 @@
         "x": 358,
         "y": 256
       },
-      "size": 18,
+      "size": 22,
       "color": -1722233,
       "alpha": 255,
       "angle": 0,
@@ -204,9 +204,9 @@
       "drawing_order": 5,
       "position": {
         "x": 250,
-        "y": 336
+        "y": 342
       },
-      "size": 11,
+      "size": 16,
       "color": -13058568,
       "alpha": 255,
       "angle": 0,
@@ -218,7 +218,7 @@
       },
       "prefix": "",
       "suffix": "",
-      "text": "UTC \u00b7 LON",
+      "text": "LON",
       "text_alignment": {
         "align": 1
       },
@@ -245,9 +245,9 @@
       "drawing_order": 6,
       "position": {
         "x": 250,
-        "y": 396
+        "y": 392
       },
-      "size": 13,
+      "size": 16,
       "color": -1722233,
       "alpha": 255,
       "angle": 0,
@@ -257,7 +257,7 @@
         "type": 1,
         "font": "fonts/ShareTechMono-Regular.ttf"
       },
-      "prefix": "AIR ",
+      "prefix": "",
       "suffix": "\u00b0",
       "text": "",
       "text_alignment": {
@@ -286,7 +286,7 @@
       "drawing_order": 7,
       "position": {
         "x": 187,
-        "y": 299
+        "y": 297
       },
       "alpha": 255,
       "angle": 0,
@@ -306,7 +306,7 @@
       "drawing_order": 8,
       "position": {
         "x": 245,
-        "y": 357
+        "y": 355
       },
       "alpha": 255,
       "angle": 0,

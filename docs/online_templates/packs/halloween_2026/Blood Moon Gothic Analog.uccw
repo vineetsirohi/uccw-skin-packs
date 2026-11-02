@@ -36,8 +36,49 @@
     {
       "type": "text_object",
       "id": 0,
-      "name": "Subdial Date",
+      "name": "Dial Brand",
       "drawing_order": 0,
+      "position": {
+        "x": 250,
+        "y": 152
+      },
+      "size": 16,
+      "color": -1529732,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "BLOOD MOON \u00b7 MMXXVI",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 2
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Subdial Date",
+      "drawing_order": 1,
       "position": {
         "x": 250,
         "y": 346
@@ -78,16 +119,16 @@
       "type": "text_object",
       "id": 0,
       "name": "Subdial Temp",
-      "drawing_order": 1,
+      "drawing_order": 2,
       "position": {
-        "x": 206,
+        "x": 214,
         "y": 386
       },
       "size": 26,
-      "color": -2582,
+      "color": -661805,
       "alpha": 255,
       "angle": 0,
-      "bold": false,
+      "bold": true,
       "italic": false,
       "font": {
         "type": 1,
@@ -119,13 +160,13 @@
       "type": "text_object",
       "id": 0,
       "name": "Subdial Weather",
-      "drawing_order": 2,
+      "drawing_order": 3,
       "position": {
         "x": 282,
         "y": 384
       },
       "size": 18,
-      "color": -1526596,
+      "color": -1529732,
       "alpha": 255,
       "angle": 0,
       "bold": false,
@@ -160,79 +201,75 @@
       "type": "standard_analog_clock_object",
       "id": 0,
       "name": "Gothic Sword Hands",
-      "drawing_order": 3,
+      "drawing_order": 4,
       "position": {
         "x": 50,
         "y": 50
       },
-      "scale": 1.3333,
       "alpha": 255,
       "angle": 0,
+      "scale": 1.3333,
+      "step_mode": 0,
+      "hour_mode": 0,
+      "timezone_id": "",
       "hour_image": "assets://defaultAnalogClockHands/sword_hour.png",
       "minute_image": "assets://defaultAnalogClockHands/sword_minute.png",
       "hour_color": -29637,
-      "minute_color": -3364,
-      "hour_mode": 0,
-      "step_mode": 0,
-      "time_zone": null
+      "minute_color": -856604
     },
     {
-      "type": "shape",
+      "type": "rectangle",
       "id": 0,
       "name": "Center Cap Outer",
-      "drawing_order": 4,
+      "drawing_order": 5,
       "position": {
         "x": 240,
         "y": 240
       },
-      "width": 20,
-      "height": 20,
-      "radius_x": 10,
-      "radius_y": 10,
-      "color": -38091,
       "alpha": 255,
       "angle": 0,
-      "is_hollow": false,
+      "roundness": 10,
+      "width": 20,
+      "height": 20,
       "stroke": 2,
+      "color": -38091,
+      "is_hollow": false,
       "shadow": {
-        "color": -16777216,
+        "color": -7829368,
         "dx": 0,
         "dy": 0,
         "radius": 0
-      },
-      "shape_type": 0
+      }
     },
     {
-      "type": "shape",
+      "type": "rectangle",
       "id": 0,
       "name": "Center Cap Inner",
-      "drawing_order": 5,
+      "drawing_order": 6,
       "position": {
         "x": 245,
         "y": 245
       },
-      "width": 10,
-      "height": 10,
-      "radius_x": 5,
-      "radius_y": 5,
-      "color": -15464179,
       "alpha": 255,
       "angle": 0,
-      "is_hollow": false,
+      "roundness": 5,
+      "width": 10,
+      "height": 10,
       "stroke": 2,
+      "color": -15463411,
+      "is_hollow": false,
       "shadow": {
-        "color": -16777216,
+        "color": -7829368,
         "dx": 0,
         "dy": 0,
         "radius": 0
-      },
-      "shape_type": 0
+      }
     },
     {
       "type": "hotspot",
       "id": 0,
       "name": "Clock Hotspot",
-      "drawing_order": 9999,
+      "drawing_order": 9998,
       "position": {
         "x": 60,
         "y": 60
@@ -242,7 +279,7 @@
       "shape": 0,
       "hotspot_mode": 1,
       "uccw_type": 0,
-      "app_name": "Alarm Clock",
+      "app_name": "Clock Hotspot",
       "intent": null,
       "alpha": 255,
       "angle": 0
@@ -260,8 +297,8 @@
       "height": 96,
       "shape": 0,
       "hotspot_mode": 1,
-      "uccw_type": 0,
-      "app_name": "Calendar",
+      "uccw_type": 2,
+      "app_name": "Calendar Hotspot",
       "intent": null,
       "alpha": 255,
       "angle": 0

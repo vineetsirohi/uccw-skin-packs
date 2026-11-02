@@ -164,9 +164,9 @@
       },
       "alpha": 215,
       "angle": 0,
-      "roundness": 18,
+      "roundness": 19,
       "width": 192,
-      "height": 36,
+      "height": 38,
       "stroke": 2.0,
       "color": -15197148,
       "is_hollow": false,
@@ -188,9 +188,9 @@
       },
       "alpha": 180,
       "angle": 0,
-      "roundness": 18,
+      "roundness": 19,
       "width": 192,
-      "height": 36,
+      "height": 38,
       "stroke": 1.4,
       "color": -1527719,
       "is_hollow": true,
@@ -207,14 +207,14 @@
       "name": "Agenda Accent Pill",
       "drawing_order": 8,
       "position": {
-        "x": 476,
-        "y": 142
+        "x": 474,
+        "y": 132
       },
       "alpha": 255,
       "angle": 0,
-      "roundness": 12,
-      "width": 84,
-      "height": 24,
+      "roundness": 14,
+      "width": 96,
+      "height": 28,
       "stroke": 2.0,
       "color": -42442,
       "is_hollow": false,
@@ -273,9 +273,9 @@
       "drawing_order": 10,
       "position": {
         "x": 120,
-        "y": 186
+        "y": 187
       },
-      "size": 13,
+      "size": 16,
       "color": -1527719,
       "alpha": 255,
       "angle": 0,
@@ -329,8 +329,8 @@
       "name": "Strip Curr Temp",
       "drawing_order": 12,
       "position": {
-        "x": 326,
-        "y": 86
+        "x": 324,
+        "y": 82
       },
       "size": 40,
       "color": -330000,
@@ -370,10 +370,10 @@
       "name": "Strip Cond",
       "drawing_order": 13,
       "position": {
-        "x": 326,
+        "x": 324,
         "y": 112
       },
-      "size": 13,
+      "size": 16,
       "color": -3616548,
       "alpha": 255,
       "angle": 0,
@@ -397,7 +397,7 @@
         "file": ""
       },
       "event_index": 0,
-      "max_length": 14,
+      "max_length": 11,
       "shadow": {
         "color": -1342177280,
         "dx": 0,
@@ -412,9 +412,9 @@
       "drawing_order": 14,
       "position": {
         "x": 276,
-        "y": 156
+        "y": 154
       },
-      "size": 12,
+      "size": 16,
       "color": -3616548,
       "alpha": 255,
       "angle": 0,
@@ -453,9 +453,9 @@
       "drawing_order": 15,
       "position": {
         "x": 276,
-        "y": 192
+        "y": 194
       },
-      "size": 22,
+      "size": 24,
       "color": -330000,
       "alpha": 255,
       "angle": 0,
@@ -494,9 +494,9 @@
       "drawing_order": 16,
       "position": {
         "x": 346,
-        "y": 156
+        "y": 154
       },
-      "size": 12,
+      "size": 16,
       "color": -3616548,
       "alpha": 255,
       "angle": 0,
@@ -535,9 +535,9 @@
       "drawing_order": 17,
       "position": {
         "x": 346,
-        "y": 192
+        "y": 194
       },
-      "size": 22,
+      "size": 24,
       "color": -330000,
       "alpha": 255,
       "angle": 0,
@@ -576,9 +576,9 @@
       "drawing_order": 18,
       "position": {
         "x": 416,
-        "y": 156
+        "y": 154
       },
-      "size": 12,
+      "size": 16,
       "color": -3616548,
       "alpha": 255,
       "angle": 0,
@@ -617,9 +617,9 @@
       "drawing_order": 19,
       "position": {
         "x": 416,
-        "y": 192
+        "y": 194
       },
-      "size": 22,
+      "size": 24,
       "color": -1527719,
       "alpha": 255,
       "angle": 0,
@@ -657,10 +657,10 @@
       "name": "Strip City",
       "drawing_order": 20,
       "position": {
-        "x": 476,
-        "y": 62
+        "x": 474,
+        "y": 58
       },
-      "size": 14,
+      "size": 16,
       "color": -1527719,
       "alpha": 255,
       "angle": 0,
@@ -684,7 +684,7 @@
         "file": ""
       },
       "event_index": 0,
-      "max_length": 15,
+      "max_length": 14,
       "shadow": {
         "color": -1342177280,
         "dx": 0,
@@ -698,10 +698,10 @@
       "name": "Strip Dawn Dusk",
       "drawing_order": 21,
       "position": {
-        "x": 476,
+        "x": 474,
         "y": 88
       },
-      "size": 12,
+      "size": 16,
       "color": -3616548,
       "alpha": 255,
       "angle": 0,
@@ -739,10 +739,10 @@
       "name": "Agenda Tag Txt",
       "drawing_order": 22,
       "position": {
-        "x": 518,
-        "y": 159
+        "x": 522,
+        "y": 152
       },
-      "size": 10,
+      "size": 16,
       "color": -330000,
       "alpha": 255,
       "angle": 0,
@@ -780,10 +780,10 @@
       "name": "Strip Cal Title",
       "drawing_order": 23,
       "position": {
-        "x": 476,
+        "x": 474,
         "y": 194
       },
-      "size": 17,
+      "size": 19,
       "color": -330000,
       "alpha": 255,
       "angle": 0,
@@ -807,7 +807,7 @@
         "file": ""
       },
       "event_index": 0,
-      "max_length": 15,
+      "max_length": 14,
       "shadow": {
         "color": -1342177280,
         "dx": 0,

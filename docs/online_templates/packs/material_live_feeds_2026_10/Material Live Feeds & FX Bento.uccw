@@ -56,26 +56,21 @@
       "color": -1,
       "alpha": 255,
       "angle": 0,
-      "dynamic_color_role": 0,
-      "visibility_condition": 0,
-      "blend_mode": 0,
+      "image_source": 4,
       "path": null,
-      "scale": 1,
+      "scale": 1.0,
       "width": 268,
       "height": 124,
       "scale_type": 0,
-      "image_source": 4,
-      "icon_name": "cloud",
-      "app_package_name": "",
       "web_url": "https://cdn.star.nesdis.noaa.gov/GOES16/ABI/CONUS/GEOCOLOR/625x375.jpg",
-      "tint_enabled": false,
-      "tint_color": -1,
       "corner_style": 1,
       "corner": 28,
       "top_left_corner": true,
       "top_right_corner": true,
       "bottom_left_corner": true,
-      "bottom_right_corner": true
+      "bottom_right_corner": true,
+      "tint_enabled": false,
+      "tint_color": -1
     },
     {
       "type": "rectangle",
@@ -84,10 +79,10 @@
       "drawing_order": 3,
       "position": {
         "x": 42,
-        "y": 42
+        "y": 40
       },
       "color": -14935265,
-      "alpha": 215,
+      "alpha": 225,
       "angle": 0,
       "dynamic_color_role": 4,
       "visibility_condition": 0,
@@ -101,9 +96,9 @@
         "dy": 0,
         "color": -7829368
       },
-      "width": 136,
-      "height": 26,
-      "roundness": 13,
+      "width": 156,
+      "height": 32,
+      "roundness": 16,
       "stroke": 0,
       "is_hollow": false
     },
@@ -113,32 +108,22 @@
       "name": "Live Weather Badge Text",
       "drawing_order": 4,
       "position": {
-        "x": 110,
-        "y": 60
+        "x": 120,
+        "y": 62
       },
+      "size": 16,
       "color": -3097345,
       "alpha": 255,
       "angle": 0,
-      "dynamic_color_role": 1,
-      "visibility_condition": 0,
-      "gradient_type": 0,
-      "gradient_end_color": -16777216,
-      "gradient_angle": 45,
-      "blend_mode": 0,
-      "shadow": {
-        "radius": 0,
-        "dx": 0,
-        "dy": 0,
-        "color": -7829368
-      },
-      "size": 12,
+      "bold": false,
+      "italic": false,
       "font": {
         "type": 1,
         "font": "fonts/Poppins-SemiBold.ttf"
       },
       "prefix": "",
       "suffix": "",
-      "text": "LIVE SAT PHOTO",
+      "text": "LIVE SAT",
       "text_alignment": {
         "align": 1
       },
@@ -150,7 +135,14 @@
         "file": ""
       },
       "event_index": 0,
-      "max_length": 0
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      },
+      "dynamic_color_role": 1
     },
     {
       "type": "text_object",
@@ -158,25 +150,15 @@
       "name": "Current Temp",
       "drawing_order": 5,
       "position": {
-        "x": 36,
-        "y": 206
+        "x": 34,
+        "y": 208
       },
+      "size": 44,
       "color": -3097345,
       "alpha": 255,
       "angle": 0,
-      "dynamic_color_role": 1,
-      "visibility_condition": 0,
-      "gradient_type": 0,
-      "gradient_end_color": -16777216,
-      "gradient_angle": 45,
-      "blend_mode": 0,
-      "shadow": {
-        "radius": 0,
-        "dx": 0,
-        "dy": 0,
-        "color": -7829368
-      },
-      "size": 44,
+      "bold": false,
+      "italic": false,
       "font": {
         "type": 1,
         "font": "fonts/Poppins-SemiBold.ttf"
@@ -195,7 +177,14 @@
         "file": ""
       },
       "event_index": 0,
-      "max_length": 0
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      },
+      "dynamic_color_role": 1
     },
     {
       "type": "text_object",
@@ -203,25 +192,15 @@
       "name": "Weather City",
       "drawing_order": 6,
       "position": {
-        "x": 128,
+        "x": 122,
         "y": 184
       },
+      "size": 16,
       "color": -3097345,
       "alpha": 255,
       "angle": 0,
-      "dynamic_color_role": 1,
-      "visibility_condition": 0,
-      "gradient_type": 0,
-      "gradient_end_color": -16777216,
-      "gradient_angle": 45,
-      "blend_mode": 0,
-      "shadow": {
-        "radius": 0,
-        "dx": 0,
-        "dy": 0,
-        "color": -7829368
-      },
-      "size": 16,
+      "bold": false,
+      "italic": false,
       "font": {
         "type": 1,
         "font": "fonts/Poppins-SemiBold.ttf"
@@ -240,7 +219,14 @@
         "file": ""
       },
       "event_index": 0,
-      "max_length": 14
+      "max_length": 13,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      },
+      "dynamic_color_role": 1
     },
     {
       "type": "text_object",
@@ -248,25 +234,15 @@
       "name": "Weather Condition",
       "drawing_order": 7,
       "position": {
-        "x": 128,
-        "y": 208
+        "x": 122,
+        "y": 210
       },
+      "size": 16,
       "color": -3357988,
       "alpha": 235,
       "angle": 0,
-      "dynamic_color_role": 2,
-      "visibility_condition": 0,
-      "gradient_type": 0,
-      "gradient_end_color": -16777216,
-      "gradient_angle": 45,
-      "blend_mode": 0,
-      "shadow": {
-        "radius": 0,
-        "dx": 0,
-        "dy": 0,
-        "color": -7829368
-      },
-      "size": 16,
+      "bold": false,
+      "italic": false,
       "font": {
         "type": 1,
         "font": "fonts/Roboto-Medium.ttf"
@@ -285,7 +261,14 @@
         "file": ""
       },
       "event_index": 0,
-      "max_length": 16
+      "max_length": 16,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      },
+      "dynamic_color_role": 2
     },
     {
       "type": "rectangle",
@@ -341,9 +324,9 @@
         "dy": 0,
         "color": -7829368
       },
-      "width": 128,
-      "height": 34,
-      "roundness": 17,
+      "width": 136,
+      "height": 36,
+      "roundness": 18,
       "stroke": 0,
       "is_hollow": false
     },
@@ -353,25 +336,15 @@
       "name": "FX Pair Label",
       "drawing_order": 10,
       "position": {
-        "x": 418,
-        "y": 63
+        "x": 422,
+        "y": 64
       },
+      "size": 16,
       "color": -3097345,
       "alpha": 255,
       "angle": 0,
-      "dynamic_color_role": 1,
-      "visibility_condition": 0,
-      "gradient_type": 0,
-      "gradient_end_color": -16777216,
-      "gradient_angle": 45,
-      "blend_mode": 0,
-      "shadow": {
-        "radius": 0,
-        "dx": 0,
-        "dy": 0,
-        "color": -7829368
-      },
-      "size": 15,
+      "bold": false,
+      "italic": false,
       "font": {
         "type": 1,
         "font": "fonts/Poppins-SemiBold.ttf"
@@ -390,7 +363,14 @@
         "file": ""
       },
       "event_index": 0,
-      "max_length": 0
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      },
+      "dynamic_color_role": 1
     },
     {
       "type": "text_object",
@@ -399,24 +379,14 @@
       "drawing_order": 11,
       "position": {
         "x": 354,
-        "y": 154
+        "y": 152
       },
+      "size": 48,
       "color": -14935265,
       "alpha": 255,
       "angle": 0,
-      "dynamic_color_role": 4,
-      "visibility_condition": 0,
-      "gradient_type": 0,
-      "gradient_end_color": -16777216,
-      "gradient_angle": 45,
-      "blend_mode": 0,
-      "shadow": {
-        "radius": 0,
-        "dx": 0,
-        "dy": 0,
-        "color": -7829368
-      },
-      "size": 48,
+      "bold": false,
+      "italic": false,
       "font": {
         "type": 1,
         "font": "fonts/Poppins-SemiBold.ttf"
@@ -435,7 +405,14 @@
         "file": ""
       },
       "event_index": 0,
-      "max_length": 7
+      "max_length": 7,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      },
+      "dynamic_color_role": 4
     },
     {
       "type": "text_object",
@@ -446,29 +423,19 @@
         "x": 356,
         "y": 198
       },
-      "color": -13224899,
+      "size": 16,
+      "color": -13224901,
       "alpha": 230,
       "angle": 0,
-      "dynamic_color_role": 5,
-      "visibility_condition": 0,
-      "gradient_type": 0,
-      "gradient_end_color": -16777216,
-      "gradient_angle": 45,
-      "blend_mode": 0,
-      "shadow": {
-        "radius": 0,
-        "dx": 0,
-        "dy": 0,
-        "color": -7829368
-      },
-      "size": 16,
+      "bold": false,
+      "italic": false,
       "font": {
         "type": 1,
         "font": "fonts/Roboto-Medium.ttf"
       },
       "prefix": "",
       "suffix": "",
-      "text": "1 USD • LIVE RATE",
+      "text": "1 USD · LIVE RATE",
       "text_alignment": {
         "align": 0
       },
@@ -480,7 +447,14 @@
         "file": ""
       },
       "event_index": 0,
-      "max_length": 0
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      },
+      "dynamic_color_role": 5
     },
     {
       "type": "rectangle",
@@ -491,7 +465,7 @@
         "x": 16,
         "y": 248
       },
-      "color": -13224899,
+      "color": -13224901,
       "alpha": 248,
       "angle": 0,
       "dynamic_color_role": 5,
@@ -519,7 +493,7 @@
       "drawing_order": 14,
       "position": {
         "x": 42,
-        "y": 270
+        "y": 268
       },
       "color": -1066808,
       "alpha": 255,
@@ -536,9 +510,9 @@
         "dy": 0,
         "color": -7829368
       },
-      "width": 124,
-      "height": 30,
-      "roundness": 15,
+      "width": 136,
+      "height": 34,
+      "roundness": 17,
       "stroke": 0,
       "is_hollow": false
     },
@@ -548,25 +522,15 @@
       "name": "BBC Badge Text",
       "drawing_order": 15,
       "position": {
-        "x": 104,
-        "y": 290
+        "x": 110,
+        "y": 291
       },
+      "size": 16,
       "color": -14935265,
       "alpha": 255,
       "angle": 0,
-      "dynamic_color_role": 4,
-      "visibility_condition": 0,
-      "gradient_type": 0,
-      "gradient_end_color": -16777216,
-      "gradient_angle": 45,
-      "blend_mode": 0,
-      "shadow": {
-        "radius": 0,
-        "dx": 0,
-        "dy": 0,
-        "color": -7829368
-      },
-      "size": 14,
+      "bold": false,
+      "italic": false,
       "font": {
         "type": 1,
         "font": "fonts/Poppins-SemiBold.ttf"
@@ -585,7 +549,14 @@
         "file": ""
       },
       "event_index": 0,
-      "max_length": 0
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      },
+      "dynamic_color_role": 4
     },
     {
       "type": "text_object",
@@ -593,25 +564,15 @@
       "name": "BBC Tagline",
       "drawing_order": 16,
       "position": {
-        "x": 182,
-        "y": 290
+        "x": 194,
+        "y": 291
       },
+      "size": 16,
       "color": -3357988,
-      "alpha": 215,
+      "alpha": 220,
       "angle": 0,
-      "dynamic_color_role": 2,
-      "visibility_condition": 0,
-      "gradient_type": 0,
-      "gradient_end_color": -16777216,
-      "gradient_angle": 45,
-      "blend_mode": 0,
-      "shadow": {
-        "radius": 0,
-        "dx": 0,
-        "dy": 0,
-        "color": -7829368
-      },
-      "size": 14,
+      "bold": false,
+      "italic": false,
       "font": {
         "type": 1,
         "font": "fonts/Roboto-Medium.ttf"
@@ -630,7 +591,14 @@
         "file": ""
       },
       "event_index": 0,
-      "max_length": 0
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      },
+      "dynamic_color_role": 2
     },
     {
       "type": "text_object",
@@ -639,24 +607,14 @@
       "drawing_order": 17,
       "position": {
         "x": 42,
-        "y": 344
+        "y": 346
       },
+      "size": 22,
       "color": -3097345,
       "alpha": 255,
       "angle": 0,
-      "dynamic_color_role": 1,
-      "visibility_condition": 0,
-      "gradient_type": 0,
-      "gradient_end_color": -16777216,
-      "gradient_angle": 45,
-      "blend_mode": 0,
-      "shadow": {
-        "radius": 0,
-        "dx": 0,
-        "dy": 0,
-        "color": -7829368
-      },
-      "size": 22,
+      "bold": false,
+      "italic": false,
       "font": {
         "type": 1,
         "font": "fonts/Poppins-SemiBold.ttf"
@@ -675,7 +633,14 @@
         "file": ""
       },
       "event_index": 0,
-      "max_length": 44
+      "max_length": 44,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      },
+      "dynamic_color_role": 1
     },
     {
       "type": "rectangle",
@@ -714,7 +679,7 @@
       "drawing_order": 19,
       "position": {
         "x": 42,
-        "y": 416
+        "y": 414
       },
       "color": -3097345,
       "alpha": 255,
@@ -731,9 +696,9 @@
         "dy": 0,
         "color": -7829368
       },
-      "width": 128,
-      "height": 30,
-      "roundness": 15,
+      "width": 136,
+      "height": 34,
+      "roundness": 17,
       "stroke": 0,
       "is_hollow": false
     },
@@ -743,25 +708,15 @@
       "name": "Verge Badge Text",
       "drawing_order": 20,
       "position": {
-        "x": 106,
-        "y": 436
+        "x": 110,
+        "y": 437
       },
+      "size": 16,
       "color": -14935265,
       "alpha": 255,
       "angle": 0,
-      "dynamic_color_role": 4,
-      "visibility_condition": 0,
-      "gradient_type": 0,
-      "gradient_end_color": -16777216,
-      "gradient_angle": 45,
-      "blend_mode": 0,
-      "shadow": {
-        "radius": 0,
-        "dx": 0,
-        "dy": 0,
-        "color": -7829368
-      },
-      "size": 14,
+      "bold": false,
+      "italic": false,
       "font": {
         "type": 1,
         "font": "fonts/Poppins-SemiBold.ttf"
@@ -780,7 +735,14 @@
         "file": ""
       },
       "event_index": 0,
-      "max_length": 0
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      },
+      "dynamic_color_role": 4
     },
     {
       "type": "text_object",
@@ -788,25 +750,15 @@
       "name": "Verge Tagline",
       "drawing_order": 21,
       "position": {
-        "x": 186,
-        "y": 436
+        "x": 194,
+        "y": 437
       },
+      "size": 16,
       "color": -3357988,
-      "alpha": 215,
+      "alpha": 220,
       "angle": 0,
-      "dynamic_color_role": 2,
-      "visibility_condition": 0,
-      "gradient_type": 0,
-      "gradient_end_color": -16777216,
-      "gradient_angle": 45,
-      "blend_mode": 0,
-      "shadow": {
-        "radius": 0,
-        "dx": 0,
-        "dy": 0,
-        "color": -7829368
-      },
-      "size": 14,
+      "bold": false,
+      "italic": false,
       "font": {
         "type": 1,
         "font": "fonts/Roboto-Medium.ttf"
@@ -825,7 +777,14 @@
         "file": ""
       },
       "event_index": 0,
-      "max_length": 0
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      },
+      "dynamic_color_role": 2
     },
     {
       "type": "text_object",
@@ -834,24 +793,14 @@
       "drawing_order": 22,
       "position": {
         "x": 42,
-        "y": 490
+        "y": 492
       },
+      "size": 22,
       "color": -1066808,
       "alpha": 255,
       "angle": 0,
-      "dynamic_color_role": 3,
-      "visibility_condition": 0,
-      "gradient_type": 0,
-      "gradient_end_color": -16777216,
-      "gradient_angle": 45,
-      "blend_mode": 0,
-      "shadow": {
-        "radius": 0,
-        "dx": 0,
-        "dy": 0,
-        "color": -7829368
-      },
-      "size": 22,
+      "bold": false,
+      "italic": false,
       "font": {
         "type": 1,
         "font": "fonts/Poppins-SemiBold.ttf"
@@ -870,7 +819,14 @@
         "file": ""
       },
       "event_index": 0,
-      "max_length": 44
+      "max_length": 44,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      },
+      "dynamic_color_role": 3
     },
     {
       "type": "hotspot",
@@ -884,9 +840,12 @@
       "width": 296,
       "height": 216,
       "shape": 0,
+      "hotspot_mode": 1,
       "uccw_type": 1,
-      "label": "Update Weather",
-      "hotspot_mode": 1
+      "app_name": "Refresh Weather Hotspot",
+      "intent": null,
+      "alpha": 255,
+      "angle": 0
     }
   ]
 }

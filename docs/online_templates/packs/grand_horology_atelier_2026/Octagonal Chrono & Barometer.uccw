@@ -40,9 +40,9 @@
       "drawing_order": 1,
       "position": {
         "x": 250,
-        "y": 118
+        "y": 114
       },
-      "size": 12,
+      "size": 16,
       "color": -1722233,
       "alpha": 255,
       "angle": 0,
@@ -54,7 +54,7 @@
       },
       "prefix": "",
       "suffix": "",
-      "text": "ROYAL OCTAGON \u00b7 CHRONO",
+      "text": "ROYAL OCTAGON",
       "text_alignment": {
         "align": 1
       },
@@ -81,9 +81,9 @@
       "drawing_order": 2,
       "position": {
         "x": 250,
-        "y": 146
+        "y": 144
       },
-      "size": 13,
+      "size": 16,
       "color": -7035976,
       "alpha": 255,
       "angle": 0,
@@ -140,7 +140,7 @@
         "x": 154,
         "y": 288
       },
-      "size": 20,
+      "size": 22,
       "color": -460036,
       "alpha": 255,
       "angle": 0,
@@ -224,9 +224,9 @@
       "drawing_order": 6,
       "position": {
         "x": 346,
-        "y": 256
+        "y": 252
       },
-      "size": 18,
+      "size": 20,
       "color": -460036,
       "alpha": 255,
       "angle": 0,
@@ -267,7 +267,7 @@
         "x": 346,
         "y": 278
       },
-      "size": 10,
+      "size": 16,
       "color": -13058568,
       "alpha": 255,
       "angle": 0,
@@ -279,7 +279,7 @@
       },
       "prefix": "",
       "suffix": "",
-      "text": "HUMIDITY",
+      "text": "HUM",
       "text_alignment": {
         "align": 1
       },
@@ -308,7 +308,7 @@
         "x": 250,
         "y": 378
       },
-      "size": 15,
+      "size": 18,
       "color": -1722233,
       "alpha": 255,
       "angle": 0,

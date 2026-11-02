@@ -256,13 +256,13 @@
       "drawing_order": 10,
       "position": {
         "x": 396,
-        "y": 60
+        "y": 58
       },
       "alpha": 255,
       "angle": 0,
-      "roundness": 12,
-      "width": 96,
-      "height": 24,
+      "roundness": 14,
+      "width": 108,
+      "height": 28,
       "stroke": 2.0,
       "color": -42458,
       "is_hollow": false,
@@ -330,7 +330,7 @@
         "x": 198,
         "y": 91
       },
-      "size": 15,
+      "size": 18,
       "color": -1905419,
       "alpha": 255,
       "angle": 0,
@@ -374,7 +374,7 @@
       },
       "width": 272,
       "row_spacing": 40,
-      "size": 14,
+      "size": 16,
       "rows_mode": 2,
       "header_format": 2,
       "first_day_of_week": 1,
@@ -418,10 +418,10 @@
       "name": "Agenda Tag Txt",
       "drawing_order": 15,
       "position": {
-        "x": 444,
-        "y": 76
+        "x": 450,
+        "y": 77
       },
-      "size": 10,
+      "size": 16,
       "color": -1,
       "alpha": 255,
       "angle": 0,
@@ -433,7 +433,7 @@
       },
       "prefix": "",
       "suffix": "",
-      "text": "NEXT EVENT",
+      "text": "AGENDA",
       "text_alignment": {
         "align": 1
       },
@@ -460,9 +460,9 @@
       "drawing_order": 16,
       "position": {
         "x": 598,
-        "y": 76
+        "y": 77
       },
-      "size": 12,
+      "size": 16,
       "color": -10194299,
       "alpha": 255,
       "angle": 0,
@@ -501,7 +501,7 @@
       "drawing_order": 17,
       "position": {
         "x": 396,
-        "y": 126
+        "y": 128
       },
       "size": 20,
       "color": -14537928,
@@ -527,7 +527,7 @@
         "file": ""
       },
       "event_index": 0,
-      "max_length": 16,
+      "max_length": 14,
       "shadow": {
         "color": -16777216,
         "dx": 0,
@@ -542,9 +542,9 @@
       "drawing_order": 18,
       "position": {
         "x": 396,
-        "y": 156
+        "y": 160
       },
-      "size": 12,
+      "size": 16,
       "color": -10194299,
       "alpha": 255,
       "angle": 0,
@@ -568,7 +568,7 @@
         "file": ""
       },
       "event_index": 0,
-      "max_length": 20,
+      "max_length": 16,
       "shadow": {
         "color": -16777216,
         "dx": 0,
@@ -585,7 +585,7 @@
         "x": 398,
         "y": 250
       },
-      "size": 11,
+      "size": 16,
       "color": -16734058,
       "alpha": 255,
       "angle": 0,
@@ -597,7 +597,7 @@
       },
       "prefix": "",
       "suffix": "",
-      "text": "SYS \u00b7 TELEMETRY",
+      "text": "TELEMETRY",
       "text_alignment": {
         "align": 0
       },
@@ -624,7 +624,7 @@
       "drawing_order": 20,
       "position": {
         "x": 398,
-        "y": 294
+        "y": 290
       },
       "size": 28,
       "color": -1905419,
@@ -665,9 +665,9 @@
       "drawing_order": 21,
       "position": {
         "x": 398,
-        "y": 316
+        "y": 318
       },
-      "size": 11,
+      "size": 16,
       "color": -42458,
       "alpha": 255,
       "angle": 0,
@@ -677,7 +677,7 @@
         "type": 1,
         "font": "fonts/ShareTechMono-Regular.ttf"
       },
-      "prefix": "STEPS \u00b7 ",
+      "prefix": "",
       "suffix": "",
       "text": "",
       "text_alignment": {
@@ -706,7 +706,7 @@
       "drawing_order": 22,
       "position": {
         "x": 596,
-        "y": 294
+        "y": 290
       },
       "size": 28,
       "color": -1905419,
@@ -747,9 +747,9 @@
       "drawing_order": 23,
       "position": {
         "x": 596,
-        "y": 316
+        "y": 318
       },
-      "size": 11,
+      "size": 16,
       "color": -16734058,
       "alpha": 255,
       "angle": 0,
@@ -788,7 +788,7 @@
       "drawing_order": 24,
       "position": {
         "x": 398,
-        "y": 330
+        "y": 332
       },
       "width": 198,
       "height": 8,

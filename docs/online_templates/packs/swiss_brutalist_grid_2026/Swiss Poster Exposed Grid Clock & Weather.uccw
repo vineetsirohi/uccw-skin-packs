@@ -280,13 +280,13 @@
       "drawing_order": 11,
       "position": {
         "x": 282,
-        "y": 250
+        "y": 248
       },
       "alpha": 255,
       "angle": 0,
       "roundness": 2,
-      "width": 108,
-      "height": 26,
+      "width": 126,
+      "height": 28,
       "stroke": 2.0,
       "color": -50432,
       "is_hollow": false,
@@ -304,9 +304,9 @@
       "drawing_order": 12,
       "position": {
         "x": 34,
-        "y": 42
+        "y": 44
       },
-      "size": 12,
+      "size": 16,
       "color": -790554,
       "alpha": 255,
       "angle": 0,
@@ -345,9 +345,9 @@
       "drawing_order": 13,
       "position": {
         "x": 364,
-        "y": 42
+        "y": 44
       },
-      "size": 12,
+      "size": 16,
       "color": -50432,
       "alpha": 255,
       "angle": 0,
@@ -468,9 +468,9 @@
       "drawing_order": 16,
       "position": {
         "x": 364,
-        "y": 212
+        "y": 214
       },
-      "size": 12,
+      "size": 16,
       "color": -10856881,
       "alpha": 255,
       "angle": 0,
@@ -509,9 +509,9 @@
       "drawing_order": 17,
       "position": {
         "x": 400,
-        "y": 44
+        "y": 46
       },
-      "size": 12,
+      "size": 16,
       "color": -15592942,
       "alpha": 255,
       "angle": 0,
@@ -609,7 +609,7 @@
         "x": 400,
         "y": 178
       },
-      "size": 16,
+      "size": 18,
       "color": -15592942,
       "alpha": 255,
       "angle": 0,
@@ -633,7 +633,7 @@
         "file": ""
       },
       "event_index": 0,
-      "max_length": 15,
+      "max_length": 14,
       "shadow": {
         "color": -16777216,
         "dx": 0,
@@ -648,9 +648,9 @@
       "drawing_order": 21,
       "position": {
         "x": 400,
-        "y": 208
+        "y": 210
       },
-      "size": 13,
+      "size": 16,
       "color": -790554,
       "alpha": 255,
       "angle": 0,
@@ -689,9 +689,9 @@
       "drawing_order": 22,
       "position": {
         "x": 616,
-        "y": 208
+        "y": 210
       },
-      "size": 13,
+      "size": 16,
       "color": -15592942,
       "alpha": 255,
       "angle": 0,
@@ -730,9 +730,9 @@
       "drawing_order": 23,
       "position": {
         "x": 34,
-        "y": 258
+        "y": 260
       },
-      "size": 11,
+      "size": 16,
       "color": -50432,
       "alpha": 255,
       "angle": 0,
@@ -771,9 +771,9 @@
       "drawing_order": 24,
       "position": {
         "x": 34,
-        "y": 304
+        "y": 306
       },
-      "size": 26,
+      "size": 28,
       "color": -790554,
       "alpha": 255,
       "angle": 0,
@@ -812,9 +812,9 @@
       "drawing_order": 25,
       "position": {
         "x": 34,
-        "y": 346
+        "y": 348
       },
-      "size": 14,
+      "size": 16,
       "color": -1909294,
       "alpha": 255,
       "angle": 0,
@@ -838,7 +838,7 @@
         "file": ""
       },
       "event_index": 0,
-      "max_length": 15,
+      "max_length": 13,
       "shadow": {
         "color": -16777216,
         "dx": 0,
@@ -852,10 +852,10 @@
       "name": "Agenda Tag Txt",
       "drawing_order": 26,
       "position": {
-        "x": 336,
+        "x": 345,
         "y": 268
       },
-      "size": 11,
+      "size": 16,
       "color": -790554,
       "alpha": 255,
       "angle": 0,
@@ -896,7 +896,7 @@
         "x": 614,
         "y": 268
       },
-      "size": 12,
+      "size": 16,
       "color": -10856881,
       "alpha": 255,
       "angle": 0,
@@ -920,7 +920,7 @@
         "file": ""
       },
       "event_index": 0,
-      "max_length": 18,
+      "max_length": 16,
       "shadow": {
         "color": -16777216,
         "dx": 0,
@@ -935,9 +935,9 @@
       "drawing_order": 28,
       "position": {
         "x": 282,
-        "y": 314
+        "y": 316
       },
-      "size": 24,
+      "size": 26,
       "color": -15592942,
       "alpha": 255,
       "angle": 0,

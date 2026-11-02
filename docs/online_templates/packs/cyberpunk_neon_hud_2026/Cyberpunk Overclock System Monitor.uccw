@@ -34,13 +34,54 @@
   },
   "objects": [
     {
+      "type": "text_object",
+      "id": 0,
+      "name": "Overclock Header",
+      "drawing_order": 1,
+      "position": {
+        "x": 46,
+        "y": 50
+      },
+      "size": 18,
+      "color": -16715521,
+      "alpha": 255,
+      "angle": 0,
+      "bold": true,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "OVERCLOCK // CORE TELEMETRY MATRIX",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
       "type": "battery_circle",
       "id": 0,
       "name": "CPU Gauge",
-      "drawing_order": 0,
+      "drawing_order": 2,
       "position": {
         "x": 66,
-        "y": 130
+        "y": 118
       },
       "width": 136,
       "height": 136,
@@ -82,10 +123,10 @@
       "type": "text_object",
       "id": 0,
       "name": "CPU Text",
-      "drawing_order": 1,
+      "drawing_order": 3,
       "position": {
         "x": 134,
-        "y": 206
+        "y": 194
       },
       "size": 26,
       "color": -1,
@@ -120,13 +161,54 @@
       }
     },
     {
+      "type": "text_object",
+      "id": 0,
+      "name": "CPU Label",
+      "drawing_order": 4,
+      "position": {
+        "x": 134,
+        "y": 286
+      },
+      "size": 16,
+      "color": -16715521,
+      "alpha": 255,
+      "angle": 0,
+      "bold": true,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "CPU LOAD",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
       "type": "battery_circle",
       "id": 0,
       "name": "RAM Gauge",
-      "drawing_order": 2,
+      "drawing_order": 5,
       "position": {
         "x": 282,
-        "y": 130
+        "y": 118
       },
       "width": 136,
       "height": 136,
@@ -168,10 +250,10 @@
       "type": "text_object",
       "id": 0,
       "name": "RAM Text",
-      "drawing_order": 3,
+      "drawing_order": 6,
       "position": {
         "x": 350,
-        "y": 206
+        "y": 194
       },
       "size": 22,
       "color": -1,
@@ -206,13 +288,54 @@
       }
     },
     {
+      "type": "text_object",
+      "id": 0,
+      "name": "RAM Label",
+      "drawing_order": 7,
+      "position": {
+        "x": 350,
+        "y": 286
+      },
+      "size": 16,
+      "color": -65409,
+      "alpha": 255,
+      "angle": 0,
+      "bold": true,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "RAM ALLOC",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
       "type": "battery_circle",
       "id": 0,
       "name": "Storage Gauge",
-      "drawing_order": 4,
+      "drawing_order": 8,
       "position": {
         "x": 498,
-        "y": 130
+        "y": 118
       },
       "width": 136,
       "height": 136,
@@ -254,10 +377,10 @@
       "type": "text_object",
       "id": 0,
       "name": "Storage Text",
-      "drawing_order": 5,
+      "drawing_order": 9,
       "position": {
         "x": 566,
-        "y": 206
+        "y": 194
       },
       "size": 22,
       "color": -1,
@@ -294,13 +417,95 @@
     {
       "type": "text_object",
       "id": 0,
-      "name": "Voltage Readout",
-      "drawing_order": 6,
+      "name": "Storage Label",
+      "drawing_order": 10,
       "position": {
-        "x": 340,
+        "x": 566,
+        "y": 286
+      },
+      "size": 16,
+      "color": -201206,
+      "alpha": 255,
+      "angle": 0,
+      "bold": true,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "FLASH MEM",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Bus Label",
+      "drawing_order": 11,
+      "position": {
+        "x": 48,
         "y": 354
       },
       "size": 16,
+      "color": -7035976,
+      "alpha": 255,
+      "angle": 0,
+      "bold": true,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "BUS VOLTAGE & THERMAL:",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Voltage Readout",
+      "drawing_order": 12,
+      "position": {
+        "x": 330,
+        "y": 354
+      },
+      "size": 17,
       "color": -201206,
       "alpha": 255,
       "angle": 0,
@@ -336,12 +541,12 @@
       "type": "text_object",
       "id": 0,
       "name": "Thermal Readout",
-      "drawing_order": 7,
+      "drawing_order": 13,
       "position": {
-        "x": 465,
+        "x": 445,
         "y": 354
       },
-      "size": 16,
+      "size": 17,
       "color": -65409,
       "alpha": 255,
       "angle": 0,
@@ -377,12 +582,12 @@
       "type": "text_object",
       "id": 0,
       "name": "Cell Readout",
-      "drawing_order": 8,
+      "drawing_order": 14,
       "position": {
         "x": 650,
         "y": 354
       },
-      "size": 16,
+      "size": 17,
       "color": -16715521,
       "alpha": 255,
       "angle": 0,

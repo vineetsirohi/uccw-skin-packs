@@ -39,14 +39,14 @@
       "name": "Herbarium Header",
       "drawing_order": 1,
       "position": {
-        "x": 364,
-        "y": 46
+        "x": 358,
+        "y": 48
       },
-      "size": 12,
+      "size": 16,
       "color": -10926287,
       "alpha": 255,
       "angle": 0,
-      "bold": false,
+      "bold": true,
       "italic": false,
       "font": {
         "type": 1,
@@ -54,7 +54,7 @@
       },
       "prefix": "",
       "suffix": "",
-      "text": "BOTANICAL NOTES \u00b7 REFLECTION",
+      "text": "BOTANICAL NOTES",
       "text_alignment": {
         "align": 0
       },
@@ -80,12 +80,12 @@
       "name": "Parchment Quote",
       "drawing_order": 2,
       "position": {
-        "x": 364,
-        "y": 78
+        "x": 358,
+        "y": 74
       },
-      "text_width": 278,
+      "text_width": 282,
       "max_lines": 4,
-      "size": 23,
+      "size": 25,
       "color": -13950698,
       "alpha": 255,
       "angle": 0,
@@ -123,10 +123,10 @@
       "name": "Scroll Footer Date",
       "drawing_order": 3,
       "position": {
-        "x": 364,
-        "y": 268
+        "x": 358,
+        "y": 270
       },
-      "size": 13,
+      "size": 16,
       "color": -10926287,
       "alpha": 255,
       "angle": 0,
@@ -164,10 +164,10 @@
       "name": "Scroll Footer Temp",
       "drawing_order": 4,
       "position": {
-        "x": 636,
-        "y": 268
+        "x": 638,
+        "y": 270
       },
-      "size": 13,
+      "size": 18,
       "color": -12886476,
       "alpha": 255,
       "angle": 0,

@@ -40,9 +40,9 @@
       "drawing_order": 1,
       "position": {
         "x": 250,
-        "y": 118
+        "y": 114
       },
-      "size": 11,
+      "size": 16,
       "color": -1722233,
       "alpha": 255,
       "angle": 0,
@@ -54,7 +54,7 @@
       },
       "prefix": "",
       "suffix": "",
-      "text": "MERIDIAN \u00b7 ACOUSTIC CHRONO",
+      "text": "MERIDIAN \u00b7 CHRONO",
       "text_alignment": {
         "align": 1
       },
@@ -83,7 +83,7 @@
         "x": 250,
         "y": 142
       },
-      "size": 12,
+      "size": 16,
       "color": -7035976,
       "alpha": 255,
       "angle": 0,
@@ -122,9 +122,9 @@
       "drawing_order": 3,
       "position": {
         "x": 250,
-        "y": 306
+        "y": 308
       },
-      "size": 11,
+      "size": 16,
       "color": -13058568,
       "alpha": 255,
       "angle": 0,
@@ -208,9 +208,9 @@
       "drawing_order": 5,
       "position": {
         "x": 68,
-        "y": 415
+        "y": 414
       },
-      "size": 18,
+      "size": 20,
       "color": -460036,
       "alpha": 255,
       "angle": 0,
@@ -234,7 +234,7 @@
         "file": ""
       },
       "event_index": 0,
-      "max_length": 20,
+      "max_length": 18,
       "shadow": {
         "color": -16777216,
         "dx": 0,
@@ -249,9 +249,9 @@
       "drawing_order": 6,
       "position": {
         "x": 68,
-        "y": 440
+        "y": 442
       },
-      "size": 12,
+      "size": 16,
       "color": -1722233,
       "alpha": 255,
       "angle": 0,
@@ -275,7 +275,7 @@
         "file": ""
       },
       "event_index": 0,
-      "max_length": 26,
+      "max_length": 21,
       "shadow": {
         "color": -16777216,
         "dx": 0,
@@ -289,10 +289,10 @@
       "name": "Play Glyph",
       "drawing_order": 7,
       "position": {
-        "x": 419,
-        "y": 427
+        "x": 418,
+        "y": 428
       },
-      "size": 16,
+      "size": 17,
       "color": -16052197,
       "alpha": 255,
       "angle": 0,

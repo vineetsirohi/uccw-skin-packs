@@ -36,14 +36,96 @@
     {
       "type": "text_object",
       "id": 0,
-      "name": "LCD Time",
-      "drawing_order": 0,
+      "name": "Module Header",
+      "drawing_order": 1,
+      "position": {
+        "x": 48,
+        "y": 42
+      },
+      "size": 16,
+      "color": -1906448,
+      "alpha": 255,
+      "angle": 0,
+      "bold": true,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "QUARTZ \u00b7 CHRONOGRAPH // FIELD MODULE",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Chrono Label",
+      "drawing_order": 2,
       "position": {
         "x": 60,
-        "y": 174
+        "y": 92
       },
-      "size": 92,
-      "color": -14933746,
+      "size": 16,
+      "color": -14932978,
+      "alpha": 255,
+      "angle": 0,
+      "bold": true,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "MAIN CHRONO",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "LCD Time",
+      "drawing_order": 3,
+      "position": {
+        "x": 60,
+        "y": 184
+      },
+      "size": 96,
+      "color": -14932978,
       "alpha": 255,
       "angle": 0,
       "bold": true,
@@ -78,16 +160,16 @@
       "type": "text_object",
       "id": 0,
       "name": "LCD Date",
-      "drawing_order": 1,
+      "drawing_order": 4,
       "position": {
         "x": 60,
         "y": 272
       },
       "size": 19,
-      "color": -14933746,
+      "color": -14932978,
       "alpha": 255,
       "angle": 0,
-      "bold": true,
+      "bold": false,
       "italic": false,
       "font": {
         "type": 1,
@@ -119,13 +201,13 @@
       "type": "text_object",
       "id": 0,
       "name": "LCD Steps",
-      "drawing_order": 2,
+      "drawing_order": 5,
       "position": {
-        "x": 265,
+        "x": 256,
         "y": 272
       },
       "size": 19,
-      "color": -14933746,
+      "color": -14932978,
       "alpha": 255,
       "angle": 0,
       "bold": true,
@@ -159,14 +241,55 @@
     {
       "type": "text_object",
       "id": 0,
-      "name": "LCD Temp",
-      "drawing_order": 3,
+      "name": "Atmos Label",
+      "drawing_order": 6,
       "position": {
         "x": 442,
-        "y": 146
+        "y": 92
+      },
+      "size": 16,
+      "color": -14932978,
+      "alpha": 255,
+      "angle": 0,
+      "bold": true,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "ATMOS & FIELD DATA",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "LCD Temp",
+      "drawing_order": 7,
+      "position": {
+        "x": 442,
+        "y": 148
       },
       "size": 36,
-      "color": -14933746,
+      "color": -14932978,
       "alpha": 255,
       "angle": 0,
       "bold": true,
@@ -201,13 +324,13 @@
       "type": "text_object",
       "id": 0,
       "name": "LCD Condition",
-      "drawing_order": 4,
+      "drawing_order": 8,
       "position": {
         "x": 520,
-        "y": 146
+        "y": 148
       },
       "size": 20,
-      "color": -14933746,
+      "color": -14932978,
       "alpha": 255,
       "angle": 0,
       "bold": true,
@@ -230,6 +353,47 @@
         "file": ""
       },
       "event_index": 0,
+      "max_length": 10,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Step Bar Label",
+      "drawing_order": 9,
+      "position": {
+        "x": 442,
+        "y": 206
+      },
+      "size": 16,
+      "color": -14932978,
+      "alpha": 255,
+      "angle": 0,
+      "bold": true,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "STEP GOAL",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
       "max_length": 0,
       "shadow": {
         "color": -16777216,
@@ -242,17 +406,17 @@
       "type": "battery_bar",
       "id": 0,
       "name": "LCD Step Bar",
-      "drawing_order": 5,
+      "drawing_order": 10,
       "position": {
         "x": 442,
         "y": 220
       },
       "width": 194,
       "height": 16,
-      "base_color": 1853917764,
-      "base_roundness": 4,
+      "base_color": 1853786440,
+      "base_roundness": 8,
       "progress_bar_height": 14,
-      "progress_bar_roundness": 4,
+      "progress_bar_roundness": 8,
       "alpha": 255,
       "angle": 0,
       "style": 0,
@@ -263,19 +427,19 @@
       },
       "divisions": [
         {
-          "color": -14933746,
+          "color": -14932978,
           "div": 50
         },
         {
-          "color": -14933746,
+          "color": -14932978,
           "div": 15
         },
         {
-          "color": -14933746,
+          "color": -14932978,
           "div": 5
         },
         {
-          "color": -14933746,
+          "color": -14932978,
           "div": 0
         }
       ],
@@ -287,20 +451,61 @@
       }
     },
     {
+      "type": "text_object",
+      "id": 0,
+      "name": "Bat Bar Label",
+      "drawing_order": 11,
+      "position": {
+        "x": 442,
+        "y": 264
+      },
+      "size": 16,
+      "color": -14932978,
+      "alpha": 255,
+      "angle": 0,
+      "bold": true,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "BATTERY CELL",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
       "type": "battery_bar",
       "id": 0,
       "name": "LCD Battery Bar",
-      "drawing_order": 6,
+      "drawing_order": 12,
       "position": {
         "x": 442,
         "y": 278
       },
       "width": 194,
       "height": 16,
-      "base_color": 1853917764,
-      "base_roundness": 4,
+      "base_color": 1853786440,
+      "base_roundness": 8,
       "progress_bar_height": 14,
-      "progress_bar_roundness": 4,
+      "progress_bar_roundness": 8,
       "alpha": 255,
       "angle": 0,
       "style": 0,
@@ -311,19 +516,19 @@
       },
       "divisions": [
         {
-          "color": -14933746,
+          "color": -14932978,
           "div": 50
         },
         {
-          "color": -14933746,
+          "color": -14932978,
           "div": 15
         },
         {
-          "color": -14933746,
+          "color": -14932978,
           "div": 5
         },
         {
-          "color": -14933746,
+          "color": -14932978,
           "div": 0
         }
       ],

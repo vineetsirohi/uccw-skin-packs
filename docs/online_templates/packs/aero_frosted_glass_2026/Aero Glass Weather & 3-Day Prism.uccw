@@ -116,9 +116,9 @@
       },
       "alpha": 135,
       "angle": 0,
-      "roundness": 17,
-      "width": 196,
-      "height": 34,
+      "roundness": 18,
+      "width": 168,
+      "height": 36,
       "stroke": 2.0,
       "color": -15721682,
       "is_hollow": false,
@@ -140,9 +140,9 @@
       },
       "alpha": 150,
       "angle": 0,
-      "roundness": 17,
-      "width": 196,
-      "height": 34,
+      "roundness": 18,
+      "width": 168,
+      "height": 36,
       "stroke": 1.2,
       "color": -9967367,
       "is_hollow": true,
@@ -447,10 +447,10 @@
       "name": "City Label",
       "drawing_order": 18,
       "position": {
-        "x": 140,
-        "y": 62
+        "x": 126,
+        "y": 64
       },
-      "size": 12,
+      "size": 16,
       "color": -9967367,
       "alpha": 255,
       "angle": 0,
@@ -474,7 +474,7 @@
         "file": ""
       },
       "event_index": 0,
-      "max_length": 15,
+      "max_length": 13,
       "shadow": {
         "color": -16777216,
         "dx": 0,
@@ -488,10 +488,10 @@
       "name": "Top Date",
       "drawing_order": 19,
       "position": {
-        "x": 344,
-        "y": 62
+        "x": 346,
+        "y": 64
       },
-      "size": 12,
+      "size": 16,
       "color": -2562315,
       "alpha": 255,
       "angle": 0,
@@ -503,7 +503,7 @@
       },
       "prefix": "",
       "suffix": "",
-      "text": "{\"day_format\": 8, \"day_of_the_week_format\": 7, \"layout_format\": \"wdm\", \"month_format\": 4, \"separator\": \" \\u00b7 \", \"separator2\": \" \", \"separator3\": \" \", \"year_format\": 1}",
+      "text": "{\"day_format\": 8, \"day_of_the_week_format\": 7, \"layout_format\": \"wdm\", \"month_format\": 4, \"separator\": \"\\u00b7\", \"separator2\": \" \", \"separator3\": \" \", \"year_format\": 1}",
       "text_alignment": {
         "align": 2
       },
@@ -587,7 +587,7 @@
       "drawing_order": 22,
       "position": {
         "x": 152,
-        "y": 276
+        "y": 274
       },
       "size": 46,
       "color": -1,
@@ -628,9 +628,9 @@
       "drawing_order": 23,
       "position": {
         "x": 152,
-        "y": 306
+        "y": 308
       },
-      "size": 14,
+      "size": 16,
       "color": -9967367,
       "alpha": 255,
       "angle": 0,
@@ -654,7 +654,7 @@
         "file": ""
       },
       "event_index": 0,
-      "max_length": 15,
+      "max_length": 13,
       "shadow": {
         "color": -16777216,
         "dx": 0,
@@ -669,9 +669,9 @@
       "drawing_order": 24,
       "position": {
         "x": 326,
-        "y": 264
+        "y": 262
       },
-      "size": 13,
+      "size": 16,
       "color": -757066,
       "alpha": 255,
       "angle": 0,
@@ -710,9 +710,9 @@
       "drawing_order": 25,
       "position": {
         "x": 326,
-        "y": 292
+        "y": 294
       },
-      "size": 12,
+      "size": 16,
       "color": -2562315,
       "alpha": 255,
       "angle": 0,
@@ -750,10 +750,10 @@
       "name": "F1 Day",
       "drawing_order": 26,
       "position": {
-        "x": 434,
+        "x": 428,
         "y": 82
       },
-      "size": 14,
+      "size": 16,
       "color": -9967367,
       "alpha": 255,
       "angle": 0,
@@ -791,10 +791,10 @@
       "name": "F1 Cond",
       "drawing_order": 27,
       "position": {
-        "x": 514,
+        "x": 508,
         "y": 82
       },
-      "size": 12,
+      "size": 16,
       "color": -2562315,
       "alpha": 255,
       "angle": 0,
@@ -818,7 +818,7 @@
         "file": ""
       },
       "event_index": 0,
-      "max_length": 8,
+      "max_length": 7,
       "shadow": {
         "color": -16777216,
         "dx": 0,
@@ -832,7 +832,7 @@
       "name": "F1 Temp",
       "drawing_order": 28,
       "position": {
-        "x": 598,
+        "x": 602,
         "y": 84
       },
       "size": 22,
@@ -873,10 +873,10 @@
       "name": "F2 Day",
       "drawing_order": 29,
       "position": {
-        "x": 434,
+        "x": 428,
         "y": 164
       },
-      "size": 14,
+      "size": 16,
       "color": -9967367,
       "alpha": 255,
       "angle": 0,
@@ -914,10 +914,10 @@
       "name": "F2 Cond",
       "drawing_order": 30,
       "position": {
-        "x": 514,
+        "x": 508,
         "y": 164
       },
-      "size": 12,
+      "size": 16,
       "color": -2562315,
       "alpha": 255,
       "angle": 0,
@@ -941,7 +941,7 @@
         "file": ""
       },
       "event_index": 0,
-      "max_length": 8,
+      "max_length": 7,
       "shadow": {
         "color": -16777216,
         "dx": 0,
@@ -955,7 +955,7 @@
       "name": "F2 Temp",
       "drawing_order": 31,
       "position": {
-        "x": 598,
+        "x": 602,
         "y": 166
       },
       "size": 22,
@@ -996,10 +996,10 @@
       "name": "F3 Day",
       "drawing_order": 32,
       "position": {
-        "x": 434,
+        "x": 428,
         "y": 246
       },
-      "size": 14,
+      "size": 16,
       "color": -4160260,
       "alpha": 255,
       "angle": 0,
@@ -1037,10 +1037,10 @@
       "name": "F3 Cond",
       "drawing_order": 33,
       "position": {
-        "x": 514,
+        "x": 508,
         "y": 246
       },
-      "size": 12,
+      "size": 16,
       "color": -2562315,
       "alpha": 255,
       "angle": 0,
@@ -1064,7 +1064,7 @@
         "file": ""
       },
       "event_index": 0,
-      "max_length": 8,
+      "max_length": 7,
       "shadow": {
         "color": -16777216,
         "dx": 0,
@@ -1078,7 +1078,7 @@
       "name": "F3 Temp",
       "drawing_order": 34,
       "position": {
-        "x": 598,
+        "x": 602,
         "y": 248
       },
       "size": 22,
@@ -1119,10 +1119,10 @@
       "name": "Dawn Txt",
       "drawing_order": 35,
       "position": {
-        "x": 466,
-        "y": 320
+        "x": 464,
+        "y": 321
       },
-      "size": 12,
+      "size": 16,
       "color": -9967367,
       "alpha": 255,
       "angle": 0,
@@ -1132,7 +1132,7 @@
         "type": 1,
         "font": "fonts/Poppins-SemiBold.ttf"
       },
-      "prefix": "DAWN ",
+      "prefix": "RISE ",
       "suffix": "",
       "text": "",
       "text_alignment": {
@@ -1160,10 +1160,10 @@
       "name": "Dusk Txt",
       "drawing_order": 36,
       "position": {
-        "x": 564,
-        "y": 320
+        "x": 566,
+        "y": 321
       },
-      "size": 12,
+      "size": 16,
       "color": -757066,
       "alpha": 255,
       "angle": 0,
@@ -1173,7 +1173,7 @@
         "type": 1,
         "font": "fonts/Poppins-SemiBold.ttf"
       },
-      "prefix": "DUSK ",
+      "prefix": "SET ",
       "suffix": "",
       "text": "",
       "text_alignment": {

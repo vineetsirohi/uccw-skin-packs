@@ -36,11 +36,134 @@
     {
       "type": "text_object",
       "id": 0,
-      "name": "CRT Time",
+      "name": "HUD Sector ID",
       "drawing_order": 0,
       "position": {
+        "x": 42,
+        "y": 48
+      },
+      "size": 16,
+      "color": -26368,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "ECTO-05 // SECTOR-09",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 2
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "HUD Mode Tag",
+      "drawing_order": 1,
+      "position": {
+        "x": 658,
+        "y": 48
+      },
+      "size": 16,
+      "color": -8586240,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "PARANORMAL TELEMETRY",
+      "text_alignment": {
+        "align": 2
+      },
+      "text_case": {
+        "text_case": 2
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Chrono Header",
+      "drawing_order": 2,
+      "position": {
         "x": 44,
-        "y": 186
+        "y": 92
+      },
+      "size": 16,
+      "color": -26368,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "CHRONO // LOCAL SYNC",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 2
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "CRT Time",
+      "drawing_order": 3,
+      "position": {
+        "x": 44,
+        "y": 190
       },
       "size": 104,
       "color": -26368,
@@ -78,10 +201,10 @@
       "type": "text_object",
       "id": 0,
       "name": "CRT Date",
-      "drawing_order": 1,
+      "drawing_order": 4,
       "position": {
         "x": 48,
-        "y": 236
+        "y": 238
       },
       "size": 22,
       "color": -13210,
@@ -118,11 +241,52 @@
     {
       "type": "text_object",
       "id": 0,
-      "name": "Anomaly Event Title",
-      "drawing_order": 2,
+      "name": "Anomaly Header",
+      "drawing_order": 5,
       "position": {
         "x": 44,
-        "y": 330
+        "y": 292
+      },
+      "size": 16,
+      "color": -8586240,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "ANOMALY LOG // NEXT EVENT",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 2
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Anomaly Event Title",
+      "drawing_order": 6,
+      "position": {
+        "x": 44,
+        "y": 332
       },
       "size": 20,
       "color": -8029,
@@ -160,7 +324,7 @@
       "type": "text_object",
       "id": 0,
       "name": "Anomaly Event Time",
-      "drawing_order": 3,
+      "drawing_order": 7,
       "position": {
         "x": 44,
         "y": 358
@@ -200,8 +364,49 @@
     {
       "type": "text_object",
       "id": 0,
+      "name": "Atmos Header",
+      "drawing_order": 8,
+      "position": {
+        "x": 442,
+        "y": 92
+      },
+      "size": 16,
+      "color": -26368,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "ATMOS // NIGHT SKY",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 2
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
       "name": "Atmos Temp",
-      "drawing_order": 4,
+      "drawing_order": 9,
       "position": {
         "x": 442,
         "y": 144
@@ -242,7 +447,7 @@
       "type": "text_object",
       "id": 0,
       "name": "Atmos Condition",
-      "drawing_order": 5,
+      "drawing_order": 10,
       "position": {
         "x": 518,
         "y": 140
@@ -283,7 +488,7 @@
       "type": "text_object",
       "id": 0,
       "name": "Atmos Dusk",
-      "drawing_order": 6,
+      "drawing_order": 11,
       "position": {
         "x": 442,
         "y": 172
@@ -323,11 +528,52 @@
     {
       "type": "text_object",
       "id": 0,
-      "name": "Bio Steps",
-      "drawing_order": 7,
+      "name": "Bio Header",
+      "drawing_order": 12,
       "position": {
         "x": 442,
-        "y": 256
+        "y": 218
+      },
+      "size": 16,
+      "color": -8586240,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "BIO // FIELD STEPS",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 2
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Bio Steps",
+      "drawing_order": 13,
+      "position": {
+        "x": 442,
+        "y": 258
       },
       "size": 36,
       "color": -8586240,
@@ -365,10 +611,10 @@
       "type": "text_object",
       "id": 0,
       "name": "Core Battery Text",
-      "drawing_order": 8,
+      "drawing_order": 14,
       "position": {
         "x": 442,
-        "y": 326
+        "y": 322
       },
       "size": 18,
       "color": -13210,
@@ -406,10 +652,10 @@
       "type": "text_object",
       "id": 0,
       "name": "Core CPU Text",
-      "drawing_order": 9,
+      "drawing_order": 15,
       "position": {
         "x": 654,
-        "y": 326
+        "y": 322
       },
       "size": 18,
       "color": -26368,
@@ -447,13 +693,17 @@
       "type": "battery_bar",
       "id": 0,
       "name": "Core Battery Bar",
-      "drawing_order": 10,
+      "drawing_order": 16,
       "position": {
         "x": 442,
         "y": 340
       },
       "width": 212,
       "height": 14,
+      "base_color": 1849502480,
+      "base_roundness": 7,
+      "progress_bar_height": 12,
+      "progress_bar_roundness": 7,
       "alpha": 255,
       "angle": 0,
       "style": 0,
@@ -491,7 +741,7 @@
       "type": "hotspot",
       "id": 0,
       "name": "Clock Hotspot",
-      "drawing_order": 9999,
+      "drawing_order": 9998,
       "position": {
         "x": 28,
         "y": 68
@@ -501,7 +751,7 @@
       "shape": 0,
       "hotspot_mode": 1,
       "uccw_type": 0,
-      "app_name": "Alarm Clock",
+      "app_name": "Clock Hotspot",
       "intent": null,
       "alpha": 255,
       "angle": 0
@@ -519,8 +769,8 @@
       "height": 104,
       "shape": 0,
       "hotspot_mode": 1,
-      "uccw_type": 0,
-      "app_name": "Calendar",
+      "uccw_type": 2,
+      "app_name": "Calendar Hotspot",
       "intent": null,
       "alpha": 255,
       "angle": 0

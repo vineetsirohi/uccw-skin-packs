@@ -39,10 +39,10 @@
       "name": "Ribbon Full Date",
       "drawing_order": 1,
       "position": {
-        "x": 42,
-        "y": 46
+        "x": 40,
+        "y": 47
       },
-      "size": 20,
+      "size": 22,
       "color": -13950698,
       "alpha": 255,
       "angle": 0,
@@ -80,10 +80,10 @@
       "name": "Ribbon Pill Weather",
       "drawing_order": 2,
       "position": {
-        "x": 554,
-        "y": 45
+        "x": 546,
+        "y": 46
       },
-      "size": 15,
+      "size": 17,
       "color": -13950698,
       "alpha": 255,
       "angle": 0,
@@ -124,7 +124,7 @@
         "x": 204,
         "y": 124
       },
-      "size": 18,
+      "size": 22,
       "color": -13950698,
       "alpha": 255,
       "angle": 0,
@@ -163,12 +163,12 @@
       "name": "Parchment Calendar Grid",
       "drawing_order": 4,
       "position": {
-        "x": 38,
+        "x": 36,
         "y": 158
       },
-      "width": 328,
+      "width": 332,
       "row_spacing": 38,
-      "size": 14,
+      "size": 16,
       "rows_mode": 2,
       "header_format": 2,
       "first_day_of_week": 1,
@@ -212,10 +212,10 @@
       "name": "Chronicle Agenda Hdr",
       "drawing_order": 5,
       "position": {
-        "x": 462,
-        "y": 134
+        "x": 458,
+        "y": 128
       },
-      "size": 12,
+      "size": 16,
       "color": -12886476,
       "alpha": 255,
       "angle": 0,
@@ -227,7 +227,7 @@
       },
       "prefix": "",
       "suffix": "",
-      "text": "UPCOMING AGENDA",
+      "text": "NEXT AGENDA",
       "text_alignment": {
         "align": 0
       },
@@ -253,10 +253,10 @@
       "name": "Chronicle Event Title",
       "drawing_order": 6,
       "position": {
-        "x": 462,
-        "y": 158
+        "x": 458,
+        "y": 154
       },
-      "size": 16,
+      "size": 18,
       "color": -13950698,
       "alpha": 255,
       "angle": 0,
@@ -294,10 +294,10 @@
       "name": "Chronicle Event Time",
       "drawing_order": 7,
       "position": {
-        "x": 462,
+        "x": 458,
         "y": 180
       },
-      "size": 13,
+      "size": 16,
       "color": -10926287,
       "alpha": 255,
       "angle": 0,
@@ -321,7 +321,7 @@
         "file": ""
       },
       "event_index": 0,
-      "max_length": 17,
+      "max_length": 16,
       "shadow": {
         "color": -16777216,
         "dx": 0,
@@ -335,10 +335,10 @@
       "name": "Chronicle Note Hdr",
       "drawing_order": 8,
       "position": {
-        "x": 462,
-        "y": 236
+        "x": 458,
+        "y": 226
       },
-      "size": 12,
+      "size": 16,
       "color": -12886476,
       "alpha": 255,
       "angle": 0,
@@ -376,10 +376,10 @@
       "name": "Chronicle Cond",
       "drawing_order": 9,
       "position": {
-        "x": 462,
-        "y": 260
+        "x": 458,
+        "y": 252
       },
-      "size": 16,
+      "size": 18,
       "color": -13950698,
       "alpha": 255,
       "angle": 0,
@@ -417,10 +417,10 @@
       "name": "Chronicle Loc",
       "drawing_order": 10,
       "position": {
-        "x": 462,
-        "y": 282
+        "x": 458,
+        "y": 278
       },
-      "size": 13,
+      "size": 16,
       "color": -10926287,
       "alpha": 255,
       "angle": 0,
@@ -444,7 +444,7 @@
         "file": ""
       },
       "event_index": 0,
-      "max_length": 16,
+      "max_length": 15,
       "shadow": {
         "color": -16777216,
         "dx": 0,
@@ -459,9 +459,9 @@
       "drawing_order": 11,
       "position": {
         "x": 412,
-        "y": 326
+        "y": 322
       },
-      "size": 12,
+      "size": 16,
       "color": -13950698,
       "alpha": 255,
       "angle": 0,
@@ -500,7 +500,7 @@
       "drawing_order": 12,
       "position": {
         "x": 412,
-        "y": 336
+        "y": 332
       },
       "width": 224,
       "height": 10,
@@ -550,7 +550,7 @@
         "x": 412,
         "y": 368
       },
-      "size": 12,
+      "size": 16,
       "color": -13950698,
       "alpha": 255,
       "angle": 0,
@@ -636,7 +636,7 @@
       "name": "Header Weather Hotspot",
       "drawing_order": 15,
       "position": {
-        "x": 480,
+        "x": 468,
         "y": 10
       },
       "width": 180,

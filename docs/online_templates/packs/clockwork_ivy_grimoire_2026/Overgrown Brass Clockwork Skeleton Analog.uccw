@@ -83,10 +83,10 @@
       "name": "Bottom Moss Date",
       "drawing_order": 3,
       "position": {
-        "x": 188,
-        "y": 489
+        "x": 184,
+        "y": 490
       },
-      "size": 17,
+      "size": 20,
       "color": -3549499,
       "alpha": 255,
       "angle": 0,
@@ -124,10 +124,10 @@
       "name": "Bottom Moss Temp",
       "drawing_order": 4,
       "position": {
-        "x": 395,
-        "y": 489
+        "x": 396,
+        "y": 490
       },
-      "size": 17,
+      "size": 22,
       "color": -1652858,
       "alpha": 255,
       "angle": 0,
@@ -185,10 +185,10 @@
       "drawing_order": 6,
       "position": {
         "x": 332,
-        "y": 462
+        "y": 458
       },
-      "width": 126,
-      "height": 42,
+      "width": 132,
+      "height": 48,
       "shape": 0,
       "hotspot_mode": 1,
       "uccw_type": 1,

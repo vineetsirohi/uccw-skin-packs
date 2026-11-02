@@ -136,13 +136,13 @@
       "drawing_order": 5,
       "position": {
         "x": 276,
-        "y": 26
+        "y": 24
       },
       "alpha": 255,
       "angle": 0,
-      "roundness": 16,
-      "width": 152,
-      "height": 32,
+      "roundness": 18,
+      "width": 156,
+      "height": 36,
       "stroke": 2.0,
       "color": -42442,
       "is_hollow": false,
@@ -160,13 +160,13 @@
       "drawing_order": 6,
       "position": {
         "x": 276,
-        "y": 210
+        "y": 208
       },
       "alpha": 210,
       "angle": 0,
-      "roundness": 13,
-      "width": 96,
-      "height": 26,
+      "roundness": 14,
+      "width": 104,
+      "height": 28,
       "stroke": 2.0,
       "color": -15197148,
       "is_hollow": false,
@@ -184,13 +184,13 @@
       "drawing_order": 7,
       "position": {
         "x": 276,
-        "y": 210
+        "y": 208
       },
       "alpha": 190,
       "angle": 0,
-      "roundness": 13,
-      "width": 96,
-      "height": 26,
+      "roundness": 14,
+      "width": 104,
+      "height": 28,
       "stroke": 1.4,
       "color": -1527719,
       "is_hollow": true,
@@ -249,7 +249,7 @@
       "drawing_order": 9,
       "position": {
         "x": 128,
-        "y": 268
+        "y": 266
       },
       "size": 116,
       "color": -1527719,
@@ -289,10 +289,10 @@
       "name": "AmPm Micro",
       "drawing_order": 10,
       "position": {
-        "x": 226,
-        "y": 294
+        "x": 232,
+        "y": 296
       },
-      "size": 13,
+      "size": 16,
       "color": -3616548,
       "alpha": 255,
       "angle": 0,
@@ -330,10 +330,10 @@
       "name": "Spine Date",
       "drawing_order": 11,
       "position": {
-        "x": 352,
+        "x": 354,
         "y": 48
       },
-      "size": 12,
+      "size": 16,
       "color": -330000,
       "alpha": 255,
       "angle": 0,
@@ -371,10 +371,10 @@
       "name": "Script City",
       "drawing_order": 12,
       "position": {
-        "x": 614,
+        "x": 616,
         "y": 50
       },
-      "size": 21,
+      "size": 20,
       "color": -1527719,
       "alpha": 255,
       "angle": 0,
@@ -429,7 +429,7 @@
       "drawing_order": 14,
       "position": {
         "x": 378,
-        "y": 140
+        "y": 138
       },
       "size": 58,
       "color": -330000,
@@ -472,7 +472,7 @@
         "x": 378,
         "y": 172
       },
-      "size": 16,
+      "size": 18,
       "color": -3616548,
       "alpha": 255,
       "angle": 0,
@@ -496,7 +496,7 @@
         "file": ""
       },
       "event_index": 0,
-      "max_length": 18,
+      "max_length": 13,
       "shadow": {
         "color": -1342177280,
         "dx": 0,
@@ -513,7 +513,7 @@
         "x": 614,
         "y": 138
       },
-      "size": 14,
+      "size": 16,
       "color": -1527719,
       "alpha": 255,
       "angle": 0,
@@ -554,7 +554,7 @@
         "x": 614,
         "y": 168
       },
-      "size": 13,
+      "size": 16,
       "color": -3616548,
       "alpha": 255,
       "angle": 0,
@@ -592,10 +592,10 @@
       "name": "Next Pill Txt",
       "drawing_order": 18,
       "position": {
-        "x": 324,
+        "x": 328,
         "y": 228
       },
-      "size": 11,
+      "size": 16,
       "color": -1527719,
       "alpha": 255,
       "angle": 0,
@@ -636,7 +636,7 @@
         "x": 614,
         "y": 228
       },
-      "size": 12,
+      "size": 16,
       "color": -3616548,
       "alpha": 255,
       "angle": 0,
@@ -660,7 +660,7 @@
         "file": ""
       },
       "event_index": 0,
-      "max_length": 18,
+      "max_length": 16,
       "shadow": {
         "color": -1342177280,
         "dx": 0,
@@ -677,7 +677,7 @@
         "x": 276,
         "y": 264
       },
-      "size": 20,
+      "size": 22,
       "color": -330000,
       "alpha": 255,
       "angle": 0,
@@ -701,7 +701,7 @@
         "file": ""
       },
       "event_index": 0,
-      "max_length": 22,
+      "max_length": 20,
       "shadow": {
         "color": -1342177280,
         "dx": 0,
@@ -716,9 +716,9 @@
       "drawing_order": 21,
       "position": {
         "x": 276,
-        "y": 286
+        "y": 288
       },
-      "width": 246,
+      "width": 226,
       "height": 6,
       "base_color": -1607255224,
       "base_roundness": 3,
@@ -764,9 +764,9 @@
       "drawing_order": 22,
       "position": {
         "x": 614,
-        "y": 294
+        "y": 296
       },
-      "size": 13,
+      "size": 16,
       "color": -1527719,
       "alpha": 255,
       "angle": 0,

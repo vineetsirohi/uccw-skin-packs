@@ -39,14 +39,14 @@
       "name": "Dial Matcha Date Pill",
       "drawing_order": 1,
       "position": {
-        "x": 160,
-        "y": 152
+        "x": 154,
+        "y": 150
       },
       "alpha": 255,
       "angle": 0,
-      "roundness": 16,
-      "width": 156,
-      "height": 32,
+      "roundness": 18,
+      "width": 168,
+      "height": 36,
       "stroke": 2.0,
       "color": -9924754,
       "is_hollow": false,
@@ -300,9 +300,9 @@
       "drawing_order": 9,
       "position": {
         "x": 238,
-        "y": 173
+        "y": 174
       },
-      "size": 12,
+      "size": 16,
       "color": -1812,
       "alpha": 255,
       "angle": 0,
@@ -385,7 +385,7 @@
       "drawing_order": 12,
       "position": {
         "x": 398,
-        "y": 394
+        "y": 390
       },
       "size": 38,
       "color": -12964569,
@@ -426,9 +426,9 @@
       "drawing_order": 13,
       "position": {
         "x": 398,
-        "y": 420
+        "y": 418
       },
-      "size": 13,
+      "size": 16,
       "color": -2856316,
       "alpha": 255,
       "angle": 0,
@@ -452,7 +452,7 @@
         "file": ""
       },
       "event_index": 0,
-      "max_length": 11,
+      "max_length": 10,
       "shadow": {
         "color": -16777216,
         "dx": 0,
@@ -469,7 +469,7 @@
         "x": 398,
         "y": 446
       },
-      "size": 11,
+      "size": 16,
       "color": -11900080,
       "alpha": 255,
       "angle": 0,

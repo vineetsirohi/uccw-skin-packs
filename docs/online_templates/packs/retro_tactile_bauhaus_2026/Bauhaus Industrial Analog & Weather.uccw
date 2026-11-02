@@ -34,10 +34,92 @@
   },
   "objects": [
     {
+      "type": "text_object",
+      "id": 0,
+      "name": "Dial Brand",
+      "drawing_order": 1,
+      "position": {
+        "x": 196,
+        "y": 138
+      },
+      "size": 16,
+      "color": -13947601,
+      "alpha": 255,
+      "angle": 0,
+      "bold": true,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "BAUHAUS",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Dial Sub",
+      "drawing_order": 2,
+      "position": {
+        "x": 196,
+        "y": 272
+      },
+      "size": 16,
+      "color": -43230,
+      "alpha": 255,
+      "angle": 0,
+      "bold": true,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "CHRONO",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
       "type": "standard_analog_clock_object",
       "id": 0,
       "name": "Bauhaus Analog Hands",
-      "drawing_order": 0,
+      "drawing_order": 3,
       "position": {
         "x": 24,
         "y": 28
@@ -57,7 +139,7 @@
       "type": "rectangle",
       "id": 0,
       "name": "Bauhaus Center Cap",
-      "drawing_order": 1,
+      "drawing_order": 4,
       "position": {
         "x": 186,
         "y": 190
@@ -80,14 +162,14 @@
     {
       "type": "text_object",
       "id": 0,
-      "name": "Bauhaus Temp",
-      "drawing_order": 2,
+      "name": "Weather Header",
+      "drawing_order": 5,
       "position": {
-        "x": 402,
-        "y": 134
+        "x": 426,
+        "y": 70
       },
-      "size": 46,
-      "color": -725018,
+      "size": 16,
+      "color": -724502,
       "alpha": 255,
       "angle": 0,
       "bold": true,
@@ -97,7 +179,48 @@
         "font": "fonts/ShareTechMono-Regular.ttf"
       },
       "prefix": "",
-      "suffix": "°",
+      "suffix": "",
+      "text": "WEATHER STATION",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Bauhaus Temp",
+      "drawing_order": 6,
+      "position": {
+        "x": 402,
+        "y": 134
+      },
+      "size": 48,
+      "color": -724502,
+      "alpha": 255,
+      "angle": 0,
+      "bold": true,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "\u00b0",
       "text": "",
       "text_alignment": {
         "align": 0
@@ -122,12 +245,12 @@
       "type": "text_object",
       "id": 0,
       "name": "Bauhaus Condition",
-      "drawing_order": 3,
+      "drawing_order": 7,
       "position": {
         "x": 402,
         "y": 170
       },
-      "size": 15,
+      "size": 17,
       "color": -18685,
       "alpha": 255,
       "angle": 0,
@@ -151,6 +274,47 @@
         "file": ""
       },
       "event_index": 0,
+      "max_length": 18,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Activity Header",
+      "drawing_order": 8,
+      "position": {
+        "x": 400,
+        "y": 238
+      },
+      "size": 16,
+      "color": -13947601,
+      "alpha": 255,
+      "angle": 0,
+      "bold": true,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "DATE & ACTIVITY",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
       "max_length": 0,
       "shadow": {
         "color": -16777216,
@@ -163,7 +327,7 @@
       "type": "text_object",
       "id": 0,
       "name": "Bauhaus Date",
-      "drawing_order": 4,
+      "drawing_order": 9,
       "position": {
         "x": 400,
         "y": 298
@@ -172,7 +336,7 @@
       "color": -13947601,
       "alpha": 255,
       "angle": 0,
-      "bold": true,
+      "bold": false,
       "italic": false,
       "font": {
         "type": 1,
@@ -204,12 +368,12 @@
       "type": "text_object",
       "id": 0,
       "name": "Bauhaus Steps",
-      "drawing_order": 5,
+      "drawing_order": 10,
       "position": {
         "x": 400,
-        "y": 340
+        "y": 342
       },
-      "size": 16,
+      "size": 18,
       "color": -43230,
       "alpha": 255,
       "angle": 0,
@@ -245,12 +409,12 @@
       "type": "text_object",
       "id": 0,
       "name": "Bauhaus Battery",
-      "drawing_order": 6,
+      "drawing_order": 11,
       "position": {
         "x": 638,
-        "y": 340
+        "y": 342
       },
-      "size": 16,
+      "size": 18,
       "color": -13947601,
       "alpha": 255,
       "angle": 0,

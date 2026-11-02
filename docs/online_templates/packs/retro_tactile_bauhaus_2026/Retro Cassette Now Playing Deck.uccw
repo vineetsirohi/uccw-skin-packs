@@ -36,13 +36,54 @@
     {
       "type": "text_object",
       "id": 0,
+      "name": "Tape Spec",
+      "drawing_order": 1,
+      "position": {
+        "x": 66,
+        "y": 62
+      },
+      "size": 16,
+      "color": -13947601,
+      "alpha": 255,
+      "angle": 0,
+      "bold": true,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "TYPE II \u00b7 HIGH BIAS // 90 MIN",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
       "name": "Tape Status",
-      "drawing_order": 0,
+      "drawing_order": 2,
       "position": {
         "x": 634,
         "y": 62
       },
-      "size": 13,
+      "size": 16,
       "color": -43230,
       "alpha": 255,
       "angle": 0,
@@ -78,7 +119,7 @@
       "type": "text_object",
       "id": 0,
       "name": "Tape Track Title",
-      "drawing_order": 1,
+      "drawing_order": 3,
       "position": {
         "x": 66,
         "y": 94
@@ -119,12 +160,12 @@
       "type": "text_object",
       "id": 0,
       "name": "Tape Artist",
-      "drawing_order": 2,
+      "drawing_order": 4,
       "position": {
         "x": 66,
-        "y": 127
+        "y": 128
       },
-      "size": 15,
+      "size": 17,
       "color": -1,
       "alpha": 255,
       "angle": 0,
@@ -157,20 +198,61 @@
       }
     },
     {
+      "type": "text_object",
+      "id": 0,
+      "name": "Bias Label",
+      "drawing_order": 5,
+      "position": {
+        "x": 350,
+        "y": 202
+      },
+      "size": 16,
+      "color": -18685,
+      "alpha": 255,
+      "angle": 0,
+      "bold": true,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "CR-O2",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
       "type": "battery_bar",
       "id": 0,
       "name": "Tape Progress",
-      "drawing_order": 3,
+      "drawing_order": 6,
       "position": {
         "x": 304,
         "y": 220
       },
       "width": 92,
       "height": 12,
-      "base_color": 1849113150,
-      "base_roundness": 4,
+      "base_color": 1849310786,
+      "base_roundness": 6,
       "progress_bar_height": 10,
-      "progress_bar_roundness": 4,
+      "progress_bar_roundness": 6,
       "alpha": 255,
       "angle": 0,
       "style": 0,
@@ -199,6 +281,129 @@
       ],
       "shadow": {
         "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Btn Rew",
+      "drawing_order": 7,
+      "position": {
+        "x": 152,
+        "y": 344
+      },
+      "size": 16,
+      "color": -13947601,
+      "alpha": 255,
+      "angle": 0,
+      "bold": true,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "<< REW",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Btn Play",
+      "drawing_order": 8,
+      "position": {
+        "x": 350,
+        "y": 344
+      },
+      "size": 16,
+      "color": -1,
+      "alpha": 255,
+      "angle": 0,
+      "bold": true,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "PLAY / PAUSE",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Btn Ffwd",
+      "drawing_order": 9,
+      "position": {
+        "x": 548,
+        "y": 344
+      },
+      "size": 16,
+      "color": -13947601,
+      "alpha": 255,
+      "angle": 0,
+      "bold": true,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "FFWD >>",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
         "dx": 0,
         "dy": 0,
         "radius": 0

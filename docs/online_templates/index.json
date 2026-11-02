@@ -507,134 +507,407 @@
   ],
   "templates": [
     {
-      "name": "Golden Dawn Orb Clock & Solar Timeline",
-      "collection_id": "lumina_horizon_telemetry_2026",
+      "name": "Terracotta Wave Weather & 3-Day Outlook",
+      "collection_id": "terracotta_wave_studio_2026",
       "category": "ios",
       "categories": [
         "ios",
         "modern"
       ],
       "min_version_code": 326,
-      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/lumina_horizon_telemetry_2026/Golden%20Dawn%20Orb%20Clock%20%26%20Solar%20Timeline.uccw",
-      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/lumina_horizon_telemetry_2026/Golden%20Dawn%20Orb%20Clock%20%26%20Solar%20Timeline_thumb.png",
-      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/lumina_horizon_telemetry_2026/Golden%20Dawn%20Orb%20Clock%20%26%20Solar%20Timeline_bg.png"
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/terracotta_wave_studio_2026/Terracotta%20Wave%20Weather%20%26%203-Day%20Outlook.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/terracotta_wave_studio_2026/Terracotta%20Wave%20Weather%20%26%203-Day%20Outlook_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/terracotta_wave_studio_2026/Terracotta%20Wave%20Weather%20%26%203-Day%20Outlook_bg.png"
     },
     {
-      "name": "Pixie Retro Virtual Pet & Status Bars",
-      "collection_id": "lumina_horizon_telemetry_2026",
-      "category": "retro",
+      "name": "Terracotta Wave Monthly Calendar & Pill",
+      "collection_id": "terracotta_wave_studio_2026",
+      "category": "ios",
       "categories": [
-        "retro",
-        "nothing"
+        "ios",
+        "modern"
       ],
       "min_version_code": 326,
-      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/lumina_horizon_telemetry_2026/Pixie%20Retro%20Virtual%20Pet%20%26%20Status%20Bars.uccw",
-      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/lumina_horizon_telemetry_2026/Pixie%20Retro%20Virtual%20Pet%20%26%20Status%20Bars_thumb.png",
-      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/lumina_horizon_telemetry_2026/Pixie%20Retro%20Virtual%20Pet%20%26%20Status%20Bars_bg.png"
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/terracotta_wave_studio_2026/Terracotta%20Wave%20Monthly%20Calendar%20%26%20Pill.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/terracotta_wave_studio_2026/Terracotta%20Wave%20Monthly%20Calendar%20%26%20Pill_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/terracotta_wave_studio_2026/Terracotta%20Wave%20Monthly%20Calendar%20%26%20Pill_bg.png"
     },
     {
-      "name": "Amber Beam & Segmented Step Chrono Ring",
-      "collection_id": "lumina_horizon_telemetry_2026",
+      "name": "Terracotta Wave Chrono & Studio Agenda",
+      "collection_id": "terracotta_wave_studio_2026",
+      "category": "ios",
+      "categories": [
+        "ios",
+        "rings"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/terracotta_wave_studio_2026/Terracotta%20Wave%20Chrono%20%26%20Studio%20Agenda.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/terracotta_wave_studio_2026/Terracotta%20Wave%20Chrono%20%26%20Studio%20Agenda_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/terracotta_wave_studio_2026/Terracotta%20Wave%20Chrono%20%26%20Studio%20Agenda_bg.png"
+    },
+    {
+      "name": "Desert Archway Editorial Clock & Weather",
+      "collection_id": "desert_dune_mirage_2026",
+      "category": "ios",
+      "categories": [
+        "ios",
+        "modern"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/desert_dune_mirage_2026/Desert%20Archway%20Editorial%20Clock%20%26%20Weather.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/desert_dune_mirage_2026/Desert%20Archway%20Editorial%20Clock%20%26%20Weather_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/desert_dune_mirage_2026/Desert%20Archway%20Editorial%20Clock%20%26%20Weather_bg.png"
+    },
+    {
+      "name": "Sun & Shadow Sundial Analog Timepiece",
+      "collection_id": "desert_dune_mirage_2026",
       "category": "rings",
       "categories": [
         "rings",
-        "modern"
+        "classic"
       ],
       "min_version_code": 326,
-      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/lumina_horizon_telemetry_2026/Amber%20Beam%20%26%20Segmented%20Step%20Chrono%20Ring.uccw",
-      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/lumina_horizon_telemetry_2026/Amber%20Beam%20%26%20Segmented%20Step%20Chrono%20Ring_thumb.png",
-      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/lumina_horizon_telemetry_2026/Amber%20Beam%20%26%20Segmented%20Step%20Chrono%20Ring_bg.png"
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/desert_dune_mirage_2026/Sun%20%26%20Shadow%20Sundial%20Analog%20Timepiece.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/desert_dune_mirage_2026/Sun%20%26%20Shadow%20Sundial%20Analog%20Timepiece_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/desert_dune_mirage_2026/Sun%20%26%20Shadow%20Sundial%20Analog%20Timepiece_bg.png"
     },
     {
-      "name": "Alpine Ridge Altimeter & Barometer Horizon",
-      "collection_id": "lumina_horizon_telemetry_2026",
-      "category": "ios",
-      "categories": [
-        "ios",
-        "modern"
-      ],
-      "min_version_code": 326,
-      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/lumina_horizon_telemetry_2026/Alpine%20Ridge%20Altimeter%20%26%20Barometer%20Horizon.uccw",
-      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/lumina_horizon_telemetry_2026/Alpine%20Ridge%20Altimeter%20%26%20Barometer%20Horizon_thumb.png",
-      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/lumina_horizon_telemetry_2026/Alpine%20Ridge%20Altimeter%20%26%20Barometer%20Horizon_bg.png"
-    },
-    {
-      "name": "Transcontinental Flight Deck & World Transit",
-      "collection_id": "lumina_horizon_telemetry_2026",
-      "category": "ios",
-      "categories": [
-        "ios",
-        "modern"
-      ],
-      "min_version_code": 326,
-      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/lumina_horizon_telemetry_2026/Transcontinental%20Flight%20Deck%20%26%20World%20Transit.uccw",
-      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/lumina_horizon_telemetry_2026/Transcontinental%20Flight%20Deck%20%26%20World%20Transit_thumb.png",
-      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/lumina_horizon_telemetry_2026/Transcontinental%20Flight%20Deck%20%26%20World%20Transit_bg.png"
-    },
-    {
-      "name": "Neon Mint Focus Goal & Segmented Timer Console",
-      "collection_id": "lumina_horizon_telemetry_2026",
+      "name": "Dune Crest Floating Pill Cluster",
+      "collection_id": "desert_dune_mirage_2026",
       "category": "modern",
       "categories": [
         "modern",
         "ios"
       ],
       "min_version_code": 326,
-      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/lumina_horizon_telemetry_2026/Neon%20Mint%20Focus%20Goal%20%26%20Segmented%20Timer%20Console.uccw",
-      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/lumina_horizon_telemetry_2026/Neon%20Mint%20Focus%20Goal%20%26%20Segmented%20Timer%20Console_thumb.png",
-      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/lumina_horizon_telemetry_2026/Neon%20Mint%20Focus%20Goal%20%26%20Segmented%20Timer%20Console_bg.png"
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/desert_dune_mirage_2026/Dune%20Crest%20Floating%20Pill%20Cluster.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/desert_dune_mirage_2026/Dune%20Crest%20Floating%20Pill%20Cluster_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/desert_dune_mirage_2026/Dune%20Crest%20Floating%20Pill%20Cluster_bg.png"
     },
     {
-      "name": "Clockwork Ivy Analog & Parchment Quad Bento",
-      "collection_id": "clockwork_ivy_grimoire_2026",
-      "category": "classic",
+      "name": "Twin-Arch Calendar & Desert Window",
+      "collection_id": "desert_dune_mirage_2026",
+      "category": "ios",
       "categories": [
-        "classic",
-        "retro"
+        "ios",
+        "modern"
       ],
       "min_version_code": 326,
-      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/clockwork_ivy_grimoire_2026/Clockwork%20Ivy%20Analog%20%26%20Parchment%20Quad%20Bento.uccw",
-      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/clockwork_ivy_grimoire_2026/Clockwork%20Ivy%20Analog%20%26%20Parchment%20Quad%20Bento_thumb.png",
-      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/clockwork_ivy_grimoire_2026/Clockwork%20Ivy%20Analog%20%26%20Parchment%20Quad%20Bento_bg.png"
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/desert_dune_mirage_2026/Twin-Arch%20Calendar%20%26%20Desert%20Window.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/desert_dune_mirage_2026/Twin-Arch%20Calendar%20%26%20Desert%20Window_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/desert_dune_mirage_2026/Twin-Arch%20Calendar%20%26%20Desert%20Window_bg.png"
     },
     {
-      "name": "Overgrown Brass Clockwork Skeleton Analog",
-      "collection_id": "clockwork_ivy_grimoire_2026",
-      "category": "classic",
-      "categories": [
-        "classic",
-        "rings"
-      ],
-      "min_version_code": 326,
-      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/clockwork_ivy_grimoire_2026/Overgrown%20Brass%20Clockwork%20Skeleton%20Analog.uccw",
-      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/clockwork_ivy_grimoire_2026/Overgrown%20Brass%20Clockwork%20Skeleton%20Analog_thumb.png",
-      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/clockwork_ivy_grimoire_2026/Overgrown%20Brass%20Clockwork%20Skeleton%20Analog_bg.png"
-    },
-    {
-      "name": "Botanical Ivy & Fern Parchment Quote Scroll",
-      "collection_id": "clockwork_ivy_grimoire_2026",
+      "name": "Editorial Split-Time & Vertical Spine",
+      "collection_id": "frameless_editorial_typo_2026",
       "category": "editorial",
       "categories": [
         "editorial",
+        "modern"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/frameless_editorial_typo_2026/Editorial%20Split-Time%20%26%20Vertical%20Spine.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/frameless_editorial_typo_2026/Editorial%20Split-Time%20%26%20Vertical%20Spine_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/frameless_editorial_typo_2026/Editorial%20Split-Time%20%26%20Vertical%20Spine_bg.png"
+    },
+    {
+      "name": "Kinetic Pillar & Script Overlay Clock",
+      "collection_id": "frameless_editorial_typo_2026",
+      "category": "editorial",
+      "categories": [
+        "editorial",
+        "modern"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/frameless_editorial_typo_2026/Kinetic%20Pillar%20%26%20Script%20Overlay%20Clock.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/frameless_editorial_typo_2026/Kinetic%20Pillar%20%26%20Script%20Overlay%20Clock_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/frameless_editorial_typo_2026/Kinetic%20Pillar%20%26%20Script%20Overlay%20Clock_bg.png"
+    },
+    {
+      "name": "Minimalist Horizon Weather & Agenda Strip",
+      "collection_id": "frameless_editorial_typo_2026",
+      "category": "editorial",
+      "categories": [
+        "editorial",
+        "modern"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/frameless_editorial_typo_2026/Minimalist%20Horizon%20Weather%20%26%20Agenda%20Strip.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/frameless_editorial_typo_2026/Minimalist%20Horizon%20Weather%20%26%20Agenda%20Strip_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/frameless_editorial_typo_2026/Minimalist%20Horizon%20Weather%20%26%20Agenda%20Strip_bg.png"
+    },
+    {
+      "name": "Frameless Meridian Analog & Date",
+      "collection_id": "frameless_editorial_typo_2026",
+      "category": "rings",
+      "categories": [
+        "rings",
         "classic"
       ],
       "min_version_code": 326,
-      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/clockwork_ivy_grimoire_2026/Botanical%20Ivy%20%26%20Fern%20Parchment%20Quote%20Scroll.uccw",
-      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/clockwork_ivy_grimoire_2026/Botanical%20Ivy%20%26%20Fern%20Parchment%20Quote%20Scroll_thumb.png",
-      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/clockwork_ivy_grimoire_2026/Botanical%20Ivy%20%26%20Fern%20Parchment%20Quote%20Scroll_bg.png"
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/frameless_editorial_typo_2026/Frameless%20Meridian%20Analog%20%26%20Date.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/frameless_editorial_typo_2026/Frameless%20Meridian%20Analog%20%26%20Date_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/frameless_editorial_typo_2026/Frameless%20Meridian%20Analog%20%26%20Date_bg.png"
     },
     {
-      "name": "Ornate Filigree Parchment Calendar & Chronicle",
-      "collection_id": "clockwork_ivy_grimoire_2026",
-      "category": "classic",
+      "name": "Aero Glass Weather & 3-Day Prism",
+      "collection_id": "aero_frosted_glass_2026",
+      "category": "ios",
       "categories": [
-        "classic",
+        "ios",
+        "modern"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/aero_frosted_glass_2026/Aero%20Glass%20Weather%20%26%203-Day%20Prism.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/aero_frosted_glass_2026/Aero%20Glass%20Weather%20%26%203-Day%20Prism_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/aero_frosted_glass_2026/Aero%20Glass%20Weather%20%26%203-Day%20Prism_bg.png"
+    },
+    {
+      "name": "Aero Frosted Analog & Telemetry Orb",
+      "collection_id": "aero_frosted_glass_2026",
+      "category": "rings",
+      "categories": [
+        "rings",
+        "ios"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/aero_frosted_glass_2026/Aero%20Frosted%20Analog%20%26%20Telemetry%20Orb.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/aero_frosted_glass_2026/Aero%20Frosted%20Analog%20%26%20Telemetry%20Orb_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/aero_frosted_glass_2026/Aero%20Frosted%20Analog%20%26%20Telemetry%20Orb_bg.png"
+    },
+    {
+      "name": "Aero Floating Pill Dock & Now Playing",
+      "collection_id": "aero_frosted_glass_2026",
+      "category": "ios",
+      "categories": [
+        "ios",
+        "modern"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/aero_frosted_glass_2026/Aero%20Floating%20Pill%20Dock%20%26%20Now%20Playing.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/aero_frosted_glass_2026/Aero%20Floating%20Pill%20Dock%20%26%20Now%20Playing_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/aero_frosted_glass_2026/Aero%20Floating%20Pill%20Dock%20%26%20Now%20Playing_bg.png"
+    },
+    {
+      "name": "Aero Glass Monthly Calendar & Event",
+      "collection_id": "aero_frosted_glass_2026",
+      "category": "ios",
+      "categories": [
+        "ios",
+        "modern"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/aero_frosted_glass_2026/Aero%20Glass%20Monthly%20Calendar%20%26%20Event.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/aero_frosted_glass_2026/Aero%20Glass%20Monthly%20Calendar%20%26%20Event_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/aero_frosted_glass_2026/Aero%20Glass%20Monthly%20Calendar%20%26%20Event_bg.png"
+    },
+    {
+      "name": "Taped Instant Photo & Weather Scrapbook",
+      "collection_id": "pastel_lofi_scrapbook_2026",
+      "category": "ios",
+      "categories": [
+        "ios",
+        "modern"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/pastel_lofi_scrapbook_2026/Taped%20Instant%20Photo%20%26%20Weather%20Scrapbook.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/pastel_lofi_scrapbook_2026/Taped%20Instant%20Photo%20%26%20Weather%20Scrapbook_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/pastel_lofi_scrapbook_2026/Taped%20Instant%20Photo%20%26%20Weather%20Scrapbook_bg.png"
+    },
+    {
+      "name": "Matcha & Sakura Vinyl Mini Player",
+      "collection_id": "pastel_lofi_scrapbook_2026",
+      "category": "modern",
+      "categories": [
+        "modern",
+        "ios"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/pastel_lofi_scrapbook_2026/Matcha%20%26%20Sakura%20Vinyl%20Mini%20Player.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/pastel_lofi_scrapbook_2026/Matcha%20%26%20Sakura%20Vinyl%20Mini%20Player_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/pastel_lofi_scrapbook_2026/Matcha%20%26%20Sakura%20Vinyl%20Mini%20Player_bg.png"
+    },
+    {
+      "name": "Lo-Fi Quote of the Day Spiral Notebook",
+      "collection_id": "pastel_lofi_scrapbook_2026",
+      "category": "editorial",
+      "categories": [
+        "editorial",
+        "ios"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/pastel_lofi_scrapbook_2026/Lo-Fi%20Quote%20of%20the%20Day%20Spiral%20Notebook.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/pastel_lofi_scrapbook_2026/Lo-Fi%20Quote%20of%20the%20Day%20Spiral%20Notebook_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/pastel_lofi_scrapbook_2026/Lo-Fi%20Quote%20of%20the%20Day%20Spiral%20Notebook_bg.png"
+    },
+    {
+      "name": "Sakura & Matcha Scallop Analog Clock",
+      "collection_id": "pastel_lofi_scrapbook_2026",
+      "category": "rings",
+      "categories": [
+        "rings",
+        "classic"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/pastel_lofi_scrapbook_2026/Sakura%20%26%20Matcha%20Scallop%20Analog%20Clock.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/pastel_lofi_scrapbook_2026/Sakura%20%26%20Matcha%20Scallop%20Analog%20Clock_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/pastel_lofi_scrapbook_2026/Sakura%20%26%20Matcha%20Scallop%20Analog%20Clock_bg.png"
+    },
+    {
+      "name": "Swiss Poster Exposed Grid Clock & Weather",
+      "collection_id": "swiss_brutalist_grid_2026",
+      "category": "editorial",
+      "categories": [
+        "editorial",
+        "retro"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/swiss_brutalist_grid_2026/Swiss%20Poster%20Exposed%20Grid%20Clock%20%26%20Weather.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/swiss_brutalist_grid_2026/Swiss%20Poster%20Exposed%20Grid%20Clock%20%26%20Weather_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/swiss_brutalist_grid_2026/Swiss%20Poster%20Exposed%20Grid%20Clock%20%26%20Weather_bg.png"
+    },
+    {
+      "name": "Neo-Tokyo Spec Sheet & Barcode Telemetry",
+      "collection_id": "swiss_brutalist_grid_2026",
+      "category": "modern",
+      "categories": [
+        "modern",
         "editorial"
       ],
       "min_version_code": 326,
-      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/clockwork_ivy_grimoire_2026/Ornate%20Filigree%20Parchment%20Calendar%20%26%20Chronicle.uccw",
-      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/clockwork_ivy_grimoire_2026/Ornate%20Filigree%20Parchment%20Calendar%20%26%20Chronicle_thumb.png",
-      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/clockwork_ivy_grimoire_2026/Ornate%20Filigree%20Parchment%20Calendar%20%26%20Chronicle_bg.png"
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/swiss_brutalist_grid_2026/Neo-Tokyo%20Spec%20Sheet%20%26%20Barcode%20Telemetry.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/swiss_brutalist_grid_2026/Neo-Tokyo%20Spec%20Sheet%20%26%20Barcode%20Telemetry_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/swiss_brutalist_grid_2026/Neo-Tokyo%20Spec%20Sheet%20%26%20Barcode%20Telemetry_bg.png"
+    },
+    {
+      "name": "Brutalist International Analog & Coordinates",
+      "collection_id": "swiss_brutalist_grid_2026",
+      "category": "rings",
+      "categories": [
+        "rings",
+        "retro"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/swiss_brutalist_grid_2026/Brutalist%20International%20Analog%20%26%20Coordinates.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/swiss_brutalist_grid_2026/Brutalist%20International%20Analog%20%26%20Coordinates_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/swiss_brutalist_grid_2026/Brutalist%20International%20Analog%20%26%20Coordinates_bg.png"
+    },
+    {
+      "name": "Modular Wireframe Calendar & Agenda Poster",
+      "collection_id": "swiss_brutalist_grid_2026",
+      "category": "editorial",
+      "categories": [
+        "editorial",
+        "modern"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/swiss_brutalist_grid_2026/Modular%20Wireframe%20Calendar%20%26%20Agenda%20Poster.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/swiss_brutalist_grid_2026/Modular%20Wireframe%20Calendar%20%26%20Agenda%20Poster_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/swiss_brutalist_grid_2026/Modular%20Wireframe%20Calendar%20%26%20Agenda%20Poster_bg.png"
+    },
+    {
+      "name": "Sage Pebble Clock, Weather & Sun Arc",
+      "collection_id": "botanical_sage_zen_2026",
+      "category": "ios",
+      "categories": [
+        "ios",
+        "modern"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/botanical_sage_zen_2026/Sage%20Pebble%20Clock%2C%20Weather%20%26%20Sun%20Arc.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/botanical_sage_zen_2026/Sage%20Pebble%20Clock%2C%20Weather%20%26%20Sun%20Arc_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/botanical_sage_zen_2026/Sage%20Pebble%20Clock%2C%20Weather%20%26%20Sun%20Arc_bg.png"
+    },
+    {
+      "name": "Zen Mindfulness Step & Activity Rings",
+      "collection_id": "botanical_sage_zen_2026",
+      "category": "rings",
+      "categories": [
+        "rings",
+        "ios"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/botanical_sage_zen_2026/Zen%20Mindfulness%20Step%20%26%20Activity%20Rings.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/botanical_sage_zen_2026/Zen%20Mindfulness%20Step%20%26%20Activity%20Rings_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/botanical_sage_zen_2026/Zen%20Mindfulness%20Step%20%26%20Activity%20Rings_bg.png"
+    },
+    {
+      "name": "Botanical Linen Analog & Date Pebble",
+      "collection_id": "botanical_sage_zen_2026",
+      "category": "rings",
+      "categories": [
+        "rings",
+        "classic"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/botanical_sage_zen_2026/Botanical%20Linen%20Analog%20%26%20Date%20Pebble.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/botanical_sage_zen_2026/Botanical%20Linen%20Analog%20%26%20Date%20Pebble_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/botanical_sage_zen_2026/Botanical%20Linen%20Analog%20%26%20Date%20Pebble_bg.png"
+    },
+    {
+      "name": "Forest & Linen Calendar & Quote Sanctuary",
+      "collection_id": "botanical_sage_zen_2026",
+      "category": "ios",
+      "categories": [
+        "ios",
+        "editorial"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/botanical_sage_zen_2026/Forest%20%26%20Linen%20Calendar%20%26%20Quote%20Sanctuary.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/botanical_sage_zen_2026/Forest%20%26%20Linen%20Calendar%20%26%20Quote%20Sanctuary_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/botanical_sage_zen_2026/Forest%20%26%20Linen%20Calendar%20%26%20Quote%20Sanctuary_bg.png"
+    },
+    {
+      "name": "Soft-Clay Extruded Clock & Recessed Weather",
+      "collection_id": "neumorphic_soft_clay_2026",
+      "category": "modern",
+      "categories": [
+        "modern",
+        "ios"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/neumorphic_soft_clay_2026/Soft-Clay%20Extruded%20Clock%20%26%20Recessed%20Weather.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/neumorphic_soft_clay_2026/Soft-Clay%20Extruded%20Clock%20%26%20Recessed%20Weather_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/neumorphic_soft_clay_2026/Soft-Clay%20Extruded%20Clock%20%26%20Recessed%20Weather_bg.png"
+    },
+    {
+      "name": "Tactile Studio Media Controller & Vinyl Well",
+      "collection_id": "neumorphic_soft_clay_2026",
+      "category": "modern",
+      "categories": [
+        "modern",
+        "retro"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/neumorphic_soft_clay_2026/Tactile%20Studio%20Media%20Controller%20%26%20Vinyl%20Well.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/neumorphic_soft_clay_2026/Tactile%20Studio%20Media%20Controller%20%26%20Vinyl%20Well_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/neumorphic_soft_clay_2026/Tactile%20Studio%20Media%20Controller%20%26%20Vinyl%20Well_bg.png"
+    },
+    {
+      "name": "Embossed Ceramic Rotary Analog & Gauges",
+      "collection_id": "neumorphic_soft_clay_2026",
+      "category": "rings",
+      "categories": [
+        "rings",
+        "modern"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/neumorphic_soft_clay_2026/Embossed%20Ceramic%20Rotary%20Analog%20%26%20Gauges.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/neumorphic_soft_clay_2026/Embossed%20Ceramic%20Rotary%20Analog%20%26%20Gauges_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/neumorphic_soft_clay_2026/Embossed%20Ceramic%20Rotary%20Analog%20%26%20Gauges_bg.png"
+    },
+    {
+      "name": "Neumorphic Tactile Calendar & Telemetry Matrix",
+      "collection_id": "neumorphic_soft_clay_2026",
+      "category": "modern",
+      "categories": [
+        "modern",
+        "ios"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/neumorphic_soft_clay_2026/Neumorphic%20Tactile%20Calendar%20%26%20Telemetry%20Matrix.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/neumorphic_soft_clay_2026/Neumorphic%20Tactile%20Calendar%20%26%20Telemetry%20Matrix_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/neumorphic_soft_clay_2026/Neumorphic%20Tactile%20Calendar%20%26%20Telemetry%20Matrix_bg.png"
     },
     {
       "name": "Atelier Open-Heart & Power Reserve",
@@ -715,407 +988,134 @@
       "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/grand_horology_atelier_2026/Square%20Meridian%20%26%20Turntable%20Chrono_bg.png"
     },
     {
-      "name": "Soft-Clay Extruded Clock & Recessed Weather",
-      "collection_id": "neumorphic_soft_clay_2026",
-      "category": "modern",
+      "name": "Clockwork Ivy Analog & Parchment Quad Bento",
+      "collection_id": "clockwork_ivy_grimoire_2026",
+      "category": "classic",
       "categories": [
-        "modern",
-        "ios"
-      ],
-      "min_version_code": 326,
-      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/neumorphic_soft_clay_2026/Soft-Clay%20Extruded%20Clock%20%26%20Recessed%20Weather.uccw",
-      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/neumorphic_soft_clay_2026/Soft-Clay%20Extruded%20Clock%20%26%20Recessed%20Weather_thumb.png",
-      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/neumorphic_soft_clay_2026/Soft-Clay%20Extruded%20Clock%20%26%20Recessed%20Weather_bg.png"
-    },
-    {
-      "name": "Tactile Studio Media Controller & Vinyl Well",
-      "collection_id": "neumorphic_soft_clay_2026",
-      "category": "modern",
-      "categories": [
-        "modern",
+        "classic",
         "retro"
       ],
       "min_version_code": 326,
-      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/neumorphic_soft_clay_2026/Tactile%20Studio%20Media%20Controller%20%26%20Vinyl%20Well.uccw",
-      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/neumorphic_soft_clay_2026/Tactile%20Studio%20Media%20Controller%20%26%20Vinyl%20Well_thumb.png",
-      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/neumorphic_soft_clay_2026/Tactile%20Studio%20Media%20Controller%20%26%20Vinyl%20Well_bg.png"
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/clockwork_ivy_grimoire_2026/Clockwork%20Ivy%20Analog%20%26%20Parchment%20Quad%20Bento.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/clockwork_ivy_grimoire_2026/Clockwork%20Ivy%20Analog%20%26%20Parchment%20Quad%20Bento_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/clockwork_ivy_grimoire_2026/Clockwork%20Ivy%20Analog%20%26%20Parchment%20Quad%20Bento_bg.png"
     },
     {
-      "name": "Embossed Ceramic Rotary Analog & Gauges",
-      "collection_id": "neumorphic_soft_clay_2026",
-      "category": "rings",
+      "name": "Overgrown Brass Clockwork Skeleton Analog",
+      "collection_id": "clockwork_ivy_grimoire_2026",
+      "category": "classic",
       "categories": [
-        "rings",
-        "modern"
-      ],
-      "min_version_code": 326,
-      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/neumorphic_soft_clay_2026/Embossed%20Ceramic%20Rotary%20Analog%20%26%20Gauges.uccw",
-      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/neumorphic_soft_clay_2026/Embossed%20Ceramic%20Rotary%20Analog%20%26%20Gauges_thumb.png",
-      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/neumorphic_soft_clay_2026/Embossed%20Ceramic%20Rotary%20Analog%20%26%20Gauges_bg.png"
-    },
-    {
-      "name": "Neumorphic Tactile Calendar & Telemetry Matrix",
-      "collection_id": "neumorphic_soft_clay_2026",
-      "category": "modern",
-      "categories": [
-        "modern",
-        "ios"
-      ],
-      "min_version_code": 326,
-      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/neumorphic_soft_clay_2026/Neumorphic%20Tactile%20Calendar%20%26%20Telemetry%20Matrix.uccw",
-      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/neumorphic_soft_clay_2026/Neumorphic%20Tactile%20Calendar%20%26%20Telemetry%20Matrix_thumb.png",
-      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/neumorphic_soft_clay_2026/Neumorphic%20Tactile%20Calendar%20%26%20Telemetry%20Matrix_bg.png"
-    },
-    {
-      "name": "Sage Pebble Clock, Weather & Sun Arc",
-      "collection_id": "botanical_sage_zen_2026",
-      "category": "ios",
-      "categories": [
-        "ios",
-        "modern"
-      ],
-      "min_version_code": 326,
-      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/botanical_sage_zen_2026/Sage%20Pebble%20Clock%2C%20Weather%20%26%20Sun%20Arc.uccw",
-      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/botanical_sage_zen_2026/Sage%20Pebble%20Clock%2C%20Weather%20%26%20Sun%20Arc_thumb.png",
-      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/botanical_sage_zen_2026/Sage%20Pebble%20Clock%2C%20Weather%20%26%20Sun%20Arc_bg.png"
-    },
-    {
-      "name": "Zen Mindfulness Step & Activity Rings",
-      "collection_id": "botanical_sage_zen_2026",
-      "category": "rings",
-      "categories": [
-        "rings",
-        "ios"
-      ],
-      "min_version_code": 326,
-      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/botanical_sage_zen_2026/Zen%20Mindfulness%20Step%20%26%20Activity%20Rings.uccw",
-      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/botanical_sage_zen_2026/Zen%20Mindfulness%20Step%20%26%20Activity%20Rings_thumb.png",
-      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/botanical_sage_zen_2026/Zen%20Mindfulness%20Step%20%26%20Activity%20Rings_bg.png"
-    },
-    {
-      "name": "Botanical Linen Analog & Date Pebble",
-      "collection_id": "botanical_sage_zen_2026",
-      "category": "rings",
-      "categories": [
-        "rings",
-        "classic"
-      ],
-      "min_version_code": 326,
-      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/botanical_sage_zen_2026/Botanical%20Linen%20Analog%20%26%20Date%20Pebble.uccw",
-      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/botanical_sage_zen_2026/Botanical%20Linen%20Analog%20%26%20Date%20Pebble_thumb.png",
-      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/botanical_sage_zen_2026/Botanical%20Linen%20Analog%20%26%20Date%20Pebble_bg.png"
-    },
-    {
-      "name": "Forest & Linen Calendar & Quote Sanctuary",
-      "collection_id": "botanical_sage_zen_2026",
-      "category": "ios",
-      "categories": [
-        "ios",
-        "editorial"
-      ],
-      "min_version_code": 326,
-      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/botanical_sage_zen_2026/Forest%20%26%20Linen%20Calendar%20%26%20Quote%20Sanctuary.uccw",
-      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/botanical_sage_zen_2026/Forest%20%26%20Linen%20Calendar%20%26%20Quote%20Sanctuary_thumb.png",
-      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/botanical_sage_zen_2026/Forest%20%26%20Linen%20Calendar%20%26%20Quote%20Sanctuary_bg.png"
-    },
-    {
-      "name": "Swiss Poster Exposed Grid Clock & Weather",
-      "collection_id": "swiss_brutalist_grid_2026",
-      "category": "editorial",
-      "categories": [
-        "editorial",
-        "retro"
-      ],
-      "min_version_code": 326,
-      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/swiss_brutalist_grid_2026/Swiss%20Poster%20Exposed%20Grid%20Clock%20%26%20Weather.uccw",
-      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/swiss_brutalist_grid_2026/Swiss%20Poster%20Exposed%20Grid%20Clock%20%26%20Weather_thumb.png",
-      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/swiss_brutalist_grid_2026/Swiss%20Poster%20Exposed%20Grid%20Clock%20%26%20Weather_bg.png"
-    },
-    {
-      "name": "Neo-Tokyo Spec Sheet & Barcode Telemetry",
-      "collection_id": "swiss_brutalist_grid_2026",
-      "category": "modern",
-      "categories": [
-        "modern",
-        "editorial"
-      ],
-      "min_version_code": 326,
-      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/swiss_brutalist_grid_2026/Neo-Tokyo%20Spec%20Sheet%20%26%20Barcode%20Telemetry.uccw",
-      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/swiss_brutalist_grid_2026/Neo-Tokyo%20Spec%20Sheet%20%26%20Barcode%20Telemetry_thumb.png",
-      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/swiss_brutalist_grid_2026/Neo-Tokyo%20Spec%20Sheet%20%26%20Barcode%20Telemetry_bg.png"
-    },
-    {
-      "name": "Brutalist International Analog & Coordinates",
-      "collection_id": "swiss_brutalist_grid_2026",
-      "category": "rings",
-      "categories": [
-        "rings",
-        "retro"
-      ],
-      "min_version_code": 326,
-      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/swiss_brutalist_grid_2026/Brutalist%20International%20Analog%20%26%20Coordinates.uccw",
-      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/swiss_brutalist_grid_2026/Brutalist%20International%20Analog%20%26%20Coordinates_thumb.png",
-      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/swiss_brutalist_grid_2026/Brutalist%20International%20Analog%20%26%20Coordinates_bg.png"
-    },
-    {
-      "name": "Modular Wireframe Calendar & Agenda Poster",
-      "collection_id": "swiss_brutalist_grid_2026",
-      "category": "editorial",
-      "categories": [
-        "editorial",
-        "modern"
-      ],
-      "min_version_code": 326,
-      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/swiss_brutalist_grid_2026/Modular%20Wireframe%20Calendar%20%26%20Agenda%20Poster.uccw",
-      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/swiss_brutalist_grid_2026/Modular%20Wireframe%20Calendar%20%26%20Agenda%20Poster_thumb.png",
-      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/swiss_brutalist_grid_2026/Modular%20Wireframe%20Calendar%20%26%20Agenda%20Poster_bg.png"
-    },
-    {
-      "name": "Taped Instant Photo & Weather Scrapbook",
-      "collection_id": "pastel_lofi_scrapbook_2026",
-      "category": "ios",
-      "categories": [
-        "ios",
-        "modern"
-      ],
-      "min_version_code": 326,
-      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/pastel_lofi_scrapbook_2026/Taped%20Instant%20Photo%20%26%20Weather%20Scrapbook.uccw",
-      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/pastel_lofi_scrapbook_2026/Taped%20Instant%20Photo%20%26%20Weather%20Scrapbook_thumb.png",
-      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/pastel_lofi_scrapbook_2026/Taped%20Instant%20Photo%20%26%20Weather%20Scrapbook_bg.png"
-    },
-    {
-      "name": "Matcha & Sakura Vinyl Mini Player",
-      "collection_id": "pastel_lofi_scrapbook_2026",
-      "category": "modern",
-      "categories": [
-        "modern",
-        "ios"
-      ],
-      "min_version_code": 326,
-      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/pastel_lofi_scrapbook_2026/Matcha%20%26%20Sakura%20Vinyl%20Mini%20Player.uccw",
-      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/pastel_lofi_scrapbook_2026/Matcha%20%26%20Sakura%20Vinyl%20Mini%20Player_thumb.png",
-      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/pastel_lofi_scrapbook_2026/Matcha%20%26%20Sakura%20Vinyl%20Mini%20Player_bg.png"
-    },
-    {
-      "name": "Lo-Fi Quote of the Day Spiral Notebook",
-      "collection_id": "pastel_lofi_scrapbook_2026",
-      "category": "editorial",
-      "categories": [
-        "editorial",
-        "ios"
-      ],
-      "min_version_code": 326,
-      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/pastel_lofi_scrapbook_2026/Lo-Fi%20Quote%20of%20the%20Day%20Spiral%20Notebook.uccw",
-      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/pastel_lofi_scrapbook_2026/Lo-Fi%20Quote%20of%20the%20Day%20Spiral%20Notebook_thumb.png",
-      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/pastel_lofi_scrapbook_2026/Lo-Fi%20Quote%20of%20the%20Day%20Spiral%20Notebook_bg.png"
-    },
-    {
-      "name": "Sakura & Matcha Scallop Analog Clock",
-      "collection_id": "pastel_lofi_scrapbook_2026",
-      "category": "rings",
-      "categories": [
-        "rings",
-        "classic"
-      ],
-      "min_version_code": 326,
-      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/pastel_lofi_scrapbook_2026/Sakura%20%26%20Matcha%20Scallop%20Analog%20Clock.uccw",
-      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/pastel_lofi_scrapbook_2026/Sakura%20%26%20Matcha%20Scallop%20Analog%20Clock_thumb.png",
-      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/pastel_lofi_scrapbook_2026/Sakura%20%26%20Matcha%20Scallop%20Analog%20Clock_bg.png"
-    },
-    {
-      "name": "Aero Glass Weather & 3-Day Prism",
-      "collection_id": "aero_frosted_glass_2026",
-      "category": "ios",
-      "categories": [
-        "ios",
-        "modern"
-      ],
-      "min_version_code": 326,
-      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/aero_frosted_glass_2026/Aero%20Glass%20Weather%20%26%203-Day%20Prism.uccw",
-      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/aero_frosted_glass_2026/Aero%20Glass%20Weather%20%26%203-Day%20Prism_thumb.png",
-      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/aero_frosted_glass_2026/Aero%20Glass%20Weather%20%26%203-Day%20Prism_bg.png"
-    },
-    {
-      "name": "Aero Frosted Analog & Telemetry Orb",
-      "collection_id": "aero_frosted_glass_2026",
-      "category": "rings",
-      "categories": [
-        "rings",
-        "ios"
-      ],
-      "min_version_code": 326,
-      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/aero_frosted_glass_2026/Aero%20Frosted%20Analog%20%26%20Telemetry%20Orb.uccw",
-      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/aero_frosted_glass_2026/Aero%20Frosted%20Analog%20%26%20Telemetry%20Orb_thumb.png",
-      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/aero_frosted_glass_2026/Aero%20Frosted%20Analog%20%26%20Telemetry%20Orb_bg.png"
-    },
-    {
-      "name": "Aero Floating Pill Dock & Now Playing",
-      "collection_id": "aero_frosted_glass_2026",
-      "category": "ios",
-      "categories": [
-        "ios",
-        "modern"
-      ],
-      "min_version_code": 326,
-      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/aero_frosted_glass_2026/Aero%20Floating%20Pill%20Dock%20%26%20Now%20Playing.uccw",
-      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/aero_frosted_glass_2026/Aero%20Floating%20Pill%20Dock%20%26%20Now%20Playing_thumb.png",
-      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/aero_frosted_glass_2026/Aero%20Floating%20Pill%20Dock%20%26%20Now%20Playing_bg.png"
-    },
-    {
-      "name": "Aero Glass Monthly Calendar & Event",
-      "collection_id": "aero_frosted_glass_2026",
-      "category": "ios",
-      "categories": [
-        "ios",
-        "modern"
-      ],
-      "min_version_code": 326,
-      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/aero_frosted_glass_2026/Aero%20Glass%20Monthly%20Calendar%20%26%20Event.uccw",
-      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/aero_frosted_glass_2026/Aero%20Glass%20Monthly%20Calendar%20%26%20Event_thumb.png",
-      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/aero_frosted_glass_2026/Aero%20Glass%20Monthly%20Calendar%20%26%20Event_bg.png"
-    },
-    {
-      "name": "Editorial Split-Time & Vertical Spine",
-      "collection_id": "frameless_editorial_typo_2026",
-      "category": "editorial",
-      "categories": [
-        "editorial",
-        "modern"
-      ],
-      "min_version_code": 326,
-      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/frameless_editorial_typo_2026/Editorial%20Split-Time%20%26%20Vertical%20Spine.uccw",
-      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/frameless_editorial_typo_2026/Editorial%20Split-Time%20%26%20Vertical%20Spine_thumb.png",
-      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/frameless_editorial_typo_2026/Editorial%20Split-Time%20%26%20Vertical%20Spine_bg.png"
-    },
-    {
-      "name": "Kinetic Pillar & Script Overlay Clock",
-      "collection_id": "frameless_editorial_typo_2026",
-      "category": "editorial",
-      "categories": [
-        "editorial",
-        "modern"
-      ],
-      "min_version_code": 326,
-      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/frameless_editorial_typo_2026/Kinetic%20Pillar%20%26%20Script%20Overlay%20Clock.uccw",
-      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/frameless_editorial_typo_2026/Kinetic%20Pillar%20%26%20Script%20Overlay%20Clock_thumb.png",
-      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/frameless_editorial_typo_2026/Kinetic%20Pillar%20%26%20Script%20Overlay%20Clock_bg.png"
-    },
-    {
-      "name": "Minimalist Horizon Weather & Agenda Strip",
-      "collection_id": "frameless_editorial_typo_2026",
-      "category": "editorial",
-      "categories": [
-        "editorial",
-        "modern"
-      ],
-      "min_version_code": 326,
-      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/frameless_editorial_typo_2026/Minimalist%20Horizon%20Weather%20%26%20Agenda%20Strip.uccw",
-      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/frameless_editorial_typo_2026/Minimalist%20Horizon%20Weather%20%26%20Agenda%20Strip_thumb.png",
-      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/frameless_editorial_typo_2026/Minimalist%20Horizon%20Weather%20%26%20Agenda%20Strip_bg.png"
-    },
-    {
-      "name": "Frameless Meridian Analog & Date",
-      "collection_id": "frameless_editorial_typo_2026",
-      "category": "rings",
-      "categories": [
-        "rings",
-        "classic"
-      ],
-      "min_version_code": 326,
-      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/frameless_editorial_typo_2026/Frameless%20Meridian%20Analog%20%26%20Date.uccw",
-      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/frameless_editorial_typo_2026/Frameless%20Meridian%20Analog%20%26%20Date_thumb.png",
-      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/frameless_editorial_typo_2026/Frameless%20Meridian%20Analog%20%26%20Date_bg.png"
-    },
-    {
-      "name": "Desert Archway Editorial Clock & Weather",
-      "collection_id": "desert_dune_mirage_2026",
-      "category": "ios",
-      "categories": [
-        "ios",
-        "modern"
-      ],
-      "min_version_code": 326,
-      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/desert_dune_mirage_2026/Desert%20Archway%20Editorial%20Clock%20%26%20Weather.uccw",
-      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/desert_dune_mirage_2026/Desert%20Archway%20Editorial%20Clock%20%26%20Weather_thumb.png",
-      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/desert_dune_mirage_2026/Desert%20Archway%20Editorial%20Clock%20%26%20Weather_bg.png"
-    },
-    {
-      "name": "Sun & Shadow Sundial Analog Timepiece",
-      "collection_id": "desert_dune_mirage_2026",
-      "category": "rings",
-      "categories": [
-        "rings",
-        "classic"
-      ],
-      "min_version_code": 326,
-      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/desert_dune_mirage_2026/Sun%20%26%20Shadow%20Sundial%20Analog%20Timepiece.uccw",
-      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/desert_dune_mirage_2026/Sun%20%26%20Shadow%20Sundial%20Analog%20Timepiece_thumb.png",
-      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/desert_dune_mirage_2026/Sun%20%26%20Shadow%20Sundial%20Analog%20Timepiece_bg.png"
-    },
-    {
-      "name": "Dune Crest Floating Pill Cluster",
-      "collection_id": "desert_dune_mirage_2026",
-      "category": "modern",
-      "categories": [
-        "modern",
-        "ios"
-      ],
-      "min_version_code": 326,
-      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/desert_dune_mirage_2026/Dune%20Crest%20Floating%20Pill%20Cluster.uccw",
-      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/desert_dune_mirage_2026/Dune%20Crest%20Floating%20Pill%20Cluster_thumb.png",
-      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/desert_dune_mirage_2026/Dune%20Crest%20Floating%20Pill%20Cluster_bg.png"
-    },
-    {
-      "name": "Twin-Arch Calendar & Desert Window",
-      "collection_id": "desert_dune_mirage_2026",
-      "category": "ios",
-      "categories": [
-        "ios",
-        "modern"
-      ],
-      "min_version_code": 326,
-      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/desert_dune_mirage_2026/Twin-Arch%20Calendar%20%26%20Desert%20Window.uccw",
-      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/desert_dune_mirage_2026/Twin-Arch%20Calendar%20%26%20Desert%20Window_thumb.png",
-      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/desert_dune_mirage_2026/Twin-Arch%20Calendar%20%26%20Desert%20Window_bg.png"
-    },
-    {
-      "name": "Terracotta Wave Weather & 3-Day Outlook",
-      "collection_id": "terracotta_wave_studio_2026",
-      "category": "ios",
-      "categories": [
-        "ios",
-        "modern"
-      ],
-      "min_version_code": 326,
-      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/terracotta_wave_studio_2026/Terracotta%20Wave%20Weather%20%26%203-Day%20Outlook.uccw",
-      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/terracotta_wave_studio_2026/Terracotta%20Wave%20Weather%20%26%203-Day%20Outlook_thumb.png",
-      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/terracotta_wave_studio_2026/Terracotta%20Wave%20Weather%20%26%203-Day%20Outlook_bg.png"
-    },
-    {
-      "name": "Terracotta Wave Monthly Calendar & Pill",
-      "collection_id": "terracotta_wave_studio_2026",
-      "category": "ios",
-      "categories": [
-        "ios",
-        "modern"
-      ],
-      "min_version_code": 326,
-      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/terracotta_wave_studio_2026/Terracotta%20Wave%20Monthly%20Calendar%20%26%20Pill.uccw",
-      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/terracotta_wave_studio_2026/Terracotta%20Wave%20Monthly%20Calendar%20%26%20Pill_thumb.png",
-      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/terracotta_wave_studio_2026/Terracotta%20Wave%20Monthly%20Calendar%20%26%20Pill_bg.png"
-    },
-    {
-      "name": "Terracotta Wave Chrono & Studio Agenda",
-      "collection_id": "terracotta_wave_studio_2026",
-      "category": "ios",
-      "categories": [
-        "ios",
+        "classic",
         "rings"
       ],
       "min_version_code": 326,
-      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/terracotta_wave_studio_2026/Terracotta%20Wave%20Chrono%20%26%20Studio%20Agenda.uccw",
-      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/terracotta_wave_studio_2026/Terracotta%20Wave%20Chrono%20%26%20Studio%20Agenda_thumb.png",
-      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/terracotta_wave_studio_2026/Terracotta%20Wave%20Chrono%20%26%20Studio%20Agenda_bg.png"
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/clockwork_ivy_grimoire_2026/Overgrown%20Brass%20Clockwork%20Skeleton%20Analog.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/clockwork_ivy_grimoire_2026/Overgrown%20Brass%20Clockwork%20Skeleton%20Analog_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/clockwork_ivy_grimoire_2026/Overgrown%20Brass%20Clockwork%20Skeleton%20Analog_bg.png"
+    },
+    {
+      "name": "Botanical Ivy & Fern Parchment Quote Scroll",
+      "collection_id": "clockwork_ivy_grimoire_2026",
+      "category": "editorial",
+      "categories": [
+        "editorial",
+        "classic"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/clockwork_ivy_grimoire_2026/Botanical%20Ivy%20%26%20Fern%20Parchment%20Quote%20Scroll.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/clockwork_ivy_grimoire_2026/Botanical%20Ivy%20%26%20Fern%20Parchment%20Quote%20Scroll_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/clockwork_ivy_grimoire_2026/Botanical%20Ivy%20%26%20Fern%20Parchment%20Quote%20Scroll_bg.png"
+    },
+    {
+      "name": "Ornate Filigree Parchment Calendar & Chronicle",
+      "collection_id": "clockwork_ivy_grimoire_2026",
+      "category": "classic",
+      "categories": [
+        "classic",
+        "editorial"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/clockwork_ivy_grimoire_2026/Ornate%20Filigree%20Parchment%20Calendar%20%26%20Chronicle.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/clockwork_ivy_grimoire_2026/Ornate%20Filigree%20Parchment%20Calendar%20%26%20Chronicle_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/clockwork_ivy_grimoire_2026/Ornate%20Filigree%20Parchment%20Calendar%20%26%20Chronicle_bg.png"
+    },
+    {
+      "name": "Golden Dawn Orb Clock & Solar Timeline",
+      "collection_id": "lumina_horizon_telemetry_2026",
+      "category": "ios",
+      "categories": [
+        "ios",
+        "modern"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/lumina_horizon_telemetry_2026/Golden%20Dawn%20Orb%20Clock%20%26%20Solar%20Timeline.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/lumina_horizon_telemetry_2026/Golden%20Dawn%20Orb%20Clock%20%26%20Solar%20Timeline_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/lumina_horizon_telemetry_2026/Golden%20Dawn%20Orb%20Clock%20%26%20Solar%20Timeline_bg.png"
+    },
+    {
+      "name": "Pixie Retro Virtual Pet & Status Bars",
+      "collection_id": "lumina_horizon_telemetry_2026",
+      "category": "retro",
+      "categories": [
+        "retro",
+        "nothing"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/lumina_horizon_telemetry_2026/Pixie%20Retro%20Virtual%20Pet%20%26%20Status%20Bars.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/lumina_horizon_telemetry_2026/Pixie%20Retro%20Virtual%20Pet%20%26%20Status%20Bars_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/lumina_horizon_telemetry_2026/Pixie%20Retro%20Virtual%20Pet%20%26%20Status%20Bars_bg.png"
+    },
+    {
+      "name": "Amber Beam & Segmented Step Chrono Ring",
+      "collection_id": "lumina_horizon_telemetry_2026",
+      "category": "rings",
+      "categories": [
+        "rings",
+        "modern"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/lumina_horizon_telemetry_2026/Amber%20Beam%20%26%20Segmented%20Step%20Chrono%20Ring.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/lumina_horizon_telemetry_2026/Amber%20Beam%20%26%20Segmented%20Step%20Chrono%20Ring_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/lumina_horizon_telemetry_2026/Amber%20Beam%20%26%20Segmented%20Step%20Chrono%20Ring_bg.png"
+    },
+    {
+      "name": "Alpine Ridge Altimeter & Barometer Horizon",
+      "collection_id": "lumina_horizon_telemetry_2026",
+      "category": "ios",
+      "categories": [
+        "ios",
+        "modern"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/lumina_horizon_telemetry_2026/Alpine%20Ridge%20Altimeter%20%26%20Barometer%20Horizon.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/lumina_horizon_telemetry_2026/Alpine%20Ridge%20Altimeter%20%26%20Barometer%20Horizon_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/lumina_horizon_telemetry_2026/Alpine%20Ridge%20Altimeter%20%26%20Barometer%20Horizon_bg.png"
+    },
+    {
+      "name": "Transcontinental Flight Deck & World Transit",
+      "collection_id": "lumina_horizon_telemetry_2026",
+      "category": "ios",
+      "categories": [
+        "ios",
+        "modern"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/lumina_horizon_telemetry_2026/Transcontinental%20Flight%20Deck%20%26%20World%20Transit.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/lumina_horizon_telemetry_2026/Transcontinental%20Flight%20Deck%20%26%20World%20Transit_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/lumina_horizon_telemetry_2026/Transcontinental%20Flight%20Deck%20%26%20World%20Transit_bg.png"
+    },
+    {
+      "name": "Neon Mint Focus Goal & Segmented Timer Console",
+      "collection_id": "lumina_horizon_telemetry_2026",
+      "category": "modern",
+      "categories": [
+        "modern",
+        "ios"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/lumina_horizon_telemetry_2026/Neon%20Mint%20Focus%20Goal%20%26%20Segmented%20Timer%20Console.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/lumina_horizon_telemetry_2026/Neon%20Mint%20Focus%20Goal%20%26%20Segmented%20Timer%20Console_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/lumina_horizon_telemetry_2026/Neon%20Mint%20Focus%20Goal%20%26%20Segmented%20Timer%20Console_bg.png"
     },
     {
       "name": "Solar Horizon & 3-Day Weather Radar",

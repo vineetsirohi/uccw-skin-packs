@@ -42,7 +42,7 @@
         "x": 250,
         "y": 104
       },
-      "size": 12,
+      "size": 16,
       "color": -1722233,
       "alpha": 255,
       "angle": 0,
@@ -83,7 +83,7 @@
         "x": 250,
         "y": 168
       },
-      "size": 15,
+      "size": 18,
       "color": -460036,
       "alpha": 255,
       "angle": 0,
@@ -122,9 +122,9 @@
       "drawing_order": 3,
       "position": {
         "x": 124,
-        "y": 248
+        "y": 244
       },
-      "size": 22,
+      "size": 26,
       "color": -460036,
       "alpha": 255,
       "angle": 0,
@@ -163,9 +163,9 @@
       "drawing_order": 4,
       "position": {
         "x": 124,
-        "y": 272
+        "y": 274
       },
-      "size": 11,
+      "size": 16,
       "color": -1722233,
       "alpha": 255,
       "angle": 0,
@@ -204,9 +204,9 @@
       "drawing_order": 5,
       "position": {
         "x": 378,
-        "y": 258
+        "y": 259
       },
-      "size": 22,
+      "size": 26,
       "color": -460036,
       "alpha": 255,
       "angle": 0,
@@ -290,9 +290,9 @@
       "drawing_order": 7,
       "position": {
         "x": 250,
-        "y": 430
+        "y": 432
       },
-      "size": 11,
+      "size": 16,
       "color": -7035976,
       "alpha": 255,
       "angle": 0,

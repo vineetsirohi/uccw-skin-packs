@@ -36,14 +36,55 @@
     {
       "type": "text_object",
       "id": 0,
-      "name": "Main Clock",
+      "name": "Halloween Tag",
       "drawing_order": 0,
+      "position": {
+        "x": 154,
+        "y": 59
+      },
+      "size": 16,
+      "color": -25020,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "HALLOWEEN \u00b7 OCT 31",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 2
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Main Clock",
+      "drawing_order": 1,
       "position": {
         "x": 42,
         "y": 162
       },
       "size": 78,
-      "color": -2328,
+      "color": -593704,
       "alpha": 255,
       "angle": 0,
       "bold": false,
@@ -78,7 +119,7 @@
       "type": "text_object",
       "id": 0,
       "name": "Current Date",
-      "drawing_order": 1,
+      "drawing_order": 2,
       "position": {
         "x": 44,
         "y": 214
@@ -116,15 +157,56 @@
       }
     },
     {
+      "type": "text_object",
+      "id": 0,
+      "name": "Weather Header",
+      "drawing_order": 3,
+      "position": {
+        "x": 422,
+        "y": 54
+      },
+      "size": 16,
+      "color": -3623198,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "NIGHT SKY \u00b7 WEATHER",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 2
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
       "type": "weather_image",
       "id": 0,
       "name": "Weather Icon",
-      "drawing_order": 2,
+      "drawing_order": 4,
       "position": {
-        "x": 526,
-        "y": 72
+        "x": 534,
+        "y": 78
       },
-      "scale": 0.72,
+      "scale": 0.64,
       "alpha": 255,
       "angle": 0,
       "image_source": 0,
@@ -135,13 +217,13 @@
       "type": "text_object",
       "id": 0,
       "name": "Temperature",
-      "drawing_order": 3,
+      "drawing_order": 5,
       "position": {
         "x": 422,
         "y": 138
       },
       "size": 52,
-      "color": -2328,
+      "color": -593704,
       "alpha": 255,
       "angle": 0,
       "bold": false,
@@ -176,13 +258,13 @@
       "type": "text_object",
       "id": 0,
       "name": "Weather Condition",
-      "drawing_order": 4,
+      "drawing_order": 6,
       "position": {
         "x": 422,
         "y": 176
       },
       "size": 19,
-      "color": -3688214,
+      "color": -3687990,
       "alpha": 255,
       "angle": 0,
       "bold": false,
@@ -217,7 +299,7 @@
       "type": "text_object",
       "id": 0,
       "name": "Sunset Time",
-      "drawing_order": 5,
+      "drawing_order": 7,
       "position": {
         "x": 422,
         "y": 228
@@ -257,14 +339,55 @@
     {
       "type": "text_object",
       "id": 0,
+      "name": "Agenda Header",
+      "drawing_order": 8,
+      "position": {
+        "x": 42,
+        "y": 298
+      },
+      "size": 16,
+      "color": -25020,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "AUTUMN AGENDA \u00b7 NEXT EVENT",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 2
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
       "name": "Next Event Title",
-      "drawing_order": 6,
+      "drawing_order": 9,
       "position": {
         "x": 62,
         "y": 358
       },
       "size": 22,
-      "color": -2328,
+      "color": -593704,
       "alpha": 255,
       "angle": 0,
       "bold": false,
@@ -287,7 +410,7 @@
         "file": ""
       },
       "event_index": 0,
-      "max_length": 22,
+      "max_length": 19,
       "shadow": {
         "color": -16777216,
         "dx": 0,
@@ -299,7 +422,7 @@
       "type": "text_object",
       "id": 0,
       "name": "Next Event Time",
-      "drawing_order": 7,
+      "drawing_order": 10,
       "position": {
         "x": 62,
         "y": 396
@@ -337,16 +460,102 @@
       }
     },
     {
+      "type": "text_object",
+      "id": 0,
+      "name": "Power Header",
+      "drawing_order": 11,
+      "position": {
+        "x": 422,
+        "y": 298
+      },
+      "size": 16,
+      "color": -3623198,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "POWER & NIGHT STEPS",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 2
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Battery Percent",
+      "drawing_order": 12,
+      "position": {
+        "x": 596,
+        "y": 330
+      },
+      "size": 20,
+      "color": -25020,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "BAT ",
+      "suffix": "%",
+      "text": "",
+      "text_alignment": {
+        "align": 2
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 22,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
       "type": "battery_bar",
       "id": 0,
       "name": "Battery Bar",
-      "drawing_order": 8,
+      "drawing_order": 13,
       "position": {
         "x": 422,
-        "y": 342
+        "y": 344
       },
       "width": 174,
       "height": 14,
+      "base_color": 1848320572,
+      "base_roundness": 7,
+      "progress_bar_height": 12,
+      "progress_bar_roundness": 7,
       "alpha": 255,
       "angle": 0,
       "style": 0,
@@ -383,55 +592,14 @@
     {
       "type": "text_object",
       "id": 0,
-      "name": "Battery Percent",
-      "drawing_order": 9,
-      "position": {
-        "x": 596,
-        "y": 326
-      },
-      "size": 20,
-      "color": -25020,
-      "alpha": 255,
-      "angle": 0,
-      "bold": false,
-      "italic": false,
-      "font": {
-        "type": 1,
-        "font": "fonts/ShareTechMono-Regular.ttf"
-      },
-      "prefix": "BAT ",
-      "suffix": "%",
-      "text": "",
-      "text_alignment": {
-        "align": 2
-      },
-      "text_case": {
-        "text_case": 0
-      },
-      "text_provider": {
-        "id": 22,
-        "file": ""
-      },
-      "event_index": 0,
-      "max_length": 0,
-      "shadow": {
-        "color": -16777216,
-        "dx": 0,
-        "dy": 0,
-        "radius": 0
-      }
-    },
-    {
-      "type": "text_object",
-      "id": 0,
       "name": "Step Count",
-      "drawing_order": 10,
+      "drawing_order": 14,
       "position": {
         "x": 422,
         "y": 426
       },
       "size": 22,
-      "color": -3688214,
+      "color": -3687990,
       "alpha": 255,
       "angle": 0,
       "bold": false,
@@ -466,7 +634,7 @@
       "type": "hotspot",
       "id": 0,
       "name": "Clock Hotspot",
-      "drawing_order": 9999,
+      "drawing_order": 9998,
       "position": {
         "x": 22,
         "y": 22
@@ -476,7 +644,7 @@
       "shape": 0,
       "hotspot_mode": 1,
       "uccw_type": 0,
-      "app_name": "Alarm Clock",
+      "app_name": "Clock Hotspot",
       "intent": null,
       "alpha": 255,
       "angle": 0
@@ -494,8 +662,8 @@
       "height": 192,
       "shape": 0,
       "hotspot_mode": 1,
-      "uccw_type": 0,
-      "app_name": "Calendar",
+      "uccw_type": 2,
+      "app_name": "Calendar Hotspot",
       "intent": null,
       "alpha": 255,
       "angle": 0

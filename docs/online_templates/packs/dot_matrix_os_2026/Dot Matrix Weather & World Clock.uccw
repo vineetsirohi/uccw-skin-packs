@@ -36,11 +36,52 @@
     {
       "type": "text_object",
       "id": 0,
+      "name": "Clock Header",
+      "drawing_order": 1,
+      "position": {
+        "x": 74,
+        "y": 66
+      },
+      "size": 16,
+      "color": -7035976,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "LOCAL TIME // SYNC",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
       "name": "Main Clock",
-      "drawing_order": 0,
+      "drawing_order": 2,
       "position": {
         "x": 54,
-        "y": 168
+        "y": 166
       },
       "size": 86,
       "color": -1,
@@ -78,7 +119,7 @@
       "type": "text_object",
       "id": 0,
       "name": "Main Date",
-      "drawing_order": 1,
+      "drawing_order": 3,
       "position": {
         "x": 54,
         "y": 218
@@ -87,7 +128,7 @@
       "color": -1105092,
       "alpha": 255,
       "angle": 0,
-      "bold": true,
+      "bold": false,
       "italic": false,
       "font": {
         "type": 1,
@@ -118,11 +159,52 @@
     {
       "type": "text_object",
       "id": 0,
-      "name": "Current Temp",
-      "drawing_order": 2,
+      "name": "Atmos Header",
+      "drawing_order": 4,
       "position": {
         "x": 456,
-        "y": 152
+        "y": 66
+      },
+      "size": 16,
+      "color": -1,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "ATMOS // LIVE",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Current Temp",
+      "drawing_order": 5,
+      "position": {
+        "x": 456,
+        "y": 150
       },
       "size": 66,
       "color": -1,
@@ -160,16 +242,16 @@
       "type": "text_object",
       "id": 0,
       "name": "Weather Condition",
-      "drawing_order": 3,
+      "drawing_order": 6,
       "position": {
         "x": 456,
-        "y": 192
+        "y": 190
       },
-      "size": 16,
+      "size": 17,
       "color": -3854,
       "alpha": 255,
       "angle": 0,
-      "bold": true,
+      "bold": false,
       "italic": false,
       "font": {
         "type": 1,
@@ -189,7 +271,7 @@
         "file": ""
       },
       "event_index": 0,
-      "max_length": 0,
+      "max_length": 14,
       "shadow": {
         "color": -16777216,
         "dx": 0,
@@ -201,13 +283,13 @@
       "type": "text_object",
       "id": 0,
       "name": "High Temp",
-      "drawing_order": 4,
+      "drawing_order": 7,
       "position": {
         "x": 456,
-        "y": 220
+        "y": 222
       },
-      "size": 14,
-      "color": -8991,
+      "size": 16,
+      "color": -6936,
       "alpha": 255,
       "angle": 0,
       "bold": true,
@@ -242,13 +324,13 @@
       "type": "text_object",
       "id": 0,
       "name": "Low Temp",
-      "drawing_order": 5,
+      "drawing_order": 8,
       "position": {
-        "x": 536,
-        "y": 220
+        "x": 544,
+        "y": 222
       },
-      "size": 14,
-      "color": -8991,
+      "size": 16,
+      "color": -6936,
       "alpha": 255,
       "angle": 0,
       "bold": true,
@@ -282,11 +364,52 @@
     {
       "type": "text_object",
       "id": 0,
-      "name": "World Clock UTC",
-      "drawing_order": 6,
+      "name": "UTC Header",
+      "drawing_order": 9,
       "position": {
         "x": 56,
-        "y": 342
+        "y": 294
+      },
+      "size": 16,
+      "color": -1105092,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "UTC // WORLD TIME",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "World Clock UTC",
+      "drawing_order": 10,
+      "position": {
+        "x": 56,
+        "y": 344
       },
       "size": 28,
       "color": -1,
@@ -324,11 +447,52 @@
     {
       "type": "text_object",
       "id": 0,
-      "name": "Next Alarm",
-      "drawing_order": 7,
+      "name": "Alarm Header",
+      "drawing_order": 11,
       "position": {
         "x": 382,
-        "y": 342
+        "y": 294
+      },
+      "size": 16,
+      "color": -7035976,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "NEXT WAKE // ALARM",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Next Alarm",
+      "drawing_order": 12,
+      "position": {
+        "x": 382,
+        "y": 344
       },
       "size": 28,
       "color": -1,
@@ -366,7 +530,7 @@
       "type": "hotspot",
       "id": 0,
       "name": "Clock Hotspot",
-      "drawing_order": 9998,
+      "drawing_order": 13,
       "position": {
         "x": 32,
         "y": 32
@@ -385,7 +549,7 @@
       "type": "hotspot",
       "id": 0,
       "name": "Weather Hotspot",
-      "drawing_order": 9999,
+      "drawing_order": 14,
       "position": {
         "x": 430,
         "y": 32

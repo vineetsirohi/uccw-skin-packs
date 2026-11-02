@@ -183,14 +183,14 @@
       "name": "Quote Clay Tag",
       "drawing_order": 7,
       "position": {
-        "x": 418,
-        "y": 56
+        "x": 416,
+        "y": 54
       },
       "alpha": 255,
       "angle": 0,
-      "roundness": 12,
-      "width": 114,
-      "height": 24,
+      "roundness": 14,
+      "width": 108,
+      "height": 28,
       "stroke": 2.0,
       "color": -3768998,
       "is_hollow": false,
@@ -231,14 +231,14 @@
       "name": "Agenda Sage Tag",
       "drawing_order": 9,
       "position": {
-        "x": 418,
-        "y": 240
+        "x": 416,
+        "y": 236
       },
       "alpha": 255,
       "angle": 0,
-      "roundness": 12,
-      "width": 96,
-      "height": 24,
+      "roundness": 14,
+      "width": 104,
+      "height": 28,
       "stroke": 2.0,
       "color": -11900067,
       "is_hollow": false,
@@ -256,9 +256,9 @@
       "drawing_order": 10,
       "position": {
         "x": 190,
-        "y": 69
+        "y": 70
       },
-      "size": 15,
+      "size": 18,
       "color": -658709,
       "alpha": 255,
       "angle": 0,
@@ -302,7 +302,7 @@
       },
       "width": 304,
       "row_spacing": 39,
-      "size": 14,
+      "size": 16,
       "rows_mode": 2,
       "header_format": 2,
       "first_day_of_week": 1,
@@ -346,10 +346,10 @@
       "name": "Quote Tag Txt",
       "drawing_order": 12,
       "position": {
-        "x": 475,
-        "y": 72
+        "x": 470,
+        "y": 74
       },
-      "size": 10,
+      "size": 16,
       "color": -658709,
       "alpha": 255,
       "angle": 0,
@@ -361,7 +361,7 @@
       },
       "prefix": "",
       "suffix": "",
-      "text": "DAILY REFLECTION",
+      "text": "REFLECT",
       "text_alignment": {
         "align": 1
       },
@@ -388,11 +388,11 @@
       "drawing_order": 13,
       "position": {
         "x": 418,
-        "y": 92
+        "y": 98
       },
       "text_width": 184,
       "max_lines": 3,
-      "size": 16,
+      "size": 18,
       "color": -658709,
       "alpha": 255,
       "angle": 0,
@@ -430,10 +430,10 @@
       "name": "Agenda Tag Txt",
       "drawing_order": 14,
       "position": {
-        "x": 466,
+        "x": 468,
         "y": 256
       },
-      "size": 10,
+      "size": 16,
       "color": -658709,
       "alpha": 255,
       "angle": 0,
@@ -472,9 +472,9 @@
       "drawing_order": 15,
       "position": {
         "x": 418,
-        "y": 296
+        "y": 298
       },
-      "size": 17,
+      "size": 19,
       "color": -14931420,
       "alpha": 255,
       "angle": 0,
@@ -498,7 +498,7 @@
         "file": ""
       },
       "event_index": 0,
-      "max_length": 15,
+      "max_length": 14,
       "shadow": {
         "color": -16777216,
         "dx": 0,
@@ -513,9 +513,9 @@
       "drawing_order": 16,
       "position": {
         "x": 418,
-        "y": 322
+        "y": 328
       },
-      "size": 12,
+      "size": 16,
       "color": -11377060,
       "alpha": 255,
       "angle": 0,
@@ -539,7 +539,7 @@
         "file": ""
       },
       "event_index": 0,
-      "max_length": 19,
+      "max_length": 16,
       "shadow": {
         "color": -16777216,
         "dx": 0,
@@ -556,7 +556,7 @@
         "x": 600,
         "y": 256
       },
-      "size": 13,
+      "size": 17,
       "color": -3768998,
       "alpha": 255,
       "angle": 0,

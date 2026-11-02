@@ -232,13 +232,13 @@
       "drawing_order": 9,
       "position": {
         "x": 392,
-        "y": 38
+        "y": 36
       },
       "alpha": 255,
       "angle": 0,
       "roundness": 2,
-      "width": 118,
-      "height": 26,
+      "width": 134,
+      "height": 28,
       "stroke": 2.0,
       "color": -50432,
       "is_hollow": false,
@@ -280,9 +280,9 @@
       "drawing_order": 11,
       "position": {
         "x": 36,
-        "y": 52
+        "y": 54
       },
-      "size": 12,
+      "size": 16,
       "color": -15592942,
       "alpha": 255,
       "angle": 0,
@@ -367,7 +367,7 @@
       },
       "width": 300,
       "row_spacing": 41,
-      "size": 14,
+      "size": 16,
       "rows_mode": 2,
       "header_format": 2,
       "first_day_of_week": 1,
@@ -411,10 +411,10 @@
       "name": "Event Tag Txt",
       "drawing_order": 14,
       "position": {
-        "x": 451,
+        "x": 459,
         "y": 56
       },
-      "size": 11,
+      "size": 16,
       "color": -790554,
       "alpha": 255,
       "angle": 0,
@@ -455,7 +455,7 @@
         "x": 392,
         "y": 108
       },
-      "size": 26,
+      "size": 28,
       "color": -790554,
       "alpha": 255,
       "angle": 0,
@@ -494,9 +494,9 @@
       "drawing_order": 16,
       "position": {
         "x": 392,
-        "y": 140
+        "y": 142
       },
-      "size": 13,
+      "size": 16,
       "color": -1909294,
       "alpha": 255,
       "angle": 0,
@@ -520,7 +520,7 @@
         "file": ""
       },
       "event_index": 0,
-      "max_length": 20,
+      "max_length": 16,
       "shadow": {
         "color": -16777216,
         "dx": 0,
@@ -535,9 +535,9 @@
       "drawing_order": 17,
       "position": {
         "x": 392,
-        "y": 174
+        "y": 176
       },
-      "size": 12,
+      "size": 16,
       "color": -50432,
       "alpha": 255,
       "angle": 0,
@@ -561,7 +561,7 @@
         "file": ""
       },
       "event_index": 0,
-      "max_length": 15,
+      "max_length": 13,
       "shadow": {
         "color": -16777216,
         "dx": 0,
@@ -576,9 +576,9 @@
       "drawing_order": 18,
       "position": {
         "x": 392,
-        "y": 232
+        "y": 234
       },
-      "size": 11,
+      "size": 16,
       "color": -10856881,
       "alpha": 255,
       "angle": 0,
@@ -617,7 +617,7 @@
       "drawing_order": 19,
       "position": {
         "x": 392,
-        "y": 288
+        "y": 290
       },
       "size": 48,
       "color": -15592942,
@@ -660,7 +660,7 @@
         "x": 608,
         "y": 266
       },
-      "size": 18,
+      "size": 22,
       "color": -50432,
       "alpha": 255,
       "angle": 0,
@@ -699,9 +699,9 @@
       "drawing_order": 21,
       "position": {
         "x": 608,
-        "y": 290
+        "y": 294
       },
-      "size": 12,
+      "size": 16,
       "color": -15592942,
       "alpha": 255,
       "angle": 0,

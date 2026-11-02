@@ -39,14 +39,14 @@
       "name": "Dial Date Glass Pill",
       "drawing_order": 1,
       "position": {
-        "x": 156,
+        "x": 152,
         "y": 144
       },
       "alpha": 145,
       "angle": 0,
-      "roundness": 16,
-      "width": 160,
-      "height": 32,
+      "roundness": 18,
+      "width": 168,
+      "height": 36,
       "stroke": 2.0,
       "color": -15721682,
       "is_hollow": false,
@@ -63,14 +63,14 @@
       "name": "Dial Date Pill Rim",
       "drawing_order": 2,
       "position": {
-        "x": 156,
+        "x": 152,
         "y": 144
       },
       "alpha": 135,
       "angle": 0,
-      "roundness": 16,
-      "width": 160,
-      "height": 32,
+      "roundness": 18,
+      "width": 168,
+      "height": 36,
       "stroke": 1.2,
       "color": -1,
       "is_hollow": true,
@@ -252,9 +252,9 @@
       "drawing_order": 7,
       "position": {
         "x": 236,
-        "y": 165
+        "y": 168
       },
-      "size": 12,
+      "size": 16,
       "color": -9967367,
       "alpha": 255,
       "angle": 0,
@@ -409,7 +409,7 @@
       "drawing_order": 13,
       "position": {
         "x": 396,
-        "y": 390
+        "y": 388
       },
       "size": 38,
       "color": -1,
@@ -450,9 +450,9 @@
       "drawing_order": 14,
       "position": {
         "x": 396,
-        "y": 418
+        "y": 416
       },
-      "size": 12,
+      "size": 16,
       "color": -9967367,
       "alpha": 255,
       "angle": 0,
@@ -476,7 +476,7 @@
         "file": ""
       },
       "event_index": 0,
-      "max_length": 11,
+      "max_length": 10,
       "shadow": {
         "color": -16777216,
         "dx": 0,
@@ -493,7 +493,7 @@
         "x": 396,
         "y": 444
       },
-      "size": 11,
+      "size": 16,
       "color": -757066,
       "alpha": 255,
       "angle": 0,

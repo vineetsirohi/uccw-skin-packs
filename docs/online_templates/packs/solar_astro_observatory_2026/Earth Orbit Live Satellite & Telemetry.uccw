@@ -68,9 +68,9 @@
       "drawing_order": 2,
       "position": {
         "x": 358,
-        "y": 56
+        "y": 58
       },
-      "size": 12,
+      "size": 16,
       "color": -13058568,
       "alpha": 255,
       "angle": 0,
@@ -82,7 +82,7 @@
       },
       "prefix": "",
       "suffix": "",
-      "text": "GOES-16 \u00b7 LIVE ORBITAL FEED",
+      "text": "GOES-16 \u00b7 LIVE ORBITAL",
       "text_alignment": {
         "align": 0
       },
@@ -150,9 +150,9 @@
       "drawing_order": 4,
       "position": {
         "x": 358,
-        "y": 142
+        "y": 144
       },
-      "size": 13,
+      "size": 16,
       "color": -7035976,
       "alpha": 255,
       "angle": 0,
@@ -193,7 +193,7 @@
         "x": 626,
         "y": 108
       },
-      "size": 34,
+      "size": 36,
       "color": -25020,
       "alpha": 255,
       "angle": 0,
@@ -232,9 +232,9 @@
       "drawing_order": 6,
       "position": {
         "x": 626,
-        "y": 142
+        "y": 144
       },
-      "size": 12,
+      "size": 16,
       "color": -7035976,
       "alpha": 255,
       "angle": 0,
@@ -258,7 +258,7 @@
         "file": ""
       },
       "event_index": 0,
-      "max_length": 14,
+      "max_length": 13,
       "shadow": {
         "color": -16777216,
         "dx": 0,
@@ -272,7 +272,7 @@
       "name": "Daylight Ring",
       "drawing_order": 7,
       "position": {
-        "x": 362,
+        "x": 354,
         "y": 170
       },
       "width": 62,
@@ -317,10 +317,10 @@
       "name": "Sun Label",
       "drawing_order": 8,
       "position": {
-        "x": 438,
-        "y": 198
+        "x": 422,
+        "y": 196
       },
-      "size": 11,
+      "size": 16,
       "color": -7035976,
       "alpha": 255,
       "angle": 0,
@@ -358,10 +358,10 @@
       "name": "Sunset Val",
       "drawing_order": 9,
       "position": {
-        "x": 438,
-        "y": 222
+        "x": 422,
+        "y": 224
       },
-      "size": 16,
+      "size": 17,
       "color": -460036,
       "alpha": 255,
       "angle": 0,
@@ -399,7 +399,7 @@
       "name": "Battery Ring",
       "drawing_order": 10,
       "position": {
-        "x": 504,
+        "x": 508,
         "y": 170
       },
       "width": 62,
@@ -444,10 +444,10 @@
       "name": "Bat Label",
       "drawing_order": 11,
       "position": {
-        "x": 580,
-        "y": 198
+        "x": 576,
+        "y": 196
       },
-      "size": 11,
+      "size": 16,
       "color": -7035976,
       "alpha": 255,
       "angle": 0,
@@ -485,10 +485,10 @@
       "name": "Bat Val",
       "drawing_order": 12,
       "position": {
-        "x": 580,
-        "y": 222
+        "x": 576,
+        "y": 224
       },
-      "size": 16,
+      "size": 18,
       "color": -13058568,
       "alpha": 255,
       "angle": 0,
@@ -529,7 +529,7 @@
         "x": 358,
         "y": 282
       },
-      "size": 16,
+      "size": 19,
       "color": -460036,
       "alpha": 255,
       "angle": 0,
@@ -568,9 +568,9 @@
       "drawing_order": 14,
       "position": {
         "x": 358,
-        "y": 308
+        "y": 312
       },
-      "size": 13,
+      "size": 16,
       "color": -25020,
       "alpha": 255,
       "angle": 0,
@@ -594,7 +594,7 @@
         "file": ""
       },
       "event_index": 0,
-      "max_length": 26,
+      "max_length": 24,
       "shadow": {
         "color": -16777216,
         "dx": 0,

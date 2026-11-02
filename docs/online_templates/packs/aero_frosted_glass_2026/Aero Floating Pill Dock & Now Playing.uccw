@@ -111,13 +111,13 @@
       "name": "Prev Glass Pill",
       "drawing_order": 4,
       "position": {
-        "x": 232,
+        "x": 230,
         "y": 184
       },
       "alpha": 145,
       "angle": 0,
       "roundness": 21,
-      "width": 62,
+      "width": 66,
       "height": 42,
       "stroke": 2.0,
       "color": -15721682,
@@ -135,13 +135,13 @@
       "name": "Prev Pill Rim",
       "drawing_order": 5,
       "position": {
-        "x": 232,
+        "x": 230,
         "y": 184
       },
       "alpha": 130,
       "angle": 0,
       "roundness": 21,
-      "width": 62,
+      "width": 66,
       "height": 42,
       "stroke": 1.2,
       "color": -1,
@@ -183,13 +183,13 @@
       "name": "Next Glass Pill",
       "drawing_order": 7,
       "position": {
-        "x": 388,
+        "x": 386,
         "y": 184
       },
       "alpha": 145,
       "angle": 0,
       "roundness": 21,
-      "width": 54,
+      "width": 62,
       "height": 42,
       "stroke": 2.0,
       "color": -15721682,
@@ -207,13 +207,13 @@
       "name": "Next Pill Rim",
       "drawing_order": 8,
       "position": {
-        "x": 388,
+        "x": 386,
         "y": 184
       },
       "alpha": 130,
       "angle": 0,
       "roundness": 21,
-      "width": 54,
+      "width": 62,
       "height": 42,
       "stroke": 1.2,
       "color": -1,
@@ -356,7 +356,7 @@
         "x": 234,
         "y": 66
       },
-      "size": 11,
+      "size": 16,
       "color": -9967367,
       "alpha": 255,
       "angle": 0,
@@ -397,7 +397,7 @@
         "x": 234,
         "y": 102
       },
-      "size": 22,
+      "size": 24,
       "color": -1,
       "alpha": 255,
       "angle": 0,
@@ -421,7 +421,7 @@
         "file": ""
       },
       "event_index": 0,
-      "max_length": 14,
+      "max_length": 13,
       "shadow": {
         "color": -1342177280,
         "dx": 0,
@@ -436,9 +436,9 @@
       "drawing_order": 16,
       "position": {
         "x": 234,
-        "y": 130
+        "y": 132
       },
-      "size": 14,
+      "size": 16,
       "color": -2562315,
       "alpha": 255,
       "angle": 0,
@@ -462,7 +462,7 @@
         "file": ""
       },
       "event_index": 0,
-      "max_length": 18,
+      "max_length": 16,
       "shadow": {
         "color": -16777216,
         "dx": 0,
@@ -527,7 +527,7 @@
         "x": 263,
         "y": 211
       },
-      "size": 11,
+      "size": 16,
       "color": -1,
       "alpha": 255,
       "angle": 0,
@@ -566,9 +566,9 @@
       "drawing_order": 19,
       "position": {
         "x": 341,
-        "y": 212
+        "y": 211
       },
-      "size": 12,
+      "size": 16,
       "color": -16051420,
       "alpha": 255,
       "angle": 0,
@@ -606,10 +606,10 @@
       "name": "Next Sym",
       "drawing_order": 20,
       "position": {
-        "x": 415,
+        "x": 417,
         "y": 211
       },
-      "size": 11,
+      "size": 16,
       "color": -1,
       "alpha": 255,
       "angle": 0,
@@ -648,7 +648,7 @@
       "drawing_order": 21,
       "position": {
         "x": 570,
-        "y": 104
+        "y": 100
       },
       "size": 48,
       "color": -1,
@@ -691,7 +691,7 @@
         "x": 570,
         "y": 134
       },
-      "size": 12,
+      "size": 16,
       "color": -9967367,
       "alpha": 255,
       "angle": 0,
@@ -730,9 +730,9 @@
       "drawing_order": 23,
       "position": {
         "x": 570,
-        "y": 198
+        "y": 196
       },
-      "size": 28,
+      "size": 30,
       "color": -1,
       "alpha": 255,
       "angle": 0,
@@ -771,9 +771,9 @@
       "drawing_order": 24,
       "position": {
         "x": 570,
-        "y": 222
+        "y": 224
       },
-      "size": 12,
+      "size": 16,
       "color": -757066,
       "alpha": 255,
       "angle": 0,
@@ -797,7 +797,7 @@
         "file": ""
       },
       "event_index": 0,
-      "max_length": 12,
+      "max_length": 10,
       "shadow": {
         "color": -16777216,
         "dx": 0,

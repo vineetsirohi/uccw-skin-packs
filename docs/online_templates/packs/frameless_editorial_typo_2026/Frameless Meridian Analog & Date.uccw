@@ -39,14 +39,14 @@
       "name": "Top Date Pill",
       "drawing_order": 1,
       "position": {
-        "x": 156,
-        "y": 138
+        "x": 154,
+        "y": 136
       },
       "alpha": 210,
       "angle": 0,
-      "roundness": 17,
-      "width": 168,
-      "height": 34,
+      "roundness": 18,
+      "width": 172,
+      "height": 36,
       "stroke": 2.0,
       "color": -15197148,
       "is_hollow": false,
@@ -63,14 +63,14 @@
       "name": "Top Date Rim",
       "drawing_order": 2,
       "position": {
-        "x": 156,
-        "y": 138
+        "x": 154,
+        "y": 136
       },
       "alpha": 175,
       "angle": 0,
-      "roundness": 17,
-      "width": 168,
-      "height": 34,
+      "roundness": 18,
+      "width": 172,
+      "height": 36,
       "stroke": 1.4,
       "color": -1527719,
       "is_hollow": true,
@@ -87,14 +87,14 @@
       "name": "Bottom Weather Pill",
       "drawing_order": 3,
       "position": {
-        "x": 148,
+        "x": 138,
         "y": 308
       },
       "alpha": 210,
       "angle": 0,
-      "roundness": 19,
-      "width": 184,
-      "height": 38,
+      "roundness": 20,
+      "width": 204,
+      "height": 40,
       "stroke": 2.0,
       "color": -15197148,
       "is_hollow": false,
@@ -111,14 +111,14 @@
       "name": "Bottom Weather Rim",
       "drawing_order": 4,
       "position": {
-        "x": 148,
+        "x": 138,
         "y": 308
       },
       "alpha": 185,
       "angle": 0,
-      "roundness": 19,
-      "width": 184,
-      "height": 38,
+      "roundness": 20,
+      "width": 204,
+      "height": 40,
       "stroke": 1.4,
       "color": -42442,
       "is_hollow": true,
@@ -300,9 +300,9 @@
       "drawing_order": 9,
       "position": {
         "x": 240,
-        "y": 161
+        "y": 160
       },
-      "size": 13,
+      "size": 16,
       "color": -1527719,
       "alpha": 255,
       "angle": 0,
@@ -340,10 +340,10 @@
       "name": "Meridian Temp",
       "drawing_order": 10,
       "position": {
-        "x": 196,
-        "y": 333
+        "x": 184,
+        "y": 335
       },
-      "size": 16,
+      "size": 20,
       "color": -330000,
       "alpha": 255,
       "angle": 0,
@@ -381,10 +381,10 @@
       "name": "Meridian Cond",
       "drawing_order": 11,
       "position": {
-        "x": 264,
-        "y": 332
+        "x": 266,
+        "y": 334
       },
-      "size": 12,
+      "size": 16,
       "color": -3616548,
       "alpha": 255,
       "angle": 0,
@@ -408,7 +408,7 @@
         "file": ""
       },
       "event_index": 0,
-      "max_length": 10,
+      "max_length": 9,
       "shadow": {
         "color": -16777216,
         "dx": 0,

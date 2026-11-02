@@ -256,13 +256,13 @@
       "drawing_order": 10,
       "position": {
         "x": 374,
-        "y": 374
+        "y": 372
       },
       "alpha": 255,
       "angle": 0,
-      "roundness": 18,
+      "roundness": 19,
       "width": 224,
-      "height": 36,
+      "height": 38,
       "stroke": 2.0,
       "color": -14410215,
       "is_hollow": false,
@@ -323,7 +323,7 @@
         "x": 178,
         "y": 391
       },
-      "size": 14,
+      "size": 16,
       "color": -9742265,
       "alpha": 255,
       "angle": 0,
@@ -421,7 +421,7 @@
         "x": 596,
         "y": 150
       },
-      "size": 15,
+      "size": 17,
       "color": -6372136,
       "alpha": 255,
       "angle": 0,
@@ -445,7 +445,7 @@
         "file": ""
       },
       "event_index": 0,
-      "max_length": 15,
+      "max_length": 14,
       "shadow": {
         "color": -16777216,
         "dx": 0,
@@ -462,7 +462,7 @@
         "x": 488,
         "y": 197
       },
-      "size": 14,
+      "size": 16,
       "color": -725792,
       "alpha": 255,
       "angle": 0,
@@ -486,7 +486,7 @@
         "file": ""
       },
       "event_index": 0,
-      "max_length": 15,
+      "max_length": 14,
       "shadow": {
         "color": -16777216,
         "dx": 0,
@@ -503,7 +503,7 @@
         "x": 408,
         "y": 298
       },
-      "size": 13,
+      "size": 16,
       "color": -9742265,
       "alpha": 255,
       "angle": 0,
@@ -542,9 +542,9 @@
       "drawing_order": 18,
       "position": {
         "x": 408,
-        "y": 342
+        "y": 344
       },
-      "size": 22,
+      "size": 24,
       "color": -14410215,
       "alpha": 255,
       "angle": 0,
@@ -585,7 +585,7 @@
         "x": 486,
         "y": 298
       },
-      "size": 13,
+      "size": 16,
       "color": -9742265,
       "alpha": 255,
       "angle": 0,
@@ -624,9 +624,9 @@
       "drawing_order": 20,
       "position": {
         "x": 486,
-        "y": 342
+        "y": 344
       },
-      "size": 22,
+      "size": 24,
       "color": -14410215,
       "alpha": 255,
       "angle": 0,
@@ -667,7 +667,7 @@
         "x": 564,
         "y": 298
       },
-      "size": 13,
+      "size": 16,
       "color": -9742265,
       "alpha": 255,
       "angle": 0,
@@ -706,9 +706,9 @@
       "drawing_order": 22,
       "position": {
         "x": 564,
-        "y": 342
+        "y": 344
       },
-      "size": 22,
+      "size": 24,
       "color": -3642072,
       "alpha": 255,
       "angle": 0,
@@ -746,10 +746,10 @@
       "name": "Sunrise",
       "drawing_order": 23,
       "position": {
-        "x": 432,
+        "x": 430,
         "y": 397
       },
-      "size": 12,
+      "size": 16,
       "color": -1663160,
       "alpha": 255,
       "angle": 0,
@@ -759,7 +759,7 @@
         "type": 1,
         "font": "fonts/Poppins-SemiBold.ttf"
       },
-      "prefix": "DAWN ",
+      "prefix": "RISE ",
       "suffix": "",
       "text": "",
       "text_alignment": {
@@ -787,10 +787,10 @@
       "name": "Sunset",
       "drawing_order": 24,
       "position": {
-        "x": 542,
+        "x": 544,
         "y": 397
       },
-      "size": 12,
+      "size": 16,
       "color": -6372136,
       "alpha": 255,
       "angle": 0,
@@ -800,7 +800,7 @@
         "type": 1,
         "font": "fonts/Poppins-SemiBold.ttf"
       },
-      "prefix": "DUSK ",
+      "prefix": "SET ",
       "suffix": "",
       "text": "",
       "text_alignment": {

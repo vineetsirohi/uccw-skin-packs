@@ -594,9 +594,9 @@
       "drawing_order": 24,
       "position": {
         "x": 322,
-        "y": 71
+        "y": 74
       },
-      "size": 10,
+      "size": 16,
       "color": -16734058,
       "alpha": 255,
       "angle": 0,
@@ -608,7 +608,7 @@
       },
       "prefix": "",
       "suffix": "",
-      "text": "STUDIO MONITOR",
+      "text": "STUDIO",
       "text_alignment": {
         "align": 0
       },
@@ -634,10 +634,10 @@
       "name": "LCD Mini Time",
       "drawing_order": 25,
       "position": {
-        "x": 494,
-        "y": 71
+        "x": 496,
+        "y": 74
       },
-      "size": 11,
+      "size": 16,
       "color": -1905419,
       "alpha": 255,
       "angle": 0,
@@ -678,7 +678,7 @@
         "x": 304,
         "y": 110
       },
-      "size": 18,
+      "size": 20,
       "color": -1905419,
       "alpha": 255,
       "angle": 0,
@@ -702,7 +702,7 @@
         "file": ""
       },
       "event_index": 0,
-      "max_length": 16,
+      "max_length": 14,
       "shadow": {
         "color": -16777216,
         "dx": 0,
@@ -717,9 +717,9 @@
       "drawing_order": 27,
       "position": {
         "x": 304,
-        "y": 136
+        "y": 138
       },
-      "size": 12,
+      "size": 16,
       "color": -42458,
       "alpha": 255,
       "angle": 0,
@@ -743,7 +743,7 @@
         "file": ""
       },
       "event_index": 0,
-      "max_length": 20,
+      "max_length": 16,
       "shadow": {
         "color": -16777216,
         "dx": 0,
@@ -758,9 +758,9 @@
       "drawing_order": 28,
       "position": {
         "x": 574,
-        "y": 104
+        "y": 102
       },
-      "size": 26,
+      "size": 28,
       "color": -14537928,
       "alpha": 255,
       "angle": 0,
@@ -799,9 +799,9 @@
       "drawing_order": 29,
       "position": {
         "x": 574,
-        "y": 134
+        "y": 136
       },
-      "size": 11,
+      "size": 16,
       "color": -10194299,
       "alpha": 255,
       "angle": 0,
@@ -842,7 +842,7 @@
         "x": 332,
         "y": 234
       },
-      "size": 13,
+      "size": 17,
       "color": -14537928,
       "alpha": 255,
       "angle": 0,
@@ -883,7 +883,7 @@
         "x": 452,
         "y": 234
       },
-      "size": 14,
+      "size": 17,
       "color": -1,
       "alpha": 255,
       "angle": 0,
@@ -924,7 +924,7 @@
         "x": 572,
         "y": 234
       },
-      "size": 13,
+      "size": 17,
       "color": -14537928,
       "alpha": 255,
       "angle": 0,

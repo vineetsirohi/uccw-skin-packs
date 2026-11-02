@@ -40,9 +40,9 @@
       "drawing_order": 1,
       "position": {
         "x": 250,
-        "y": 148
+        "y": 144
       },
-      "size": 12,
+      "size": 16,
       "color": -45778,
       "alpha": 255,
       "angle": 0,
@@ -54,7 +54,7 @@
       },
       "prefix": "",
       "suffix": "",
-      "text": "BULLHEAD \u00b7 TACHYMETER",
+      "text": "BULLHEAD \u00b7 TACHY",
       "text_alignment": {
         "align": 1
       },
@@ -81,9 +81,9 @@
       "drawing_order": 2,
       "position": {
         "x": 250,
-        "y": 174
+        "y": 172
       },
-      "size": 13,
+      "size": 16,
       "color": -460036,
       "alpha": 255,
       "angle": 0,
@@ -124,7 +124,7 @@
         "x": 128,
         "y": 278
       },
-      "size": 15,
+      "size": 17,
       "color": -1722233,
       "alpha": 255,
       "angle": 0,
@@ -165,7 +165,7 @@
         "x": 372,
         "y": 278
       },
-      "size": 15,
+      "size": 17,
       "color": -460036,
       "alpha": 255,
       "angle": 0,
@@ -249,9 +249,9 @@
       "drawing_order": 6,
       "position": {
         "x": 250,
-        "y": 364
+        "y": 362
       },
-      "size": 19,
+      "size": 21,
       "color": -460036,
       "alpha": 255,
       "angle": 0,
@@ -290,9 +290,9 @@
       "drawing_order": 7,
       "position": {
         "x": 250,
-        "y": 388
+        "y": 390
       },
-      "size": 12,
+      "size": 16,
       "color": -1722233,
       "alpha": 255,
       "angle": 0,

@@ -136,13 +136,13 @@
       "drawing_order": 5,
       "position": {
         "x": 286,
-        "y": 42
+        "y": 40
       },
       "alpha": 255,
       "angle": 0,
-      "roundness": 16,
-      "width": 148,
-      "height": 32,
+      "roundness": 17,
+      "width": 156,
+      "height": 34,
       "stroke": 2.0,
       "color": -9924754,
       "is_hollow": false,
@@ -159,14 +159,14 @@
       "name": "Time Badge Pill",
       "drawing_order": 6,
       "position": {
-        "x": 518,
-        "y": 42
+        "x": 510,
+        "y": 40
       },
       "alpha": 255,
       "angle": 0,
-      "roundness": 16,
-      "width": 98,
-      "height": 32,
+      "roundness": 17,
+      "width": 106,
+      "height": 34,
       "stroke": 2.0,
       "color": -870202,
       "is_hollow": false,
@@ -329,10 +329,10 @@
       "name": "Status Txt",
       "drawing_order": 13,
       "position": {
-        "x": 360,
+        "x": 364,
         "y": 63
       },
-      "size": 11,
+      "size": 16,
       "color": -1812,
       "alpha": 255,
       "angle": 0,
@@ -370,10 +370,10 @@
       "name": "Mini Clock",
       "drawing_order": 14,
       "position": {
-        "x": 567,
+        "x": 563,
         "y": 63
       },
-      "size": 13,
+      "size": 16,
       "color": -12964569,
       "alpha": 255,
       "angle": 0,
@@ -414,7 +414,7 @@
         "x": 286,
         "y": 112
       },
-      "size": 24,
+      "size": 26,
       "color": -12964569,
       "alpha": 255,
       "angle": 0,
@@ -438,7 +438,7 @@
         "file": ""
       },
       "event_index": 0,
-      "max_length": 16,
+      "max_length": 15,
       "shadow": {
         "color": -16777216,
         "dx": 0,
@@ -453,9 +453,9 @@
       "drawing_order": 16,
       "position": {
         "x": 286,
-        "y": 146
+        "y": 148
       },
-      "size": 22,
+      "size": 24,
       "color": -11900080,
       "alpha": 255,
       "angle": 0,
@@ -479,7 +479,7 @@
         "file": ""
       },
       "event_index": 0,
-      "max_length": 20,
+      "max_length": 18,
       "shadow": {
         "color": -16777216,
         "dx": 0,
@@ -542,9 +542,9 @@
       "drawing_order": 18,
       "position": {
         "x": 330,
-        "y": 230
+        "y": 231
       },
-      "size": 12,
+      "size": 16,
       "color": -12964569,
       "alpha": 255,
       "angle": 0,
@@ -585,7 +585,7 @@
         "x": 446,
         "y": 231
       },
-      "size": 13,
+      "size": 16,
       "color": -1812,
       "alpha": 255,
       "angle": 0,
@@ -597,7 +597,7 @@
       },
       "prefix": "",
       "suffix": "",
-      "text": "PLAY / PAUSE",
+      "text": "PLAY",
       "text_alignment": {
         "align": 1
       },
@@ -624,9 +624,9 @@
       "drawing_order": 20,
       "position": {
         "x": 567,
-        "y": 230
+        "y": 231
       },
-      "size": 12,
+      "size": 16,
       "color": -12964569,
       "alpha": 255,
       "angle": 0,

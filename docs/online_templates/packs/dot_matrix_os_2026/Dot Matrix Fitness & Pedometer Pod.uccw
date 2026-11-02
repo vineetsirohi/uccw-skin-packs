@@ -37,7 +37,7 @@
       "type": "battery_circle",
       "id": 0,
       "name": "Step Goal Ring",
-      "drawing_order": 0,
+      "drawing_order": 1,
       "position": {
         "x": 72,
         "y": 92
@@ -82,10 +82,10 @@
       "type": "text_object",
       "id": 0,
       "name": "Step Count",
-      "drawing_order": 1,
+      "drawing_order": 2,
       "position": {
         "x": 180,
-        "y": 208
+        "y": 202
       },
       "size": 40,
       "color": -1,
@@ -122,11 +122,175 @@
     {
       "type": "text_object",
       "id": 0,
-      "name": "Step Distance",
-      "drawing_order": 2,
+      "name": "Steps Goal Label",
+      "drawing_order": 3,
+      "position": {
+        "x": 180,
+        "y": 242
+      },
+      "size": 16,
+      "color": -7035976,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "STEPS GOAL",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Active Header",
+      "drawing_order": 4,
       "position": {
         "x": 370,
-        "y": 152
+        "y": 72
+      },
+      "size": 16,
+      "color": -1105092,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "ACTIVE TELEMETRY",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Dist Label",
+      "drawing_order": 5,
+      "position": {
+        "x": 370,
+        "y": 108
+      },
+      "size": 16,
+      "color": -7035976,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "DISTANCE",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Cal Label",
+      "drawing_order": 6,
+      "position": {
+        "x": 520,
+        "y": 108
+      },
+      "size": 16,
+      "color": -7035976,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "CALORIES",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Step Distance",
+      "drawing_order": 7,
+      "position": {
+        "x": 370,
+        "y": 156
       },
       "size": 26,
       "color": -1,
@@ -164,10 +328,10 @@
       "type": "text_object",
       "id": 0,
       "name": "Step Calories",
-      "drawing_order": 3,
+      "drawing_order": 8,
       "position": {
         "x": 520,
-        "y": 152
+        "y": 156
       },
       "size": 26,
       "color": -1,
@@ -204,8 +368,90 @@
     {
       "type": "text_object",
       "id": 0,
+      "name": "Cell Power Label",
+      "drawing_order": 9,
+      "position": {
+        "x": 370,
+        "y": 246
+      },
+      "size": 16,
+      "color": -7035976,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "CELL POWER",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Battery Status",
+      "drawing_order": 10,
+      "position": {
+        "x": 638,
+        "y": 246
+      },
+      "size": 16,
+      "color": -1105092,
+      "alpha": 255,
+      "angle": 0,
+      "bold": true,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 2
+      },
+      "text_case": {
+        "text_case": 2
+      },
+      "text_provider": {
+        "id": 23,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
       "name": "Battery Percent",
-      "drawing_order": 4,
+      "drawing_order": 11,
       "position": {
         "x": 370,
         "y": 308
@@ -243,61 +489,20 @@
       }
     },
     {
-      "type": "text_object",
-      "id": 0,
-      "name": "Battery Status",
-      "drawing_order": 5,
-      "position": {
-        "x": 638,
-        "y": 246
-      },
-      "size": 12,
-      "color": -1105092,
-      "alpha": 255,
-      "angle": 0,
-      "bold": true,
-      "italic": false,
-      "font": {
-        "type": 1,
-        "font": "fonts/ShareTechMono-Regular.ttf"
-      },
-      "prefix": "",
-      "suffix": "",
-      "text": "",
-      "text_alignment": {
-        "align": 2
-      },
-      "text_case": {
-        "text_case": 2
-      },
-      "text_provider": {
-        "id": 23,
-        "file": ""
-      },
-      "event_index": 0,
-      "max_length": 0,
-      "shadow": {
-        "color": -16777216,
-        "dx": 0,
-        "dy": 0,
-        "radius": 0
-      }
-    },
-    {
       "type": "battery_bar",
       "id": 0,
       "name": "Battery Bar",
-      "drawing_order": 6,
+      "drawing_order": 12,
       "position": {
         "x": 370,
         "y": 330
       },
       "width": 268,
       "height": 16,
-      "base_color": 1848455484,
-      "base_roundness": 7,
+      "base_color": 1848521792,
+      "base_roundness": 8,
       "progress_bar_height": 14,
-      "progress_bar_roundness": 7,
+      "progress_bar_roundness": 8,
       "alpha": 255,
       "angle": 0,
       "style": 0,

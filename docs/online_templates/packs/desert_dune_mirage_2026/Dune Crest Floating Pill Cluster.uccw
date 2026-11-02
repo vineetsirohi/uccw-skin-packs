@@ -299,7 +299,7 @@
         "x": 372,
         "y": 75
       },
-      "size": 13,
+      "size": 16,
       "color": -725792,
       "alpha": 255,
       "angle": 0,
@@ -338,9 +338,9 @@
       "drawing_order": 12,
       "position": {
         "x": 372,
-        "y": 122
+        "y": 120
       },
-      "size": 30,
+      "size": 32,
       "color": -14410215,
       "alpha": 255,
       "angle": 0,
@@ -379,9 +379,9 @@
       "drawing_order": 13,
       "position": {
         "x": 372,
-        "y": 146
+        "y": 148
       },
-      "size": 13,
+      "size": 16,
       "color": -9742265,
       "alpha": 255,
       "angle": 0,
@@ -420,7 +420,7 @@
       "drawing_order": 14,
       "position": {
         "x": 568,
-        "y": 96
+        "y": 92
       },
       "size": 44,
       "color": -725792,
@@ -461,9 +461,9 @@
       "drawing_order": 15,
       "position": {
         "x": 568,
-        "y": 126
+        "y": 124
       },
-      "size": 13,
+      "size": 16,
       "color": -6372136,
       "alpha": 255,
       "angle": 0,
@@ -487,7 +487,7 @@
         "file": ""
       },
       "event_index": 0,
-      "max_length": 11,
+      "max_length": 10,
       "shadow": {
         "color": -16777216,
         "dx": 0,
@@ -504,7 +504,7 @@
         "x": 568,
         "y": 152
       },
-      "size": 12,
+      "size": 16,
       "color": -1663160,
       "alpha": 255,
       "angle": 0,
@@ -543,9 +543,9 @@
       "drawing_order": 17,
       "position": {
         "x": 103,
-        "y": 252
+        "y": 248
       },
-      "size": 12,
+      "size": 16,
       "color": -725792,
       "alpha": 255,
       "angle": 0,
@@ -584,9 +584,9 @@
       "drawing_order": 18,
       "position": {
         "x": 103,
-        "y": 274
+        "y": 276
       },
-      "size": 13,
+      "size": 16,
       "color": -6972,
       "alpha": 255,
       "angle": 0,
@@ -627,7 +627,7 @@
         "x": 196,
         "y": 250
       },
-      "size": 19,
+      "size": 20,
       "color": -725792,
       "alpha": 255,
       "angle": 0,
@@ -651,7 +651,7 @@
         "file": ""
       },
       "event_index": 0,
-      "max_length": 19,
+      "max_length": 16,
       "shadow": {
         "color": -16777216,
         "dx": 0,
@@ -666,9 +666,9 @@
       "drawing_order": 20,
       "position": {
         "x": 196,
-        "y": 282
+        "y": 284
       },
-      "size": 13,
+      "size": 16,
       "color": -3623266,
       "alpha": 255,
       "angle": 0,
@@ -692,7 +692,7 @@
         "file": ""
       },
       "event_index": 0,
-      "max_length": 24,
+      "max_length": 18,
       "shadow": {
         "color": -16777216,
         "dx": 0,
@@ -709,7 +709,7 @@
         "x": 628,
         "y": 248
       },
-      "size": 15,
+      "size": 16,
       "color": -1663160,
       "alpha": 255,
       "angle": 0,

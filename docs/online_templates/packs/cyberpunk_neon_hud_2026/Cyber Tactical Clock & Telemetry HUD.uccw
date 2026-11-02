@@ -36,11 +36,52 @@
     {
       "type": "text_object",
       "id": 0,
+      "name": "Hud Tag",
+      "drawing_order": 1,
+      "position": {
+        "x": 44,
+        "y": 49
+      },
+      "size": 16,
+      "color": -16118508,
+      "alpha": 255,
+      "angle": 0,
+      "bold": true,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "SYS.CHRONO // NET_HUD v2.6",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
       "name": "Cyber Clock",
-      "drawing_order": 0,
+      "drawing_order": 2,
       "position": {
         "x": 52,
-        "y": 164
+        "y": 168
       },
       "size": 86,
       "color": -16715521,
@@ -78,16 +119,16 @@
       "type": "text_object",
       "id": 0,
       "name": "Cyber Date",
-      "drawing_order": 1,
+      "drawing_order": 3,
       "position": {
         "x": 54,
         "y": 224
       },
-      "size": 16,
+      "size": 17,
       "color": -201206,
       "alpha": 255,
       "angle": 0,
-      "bold": true,
+      "bold": false,
       "italic": false,
       "font": {
         "type": 1,
@@ -118,11 +159,52 @@
     {
       "type": "text_object",
       "id": 0,
-      "name": "Cyber Temp",
-      "drawing_order": 2,
+      "name": "Atmos Tag",
+      "drawing_order": 4,
       "position": {
         "x": 462,
-        "y": 114
+        "y": 56
+      },
+      "size": 16,
+      "color": -65409,
+      "alpha": 255,
+      "angle": 0,
+      "bold": true,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "ATMOS // BIO_SCAN",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Cyber Temp",
+      "drawing_order": 5,
+      "position": {
+        "x": 462,
+        "y": 112
       },
       "size": 44,
       "color": -1,
@@ -135,7 +217,7 @@
         "font": "fonts/ShareTechMono-Regular.ttf"
       },
       "prefix": "",
-      "suffix": "\u00b0",
+      "suffix": "\u00b0C",
       "text": "",
       "text_alignment": {
         "align": 0
@@ -160,12 +242,12 @@
       "type": "text_object",
       "id": 0,
       "name": "Cyber Weather",
-      "drawing_order": 3,
+      "drawing_order": 6,
       "position": {
         "x": 462,
         "y": 140
       },
-      "size": 14,
+      "size": 16,
       "color": -65409,
       "alpha": 255,
       "angle": 0,
@@ -189,6 +271,47 @@
         "file": ""
       },
       "event_index": 0,
+      "max_length": 15,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Steps Tag",
+      "drawing_order": 7,
+      "position": {
+        "x": 462,
+        "y": 178
+      },
+      "size": 16,
+      "color": -16715521,
+      "alpha": 255,
+      "angle": 0,
+      "bold": true,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "BIOMETRIC STEPS",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
       "max_length": 0,
       "shadow": {
         "color": -16777216,
@@ -201,10 +324,10 @@
       "type": "text_object",
       "id": 0,
       "name": "Cyber Steps",
-      "drawing_order": 4,
+      "drawing_order": 8,
       "position": {
         "x": 462,
-        "y": 222
+        "y": 226
       },
       "size": 34,
       "color": -201206,
@@ -241,11 +364,52 @@
     {
       "type": "text_object",
       "id": 0,
-      "name": "Battery Level",
-      "drawing_order": 5,
+      "name": "Cell Tag",
+      "drawing_order": 9,
       "position": {
         "x": 50,
-        "y": 344
+        "y": 300
+      },
+      "size": 16,
+      "color": -201206,
+      "alpha": 255,
+      "angle": 0,
+      "bold": true,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "CELL // THERMAL & VOLTAGE",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Battery Level",
+      "drawing_order": 10,
+      "position": {
+        "x": 50,
+        "y": 346
       },
       "size": 22,
       "color": -1,
@@ -283,10 +447,10 @@
       "type": "text_object",
       "id": 0,
       "name": "Battery Temp",
-      "drawing_order": 6,
+      "drawing_order": 11,
       "position": {
-        "x": 130,
-        "y": 344
+        "x": 126,
+        "y": 346
       },
       "size": 22,
       "color": -65409,
@@ -324,10 +488,10 @@
       "type": "text_object",
       "id": 0,
       "name": "Battery Voltage",
-      "drawing_order": 7,
+      "drawing_order": 12,
       "position": {
-        "x": 235,
-        "y": 344
+        "x": 236,
+        "y": 346
       },
       "size": 20,
       "color": -201206,
@@ -364,11 +528,52 @@
     {
       "type": "text_object",
       "id": 0,
-      "name": "WiFi Uplink",
-      "drawing_order": 8,
+      "name": "Uplink Tag",
+      "drawing_order": 13,
       "position": {
         "x": 390,
-        "y": 344
+        "y": 300
+      },
+      "size": 16,
+      "color": -16715521,
+      "alpha": 255,
+      "angle": 0,
+      "bold": true,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "UPLINK // ALARM SYNC",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "WiFi Uplink",
+      "drawing_order": 14,
+      "position": {
+        "x": 390,
+        "y": 346
       },
       "size": 20,
       "color": -16715521,
@@ -406,10 +611,10 @@
       "type": "text_object",
       "id": 0,
       "name": "Next Alarm",
-      "drawing_order": 9,
+      "drawing_order": 15,
       "position": {
-        "x": 555,
-        "y": 344
+        "x": 556,
+        "y": 346
       },
       "size": 20,
       "color": -1,

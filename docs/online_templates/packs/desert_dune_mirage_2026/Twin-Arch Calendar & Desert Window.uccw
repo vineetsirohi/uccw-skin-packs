@@ -63,14 +63,14 @@
       "name": "Window Weather Pill",
       "drawing_order": 2,
       "position": {
-        "x": 476,
-        "y": 86
+        "x": 472,
+        "y": 84
       },
       "alpha": 235,
       "angle": 0,
       "roundness": 26,
-      "width": 146,
-      "height": 88,
+      "width": 150,
+      "height": 92,
       "stroke": 2.0,
       "color": -13877686,
       "is_hollow": false,
@@ -87,14 +87,14 @@
       "name": "Window Weather Rim",
       "drawing_order": 3,
       "position": {
-        "x": 476,
-        "y": 86
+        "x": 472,
+        "y": 84
       },
       "alpha": 150,
       "angle": 0,
       "roundness": 26,
-      "width": 146,
-      "height": 88,
+      "width": 150,
+      "height": 92,
       "stroke": 1.4,
       "color": -725792,
       "is_hollow": true,
@@ -111,14 +111,14 @@
       "name": "Window Location Pill",
       "drawing_order": 4,
       "position": {
-        "x": 388,
-        "y": 194
+        "x": 384,
+        "y": 192
       },
       "alpha": 255,
       "angle": 0,
-      "roundness": 17,
-      "width": 148,
-      "height": 34,
+      "roundness": 18,
+      "width": 168,
+      "height": 36,
       "stroke": 2.0,
       "color": -3642072,
       "is_hollow": false,
@@ -136,9 +136,9 @@
       "drawing_order": 5,
       "position": {
         "x": 176,
-        "y": 81
+        "y": 82
       },
-      "size": 16,
+      "size": 18,
       "color": -725792,
       "alpha": 255,
       "angle": 0,
@@ -182,7 +182,7 @@
       },
       "width": 272,
       "row_spacing": 37,
-      "size": 14,
+      "size": 16,
       "rows_mode": 2,
       "header_format": 2,
       "first_day_of_week": 1,
@@ -226,8 +226,8 @@
       "name": "Window Temp",
       "drawing_order": 7,
       "position": {
-        "x": 549,
-        "y": 134
+        "x": 547,
+        "y": 132
       },
       "size": 38,
       "color": -725792,
@@ -267,10 +267,10 @@
       "name": "Window Cond",
       "drawing_order": 8,
       "position": {
-        "x": 549,
-        "y": 158
+        "x": 547,
+        "y": 160
       },
-      "size": 12,
+      "size": 16,
       "color": -6372136,
       "alpha": 255,
       "angle": 0,
@@ -294,7 +294,7 @@
         "file": ""
       },
       "event_index": 0,
-      "max_length": 12,
+      "max_length": 10,
       "shadow": {
         "color": -16777216,
         "dx": 0,
@@ -308,10 +308,10 @@
       "name": "Window Loc",
       "drawing_order": 9,
       "position": {
-        "x": 462,
+        "x": 468,
         "y": 216
       },
-      "size": 12,
+      "size": 16,
       "color": -725792,
       "alpha": 255,
       "angle": 0,
@@ -350,9 +350,9 @@
       "drawing_order": 10,
       "position": {
         "x": 382,
-        "y": 278
+        "y": 276
       },
-      "size": 17,
+      "size": 19,
       "color": -725792,
       "alpha": 255,
       "angle": 0,
@@ -376,7 +376,7 @@
         "file": ""
       },
       "event_index": 0,
-      "max_length": 18,
+      "max_length": 16,
       "shadow": {
         "color": -16777216,
         "dx": 0,
@@ -391,9 +391,9 @@
       "drawing_order": 11,
       "position": {
         "x": 382,
-        "y": 304
+        "y": 306
       },
-      "size": 13,
+      "size": 16,
       "color": -3623266,
       "alpha": 255,
       "angle": 0,
@@ -417,7 +417,7 @@
         "file": ""
       },
       "event_index": 0,
-      "max_length": 22,
+      "max_length": 18,
       "shadow": {
         "color": -16777216,
         "dx": 0,
@@ -432,9 +432,9 @@
       "drawing_order": 12,
       "position": {
         "x": 382,
-        "y": 352
+        "y": 354
       },
-      "size": 13,
+      "size": 16,
       "color": -1663160,
       "alpha": 255,
       "angle": 0,
@@ -473,9 +473,9 @@
       "drawing_order": 13,
       "position": {
         "x": 626,
-        "y": 352
+        "y": 354
       },
-      "size": 13,
+      "size": 16,
       "color": -6372136,
       "alpha": 255,
       "angle": 0,

@@ -84,7 +84,7 @@
         "y": 66
       },
       "size": 20,
-      "color": -3688214,
+      "color": -3687990,
       "alpha": 255,
       "angle": 0,
       "bold": false,
@@ -134,9 +134,9 @@
       "highlight_shape": 0,
       "color": -35560,
       "today_text_color": -1,
-      "weekday_color": -725761,
+      "weekday_color": -725777,
       "weekend_color": -25020,
-      "header_color": -5664044,
+      "header_color": -5664076,
       "alpha": 255,
       "angle": 0,
       "bold": true,
@@ -175,7 +175,7 @@
         "y": 108
       },
       "size": 56,
-      "color": -2328,
+      "color": -593704,
       "alpha": 255,
       "angle": 0,
       "bold": false,
@@ -273,7 +273,7 @@
         "y": 152
       },
       "size": 26,
-      "color": -2328,
+      "color": -593704,
       "alpha": 255,
       "angle": 0,
       "bold": false,
@@ -307,14 +307,55 @@
     {
       "type": "text_object",
       "id": 0,
-      "name": "Event 1 Title",
+      "name": "Schedule Header",
       "drawing_order": 7,
+      "position": {
+        "x": 392,
+        "y": 228
+      },
+      "size": 16,
+      "color": -25020,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "UPCOMING SCHEDULE",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 2
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Event 1 Title",
+      "drawing_order": 8,
       "position": {
         "x": 412,
         "y": 270
       },
       "size": 20,
-      "color": -2328,
+      "color": -593704,
       "alpha": 255,
       "angle": 0,
       "bold": false,
@@ -349,7 +390,7 @@
       "type": "text_object",
       "id": 0,
       "name": "Event 1 Time",
-      "drawing_order": 8,
+      "drawing_order": 9,
       "position": {
         "x": 412,
         "y": 296
@@ -390,13 +431,13 @@
       "type": "text_object",
       "id": 0,
       "name": "Event 2 Title",
-      "drawing_order": 9,
+      "drawing_order": 10,
       "position": {
         "x": 412,
         "y": 346
       },
       "size": 20,
-      "color": -1911560,
+      "color": -1911568,
       "alpha": 255,
       "angle": 0,
       "bold": false,
@@ -431,13 +472,13 @@
       "type": "text_object",
       "id": 0,
       "name": "Event 2 Time",
-      "drawing_order": 10,
+      "drawing_order": 11,
       "position": {
         "x": 412,
         "y": 372
       },
       "size": 16,
-      "color": -4889097,
+      "color": -4889177,
       "alpha": 255,
       "angle": 0,
       "bold": false,
@@ -472,7 +513,7 @@
       "type": "hotspot",
       "id": 0,
       "name": "Calendar Hotspot",
-      "drawing_order": 9999,
+      "drawing_order": 9998,
       "position": {
         "x": 22,
         "y": 22
@@ -481,8 +522,8 @@
       "height": 376,
       "shape": 0,
       "hotspot_mode": 1,
-      "uccw_type": 0,
-      "app_name": "Calendar",
+      "uccw_type": 2,
+      "app_name": "Calendar Hotspot",
       "intent": null,
       "alpha": 255,
       "angle": 0
@@ -501,7 +542,7 @@
       "shape": 0,
       "hotspot_mode": 1,
       "uccw_type": 0,
-      "app_name": "Alarm Clock",
+      "app_name": "Clock Hotspot",
       "intent": null,
       "alpha": 255,
       "angle": 0

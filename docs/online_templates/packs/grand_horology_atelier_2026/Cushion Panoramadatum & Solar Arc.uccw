@@ -42,7 +42,7 @@
         "x": 196,
         "y": 160
       },
-      "size": 11,
+      "size": 16,
       "color": -1722233,
       "alpha": 255,
       "angle": 0,
@@ -54,7 +54,7 @@
       },
       "prefix": "",
       "suffix": "",
-      "text": "ATELIER \u00b7 EDITION",
+      "text": "ATELIER",
       "text_alignment": {
         "align": 1
       },
@@ -81,9 +81,9 @@
       "drawing_order": 2,
       "position": {
         "x": 196,
-        "y": 316
+        "y": 318
       },
-      "size": 18,
+      "size": 22,
       "color": -460036,
       "alpha": 255,
       "angle": 0,
@@ -121,10 +121,10 @@
       "name": "Panorama Label",
       "drawing_order": 3,
       "position": {
-        "x": 384,
-        "y": 80
+        "x": 374,
+        "y": 82
       },
-      "size": 11,
+      "size": 16,
       "color": -1722233,
       "alpha": 255,
       "angle": 0,
@@ -136,7 +136,7 @@
       },
       "prefix": "",
       "suffix": "",
-      "text": "PANORAMADATUM",
+      "text": "GRANDE DATE",
       "text_alignment": {
         "align": 1
       },
@@ -162,10 +162,10 @@
       "name": "Big Date DOM",
       "drawing_order": 4,
       "position": {
-        "x": 384,
-        "y": 145
+        "x": 374,
+        "y": 150
       },
-      "size": 38,
+      "size": 42,
       "color": -460036,
       "alpha": 255,
       "angle": 0,
@@ -203,10 +203,10 @@
       "name": "Big Date Month",
       "drawing_order": 5,
       "position": {
-        "x": 384,
-        "y": 194
+        "x": 374,
+        "y": 198
       },
-      "size": 13,
+      "size": 17,
       "color": -1722233,
       "alpha": 255,
       "angle": 0,
@@ -230,7 +230,7 @@
         "file": ""
       },
       "event_index": 0,
-      "max_length": 10,
+      "max_length": 9,
       "shadow": {
         "color": -16777216,
         "dx": 0,
@@ -244,10 +244,10 @@
       "name": "Big Date DOW",
       "drawing_order": 6,
       "position": {
-        "x": 384,
-        "y": 216
+        "x": 374,
+        "y": 224
       },
-      "size": 12,
+      "size": 16,
       "color": -7035976,
       "alpha": 255,
       "angle": 0,
@@ -271,7 +271,7 @@
         "file": ""
       },
       "event_index": 0,
-      "max_length": 10,
+      "max_length": 9,
       "shadow": {
         "color": -16777216,
         "dx": 0,
@@ -288,7 +288,7 @@
         "x": 378,
         "y": 344
       },
-      "size": 14,
+      "size": 16,
       "color": -1722233,
       "alpha": 255,
       "angle": 0,
@@ -327,9 +327,9 @@
       "drawing_order": 8,
       "position": {
         "x": 378,
-        "y": 368
+        "y": 370
       },
-      "size": 14,
+      "size": 16,
       "color": -13058568,
       "alpha": 255,
       "angle": 0,
@@ -368,9 +368,9 @@
       "drawing_order": 9,
       "position": {
         "x": 196,
-        "y": 424
+        "y": 426
       },
-      "size": 13,
+      "size": 17,
       "color": -7035976,
       "alpha": 255,
       "angle": 0,
@@ -394,7 +394,7 @@
         "file": ""
       },
       "event_index": 0,
-      "max_length": 18,
+      "max_length": 15,
       "shadow": {
         "color": -16777216,
         "dx": 0,

@@ -88,13 +88,13 @@
       "drawing_order": 3,
       "position": {
         "x": 48,
-        "y": 44
+        "y": 42
       },
       "alpha": 255,
       "angle": 0,
-      "roundness": 18,
-      "width": 188,
-      "height": 36,
+      "roundness": 19,
+      "width": 200,
+      "height": 38,
       "stroke": 2.0,
       "color": -11900067,
       "is_hollow": false,
@@ -111,14 +111,14 @@
       "name": "Bottom Agenda Pebble",
       "drawing_order": 4,
       "position": {
-        "x": 44,
-        "y": 240
+        "x": 42,
+        "y": 230
       },
       "alpha": 255,
       "angle": 0,
       "roundness": 38,
-      "width": 284,
-      "height": 96,
+      "width": 288,
+      "height": 108,
       "stroke": 2.0,
       "color": -2300450,
       "is_hollow": false,
@@ -135,14 +135,14 @@
       "name": "Up Next Clay Pill",
       "drawing_order": 5,
       "position": {
-        "x": 62,
-        "y": 254
+        "x": 60,
+        "y": 242
       },
       "alpha": 255,
       "angle": 0,
-      "roundness": 12,
+      "roundness": 13,
       "width": 88,
-      "height": 24,
+      "height": 26,
       "stroke": 2.0,
       "color": -3768998,
       "is_hollow": false,
@@ -255,10 +255,10 @@
       "name": "Pebble Date",
       "drawing_order": 10,
       "position": {
-        "x": 142,
+        "x": 148,
         "y": 67
       },
-      "size": 12,
+      "size": 16,
       "color": -658709,
       "alpha": 255,
       "angle": 0,
@@ -297,9 +297,9 @@
       "drawing_order": 11,
       "position": {
         "x": 186,
-        "y": 198
+        "y": 190
       },
-      "size": 86,
+      "size": 84,
       "color": -14931420,
       "alpha": 255,
       "angle": 0,
@@ -337,10 +337,10 @@
       "name": "Next Pill Txt",
       "drawing_order": 12,
       "position": {
-        "x": 106,
-        "y": 270
+        "x": 104,
+        "y": 261
       },
-      "size": 10,
+      "size": 16,
       "color": -658709,
       "alpha": 255,
       "angle": 0,
@@ -352,7 +352,7 @@
       },
       "prefix": "",
       "suffix": "",
-      "text": "MINDFUL DAY",
+      "text": "NEXT",
       "text_alignment": {
         "align": 1
       },
@@ -375,54 +375,13 @@
     {
       "type": "text_object",
       "id": 0,
-      "name": "Event Time",
+      "name": "Event Title",
       "drawing_order": 13,
       "position": {
-        "x": 308,
-        "y": 270
+        "x": 60,
+        "y": 294
       },
-      "size": 11,
-      "color": -11377060,
-      "alpha": 255,
-      "angle": 0,
-      "bold": false,
-      "italic": false,
-      "font": {
-        "type": 1,
-        "font": "fonts/Poppins-SemiBold.ttf"
-      },
-      "prefix": "",
-      "suffix": "",
-      "text": "",
-      "text_alignment": {
-        "align": 2
-      },
-      "text_case": {
-        "text_case": 0
-      },
-      "text_provider": {
-        "id": 54,
-        "file": ""
-      },
-      "event_index": 0,
-      "max_length": 18,
-      "shadow": {
-        "color": -16777216,
-        "dx": 0,
-        "dy": 0,
-        "radius": 0
-      }
-    },
-    {
-      "type": "text_object",
-      "id": 0,
-      "name": "Event Title",
-      "drawing_order": 14,
-      "position": {
-        "x": 62,
-        "y": 308
-      },
-      "size": 18,
+      "size": 19,
       "color": -14931420,
       "alpha": 255,
       "angle": 0,
@@ -446,7 +405,48 @@
         "file": ""
       },
       "event_index": 0,
-      "max_length": 19,
+      "max_length": 17,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Event Time",
+      "drawing_order": 14,
+      "position": {
+        "x": 60,
+        "y": 320
+      },
+      "size": 16,
+      "color": -11377060,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-SemiBold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 54,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 16,
       "shadow": {
         "color": -16777216,
         "dx": 0,
@@ -477,7 +477,7 @@
       "drawing_order": 16,
       "position": {
         "x": 616,
-        "y": 112
+        "y": 108
       },
       "size": 52,
       "color": -658709,
@@ -518,9 +518,9 @@
       "drawing_order": 17,
       "position": {
         "x": 616,
-        "y": 144
+        "y": 142
       },
-      "size": 14,
+      "size": 16,
       "color": -2300450,
       "alpha": 255,
       "angle": 0,
@@ -544,7 +544,7 @@
         "file": ""
       },
       "event_index": 0,
-      "max_length": 15,
+      "max_length": 13,
       "shadow": {
         "color": -16777216,
         "dx": 0,
@@ -561,7 +561,7 @@
         "x": 616,
         "y": 170
       },
-      "size": 12,
+      "size": 16,
       "color": -3768998,
       "alpha": 255,
       "angle": 0,
@@ -585,7 +585,7 @@
         "file": ""
       },
       "event_index": 0,
-      "max_length": 16,
+      "max_length": 14,
       "shadow": {
         "color": -16777216,
         "dx": 0,
@@ -602,7 +602,7 @@
         "x": 434,
         "y": 224
       },
-      "size": 12,
+      "size": 16,
       "color": -2300450,
       "alpha": 255,
       "angle": 0,
@@ -641,9 +641,9 @@
       "drawing_order": 20,
       "position": {
         "x": 434,
-        "y": 262
+        "y": 264
       },
-      "size": 22,
+      "size": 24,
       "color": -658709,
       "alpha": 255,
       "angle": 0,
@@ -684,7 +684,7 @@
         "x": 507,
         "y": 224
       },
-      "size": 12,
+      "size": 16,
       "color": -2300450,
       "alpha": 255,
       "angle": 0,
@@ -723,9 +723,9 @@
       "drawing_order": 22,
       "position": {
         "x": 507,
-        "y": 262
+        "y": 264
       },
-      "size": 22,
+      "size": 24,
       "color": -658709,
       "alpha": 255,
       "angle": 0,
@@ -766,7 +766,7 @@
         "x": 580,
         "y": 224
       },
-      "size": 12,
+      "size": 16,
       "color": -2300450,
       "alpha": 255,
       "angle": 0,
@@ -805,9 +805,9 @@
       "drawing_order": 24,
       "position": {
         "x": 580,
-        "y": 262
+        "y": 264
       },
-      "size": 22,
+      "size": 24,
       "color": -3768998,
       "alpha": 255,
       "angle": 0,
@@ -845,10 +845,10 @@
       "name": "Dawn Txt",
       "drawing_order": 25,
       "position": {
-        "x": 454,
-        "y": 324
+        "x": 450,
+        "y": 325
       },
-      "size": 12,
+      "size": 16,
       "color": -658709,
       "alpha": 255,
       "angle": 0,
@@ -858,7 +858,7 @@
         "type": 1,
         "font": "fonts/Poppins-SemiBold.ttf"
       },
-      "prefix": "DAWN ",
+      "prefix": "RISE ",
       "suffix": "",
       "text": "",
       "text_alignment": {
@@ -886,10 +886,10 @@
       "name": "Dusk Txt",
       "drawing_order": 26,
       "position": {
-        "x": 562,
-        "y": 324
+        "x": 564,
+        "y": 325
       },
-      "size": 12,
+      "size": 16,
       "color": -2300450,
       "alpha": 255,
       "angle": 0,
@@ -899,7 +899,7 @@
         "type": 1,
         "font": "fonts/Poppins-SemiBold.ttf"
       },
-      "prefix": "DUSK ",
+      "prefix": "SET ",
       "suffix": "",
       "text": "",
       "text_alignment": {

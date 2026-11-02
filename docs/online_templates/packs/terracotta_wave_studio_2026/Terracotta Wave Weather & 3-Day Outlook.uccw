@@ -40,9 +40,9 @@
       "drawing_order": 1,
       "position": {
         "x": 76,
-        "y": 74
+        "y": 76
       },
-      "size": 16,
+      "size": 18,
       "color": -1816,
       "alpha": 255,
       "angle": 0,
@@ -81,9 +81,9 @@
       "drawing_order": 2,
       "position": {
         "x": 165,
-        "y": 74
+        "y": 76
       },
-      "size": 16,
+      "size": 18,
       "color": -1816,
       "alpha": 255,
       "angle": 0,
@@ -122,9 +122,9 @@
       "drawing_order": 3,
       "position": {
         "x": 254,
-        "y": 74
+        "y": 76
       },
-      "size": 16,
+      "size": 18,
       "color": -1816,
       "alpha": 255,
       "angle": 0,
@@ -163,9 +163,9 @@
       "drawing_order": 4,
       "position": {
         "x": 76,
-        "y": 192
+        "y": 194
       },
-      "size": 20,
+      "size": 22,
       "color": -1816,
       "alpha": 255,
       "angle": 0,
@@ -204,9 +204,9 @@
       "drawing_order": 5,
       "position": {
         "x": 165,
-        "y": 192
+        "y": 194
       },
-      "size": 20,
+      "size": 22,
       "color": -1816,
       "alpha": 255,
       "angle": 0,
@@ -245,9 +245,9 @@
       "drawing_order": 6,
       "position": {
         "x": 254,
-        "y": 192
+        "y": 194
       },
-      "size": 20,
+      "size": 22,
       "color": -1816,
       "alpha": 255,
       "angle": 0,
@@ -288,7 +288,7 @@
         "x": 374,
         "y": 184
       },
-      "size": 15,
+      "size": 18,
       "color": -1816,
       "alpha": 255,
       "angle": 0,
@@ -327,9 +327,9 @@
       "drawing_order": 8,
       "position": {
         "x": 374,
-        "y": 210
+        "y": 214
       },
-      "size": 15,
+      "size": 18,
       "color": -5950,
       "alpha": 255,
       "angle": 0,
@@ -409,9 +409,9 @@
       "drawing_order": 10,
       "position": {
         "x": 145,
-        "y": 300
+        "y": 302
       },
-      "size": 20,
+      "size": 22,
       "color": -1816,
       "alpha": 255,
       "angle": 0,
@@ -450,9 +450,9 @@
       "drawing_order": 11,
       "position": {
         "x": 438,
-        "y": 301
+        "y": 303
       },
-      "size": 14,
+      "size": 17,
       "color": -1816,
       "alpha": 255,
       "angle": 0,
@@ -490,10 +490,10 @@
       "name": "Humidity Info",
       "drawing_order": 12,
       "position": {
-        "x": 626,
-        "y": 301
+        "x": 628,
+        "y": 303
       },
-      "size": 14,
+      "size": 17,
       "color": -5950,
       "alpha": 255,
       "angle": 0,

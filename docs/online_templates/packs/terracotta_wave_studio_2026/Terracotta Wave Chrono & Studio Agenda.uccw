@@ -40,9 +40,9 @@
       "drawing_order": 1,
       "position": {
         "x": 172,
-        "y": 122
+        "y": 124
       },
-      "size": 11,
+      "size": 16,
       "color": -1726149,
       "alpha": 255,
       "angle": 0,
@@ -54,7 +54,7 @@
       },
       "prefix": "",
       "suffix": "",
-      "text": "STUDIO \u00b7 CHRONO",
+      "text": "CHRONO",
       "text_alignment": {
         "align": 1
       },
@@ -124,7 +124,7 @@
       "name": "Digital Clock",
       "drawing_order": 4,
       "position": {
-        "x": 358,
+        "x": 356,
         "y": 118
       },
       "size": 76,
@@ -165,10 +165,10 @@
       "name": "Date Line",
       "drawing_order": 5,
       "position": {
-        "x": 360,
-        "y": 154
+        "x": 356,
+        "y": 156
       },
-      "size": 15,
+      "size": 17,
       "color": -5950,
       "alpha": 255,
       "angle": 0,
@@ -206,10 +206,10 @@
       "name": "Right Temp",
       "drawing_order": 6,
       "position": {
-        "x": 622,
+        "x": 624,
         "y": 104
       },
-      "size": 42,
+      "size": 44,
       "color": -1816,
       "alpha": 255,
       "angle": 0,
@@ -247,10 +247,10 @@
       "name": "Right Cond",
       "drawing_order": 7,
       "position": {
-        "x": 622,
-        "y": 154
+        "x": 624,
+        "y": 156
       },
-      "size": 13,
+      "size": 17,
       "color": -5950,
       "alpha": 255,
       "angle": 0,
@@ -289,9 +289,9 @@
       "drawing_order": 8,
       "position": {
         "x": 358,
-        "y": 238
+        "y": 240
       },
-      "size": 12,
+      "size": 16,
       "color": -1726149,
       "alpha": 255,
       "angle": 0,
@@ -330,9 +330,9 @@
       "drawing_order": 9,
       "position": {
         "x": 583,
-        "y": 238
+        "y": 240
       },
-      "size": 14,
+      "size": 18,
       "color": -1816,
       "alpha": 255,
       "angle": 0,
@@ -373,7 +373,7 @@
         "x": 358,
         "y": 276
       },
-      "size": 18,
+      "size": 20,
       "color": -1816,
       "alpha": 255,
       "angle": 0,
@@ -412,9 +412,9 @@
       "drawing_order": 11,
       "position": {
         "x": 358,
-        "y": 304
+        "y": 306
       },
-      "size": 13,
+      "size": 17,
       "color": -1516875,
       "alpha": 255,
       "angle": 0,
@@ -438,7 +438,7 @@
         "file": ""
       },
       "event_index": 0,
-      "max_length": 24,
+      "max_length": 22,
       "shadow": {
         "color": -16777216,
         "dx": 0,

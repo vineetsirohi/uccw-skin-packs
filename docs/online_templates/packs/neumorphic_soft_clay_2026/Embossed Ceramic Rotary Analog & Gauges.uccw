@@ -40,7 +40,7 @@
       "drawing_order": 1,
       "position": {
         "x": 160,
-        "y": 150
+        "y": 152
       },
       "alpha": 255,
       "angle": 0,
@@ -156,7 +156,7 @@
         "x": 236,
         "y": 70
       },
-      "size": 20,
+      "size": 22,
       "color": -14537928,
       "alpha": 255,
       "angle": 0,
@@ -197,7 +197,7 @@
         "x": 408,
         "y": 243
       },
-      "size": 20,
+      "size": 22,
       "color": -14537928,
       "alpha": 255,
       "angle": 0,
@@ -238,7 +238,7 @@
         "x": 236,
         "y": 416
       },
-      "size": 20,
+      "size": 22,
       "color": -14537928,
       "alpha": 255,
       "angle": 0,
@@ -279,7 +279,7 @@
         "x": 64,
         "y": 243
       },
-      "size": 20,
+      "size": 22,
       "color": -14537928,
       "alpha": 255,
       "angle": 0,
@@ -318,9 +318,9 @@
       "drawing_order": 8,
       "position": {
         "x": 236,
-        "y": 172
+        "y": 174
       },
-      "size": 12,
+      "size": 16,
       "color": -1905419,
       "alpha": 255,
       "angle": 0,
@@ -361,7 +361,7 @@
         "x": 236,
         "y": 304
       },
-      "size": 11,
+      "size": 16,
       "color": -10194299,
       "alpha": 255,
       "angle": 0,
@@ -564,7 +564,7 @@
       "drawing_order": 17,
       "position": {
         "x": 393,
-        "y": 396
+        "y": 392
       },
       "size": 40,
       "color": -14537928,
@@ -605,9 +605,9 @@
       "drawing_order": 18,
       "position": {
         "x": 393,
-        "y": 424
+        "y": 422
       },
-      "size": 12,
+      "size": 16,
       "color": -10194299,
       "alpha": 255,
       "angle": 0,
@@ -631,7 +631,7 @@
         "file": ""
       },
       "event_index": 0,
-      "max_length": 11,
+      "max_length": 9,
       "shadow": {
         "color": -16777216,
         "dx": 0,
@@ -646,9 +646,9 @@
       "drawing_order": 19,
       "position": {
         "x": 393,
-        "y": 448
+        "y": 450
       },
-      "size": 11,
+      "size": 16,
       "color": -16734058,
       "alpha": 255,
       "angle": 0,
