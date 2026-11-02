@@ -1,0 +1,201 @@
+{
+  "background": {
+    "type": "BackgroundProperties",
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "alpha": 255,
+    "angle": 0,
+    "background": "assets://skin_templates/classic/Overgrown Brass Clockwork Skeleton Analog_bg.png",
+    "mode": 1,
+    "id": 0,
+    "name": "Background",
+    "image_scale_type": 2,
+    "fill_homescreen_widget": false,
+    "drawing_order": -1
+  },
+  "meta_data": {
+    "author": "UCCW Studio",
+    "height": 520,
+    "name": "Overgrown Brass Clockwork Skeleton Analog",
+    "scale": 1,
+    "width": 500,
+    "author_email": null,
+    "creation_date": 0,
+    "sdcard_root_address": null,
+    "modify_date": 0,
+    "other_data": null,
+    "screen_height": 2400,
+    "screen_width": 1080,
+    "skin_version": "version_3",
+    "min_version_code": 326,
+    "min_version_name": "2.2.26"
+  },
+  "objects": [
+    {
+      "type": "standard_analog_clock_object",
+      "id": 0,
+      "name": "Skeleton Sword Hands",
+      "drawing_order": 1,
+      "position": {
+        "x": 49,
+        "y": 31
+      },
+      "alpha": 255,
+      "angle": 0,
+      "scale": 1.34,
+      "step_mode": 0,
+      "hour_mode": 0,
+      "timezone_id": "",
+      "hour_image": "assets://defaultAnalogClockHands/sword_hour.png",
+      "minute_image": "assets://defaultAnalogClockHands/sword_minute.png",
+      "hour_color": -792370,
+      "minute_color": -3629740
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Center Brass Cap",
+      "drawing_order": 2,
+      "position": {
+        "x": 239,
+        "y": 221
+      },
+      "alpha": 255,
+      "angle": 0,
+      "roundness": 11,
+      "width": 22,
+      "height": 22,
+      "stroke": 2,
+      "color": -3629740,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Bottom Moss Date",
+      "drawing_order": 3,
+      "position": {
+        "x": 188,
+        "y": 489
+      },
+      "size": 17,
+      "color": -3549499,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/SourceCodePro-Regular.otf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "{\"day_format\": 8, \"day_of_the_week_format\": 7, \"layout_format\": \"wdm\", \"month_format\": 4, \"separator\": \" \", \"separator2\": \" \", \"separator3\": \" \", \"year_format\": 1}",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 2
+      },
+      "text_provider": {
+        "id": 20,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Bottom Moss Temp",
+      "drawing_order": 4,
+      "position": {
+        "x": 395,
+        "y": 489
+      },
+      "size": 17,
+      "color": -1652858,
+      "alpha": 255,
+      "angle": 0,
+      "bold": true,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/SourceCodePro-Regular.otf"
+      },
+      "prefix": "",
+      "suffix": "\u00b0C",
+      "text": "",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 24,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "hotspot",
+      "id": 0,
+      "name": "Clock Hotspot",
+      "drawing_order": 5,
+      "position": {
+        "x": 36,
+        "y": 20
+      },
+      "width": 428,
+      "height": 440,
+      "shape": 0,
+      "hotspot_mode": 1,
+      "uccw_type": 0,
+      "app_name": "Clock Hotspot",
+      "intent": null,
+      "alpha": 255,
+      "angle": 0
+    },
+    {
+      "type": "hotspot",
+      "id": 0,
+      "name": "Weather Hotspot",
+      "drawing_order": 6,
+      "position": {
+        "x": 332,
+        "y": 462
+      },
+      "width": 126,
+      "height": 42,
+      "shape": 0,
+      "hotspot_mode": 1,
+      "uccw_type": 1,
+      "app_name": "Weather Hotspot",
+      "intent": null,
+      "alpha": 255,
+      "angle": 0
+    }
+  ]
+}

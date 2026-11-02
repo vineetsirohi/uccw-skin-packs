@@ -1,0 +1,369 @@
+{
+  "background": {
+    "type": "BackgroundProperties",
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "alpha": 255,
+    "angle": 0,
+    "background": "assets://skin_templates/modern/Neon Mint Focus Goal & Segmented Timer Console_bg.png",
+    "mode": 1,
+    "id": 0,
+    "name": "Background",
+    "image_scale_type": 2,
+    "fill_homescreen_widget": false,
+    "drawing_order": -1
+  },
+  "meta_data": {
+    "author": "UCCW Studio",
+    "height": 320,
+    "name": "Neon Mint Focus Goal & Segmented Timer Console",
+    "scale": 1,
+    "width": 680,
+    "author_email": null,
+    "creation_date": 0,
+    "sdcard_root_address": null,
+    "modify_date": 0,
+    "other_data": null,
+    "screen_height": 2400,
+    "screen_width": 1080,
+    "skin_version": "version_3",
+    "min_version_code": 326,
+    "min_version_name": "2.2.26"
+  },
+  "objects": [
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Goal Label",
+      "drawing_order": 1,
+      "position": {
+        "x": 38,
+        "y": 54
+      },
+      "size": 18,
+      "color": -7035976,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Roboto-Bold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "MAIN GOAL \u00b7 NEXT AGENDA",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Goal Headline",
+      "drawing_order": 2,
+      "position": {
+        "x": 38,
+        "y": 108
+      },
+      "size": 37,
+      "color": -1,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-Light.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 53,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 29,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Progress Label",
+      "drawing_order": 3,
+      "position": {
+        "x": 38,
+        "y": 162
+      },
+      "size": 18,
+      "color": -10193781,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Roboto-Bold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "PROGRESS:",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Progress Value",
+      "drawing_order": 4,
+      "position": {
+        "x": 152,
+        "y": 162
+      },
+      "size": 20,
+      "color": -460036,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-SemiBold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 54,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 22,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Timer Label",
+      "drawing_order": 5,
+      "position": {
+        "x": 472,
+        "y": 162
+      },
+      "size": 18,
+      "color": -10193781,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Roboto-Bold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "FOCUS TIMER:",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Pill Clock",
+      "drawing_order": 6,
+      "position": {
+        "x": 557,
+        "y": 248
+      },
+      "size": 40,
+      "color": -16184560,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Audiowide-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 19,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "battery_bar",
+      "id": 0,
+      "name": "Neon Bar",
+      "drawing_order": 7,
+      "position": {
+        "x": 48,
+        "y": 262
+      },
+      "width": 124,
+      "height": 6,
+      "base_color": 1426480966,
+      "base_roundness": 3,
+      "progress_bar_height": 4,
+      "progress_bar_roundness": 3,
+      "alpha": 255,
+      "angle": 0,
+      "style": 0,
+      "value_provider": 0,
+      "range": {
+        "min": 0,
+        "max": 100
+      },
+      "divisions": [
+        {
+          "color": -1245707,
+          "div": 50
+        },
+        {
+          "color": -1245707,
+          "div": 15
+        },
+        {
+          "color": -1245707,
+          "div": 5
+        },
+        {
+          "color": -1245707,
+          "div": 0
+        }
+      ],
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "hotspot",
+      "id": 0,
+      "name": "Calendar Hotspot",
+      "drawing_order": 8,
+      "position": {
+        "x": 28,
+        "y": 24
+      },
+      "width": 424,
+      "height": 260,
+      "shape": 0,
+      "hotspot_mode": 1,
+      "uccw_type": 2,
+      "app_name": "Calendar Hotspot",
+      "intent": null,
+      "alpha": 255,
+      "angle": 0
+    },
+    {
+      "type": "hotspot",
+      "id": 0,
+      "name": "Clock Hotspot",
+      "drawing_order": 9,
+      "position": {
+        "x": 464,
+        "y": 140
+      },
+      "width": 184,
+      "height": 144,
+      "shape": 0,
+      "hotspot_mode": 1,
+      "uccw_type": 0,
+      "app_name": "Clock Hotspot",
+      "intent": null,
+      "alpha": 255,
+      "angle": 0
+    }
+  ]
+}

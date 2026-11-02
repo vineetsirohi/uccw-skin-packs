@@ -2,6 +2,62 @@
   "manifest_version": 2,
   "collections": [
     {
+      "id": "lumina_horizon_telemetry_2026",
+      "title": "Lumina Dawn, Pixel Pet & Horizon Telemetry",
+      "subtitle": "6 Spatial Glass, Golden Dawn Orb, 1-Bit Pixel Pet, Step Beam, Alpine Altimeter & Flight Deck Widgets + Wallpaper",
+      "description": "Inspired by glowing spatial glass cards and tactile telemetry interfaces: Golden Dawn Orb Clock & Solar Timeline, Pixie 1-Bit Virtual Pet & Status Bars, Amber Spotlight Beam & Step Chrono Ring, Alpine Ridge Altimeter & Barometer Horizon, Transcontinental Flight Deck & World Transit, and Neon Mint Focus Goal & Segmented Timer Console — paired with a Lumina Golden Dawn & Midnight Horizon Wallpaper.",
+      "author": "UCCW Studio",
+      "category": "ios",
+      "tags": [
+        "Golden Dawn Orb",
+        "Pixel Pet Pixie",
+        "Flight & Altimeter",
+        "Amber Step Ring"
+      ],
+      "release_date": "2026-11-02",
+      "min_version_code": 326,
+      "featured": true,
+      "notify": true,
+      "access_type": "free",
+      "product_id": null,
+      "hero_thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/lumina_horizon_telemetry_2026/Golden%20Dawn%20Orb%20Clock%20%26%20Solar%20Timeline_thumb.png",
+      "wallpapers": [
+        {
+          "name": "Lumina Golden Dawn & Midnight Horizon",
+          "url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/lumina_horizon_telemetry_2026/Lumina%20Golden%20Dawn%20%26%20Midnight%20Horizon%20Wallpaper.jpg",
+          "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/lumina_horizon_telemetry_2026/Lumina%20Golden%20Dawn%20%26%20Midnight%20Horizon%20Wallpaper_thumb.jpg"
+        }
+      ]
+    },
+    {
+      "id": "clockwork_ivy_grimoire_2026",
+      "title": "Clockwork Conservatory & Parchment Grimoire",
+      "subtitle": "4 Overgrown Brass Clockwork, Victorian Filigree Parchment & Ivy Botanical Widgets + Moss-Stone Wallpaper",
+      "description": "Inspired by antique clockwork conservatories and botanical parchment grimoires: Overgrown Brass Skeleton Clock & 2×2 Filigree Parchment Bento, Standalone Ivy-Wrapped Brass Clockwork Analog, Botanical Ivy & Woodland Fern Quote Scroll, and Ornate Parchment Ribbon & Calendar Chronicle — paired with a Weathered Moss-Stone & Ivy Conservatory Wallpaper.",
+      "author": "UCCW Studio",
+      "category": "classic",
+      "tags": [
+        "Clockwork Gears",
+        "Parchment Filigree",
+        "Botanical Ivy",
+        "Roman Analog"
+      ],
+      "release_date": "2026-10-30",
+      "min_version_code": 326,
+      "featured": true,
+      "notify": true,
+      "access_type": "free",
+      "product_id": null,
+      "hero_thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/clockwork_ivy_grimoire_2026/Clockwork%20Ivy%20Analog%20%26%20Parchment%20Quad%20Bento_thumb.png",
+      "wallpapers": [
+        {
+          "name": "Weathered Moss-Stone & Creeping Ivy Conservatory",
+          "url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/clockwork_ivy_grimoire_2026/Weathered%20Moss-Stone%20%26%20Creeping%20Ivy%20Conservatory%20Wallpaper.jpg",
+          "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/clockwork_ivy_grimoire_2026/Weathered%20Moss-Stone%20%26%20Creeping%20Ivy%20Conservatory%20Wallpaper_thumb.jpg"
+        }
+      ]
+    },
+    {
       "id": "grand_horology_atelier_2026",
       "title": "Grand Horology & Mechanical Atelier",
       "subtitle": "6 Distinct Haute-Horlogerie Analog Clocks (Open-Heart, Tonneau GMT, Octagon, Cushion, Bullhead & Turntable) + Rose-Gold Wallpaper",
@@ -450,6 +506,136 @@
     }
   ],
   "templates": [
+    {
+      "name": "Golden Dawn Orb Clock & Solar Timeline",
+      "collection_id": "lumina_horizon_telemetry_2026",
+      "category": "ios",
+      "categories": [
+        "ios",
+        "modern"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/lumina_horizon_telemetry_2026/Golden%20Dawn%20Orb%20Clock%20%26%20Solar%20Timeline.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/lumina_horizon_telemetry_2026/Golden%20Dawn%20Orb%20Clock%20%26%20Solar%20Timeline_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/lumina_horizon_telemetry_2026/Golden%20Dawn%20Orb%20Clock%20%26%20Solar%20Timeline_bg.png"
+    },
+    {
+      "name": "Pixie Retro Virtual Pet & Status Bars",
+      "collection_id": "lumina_horizon_telemetry_2026",
+      "category": "retro",
+      "categories": [
+        "retro",
+        "nothing"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/lumina_horizon_telemetry_2026/Pixie%20Retro%20Virtual%20Pet%20%26%20Status%20Bars.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/lumina_horizon_telemetry_2026/Pixie%20Retro%20Virtual%20Pet%20%26%20Status%20Bars_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/lumina_horizon_telemetry_2026/Pixie%20Retro%20Virtual%20Pet%20%26%20Status%20Bars_bg.png"
+    },
+    {
+      "name": "Amber Beam & Segmented Step Chrono Ring",
+      "collection_id": "lumina_horizon_telemetry_2026",
+      "category": "rings",
+      "categories": [
+        "rings",
+        "modern"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/lumina_horizon_telemetry_2026/Amber%20Beam%20%26%20Segmented%20Step%20Chrono%20Ring.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/lumina_horizon_telemetry_2026/Amber%20Beam%20%26%20Segmented%20Step%20Chrono%20Ring_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/lumina_horizon_telemetry_2026/Amber%20Beam%20%26%20Segmented%20Step%20Chrono%20Ring_bg.png"
+    },
+    {
+      "name": "Alpine Ridge Altimeter & Barometer Horizon",
+      "collection_id": "lumina_horizon_telemetry_2026",
+      "category": "ios",
+      "categories": [
+        "ios",
+        "modern"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/lumina_horizon_telemetry_2026/Alpine%20Ridge%20Altimeter%20%26%20Barometer%20Horizon.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/lumina_horizon_telemetry_2026/Alpine%20Ridge%20Altimeter%20%26%20Barometer%20Horizon_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/lumina_horizon_telemetry_2026/Alpine%20Ridge%20Altimeter%20%26%20Barometer%20Horizon_bg.png"
+    },
+    {
+      "name": "Transcontinental Flight Deck & World Transit",
+      "collection_id": "lumina_horizon_telemetry_2026",
+      "category": "ios",
+      "categories": [
+        "ios",
+        "modern"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/lumina_horizon_telemetry_2026/Transcontinental%20Flight%20Deck%20%26%20World%20Transit.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/lumina_horizon_telemetry_2026/Transcontinental%20Flight%20Deck%20%26%20World%20Transit_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/lumina_horizon_telemetry_2026/Transcontinental%20Flight%20Deck%20%26%20World%20Transit_bg.png"
+    },
+    {
+      "name": "Neon Mint Focus Goal & Segmented Timer Console",
+      "collection_id": "lumina_horizon_telemetry_2026",
+      "category": "modern",
+      "categories": [
+        "modern",
+        "ios"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/lumina_horizon_telemetry_2026/Neon%20Mint%20Focus%20Goal%20%26%20Segmented%20Timer%20Console.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/lumina_horizon_telemetry_2026/Neon%20Mint%20Focus%20Goal%20%26%20Segmented%20Timer%20Console_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/lumina_horizon_telemetry_2026/Neon%20Mint%20Focus%20Goal%20%26%20Segmented%20Timer%20Console_bg.png"
+    },
+    {
+      "name": "Clockwork Ivy Analog & Parchment Quad Bento",
+      "collection_id": "clockwork_ivy_grimoire_2026",
+      "category": "classic",
+      "categories": [
+        "classic",
+        "retro"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/clockwork_ivy_grimoire_2026/Clockwork%20Ivy%20Analog%20%26%20Parchment%20Quad%20Bento.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/clockwork_ivy_grimoire_2026/Clockwork%20Ivy%20Analog%20%26%20Parchment%20Quad%20Bento_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/clockwork_ivy_grimoire_2026/Clockwork%20Ivy%20Analog%20%26%20Parchment%20Quad%20Bento_bg.png"
+    },
+    {
+      "name": "Overgrown Brass Clockwork Skeleton Analog",
+      "collection_id": "clockwork_ivy_grimoire_2026",
+      "category": "classic",
+      "categories": [
+        "classic",
+        "rings"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/clockwork_ivy_grimoire_2026/Overgrown%20Brass%20Clockwork%20Skeleton%20Analog.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/clockwork_ivy_grimoire_2026/Overgrown%20Brass%20Clockwork%20Skeleton%20Analog_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/clockwork_ivy_grimoire_2026/Overgrown%20Brass%20Clockwork%20Skeleton%20Analog_bg.png"
+    },
+    {
+      "name": "Botanical Ivy & Fern Parchment Quote Scroll",
+      "collection_id": "clockwork_ivy_grimoire_2026",
+      "category": "editorial",
+      "categories": [
+        "editorial",
+        "classic"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/clockwork_ivy_grimoire_2026/Botanical%20Ivy%20%26%20Fern%20Parchment%20Quote%20Scroll.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/clockwork_ivy_grimoire_2026/Botanical%20Ivy%20%26%20Fern%20Parchment%20Quote%20Scroll_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/clockwork_ivy_grimoire_2026/Botanical%20Ivy%20%26%20Fern%20Parchment%20Quote%20Scroll_bg.png"
+    },
+    {
+      "name": "Ornate Filigree Parchment Calendar & Chronicle",
+      "collection_id": "clockwork_ivy_grimoire_2026",
+      "category": "classic",
+      "categories": [
+        "classic",
+        "editorial"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/clockwork_ivy_grimoire_2026/Ornate%20Filigree%20Parchment%20Calendar%20%26%20Chronicle.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/clockwork_ivy_grimoire_2026/Ornate%20Filigree%20Parchment%20Calendar%20%26%20Chronicle_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/clockwork_ivy_grimoire_2026/Ornate%20Filigree%20Parchment%20Calendar%20%26%20Chronicle_bg.png"
+    },
     {
       "name": "Atelier Open-Heart & Power Reserve",
       "collection_id": "grand_horology_atelier_2026",

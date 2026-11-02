@@ -1,0 +1,523 @@
+{
+  "background": {
+    "type": "BackgroundProperties",
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "alpha": 255,
+    "angle": 0,
+    "background": "assets://skin_templates/classic/Clockwork Ivy Analog & Parchment Quad Bento_bg.png",
+    "mode": 1,
+    "id": 0,
+    "name": "Background",
+    "image_scale_type": 2,
+    "fill_homescreen_widget": false,
+    "drawing_order": -1
+  },
+  "meta_data": {
+    "author": "UCCW Studio",
+    "height": 360,
+    "name": "Clockwork Ivy Analog & Parchment Quad Bento",
+    "scale": 1,
+    "width": 680,
+    "author_email": null,
+    "creation_date": 0,
+    "sdcard_root_address": null,
+    "modify_date": 0,
+    "other_data": null,
+    "screen_height": 2400,
+    "screen_width": 1080,
+    "skin_version": "version_3",
+    "min_version_code": 326,
+    "min_version_name": "2.2.26"
+  },
+  "objects": [
+    {
+      "type": "standard_analog_clock_object",
+      "id": 0,
+      "name": "Clockwork Sword Hands",
+      "drawing_order": 1,
+      "position": {
+        "x": 29,
+        "y": 15
+      },
+      "alpha": 255,
+      "angle": 0,
+      "scale": 0.94,
+      "step_mode": 0,
+      "hour_mode": 0,
+      "timezone_id": "",
+      "hour_image": "assets://defaultAnalogClockHands/sword_hour.png",
+      "minute_image": "assets://defaultAnalogClockHands/sword_minute.png",
+      "hour_color": -792370,
+      "minute_color": -3629740
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Brass Arbor Cap",
+      "drawing_order": 2,
+      "position": {
+        "x": 162,
+        "y": 148
+      },
+      "alpha": 255,
+      "angle": 0,
+      "roundness": 8,
+      "width": 16,
+      "height": 16,
+      "stroke": 2,
+      "color": -3629740,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Moss Plaque Date",
+      "drawing_order": 3,
+      "position": {
+        "x": 170,
+        "y": 334
+      },
+      "size": 15,
+      "color": -3549499,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/SourceCodePro-Regular.otf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "{\"day_format\": 8, \"day_of_the_week_format\": 7, \"layout_format\": \"wdm\", \"month_format\": 4, \"separator\": \" \", \"separator2\": \" \", \"separator3\": \" \", \"year_format\": 1}",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 2
+      },
+      "text_provider": {
+        "id": 20,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "weather_image",
+      "id": 0,
+      "name": "Tile Weather Icon",
+      "drawing_order": 4,
+      "position": {
+        "x": 394,
+        "y": 24
+      },
+      "scale": 0.54,
+      "alpha": 255,
+      "angle": 0,
+      "image_source": 0,
+      "default_index": 1,
+      "path": null
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Tile Temp",
+      "drawing_order": 5,
+      "position": {
+        "x": 422,
+        "y": 122
+      },
+      "size": 34,
+      "color": -13950698,
+      "alpha": 255,
+      "angle": 0,
+      "bold": true,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/SourceCodePro-Regular.otf"
+      },
+      "prefix": "",
+      "suffix": "\u00b0C",
+      "text": "",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 24,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Tile Cond",
+      "drawing_order": 6,
+      "position": {
+        "x": 422,
+        "y": 150
+      },
+      "size": 14,
+      "color": -10926287,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/SourceCodePro-Regular.otf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 25,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 12,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Journal Main",
+      "drawing_order": 7,
+      "position": {
+        "x": 590,
+        "y": 122
+      },
+      "size": 16,
+      "color": -13950698,
+      "alpha": 255,
+      "angle": 0,
+      "bold": true,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/SourceCodePro-Regular.otf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "New note",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Journal Sub",
+      "drawing_order": 8,
+      "position": {
+        "x": 590,
+        "y": 148
+      },
+      "size": 13,
+      "color": -10926287,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/SourceCodePro-Regular.otf"
+      },
+      "prefix": "Bat ",
+      "suffix": "%",
+      "text": "",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 22,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Agenda Date",
+      "drawing_order": 9,
+      "position": {
+        "x": 422,
+        "y": 288
+      },
+      "size": 16,
+      "color": -13950698,
+      "alpha": 255,
+      "angle": 0,
+      "bold": true,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/SourceCodePro-Regular.otf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 60,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Agenda Title",
+      "drawing_order": 10,
+      "position": {
+        "x": 422,
+        "y": 316
+      },
+      "size": 14,
+      "color": -10926287,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/SourceCodePro-Regular.otf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 53,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 11,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Quest Count",
+      "drawing_order": 11,
+      "position": {
+        "x": 590,
+        "y": 266
+      },
+      "size": 36,
+      "color": -13950698,
+      "alpha": 255,
+      "angle": 0,
+      "bold": true,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/SourceCodePro-Regular.otf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 82,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Quest Label",
+      "drawing_order": 12,
+      "position": {
+        "x": 590,
+        "y": 304
+      },
+      "size": 14,
+      "color": -10926287,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/SourceCodePro-Regular.otf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "Steps left",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "hotspot",
+      "id": 0,
+      "name": "Clock Hotspot",
+      "drawing_order": 13,
+      "position": {
+        "x": 24,
+        "y": 14
+      },
+      "width": 294,
+      "height": 332,
+      "shape": 0,
+      "hotspot_mode": 1,
+      "uccw_type": 0,
+      "app_name": "Clock Hotspot",
+      "intent": null,
+      "alpha": 255,
+      "angle": 0
+    },
+    {
+      "type": "hotspot",
+      "id": 0,
+      "name": "Weather Hotspot",
+      "drawing_order": 14,
+      "position": {
+        "x": 346,
+        "y": 14
+      },
+      "width": 152,
+      "height": 158,
+      "shape": 0,
+      "hotspot_mode": 1,
+      "uccw_type": 1,
+      "app_name": "Weather Hotspot",
+      "intent": null,
+      "alpha": 255,
+      "angle": 0
+    },
+    {
+      "type": "hotspot",
+      "id": 0,
+      "name": "Calendar Hotspot",
+      "drawing_order": 15,
+      "position": {
+        "x": 346,
+        "y": 188
+      },
+      "width": 152,
+      "height": 158,
+      "shape": 0,
+      "hotspot_mode": 1,
+      "uccw_type": 2,
+      "app_name": "Calendar Hotspot",
+      "intent": null,
+      "alpha": 255,
+      "angle": 0
+    }
+  ]
+}

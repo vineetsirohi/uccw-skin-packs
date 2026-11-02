@@ -1,0 +1,624 @@
+{
+  "background": {
+    "type": "BackgroundProperties",
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "alpha": 255,
+    "angle": 0,
+    "background": "assets://skin_templates/ios/Alpine Ridge Altimeter & Barometer Horizon_bg.png",
+    "mode": 1,
+    "id": 0,
+    "name": "Background",
+    "image_scale_type": 2,
+    "fill_homescreen_widget": false,
+    "drawing_order": -1
+  },
+  "meta_data": {
+    "author": "UCCW Studio",
+    "height": 320,
+    "name": "Alpine Ridge Altimeter & Barometer Horizon",
+    "scale": 1,
+    "width": 680,
+    "author_email": null,
+    "creation_date": 0,
+    "sdcard_root_address": null,
+    "modify_date": 0,
+    "other_data": null,
+    "screen_height": 2400,
+    "screen_width": 1080,
+    "skin_version": "version_3",
+    "min_version_code": 326,
+    "min_version_name": "2.2.26"
+  },
+  "objects": [
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Scale 1",
+      "drawing_order": 1,
+      "position": {
+        "x": 154,
+        "y": 48
+      },
+      "size": 16,
+      "color": -3418655,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "3500",
+      "text_alignment": {
+        "align": 2
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Scale 2",
+      "drawing_order": 2,
+      "position": {
+        "x": 154,
+        "y": 104
+      },
+      "size": 16,
+      "color": -3418655,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "3000",
+      "text_alignment": {
+        "align": 2
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Scale 3",
+      "drawing_order": 3,
+      "position": {
+        "x": 154,
+        "y": 160
+      },
+      "size": 16,
+      "color": -7035976,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "2500",
+      "text_alignment": {
+        "align": 2
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Scale 4",
+      "drawing_order": 4,
+      "position": {
+        "x": 154,
+        "y": 216
+      },
+      "size": 16,
+      "color": -7035976,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "2000",
+      "text_alignment": {
+        "align": 2
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Scale 5",
+      "drawing_order": 5,
+      "position": {
+        "x": 154,
+        "y": 272
+      },
+      "size": 16,
+      "color": -7035976,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "1500",
+      "text_alignment": {
+        "align": 2
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Bezel Time",
+      "drawing_order": 6,
+      "position": {
+        "x": 24,
+        "y": 152
+      },
+      "size": 28,
+      "color": -460036,
+      "alpha": 255,
+      "angle": 0,
+      "bold": true,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-SemiBold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 19,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Bezel Date",
+      "drawing_order": 7,
+      "position": {
+        "x": 24,
+        "y": 182
+      },
+      "size": 16,
+      "color": -13058568,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 60,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Baro Label",
+      "drawing_order": 8,
+      "position": {
+        "x": 228,
+        "y": 130
+      },
+      "size": 19,
+      "color": -1906448,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Roboto-Bold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "Altitude \u00b7 hPa",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Baro Val",
+      "drawing_order": 9,
+      "position": {
+        "x": 228,
+        "y": 186
+      },
+      "size": 42,
+      "color": -1,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-Light.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 72,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "City Label",
+      "drawing_order": 10,
+      "position": {
+        "x": 444,
+        "y": 130
+      },
+      "size": 19,
+      "color": -1906448,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Roboto-Bold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 52,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 11,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Temp Val",
+      "drawing_order": 11,
+      "position": {
+        "x": 444,
+        "y": 188
+      },
+      "size": 50,
+      "color": -1,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-Light.ttf"
+      },
+      "prefix": "",
+      "suffix": "\u00b0",
+      "text": "",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 24,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "weather_image",
+      "id": 0,
+      "name": "Weather Icon",
+      "drawing_order": 12,
+      "position": {
+        "x": 588,
+        "y": 72
+      },
+      "scale": 0.52,
+      "alpha": 255,
+      "angle": 0,
+      "image_source": 0,
+      "default_index": 1,
+      "path": null
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Cond Right",
+      "drawing_order": 13,
+      "position": {
+        "x": 646,
+        "y": 166
+      },
+      "size": 20,
+      "color": -14800581,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Roboto-Bold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 2
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 25,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 10,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "HiLo Right",
+      "drawing_order": 14,
+      "position": {
+        "x": 646,
+        "y": 194
+      },
+      "size": 17,
+      "color": -13418155,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Roboto-Bold.ttf"
+      },
+      "prefix": "H:",
+      "suffix": "\u00b0",
+      "text": "",
+      "text_alignment": {
+        "align": 2
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 30,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "hotspot",
+      "id": 0,
+      "name": "Clock Hotspot",
+      "drawing_order": 15,
+      "position": {
+        "x": 18,
+        "y": 24
+      },
+      "width": 180,
+      "height": 272,
+      "shape": 0,
+      "hotspot_mode": 1,
+      "uccw_type": 0,
+      "app_name": "Clock Hotspot",
+      "intent": null,
+      "alpha": 255,
+      "angle": 0
+    },
+    {
+      "type": "hotspot",
+      "id": 0,
+      "name": "Weather Hotspot",
+      "drawing_order": 16,
+      "position": {
+        "x": 220,
+        "y": 24
+      },
+      "width": 440,
+      "height": 272,
+      "shape": 0,
+      "hotspot_mode": 1,
+      "uccw_type": 1,
+      "app_name": "Weather Hotspot",
+      "intent": null,
+      "alpha": 255,
+      "angle": 0
+    }
+  ]
+}

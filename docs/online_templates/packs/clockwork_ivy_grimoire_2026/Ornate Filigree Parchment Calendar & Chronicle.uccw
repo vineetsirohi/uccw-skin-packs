@@ -1,0 +1,672 @@
+{
+  "background": {
+    "type": "BackgroundProperties",
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "alpha": 255,
+    "angle": 0,
+    "background": "assets://skin_templates/classic/Ornate Filigree Parchment Calendar & Chronicle_bg.png",
+    "mode": 1,
+    "id": 0,
+    "name": "Background",
+    "image_scale_type": 2,
+    "fill_homescreen_widget": false,
+    "drawing_order": -1
+  },
+  "meta_data": {
+    "author": "UCCW Studio",
+    "height": 420,
+    "name": "Ornate Filigree Parchment Calendar & Chronicle",
+    "scale": 1,
+    "width": 680,
+    "author_email": null,
+    "creation_date": 0,
+    "sdcard_root_address": null,
+    "modify_date": 0,
+    "other_data": null,
+    "screen_height": 2400,
+    "screen_width": 1080,
+    "skin_version": "version_3",
+    "min_version_code": 326,
+    "min_version_name": "2.2.26"
+  },
+  "objects": [
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Ribbon Full Date",
+      "drawing_order": 1,
+      "position": {
+        "x": 42,
+        "y": 46
+      },
+      "size": 20,
+      "color": -13950698,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/SourceCodePro-Regular.otf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "{\"day_format\": 8, \"day_of_the_week_format\": 7, \"layout_format\": \"wdm\", \"month_format\": 4, \"separator\": \" \", \"separator2\": \" \", \"separator3\": \" \", \"year_format\": 1}",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 2
+      },
+      "text_provider": {
+        "id": 20,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Ribbon Pill Weather",
+      "drawing_order": 2,
+      "position": {
+        "x": 554,
+        "y": 45
+      },
+      "size": 15,
+      "color": -13950698,
+      "alpha": 255,
+      "angle": 0,
+      "bold": true,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/SourceCodePro-Regular.otf"
+      },
+      "prefix": "Weather ",
+      "suffix": "\u00b0C",
+      "text": "",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 24,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Grimoire Month",
+      "drawing_order": 3,
+      "position": {
+        "x": 204,
+        "y": 124
+      },
+      "size": 18,
+      "color": -13950698,
+      "alpha": 255,
+      "angle": 0,
+      "bold": true,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ZillaSlab-Bold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 3,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "is_calendar_grid": true,
+      "id": 0,
+      "name": "Parchment Calendar Grid",
+      "drawing_order": 4,
+      "position": {
+        "x": 38,
+        "y": 158
+      },
+      "width": 328,
+      "row_spacing": 38,
+      "size": 14,
+      "rows_mode": 2,
+      "header_format": 2,
+      "first_day_of_week": 1,
+      "highlight_shape": 0,
+      "color": -12886476,
+      "today_text_color": -1,
+      "weekday_color": -13950698,
+      "weekend_color": -8565212,
+      "header_color": -10926287,
+      "alpha": 255,
+      "angle": 0,
+      "bold": true,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Roboto-Bold.ttf"
+      },
+      "text": "",
+      "prefix": "",
+      "suffix": "",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Chronicle Agenda Hdr",
+      "drawing_order": 5,
+      "position": {
+        "x": 462,
+        "y": 134
+      },
+      "size": 12,
+      "color": -12886476,
+      "alpha": 255,
+      "angle": 0,
+      "bold": true,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/SourceCodePro-Regular.otf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "UPCOMING AGENDA",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Chronicle Event Title",
+      "drawing_order": 6,
+      "position": {
+        "x": 462,
+        "y": 158
+      },
+      "size": 16,
+      "color": -13950698,
+      "alpha": 255,
+      "angle": 0,
+      "bold": true,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/SourceCodePro-Regular.otf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 53,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 14,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Chronicle Event Time",
+      "drawing_order": 7,
+      "position": {
+        "x": 462,
+        "y": 180
+      },
+      "size": 13,
+      "color": -10926287,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/SourceCodePro-Regular.otf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 54,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 17,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Chronicle Note Hdr",
+      "drawing_order": 8,
+      "position": {
+        "x": 462,
+        "y": 236
+      },
+      "size": 12,
+      "color": -12886476,
+      "alpha": 255,
+      "angle": 0,
+      "bold": true,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/SourceCodePro-Regular.otf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "FIELD JOURNAL",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Chronicle Cond",
+      "drawing_order": 9,
+      "position": {
+        "x": 462,
+        "y": 260
+      },
+      "size": 16,
+      "color": -13950698,
+      "alpha": 255,
+      "angle": 0,
+      "bold": true,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/SourceCodePro-Regular.otf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 25,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 14,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Chronicle Loc",
+      "drawing_order": 10,
+      "position": {
+        "x": 462,
+        "y": 282
+      },
+      "size": 13,
+      "color": -10926287,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/SourceCodePro-Regular.otf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 52,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 16,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Spring Bat Lbl",
+      "drawing_order": 11,
+      "position": {
+        "x": 412,
+        "y": 326
+      },
+      "size": 12,
+      "color": -13950698,
+      "alpha": 255,
+      "angle": 0,
+      "bold": true,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/SourceCodePro-Regular.otf"
+      },
+      "prefix": "MAINSPRING ",
+      "suffix": "%",
+      "text": "",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 22,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "battery_bar",
+      "id": 0,
+      "name": "Spring Bat Bar",
+      "drawing_order": 12,
+      "position": {
+        "x": 412,
+        "y": 336
+      },
+      "width": 224,
+      "height": 10,
+      "base_color": -591089532,
+      "base_roundness": 5,
+      "progress_bar_height": 8,
+      "progress_bar_roundness": 5,
+      "alpha": 255,
+      "angle": 0,
+      "style": 0,
+      "value_provider": 0,
+      "range": {
+        "min": 0,
+        "max": 100
+      },
+      "divisions": [
+        {
+          "color": -12886476,
+          "div": 50
+        },
+        {
+          "color": -12886476,
+          "div": 15
+        },
+        {
+          "color": -12886476,
+          "div": 5
+        },
+        {
+          "color": -12886476,
+          "div": 0
+        }
+      ],
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Steps Bar Lbl",
+      "drawing_order": 13,
+      "position": {
+        "x": 412,
+        "y": 368
+      },
+      "size": 12,
+      "color": -13950698,
+      "alpha": 255,
+      "angle": 0,
+      "bold": true,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/SourceCodePro-Regular.otf"
+      },
+      "prefix": "FOOTSTEPS ",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 82,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "battery_bar",
+      "id": 0,
+      "name": "Steps Goal Bar",
+      "drawing_order": 14,
+      "position": {
+        "x": 412,
+        "y": 378
+      },
+      "width": 224,
+      "height": 10,
+      "base_color": -591089532,
+      "base_roundness": 5,
+      "progress_bar_height": 8,
+      "progress_bar_roundness": 5,
+      "alpha": 255,
+      "angle": 0,
+      "style": 0,
+      "value_provider": 11,
+      "range": {
+        "min": 0,
+        "max": 100
+      },
+      "divisions": [
+        {
+          "color": -7579608,
+          "div": 50
+        },
+        {
+          "color": -7579608,
+          "div": 15
+        },
+        {
+          "color": -7579608,
+          "div": 5
+        },
+        {
+          "color": -7579608,
+          "div": 0
+        }
+      ],
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "hotspot",
+      "id": 0,
+      "name": "Header Weather Hotspot",
+      "drawing_order": 15,
+      "position": {
+        "x": 480,
+        "y": 10
+      },
+      "width": 180,
+      "height": 58,
+      "shape": 0,
+      "hotspot_mode": 1,
+      "uccw_type": 1,
+      "app_name": "Header Weather Hotspot",
+      "intent": null,
+      "alpha": 255,
+      "angle": 0
+    },
+    {
+      "type": "hotspot",
+      "id": 0,
+      "name": "Calendar Sheet Hotspot",
+      "drawing_order": 16,
+      "position": {
+        "x": 14,
+        "y": 82
+      },
+      "width": 652,
+      "height": 326,
+      "shape": 0,
+      "hotspot_mode": 1,
+      "uccw_type": 2,
+      "app_name": "Calendar Sheet Hotspot",
+      "intent": null,
+      "alpha": 255,
+      "angle": 0
+    }
+  ]
+}

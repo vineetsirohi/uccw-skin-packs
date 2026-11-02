@@ -1,0 +1,448 @@
+{
+  "background": {
+    "type": "BackgroundProperties",
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "alpha": 255,
+    "angle": 0,
+    "background": "assets://skin_templates/rings/Amber Beam & Segmented Step Chrono Ring_bg.png",
+    "mode": 1,
+    "id": 0,
+    "name": "Background",
+    "image_scale_type": 2,
+    "fill_homescreen_widget": false,
+    "drawing_order": -1
+  },
+  "meta_data": {
+    "author": "UCCW Studio",
+    "height": 320,
+    "name": "Amber Beam & Segmented Step Chrono Ring",
+    "scale": 1,
+    "width": 680,
+    "author_email": null,
+    "creation_date": 0,
+    "sdcard_root_address": null,
+    "modify_date": 0,
+    "other_data": null,
+    "screen_height": 2400,
+    "screen_width": 1080,
+    "skin_version": "version_3",
+    "min_version_code": 326,
+    "min_version_name": "2.2.26"
+  },
+  "objects": [
+    {
+      "type": "battery_circle",
+      "id": 0,
+      "name": "Step Ring",
+      "drawing_order": 1,
+      "position": {
+        "x": 54,
+        "y": 58
+      },
+      "width": 204,
+      "height": 204,
+      "stroke": 13.0,
+      "style": 0,
+      "alpha": 255,
+      "angle": 0,
+      "value_provider": 11,
+      "range": {
+        "min": 0,
+        "max": 100
+      },
+      "divisions": [
+        {
+          "color": -34278,
+          "div": 50
+        },
+        {
+          "color": -34278,
+          "div": 15
+        },
+        {
+          "color": -34278,
+          "div": 5
+        },
+        {
+          "color": -34278,
+          "div": 0
+        }
+      ],
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Ring Big Val",
+      "drawing_order": 2,
+      "position": {
+        "x": 156,
+        "y": 158
+      },
+      "size": 36,
+      "color": -1045,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Audiowide-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 82,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Ring Sub Label",
+      "drawing_order": 3,
+      "position": {
+        "x": 156,
+        "y": 194
+      },
+      "size": 17,
+      "color": -148876,
+      "alpha": 255,
+      "angle": 0,
+      "bold": true,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Orbitron-Bold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "STEPS",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Row1 Val",
+      "drawing_order": 4,
+      "position": {
+        "x": 306,
+        "y": 74
+      },
+      "size": 28,
+      "color": -2067,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Audiowide-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 85,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Row1 Tag",
+      "drawing_order": 5,
+      "position": {
+        "x": 586,
+        "y": 72
+      },
+      "size": 17,
+      "color": -290244,
+      "alpha": 255,
+      "angle": 0,
+      "bold": true,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Roboto-Bold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "ACTIVE BURN",
+      "text_alignment": {
+        "align": 2
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Row2 Val",
+      "drawing_order": 6,
+      "position": {
+        "x": 306,
+        "y": 164
+      },
+      "size": 28,
+      "color": -2067,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Audiowide-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 84,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Row2 Tag",
+      "drawing_order": 7,
+      "position": {
+        "x": 586,
+        "y": 162
+      },
+      "size": 17,
+      "color": -290244,
+      "alpha": 255,
+      "angle": 0,
+      "bold": true,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Roboto-Bold.ttf"
+      },
+      "prefix": "GOAL ",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 2
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 83,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Row3 Time",
+      "drawing_order": 8,
+      "position": {
+        "x": 306,
+        "y": 254
+      },
+      "size": 28,
+      "color": -2067,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Audiowide-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 19,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Row3 Bat",
+      "drawing_order": 9,
+      "position": {
+        "x": 586,
+        "y": 252
+      },
+      "size": 17,
+      "color": -148876,
+      "alpha": 255,
+      "angle": 0,
+      "bold": true,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Roboto-Bold.ttf"
+      },
+      "prefix": "PWR ",
+      "suffix": "%",
+      "text": "",
+      "text_alignment": {
+        "align": 2
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 22,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "hotspot",
+      "id": 0,
+      "name": "Steps Hotspot",
+      "drawing_order": 10,
+      "position": {
+        "x": 36,
+        "y": 36
+      },
+      "width": 240,
+      "height": 248,
+      "shape": 0,
+      "hotspot_mode": 1,
+      "uccw_type": 0,
+      "app_name": "Steps Hotspot",
+      "intent": null,
+      "alpha": 255,
+      "angle": 0
+    },
+    {
+      "type": "hotspot",
+      "id": 0,
+      "name": "Clock Hotspot",
+      "drawing_order": 11,
+      "position": {
+        "x": 300,
+        "y": 36
+      },
+      "width": 344,
+      "height": 248,
+      "shape": 0,
+      "hotspot_mode": 1,
+      "uccw_type": 0,
+      "app_name": "Clock Hotspot",
+      "intent": null,
+      "alpha": 255,
+      "angle": 0
+    }
+  ]
+}
