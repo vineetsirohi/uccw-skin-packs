@@ -2,6 +2,34 @@
   "manifest_version": 2,
   "collections": [
     {
+      "id": "nordic_obsidian_segment_2026",
+      "title": "Nordic Obsidian & Dark Segment",
+      "subtitle": "Matte Obsidian Squircle, Illuminated 7-Segment Matrix & Coral Pill Typography",
+      "description": "Tactile dark Nordic obsidian counterpart to Nordic Alabaster — featuring deep matte slate squircles, recessed dark E-Ink wells, low-contrast ghost 7-segment matrices with crisp alabaster-white DSEG7 digits, vertical -90° date typography, and vibrant coral-red capsule pills.",
+      "author": "UCCW Studio",
+      "category": "retro",
+      "tags": [
+        "Obsidian",
+        "7-Segment",
+        "Dark Mode",
+        "Minimal"
+      ],
+      "release_date": "2026-11-08",
+      "min_version_code": 333,
+      "featured": true,
+      "notify": true,
+      "access_type": "free",
+      "product_id": null,
+      "hero_thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/nordic_obsidian_segment_2026/Obsidian%20Segment%20Vertical%20Date_thumb.png",
+      "wallpapers": [
+        {
+          "name": "Nordic Obsidian Night Wallpaper",
+          "url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/nordic_obsidian_segment_2026/Nordic%20Obsidian%20Night%20Wallpaper.jpg",
+          "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/nordic_obsidian_segment_2026/Nordic%20Obsidian%20Night%20Wallpaper_thumb.jpg"
+        }
+      ]
+    },
+    {
       "id": "nordic_alabaster_segment_2026",
       "title": "Nordic Alabaster & E-Ink Segment",
       "subtitle": "Matte Alabaster Squircle, Ghost 7-Segment Matrix & Vertical Pill Typography",
@@ -534,6 +562,62 @@
     }
   ],
   "templates": [
+    {
+      "name": "Obsidian Segment Vertical Date",
+      "collection_id": "nordic_obsidian_segment_2026",
+      "category": "retro",
+      "categories": [
+        "retro",
+        "ios",
+        "nothing"
+      ],
+      "min_version_code": 333,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/nordic_obsidian_segment_2026/Obsidian%20Segment%20Vertical%20Date.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/nordic_obsidian_segment_2026/Obsidian%20Segment%20Vertical%20Date_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/nordic_obsidian_segment_2026/Obsidian%20Segment%20Vertical%20Date_bg.png"
+    },
+    {
+      "name": "Obsidian Segment Weather & Chrono Deck",
+      "collection_id": "nordic_obsidian_segment_2026",
+      "category": "retro",
+      "categories": [
+        "retro",
+        "ios",
+        "nothing"
+      ],
+      "min_version_code": 333,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/nordic_obsidian_segment_2026/Obsidian%20Segment%20Weather%20%26%20Chrono%20Deck.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/nordic_obsidian_segment_2026/Obsidian%20Segment%20Weather%20%26%20Chrono%20Deck_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/nordic_obsidian_segment_2026/Obsidian%20Segment%20Weather%20%26%20Chrono%20Deck_bg.png"
+    },
+    {
+      "name": "Obsidian Segment Executive Bento",
+      "collection_id": "nordic_obsidian_segment_2026",
+      "category": "ios",
+      "categories": [
+        "ios",
+        "retro",
+        "nothing"
+      ],
+      "min_version_code": 333,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/nordic_obsidian_segment_2026/Obsidian%20Segment%20Executive%20Bento.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/nordic_obsidian_segment_2026/Obsidian%20Segment%20Executive%20Bento_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/nordic_obsidian_segment_2026/Obsidian%20Segment%20Executive%20Bento_bg.png"
+    },
+    {
+      "name": "Obsidian Segment Calendar & Media Pod",
+      "collection_id": "nordic_obsidian_segment_2026",
+      "category": "retro",
+      "categories": [
+        "retro",
+        "ios",
+        "pixel"
+      ],
+      "min_version_code": 333,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/nordic_obsidian_segment_2026/Obsidian%20Segment%20Calendar%20%26%20Media%20Pod.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/nordic_obsidian_segment_2026/Obsidian%20Segment%20Calendar%20%26%20Media%20Pod_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/nordic_obsidian_segment_2026/Obsidian%20Segment%20Calendar%20%26%20Media%20Pod_bg.png"
+    },
     {
       "name": "Alabaster Segment Vertical Date",
       "collection_id": "nordic_alabaster_segment_2026",

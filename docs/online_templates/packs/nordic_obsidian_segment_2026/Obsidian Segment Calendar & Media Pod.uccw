@@ -1,0 +1,543 @@
+{
+  "background": {
+    "type": "BackgroundProperties",
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "alpha": 255,
+    "angle": 0,
+    "background": "assets://skin_templates/retro/Obsidian Segment Calendar & Media Pod_bg.png",
+    "mode": 1,
+    "id": 0,
+    "name": "Background",
+    "image_scale_type": 2,
+    "fill_homescreen_widget": false,
+    "drawing_order": -1
+  },
+  "meta_data": {
+    "author": "UCCW Studio",
+    "height": 420,
+    "name": "Obsidian Segment Calendar & Media Pod",
+    "scale": 1,
+    "width": 680,
+    "author_email": null,
+    "creation_date": 0,
+    "sdcard_root_address": null,
+    "modify_date": 0,
+    "other_data": null,
+    "screen_height": 2400,
+    "screen_width": 1080,
+    "skin_version": "version_3",
+    "min_version_code": 333,
+    "min_version_name": "4.11.10"
+  },
+  "objects": [
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Cal Month Name",
+      "drawing_order": 0,
+      "position": {
+        "x": 40,
+        "y": 66
+      },
+      "size": 28,
+      "color": -723206,
+      "alpha": 255,
+      "angle": 0,
+      "bold": true,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-SemiBold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 2
+      },
+      "text_provider": {
+        "id": 3,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Cal Year Pill",
+      "drawing_order": 1,
+      "position": {
+        "x": 301,
+        "y": 62
+      },
+      "size": 18,
+      "color": -39844,
+      "alpha": 255,
+      "angle": 0,
+      "bold": true,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-SemiBold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 1,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "is_calendar_grid": true,
+      "id": 0,
+      "name": "Obsidian Month Grid",
+      "drawing_order": 2,
+      "position": {
+        "x": 36,
+        "y": 108
+      },
+      "width": 306,
+      "row_spacing": 42,
+      "size": 19,
+      "rows_mode": 2,
+      "header_format": 2,
+      "first_day_of_week": 1,
+      "highlight_shape": 0,
+      "color": -39844,
+      "today_text_color": -1,
+      "weekday_color": -1249034,
+      "weekend_color": -39844,
+      "header_color": -9537654,
+      "alpha": 255,
+      "angle": 0,
+      "bold": true,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Roboto-Bold.ttf"
+      },
+      "text": "",
+      "prefix": "",
+      "suffix": "",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Pod Clock",
+      "drawing_order": 3,
+      "position": {
+        "x": 478,
+        "y": 104
+      },
+      "size": 38,
+      "color": -1249034,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 2,
+        "font": "DSEG7Classic-Bold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 19,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Pod Date",
+      "drawing_order": 4,
+      "position": {
+        "x": 398,
+        "y": 172
+      },
+      "size": 18,
+      "color": -723206,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-SemiBold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "{\"day_format\": 8, \"day_of_the_week_format\": 7, \"layout_format\": \"wdm\", \"month_format\": 4, \"separator\": \" \\u00b7 \", \"separator2\": \" \", \"separator3\": \" \", \"year_format\": 1}",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 2
+      },
+      "text_provider": {
+        "id": 20,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "weather_image",
+      "id": 0,
+      "name": "Pod Weather Icon",
+      "drawing_order": 5,
+      "position": {
+        "x": 576,
+        "y": 38
+      },
+      "scale": 0.58,
+      "alpha": 255,
+      "angle": 0,
+      "image_source": 0,
+      "default_index": 1,
+      "path": null
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Pod Temp",
+      "drawing_order": 6,
+      "position": {
+        "x": 610,
+        "y": 172
+      },
+      "size": 26,
+      "color": -39844,
+      "alpha": 255,
+      "angle": 0,
+      "bold": true,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-SemiBold.ttf"
+      },
+      "prefix": "",
+      "suffix": "\u00b0",
+      "text": "",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 24,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Now Playing Pill",
+      "drawing_order": 7,
+      "position": {
+        "x": 469,
+        "y": 252
+      },
+      "size": 16,
+      "color": -39844,
+      "alpha": 255,
+      "angle": 0,
+      "bold": true,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-SemiBold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "NOW PLAYING",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 2
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "image",
+      "id": 0,
+      "name": "Album Art",
+      "drawing_order": 8,
+      "position": {
+        "x": 396,
+        "y": 274
+      },
+      "alpha": 255,
+      "angle": 0,
+      "image_source": 1,
+      "path": null,
+      "scale": 1.0,
+      "width": 76,
+      "height": 76,
+      "scale_type": 0,
+      "corner_style": 1,
+      "corner": 20,
+      "top_left_corner": true,
+      "top_right_corner": true,
+      "bottom_left_corner": true,
+      "bottom_right_corner": true,
+      "is_tint_enabled": false,
+      "tint_color": -1
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Media Title",
+      "drawing_order": 9,
+      "position": {
+        "x": 488,
+        "y": 308
+      },
+      "size": 20,
+      "color": -723206,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-SemiBold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 74,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 15,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Media Artist",
+      "drawing_order": 10,
+      "position": {
+        "x": 488,
+        "y": 338
+      },
+      "size": 17,
+      "color": -9537654,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-Light.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 75,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 18,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "battery_bar",
+      "id": 0,
+      "name": "Media Progress",
+      "drawing_order": 11,
+      "position": {
+        "x": 396,
+        "y": 368
+      },
+      "width": 246,
+      "height": 12,
+      "base_color": 1847929398,
+      "base_roundness": 6,
+      "progress_bar_height": 10,
+      "progress_bar_roundness": 6,
+      "alpha": 255,
+      "angle": 0,
+      "style": 0,
+      "value_provider": 12,
+      "range": {
+        "min": 0,
+        "max": 100
+      },
+      "divisions": [
+        {
+          "color": -39844,
+          "div": 50
+        },
+        {
+          "color": -39844,
+          "div": 15
+        },
+        {
+          "color": -39844,
+          "div": 5
+        },
+        {
+          "color": -39844,
+          "div": 0
+        }
+      ],
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "hotspot",
+      "id": 0,
+      "name": "Calendar Hotspot",
+      "drawing_order": 9998,
+      "position": {
+        "x": 18,
+        "y": 18
+      },
+      "width": 342,
+      "height": 384,
+      "shape": 0,
+      "hotspot_mode": 1,
+      "uccw_type": 2,
+      "app_name": "Calendar Hotspot",
+      "intent": null,
+      "alpha": 255,
+      "angle": 0
+    },
+    {
+      "type": "hotspot",
+      "id": 0,
+      "name": "Clock Hotspot",
+      "drawing_order": 9999,
+      "position": {
+        "x": 376,
+        "y": 18
+      },
+      "width": 286,
+      "height": 180,
+      "shape": 0,
+      "hotspot_mode": 1,
+      "uccw_type": 0,
+      "app_name": "Clock Hotspot",
+      "intent": null,
+      "alpha": 255,
+      "angle": 0
+    }
+  ]
+}

@@ -1,0 +1,795 @@
+{
+  "background": {
+    "type": "BackgroundProperties",
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "alpha": 255,
+    "angle": 0,
+    "background": "assets://skin_templates/ios/Obsidian Segment Executive Bento_bg.png",
+    "mode": 1,
+    "id": 0,
+    "name": "Background",
+    "image_scale_type": 2,
+    "fill_homescreen_widget": false,
+    "drawing_order": -1
+  },
+  "meta_data": {
+    "author": "UCCW Studio",
+    "height": 480,
+    "name": "Obsidian Segment Executive Bento",
+    "scale": 1,
+    "width": 640,
+    "author_email": null,
+    "creation_date": 0,
+    "sdcard_root_address": null,
+    "modify_date": 0,
+    "other_data": null,
+    "screen_height": 2400,
+    "screen_width": 1080,
+    "skin_version": "version_3",
+    "min_version_code": 333,
+    "min_version_name": "4.11.10"
+  },
+  "objects": [
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Bento Hour",
+      "drawing_order": 0,
+      "position": {
+        "x": 138,
+        "y": 120
+      },
+      "size": 72,
+      "color": -1249034,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 2,
+        "font": "DSEG7Classic-Bold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 10,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Bento Minute",
+      "drawing_order": 1,
+      "position": {
+        "x": 138,
+        "y": 214
+      },
+      "size": 72,
+      "color": -1249034,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 2,
+        "font": "DSEG7Classic-Bold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 14,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Bento Weekday Pill",
+      "drawing_order": 2,
+      "position": {
+        "x": 342,
+        "y": 74
+      },
+      "size": 16,
+      "color": -39844,
+      "alpha": 255,
+      "angle": -90,
+      "bold": true,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-SemiBold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 2
+      },
+      "text_provider": {
+        "id": 7,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Bento Day Vertical",
+      "drawing_order": 3,
+      "position": {
+        "x": 346,
+        "y": 232
+      },
+      "size": 24,
+      "color": -723206,
+      "alpha": 255,
+      "angle": -90,
+      "bold": true,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-SemiBold.ttf"
+      },
+      "prefix": "",
+      "suffix": ", ",
+      "text": "",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 8,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Bento Month Vertical",
+      "drawing_order": 4,
+      "position": {
+        "x": 346,
+        "y": 184
+      },
+      "size": 24,
+      "color": -5852990,
+      "alpha": 255,
+      "angle": -90,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-Light.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 2
+      },
+      "text_provider": {
+        "id": 4,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Atmos Pill Header",
+      "drawing_order": 5,
+      "position": {
+        "x": 486,
+        "y": 56
+      },
+      "size": 16,
+      "color": -39844,
+      "alpha": 255,
+      "angle": 0,
+      "bold": true,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-SemiBold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "ATMOSPHERE",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 2
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "weather_image",
+      "id": 0,
+      "name": "Weather Icon",
+      "drawing_order": 6,
+      "position": {
+        "x": 534,
+        "y": 74
+      },
+      "scale": 0.62,
+      "alpha": 255,
+      "angle": 0,
+      "image_source": 0,
+      "default_index": 1,
+      "path": null
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Bento Temp",
+      "drawing_order": 7,
+      "position": {
+        "x": 418,
+        "y": 142
+      },
+      "size": 50,
+      "color": -723206,
+      "alpha": 255,
+      "angle": 0,
+      "bold": true,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-SemiBold.ttf"
+      },
+      "prefix": "",
+      "suffix": "\u00b0",
+      "text": "",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 24,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Bento Condition",
+      "drawing_order": 8,
+      "position": {
+        "x": 418,
+        "y": 180
+      },
+      "size": 18,
+      "color": -5852990,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-SemiBold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 25,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 14,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Bento Sunset",
+      "drawing_order": 9,
+      "position": {
+        "x": 418,
+        "y": 228
+      },
+      "size": 17,
+      "color": -9537654,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "DUSK \u00b7 ",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 67,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Agenda Pill Header",
+      "drawing_order": 10,
+      "position": {
+        "x": 131,
+        "y": 302
+      },
+      "size": 16,
+      "color": -39844,
+      "alpha": 255,
+      "angle": 0,
+      "bold": true,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-SemiBold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "UP NEXT \u00b7 AGENDA",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 2
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Next Event Title",
+      "drawing_order": 11,
+      "position": {
+        "x": 60,
+        "y": 368
+      },
+      "size": 22,
+      "color": -723206,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-SemiBold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 53,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 21,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Next Event Time",
+      "drawing_order": 12,
+      "position": {
+        "x": 60,
+        "y": 406
+      },
+      "size": 18,
+      "color": -39844,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 54,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Next Event Loc",
+      "drawing_order": 13,
+      "position": {
+        "x": 60,
+        "y": 434
+      },
+      "size": 16,
+      "color": -9537654,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-SemiBold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "Studio Conference Room A",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Telemetry Pill Header",
+      "drawing_order": 14,
+      "position": {
+        "x": 488,
+        "y": 302
+      },
+      "size": 16,
+      "color": -39844,
+      "alpha": 255,
+      "angle": 0,
+      "bold": true,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-SemiBold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "TELEMETRY",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 2
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Battery Percent",
+      "drawing_order": 15,
+      "position": {
+        "x": 602,
+        "y": 344
+      },
+      "size": 19,
+      "color": -723206,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "BAT ",
+      "suffix": "%",
+      "text": "",
+      "text_alignment": {
+        "align": 2
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 22,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "battery_bar",
+      "id": 0,
+      "name": "Battery Bar",
+      "drawing_order": 16,
+      "position": {
+        "x": 418,
+        "y": 358
+      },
+      "width": 184,
+      "height": 14,
+      "base_color": 1847929398,
+      "base_roundness": 7,
+      "progress_bar_height": 12,
+      "progress_bar_roundness": 7,
+      "alpha": 255,
+      "angle": 0,
+      "style": 0,
+      "value_provider": 0,
+      "range": {
+        "min": 0,
+        "max": 100
+      },
+      "divisions": [
+        {
+          "color": -1249034,
+          "div": 50
+        },
+        {
+          "color": -1249034,
+          "div": 15
+        },
+        {
+          "color": -1249034,
+          "div": 5
+        },
+        {
+          "color": -1249034,
+          "div": 0
+        }
+      ],
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Step Count",
+      "drawing_order": 17,
+      "position": {
+        "x": 418,
+        "y": 432
+      },
+      "size": 22,
+      "color": -723206,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": " STEPS",
+      "text": "",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 82,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "hotspot",
+      "id": 0,
+      "name": "Clock Hotspot",
+      "drawing_order": 9998,
+      "position": {
+        "x": 18,
+        "y": 18
+      },
+      "width": 364,
+      "height": 230,
+      "shape": 0,
+      "hotspot_mode": 1,
+      "uccw_type": 0,
+      "app_name": "Clock Hotspot",
+      "intent": null,
+      "alpha": 255,
+      "angle": 0
+    },
+    {
+      "type": "hotspot",
+      "id": 0,
+      "name": "Calendar Hotspot",
+      "drawing_order": 9999,
+      "position": {
+        "x": 18,
+        "y": 264
+      },
+      "width": 364,
+      "height": 198,
+      "shape": 0,
+      "hotspot_mode": 1,
+      "uccw_type": 2,
+      "app_name": "Calendar Hotspot",
+      "intent": null,
+      "alpha": 255,
+      "angle": 0
+    }
+  ]
+}

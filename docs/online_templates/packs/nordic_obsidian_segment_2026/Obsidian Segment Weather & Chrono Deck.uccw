@@ -1,0 +1,583 @@
+{
+  "background": {
+    "type": "BackgroundProperties",
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "alpha": 255,
+    "angle": 0,
+    "background": "assets://skin_templates/retro/Obsidian Segment Weather & Chrono Deck_bg.png",
+    "mode": 1,
+    "id": 0,
+    "name": "Background",
+    "image_scale_type": 2,
+    "fill_homescreen_widget": false,
+    "drawing_order": -1
+  },
+  "meta_data": {
+    "author": "UCCW Studio",
+    "height": 360,
+    "name": "Obsidian Segment Weather & Chrono Deck",
+    "scale": 1,
+    "width": 680,
+    "author_email": null,
+    "creation_date": 0,
+    "sdcard_root_address": null,
+    "modify_date": 0,
+    "other_data": null,
+    "screen_height": 2400,
+    "screen_width": 1080,
+    "skin_version": "version_3",
+    "min_version_code": 333,
+    "min_version_name": "4.11.10"
+  },
+  "objects": [
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Chrono Pill Tag",
+      "drawing_order": 0,
+      "position": {
+        "x": 131,
+        "y": 66
+      },
+      "size": 16,
+      "color": -39844,
+      "alpha": 255,
+      "angle": 0,
+      "bold": true,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-SemiBold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "CHRONO \u00b7 E-INK",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 2
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "AM PM Tag",
+      "drawing_order": 1,
+      "position": {
+        "x": 356,
+        "y": 68
+      },
+      "size": 18,
+      "color": -9537654,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 2
+      },
+      "text_case": {
+        "text_case": 2
+      },
+      "text_provider": {
+        "id": 16,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Deck Hour",
+      "drawing_order": 2,
+      "position": {
+        "x": 130,
+        "y": 198
+      },
+      "size": 70,
+      "color": -1249034,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 2,
+        "font": "DSEG7Classic-Bold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 10,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Deck Minute",
+      "drawing_order": 3,
+      "position": {
+        "x": 280,
+        "y": 198
+      },
+      "size": 70,
+      "color": -1249034,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 2,
+        "font": "DSEG7Classic-Bold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 14,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Deck Day Num",
+      "drawing_order": 4,
+      "position": {
+        "x": 48,
+        "y": 296
+      },
+      "size": 34,
+      "color": -723206,
+      "alpha": 255,
+      "angle": 0,
+      "bold": true,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-SemiBold.ttf"
+      },
+      "prefix": "",
+      "suffix": ", ",
+      "text": "",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 8,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Deck Month",
+      "drawing_order": 5,
+      "position": {
+        "x": 114,
+        "y": 296
+      },
+      "size": 34,
+      "color": -5852990,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-Light.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 2
+      },
+      "text_provider": {
+        "id": 4,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Deck Weekday",
+      "drawing_order": 6,
+      "position": {
+        "x": 362,
+        "y": 294
+      },
+      "size": 18,
+      "color": -39844,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-SemiBold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 2
+      },
+      "text_case": {
+        "text_case": 2
+      },
+      "text_provider": {
+        "id": 6,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "weather_image",
+      "id": 0,
+      "name": "Weather Icon",
+      "drawing_order": 7,
+      "position": {
+        "x": 406,
+        "y": 56
+      },
+      "scale": 0.64,
+      "alpha": 255,
+      "angle": 0,
+      "image_source": 0,
+      "default_index": 1,
+      "path": null
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Deck Temp",
+      "drawing_order": 8,
+      "position": {
+        "x": 408,
+        "y": 192
+      },
+      "size": 54,
+      "color": -723206,
+      "alpha": 255,
+      "angle": 0,
+      "bold": true,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-SemiBold.ttf"
+      },
+      "prefix": "",
+      "suffix": "\u00b0",
+      "text": "",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 24,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Deck Condition",
+      "drawing_order": 9,
+      "position": {
+        "x": 408,
+        "y": 228
+      },
+      "size": 19,
+      "color": -5852990,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-SemiBold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 25,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 13,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Atmos Vertical Pill",
+      "drawing_order": 10,
+      "position": {
+        "x": 614,
+        "y": 130
+      },
+      "size": 16,
+      "color": -39844,
+      "alpha": 255,
+      "angle": -90,
+      "bold": true,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-SemiBold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "ATMOSPHERE",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 2
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Deck Humidity",
+      "drawing_order": 11,
+      "position": {
+        "x": 408,
+        "y": 286
+      },
+      "size": 18,
+      "color": -1249034,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "HUM ",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 26,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Deck Sunset",
+      "drawing_order": 12,
+      "position": {
+        "x": 622,
+        "y": 286
+      },
+      "size": 18,
+      "color": -9537654,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "DUSK ",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 2
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 67,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "hotspot",
+      "id": 0,
+      "name": "Clock Hotspot",
+      "drawing_order": 9998,
+      "position": {
+        "x": 36,
+        "y": 36
+      },
+      "width": 336,
+      "height": 286,
+      "shape": 0,
+      "hotspot_mode": 1,
+      "uccw_type": 0,
+      "app_name": "Clock Hotspot",
+      "intent": null,
+      "alpha": 255,
+      "angle": 0
+    },
+    {
+      "type": "hotspot",
+      "id": 0,
+      "name": "Weather Hotspot",
+      "drawing_order": 9999,
+      "position": {
+        "x": 386,
+        "y": 38
+      },
+      "width": 258,
+      "height": 284,
+      "shape": 0,
+      "hotspot_mode": 1,
+      "uccw_type": 1,
+      "app_name": "Weather Hotspot",
+      "intent": null,
+      "alpha": 255,
+      "angle": 0
+    }
+  ]
+}
