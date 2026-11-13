@@ -2,6 +2,34 @@
   "manifest_version": 2,
   "collections": [
     {
+      "id": "nordic_sketchbook_terracotta_2026",
+      "title": "Nordic Sketchbook & Terracotta Ink",
+      "subtitle": "Frameless Vertical Date Lockup, Ink Horizon Arc, Stitched Field Notes & Compass Dial",
+      "description": "Minimalist architectural ink-and-watercolor sketchbook widgets — featuring the frameless vertical -90° date & time lockup, a panoramic solar horizon ruler strip, a stitched portrait field-notes journal with terracotta bookmark ribbon, and a circular botanical ink compass dial.",
+      "author": "UCCW Studio",
+      "category": "sony",
+      "tags": [
+        "Sketchbook",
+        "Minimal",
+        "Terracotta",
+        "Editorial"
+      ],
+      "release_date": "2026-11-13",
+      "min_version_code": 326,
+      "featured": true,
+      "notify": true,
+      "access_type": "free",
+      "product_id": null,
+      "hero_thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/nordic_sketchbook_terracotta_2026/Nordic%20Minimal%20Vertical%20Date%20%26%20Time_thumb.png",
+      "wallpapers": [
+        {
+          "name": "Terracotta Cliffside Lighthouse & Pine Sketch Wallpaper",
+          "url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/nordic_sketchbook_terracotta_2026/Terracotta%20Cliffside%20Lighthouse%20%26%20Pine%20Sketch%20Wallpaper.jpg",
+          "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/nordic_sketchbook_terracotta_2026/Terracotta%20Cliffside%20Lighthouse%20%26%20Pine%20Sketch%20Wallpaper_thumb.jpg"
+        }
+      ]
+    },
+    {
       "id": "nordic_obsidian_segment_2026",
       "title": "Nordic Obsidian & Dark Segment",
       "subtitle": "Matte Obsidian Squircle, Illuminated 7-Segment Matrix & Coral Pill Typography",
@@ -562,6 +590,62 @@
     }
   ],
   "templates": [
+    {
+      "name": "Nordic Minimal Vertical Date & Time",
+      "collection_id": "nordic_sketchbook_terracotta_2026",
+      "category": "sony",
+      "categories": [
+        "sony",
+        "ios",
+        "classic"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/nordic_sketchbook_terracotta_2026/Nordic%20Minimal%20Vertical%20Date%20%26%20Time.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/nordic_sketchbook_terracotta_2026/Nordic%20Minimal%20Vertical%20Date%20%26%20Time_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/nordic_sketchbook_terracotta_2026/Nordic%20Minimal%20Vertical%20Date%20%26%20Time_bg.png"
+    },
+    {
+      "name": "Sketchbook Horizon Sun & Weather Strip",
+      "collection_id": "nordic_sketchbook_terracotta_2026",
+      "category": "sony",
+      "categories": [
+        "sony",
+        "pixel",
+        "ios"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/nordic_sketchbook_terracotta_2026/Sketchbook%20Horizon%20Sun%20%26%20Weather%20Strip.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/nordic_sketchbook_terracotta_2026/Sketchbook%20Horizon%20Sun%20%26%20Weather%20Strip_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/nordic_sketchbook_terracotta_2026/Sketchbook%20Horizon%20Sun%20%26%20Weather%20Strip_bg.png"
+    },
+    {
+      "name": "Atelier Vertical Field Notes & Agenda",
+      "collection_id": "nordic_sketchbook_terracotta_2026",
+      "category": "sony",
+      "categories": [
+        "sony",
+        "ios",
+        "classic"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/nordic_sketchbook_terracotta_2026/Atelier%20Vertical%20Field%20Notes%20%26%20Agenda.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/nordic_sketchbook_terracotta_2026/Atelier%20Vertical%20Field%20Notes%20%26%20Agenda_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/nordic_sketchbook_terracotta_2026/Atelier%20Vertical%20Field%20Notes%20%26%20Agenda_bg.png"
+    },
+    {
+      "name": "Terracotta Botanical Ink Dial",
+      "collection_id": "nordic_sketchbook_terracotta_2026",
+      "category": "motorola",
+      "categories": [
+        "motorola",
+        "sony",
+        "classic"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/nordic_sketchbook_terracotta_2026/Terracotta%20Botanical%20Ink%20Dial.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/nordic_sketchbook_terracotta_2026/Terracotta%20Botanical%20Ink%20Dial_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/nordic_sketchbook_terracotta_2026/Terracotta%20Botanical%20Ink%20Dial_bg.png"
+    },
     {
       "name": "Obsidian Segment Vertical Date",
       "collection_id": "nordic_obsidian_segment_2026",
