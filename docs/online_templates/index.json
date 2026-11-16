@@ -2,6 +2,34 @@
   "manifest_version": 2,
   "collections": [
     {
+      "id": "porcelain_pastel_neumorphic_2026",
+      "title": "Soft Porcelain & Pastel Neumorphic",
+      "subtitle": "Concave Porcelain Dial, 3D Periwinkle Hearts Battery, Pastel Cycle Bars & 4-Icon Dock",
+      "description": "Dreamy milk-porcelain neumorphic widgets featuring a recessed `16 | 13` digital time capsule, concave 3D analog clock dial, glossy 3D pastel periwinkle hearts battery window, recessed pastel cycle progress bars, and a 4-icon neumorphic dock.",
+      "author": "UCCW Studio",
+      "category": "ios",
+      "tags": [
+        "Porcelain",
+        "Neumorphic",
+        "Pastel",
+        "Minimal"
+      ],
+      "release_date": "2026-11-16",
+      "min_version_code": 326,
+      "featured": true,
+      "notify": true,
+      "access_type": "free",
+      "product_id": null,
+      "hero_thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/porcelain_pastel_neumorphic_2026/Porcelain%20Neumorphic%20Dual%20Clock%20%26%20Date_thumb.png",
+      "wallpapers": [
+        {
+          "name": "Soft Porcelain & Pastel Whisper Wallpaper",
+          "url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/porcelain_pastel_neumorphic_2026/Soft%20Porcelain%20%26%20Pastel%20Whisper%20Wallpaper.jpg",
+          "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/porcelain_pastel_neumorphic_2026/Soft%20Porcelain%20%26%20Pastel%20Whisper%20Wallpaper_thumb.jpg"
+        }
+      ]
+    },
+    {
       "id": "nordic_sketchbook_terracotta_2026",
       "title": "Nordic Sketchbook & Terracotta Ink",
       "subtitle": "Frameless Vertical Date Lockup, Ink Horizon Arc, Stitched Field Notes & Compass Dial",
@@ -590,6 +618,61 @@
     }
   ],
   "templates": [
+    {
+      "name": "Porcelain Neumorphic Dual Clock & Date",
+      "collection_id": "porcelain_pastel_neumorphic_2026",
+      "category": "ios",
+      "categories": [
+        "ios",
+        "modern",
+        "rings"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/porcelain_pastel_neumorphic_2026/Porcelain%20Neumorphic%20Dual%20Clock%20%26%20Date.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/porcelain_pastel_neumorphic_2026/Porcelain%20Neumorphic%20Dual%20Clock%20%26%20Date_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/porcelain_pastel_neumorphic_2026/Porcelain%20Neumorphic%20Dual%20Clock%20%26%20Date_bg.png"
+    },
+    {
+      "name": "Pastel Hearts Battery & Cycle Gauges",
+      "collection_id": "porcelain_pastel_neumorphic_2026",
+      "category": "ios",
+      "categories": [
+        "ios",
+        "modern",
+        "pixel"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/porcelain_pastel_neumorphic_2026/Pastel%20Hearts%20Battery%20%26%20Cycle%20Gauges.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/porcelain_pastel_neumorphic_2026/Pastel%20Hearts%20Battery%20%26%20Cycle%20Gauges_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/porcelain_pastel_neumorphic_2026/Pastel%20Hearts%20Battery%20%26%20Cycle%20Gauges_bg.png"
+    },
+    {
+      "name": "Porcelain Greeting & Weather Header",
+      "collection_id": "porcelain_pastel_neumorphic_2026",
+      "category": "ios",
+      "categories": [
+        "ios",
+        "sony",
+        "modern"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/porcelain_pastel_neumorphic_2026/Porcelain%20Greeting%20%26%20Weather%20Header.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/porcelain_pastel_neumorphic_2026/Porcelain%20Greeting%20%26%20Weather%20Header_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/porcelain_pastel_neumorphic_2026/Porcelain%20Greeting%20%26%20Weather%20Header_bg.png"
+    },
+    {
+      "name": "Porcelain Pastel 4-Icon Neumorphic Dock",
+      "collection_id": "porcelain_pastel_neumorphic_2026",
+      "category": "ios",
+      "categories": [
+        "ios",
+        "modern"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/porcelain_pastel_neumorphic_2026/Porcelain%20Pastel%204-Icon%20Neumorphic%20Dock.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/porcelain_pastel_neumorphic_2026/Porcelain%20Pastel%204-Icon%20Neumorphic%20Dock_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/porcelain_pastel_neumorphic_2026/Porcelain%20Pastel%204-Icon%20Neumorphic%20Dock_bg.png"
+    },
     {
       "name": "Nordic Minimal Vertical Date & Time",
       "collection_id": "nordic_sketchbook_terracotta_2026",

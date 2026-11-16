@@ -1,0 +1,113 @@
+{
+  "background": {
+    "type": "BackgroundProperties",
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "alpha": 255,
+    "angle": 0,
+    "background": "assets://skin_templates/ios/Porcelain Pastel 4-Icon Neumorphic Dock_bg.png",
+    "mode": 1,
+    "id": 0,
+    "name": "Background",
+    "image_scale_type": 2,
+    "fill_homescreen_widget": false,
+    "drawing_order": -1
+  },
+  "meta_data": {
+    "author": "UCCW Studio",
+    "height": 210,
+    "name": "Porcelain Pastel 4-Icon Neumorphic Dock",
+    "scale": 1,
+    "width": 680,
+    "author_email": null,
+    "creation_date": 0,
+    "sdcard_root_address": null,
+    "modify_date": 0,
+    "other_data": null,
+    "screen_height": 2400,
+    "screen_width": 1080,
+    "skin_version": "version_3",
+    "min_version_code": 326,
+    "min_version_name": "2.2.26"
+  },
+  "objects": [
+    {
+      "type": "hotspot",
+      "id": 0,
+      "name": "Camera Dock Hotspot",
+      "drawing_order": 9996,
+      "position": {
+        "x": 90,
+        "y": 57
+      },
+      "width": 96,
+      "height": 96,
+      "shape": 0,
+      "hotspot_mode": 1,
+      "uccw_type": 0,
+      "app_name": "Camera Dock Hotspot",
+      "intent": null,
+      "alpha": 255,
+      "angle": 0
+    },
+    {
+      "type": "hotspot",
+      "id": 0,
+      "name": "Phone Dock Hotspot",
+      "drawing_order": 9997,
+      "position": {
+        "x": 224,
+        "y": 57
+      },
+      "width": 96,
+      "height": 96,
+      "shape": 0,
+      "hotspot_mode": 1,
+      "uccw_type": 2,
+      "app_name": "Phone Dock Hotspot",
+      "intent": null,
+      "alpha": 255,
+      "angle": 0
+    },
+    {
+      "type": "hotspot",
+      "id": 0,
+      "name": "Settings Dock Hotspot",
+      "drawing_order": 9998,
+      "position": {
+        "x": 360,
+        "y": 57
+      },
+      "width": 96,
+      "height": 96,
+      "shape": 0,
+      "hotspot_mode": 1,
+      "uccw_type": 1,
+      "app_name": "Settings Dock Hotspot",
+      "intent": null,
+      "alpha": 255,
+      "angle": 0
+    },
+    {
+      "type": "hotspot",
+      "id": 0,
+      "name": "Gallery Dock Hotspot",
+      "drawing_order": 9999,
+      "position": {
+        "x": 494,
+        "y": 57
+      },
+      "width": 96,
+      "height": 96,
+      "shape": 0,
+      "hotspot_mode": 1,
+      "uccw_type": 3,
+      "app_name": "Gallery Dock Hotspot",
+      "intent": null,
+      "alpha": 255,
+      "angle": 0
+    }
+  ]
+}

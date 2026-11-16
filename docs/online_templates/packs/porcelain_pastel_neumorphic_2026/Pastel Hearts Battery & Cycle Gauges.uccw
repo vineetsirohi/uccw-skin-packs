@@ -1,0 +1,689 @@
+{
+  "background": {
+    "type": "BackgroundProperties",
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "alpha": 255,
+    "angle": 0,
+    "background": "assets://skin_templates/ios/Pastel Hearts Battery & Cycle Gauges_bg.png",
+    "mode": 1,
+    "id": 0,
+    "name": "Background",
+    "image_scale_type": 2,
+    "fill_homescreen_widget": false,
+    "drawing_order": -1
+  },
+  "meta_data": {
+    "author": "UCCW Studio",
+    "height": 430,
+    "name": "Pastel Hearts Battery & Cycle Gauges",
+    "scale": 1,
+    "width": 680,
+    "author_email": null,
+    "creation_date": 0,
+    "sdcard_root_address": null,
+    "modify_date": 0,
+    "other_data": null,
+    "screen_height": 2400,
+    "screen_width": 1080,
+    "skin_version": "version_3",
+    "min_version_code": 326,
+    "min_version_name": "2.2.26"
+  },
+  "objects": [
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Hearts Battery Pct",
+      "drawing_order": 0,
+      "position": {
+        "x": 272,
+        "y": 71
+      },
+      "size": 21,
+      "color": -14012880,
+      "alpha": 255,
+      "angle": 0,
+      "bold": true,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-Light.ttf"
+      },
+      "prefix": "",
+      "suffix": "%",
+      "text": "",
+      "text_alignment": {
+        "align": 2
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 22,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "battery_bar",
+      "id": 0,
+      "name": "Toyear Bar",
+      "drawing_order": 1,
+      "position": {
+        "x": 352,
+        "y": 40
+      },
+      "width": 286,
+      "height": 10,
+      "base_color": 15264490,
+      "base_roundness": 5,
+      "progress_bar_height": 8,
+      "progress_bar_roundness": 5,
+      "alpha": 255,
+      "angle": 0,
+      "style": 0,
+      "value_provider": 9,
+      "range": {
+        "min": 0,
+        "max": 100
+      },
+      "divisions": [
+        {
+          "color": -1721972,
+          "div": 50
+        },
+        {
+          "color": -1721972,
+          "div": 15
+        },
+        {
+          "color": -1721972,
+          "div": 5
+        },
+        {
+          "color": -1721972,
+          "div": 0
+        }
+      ],
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Toyear Label",
+      "drawing_order": 2,
+      "position": {
+        "x": 436,
+        "y": 100
+      },
+      "size": 20,
+      "color": -12039090,
+      "alpha": 255,
+      "angle": 0,
+      "bold": true,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Quicksand-Regular.otf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "Toyear",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Toyear Pill Num",
+      "drawing_order": 3,
+      "position": {
+        "x": 516,
+        "y": 100
+      },
+      "size": 19,
+      "color": -723210,
+      "alpha": 255,
+      "angle": 0,
+      "bold": true,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Quicksand-Regular.otf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "346",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Toyear Unit",
+      "drawing_order": 4,
+      "position": {
+        "x": 578,
+        "y": 100
+      },
+      "size": 20,
+      "color": -12039090,
+      "alpha": 255,
+      "angle": 0,
+      "bold": true,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Quicksand-Regular.otf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "day",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "battery_bar",
+      "id": 0,
+      "name": "Week Bar",
+      "drawing_order": 5,
+      "position": {
+        "x": 352,
+        "y": 144
+      },
+      "width": 286,
+      "height": 10,
+      "base_color": 15264490,
+      "base_roundness": 5,
+      "progress_bar_height": 8,
+      "progress_bar_roundness": 5,
+      "alpha": 255,
+      "angle": 0,
+      "style": 0,
+      "value_provider": 8,
+      "range": {
+        "min": 0,
+        "max": 100
+      },
+      "divisions": [
+        {
+          "color": -1917250,
+          "div": 50
+        },
+        {
+          "color": -1917250,
+          "div": 15
+        },
+        {
+          "color": -1917250,
+          "div": 5
+        },
+        {
+          "color": -1917250,
+          "div": 0
+        }
+      ],
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Week Label",
+      "drawing_order": 6,
+      "position": {
+        "x": 436,
+        "y": 204
+      },
+      "size": 20,
+      "color": -12039090,
+      "alpha": 255,
+      "angle": 0,
+      "bold": true,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Quicksand-Regular.otf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "week",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Week Pill Num",
+      "drawing_order": 7,
+      "position": {
+        "x": 516,
+        "y": 204
+      },
+      "size": 19,
+      "color": -723210,
+      "alpha": 255,
+      "angle": 0,
+      "bold": true,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Quicksand-Regular.otf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 8,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Week Unit",
+      "drawing_order": 8,
+      "position": {
+        "x": 578,
+        "y": 204
+      },
+      "size": 20,
+      "color": -12039090,
+      "alpha": 255,
+      "angle": 0,
+      "bold": true,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Quicksand-Regular.otf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "day",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "battery_bar",
+      "id": 0,
+      "name": "Today Bar",
+      "drawing_order": 9,
+      "position": {
+        "x": 352,
+        "y": 248
+      },
+      "width": 286,
+      "height": 10,
+      "base_color": 15264490,
+      "base_roundness": 5,
+      "progress_bar_height": 8,
+      "progress_bar_roundness": 5,
+      "alpha": 255,
+      "angle": 0,
+      "style": 0,
+      "value_provider": 2,
+      "range": {
+        "min": 0,
+        "max": 100
+      },
+      "divisions": [
+        {
+          "color": -3879709,
+          "div": 50
+        },
+        {
+          "color": -3879709,
+          "div": 15
+        },
+        {
+          "color": -3879709,
+          "div": 5
+        },
+        {
+          "color": -3879709,
+          "div": 0
+        }
+      ],
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Today Label",
+      "drawing_order": 10,
+      "position": {
+        "x": 436,
+        "y": 308
+      },
+      "size": 20,
+      "color": -12039090,
+      "alpha": 255,
+      "angle": 0,
+      "bold": true,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Quicksand-Regular.otf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "Today",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Today Pill Num",
+      "drawing_order": 11,
+      "position": {
+        "x": 516,
+        "y": 308
+      },
+      "size": 19,
+      "color": -723210,
+      "alpha": 255,
+      "angle": 0,
+      "bold": true,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Quicksand-Regular.otf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 10,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Today Unit",
+      "drawing_order": 12,
+      "position": {
+        "x": 568,
+        "y": 308
+      },
+      "size": 20,
+      "color": -12039090,
+      "alpha": 255,
+      "angle": 0,
+      "bold": true,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Quicksand-Regular.otf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "h",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Apple Of My Eyes",
+      "drawing_order": 13,
+      "position": {
+        "x": 340,
+        "y": 392
+      },
+      "size": 20,
+      "color": -11907504,
+      "alpha": 255,
+      "angle": 0,
+      "bold": true,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Quicksand-Regular.otf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 86,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "hotspot",
+      "id": 0,
+      "name": "Battery Hotspot",
+      "drawing_order": 9997,
+      "position": {
+        "x": 26,
+        "y": 18
+      },
+      "width": 268,
+      "height": 148,
+      "shape": 0,
+      "hotspot_mode": 1,
+      "uccw_type": 0,
+      "app_name": "Battery Hotspot",
+      "intent": null,
+      "alpha": 255,
+      "angle": 0
+    },
+    {
+      "type": "hotspot",
+      "id": 0,
+      "name": "Weather Squircle Hotspot",
+      "drawing_order": 9998,
+      "position": {
+        "x": 178,
+        "y": 198
+      },
+      "width": 116,
+      "height": 116,
+      "shape": 0,
+      "hotspot_mode": 1,
+      "uccw_type": 1,
+      "app_name": "Weather Squircle Hotspot",
+      "intent": null,
+      "alpha": 255,
+      "angle": 0
+    },
+    {
+      "type": "hotspot",
+      "id": 0,
+      "name": "Calendar Bars Hotspot",
+      "drawing_order": 9999,
+      "position": {
+        "x": 344,
+        "y": 30
+      },
+      "width": 302,
+      "height": 290,
+      "shape": 0,
+      "hotspot_mode": 1,
+      "uccw_type": 2,
+      "app_name": "Calendar Bars Hotspot",
+      "intent": null,
+      "alpha": 255,
+      "angle": 0
+    }
+  ]
+}
