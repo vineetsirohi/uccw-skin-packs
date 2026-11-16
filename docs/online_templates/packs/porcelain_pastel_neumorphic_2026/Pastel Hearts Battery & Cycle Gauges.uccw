@@ -641,11 +641,12 @@
       "height": 148,
       "shape": 0,
       "hotspot_mode": 1,
-      "uccw_type": 0,
+      "uccw_type": 5,
       "app_name": "Battery Hotspot",
       "intent": null,
       "alpha": 255,
-      "angle": 0
+      "angle": 0,
+      "label": "Battery Usage"
     },
     {
       "type": "hotspot",
@@ -679,11 +680,12 @@
       "height": 290,
       "shape": 0,
       "hotspot_mode": 1,
-      "uccw_type": 2,
+      "uccw_type": 10,
       "app_name": "Calendar Bars Hotspot",
       "intent": null,
       "alpha": 255,
-      "angle": 0
+      "angle": 0,
+      "label": "Open Calendar"
     }
   ]
 }

@@ -311,11 +311,12 @@
       "height": 180,
       "shape": 0,
       "hotspot_mode": 1,
-      "uccw_type": 2,
+      "uccw_type": 10,
       "app_name": "Calendar Hotspot",
       "intent": null,
       "alpha": 255,
-      "angle": 0
+      "angle": 0,
+      "label": "Open Calendar"
     }
   ]
 }

@@ -46,11 +46,12 @@
       "height": 96,
       "shape": 0,
       "hotspot_mode": 1,
-      "uccw_type": 0,
+      "uccw_type": 5,
       "app_name": "Camera Dock Hotspot",
       "intent": null,
       "alpha": 255,
-      "angle": 0
+      "angle": 0,
+      "label": "Battery Usage"
     },
     {
       "type": "hotspot",
@@ -59,17 +60,18 @@
       "drawing_order": 9997,
       "position": {
         "x": 224,
-        "y": 57
+        "y": 56
       },
       "width": 96,
       "height": 96,
       "shape": 0,
       "hotspot_mode": 1,
-      "uccw_type": 2,
+      "uccw_type": 3,
       "app_name": "Phone Dock Hotspot",
       "intent": null,
       "alpha": 255,
-      "angle": 0
+      "angle": 0,
+      "label": "Phone Dialer"
     },
     {
       "type": "hotspot",
@@ -78,17 +80,18 @@
       "drawing_order": 9998,
       "position": {
         "x": 360,
-        "y": 57
+        "y": 56
       },
       "width": 96,
       "height": 96,
       "shape": 0,
       "hotspot_mode": 1,
-      "uccw_type": 1,
+      "uccw_type": 5,
       "app_name": "Settings Dock Hotspot",
       "intent": null,
       "alpha": 255,
-      "angle": 0
+      "angle": 0,
+      "label": "Battery Usage"
     },
     {
       "type": "hotspot",
@@ -103,11 +106,12 @@
       "height": 96,
       "shape": 0,
       "hotspot_mode": 1,
-      "uccw_type": 3,
+      "uccw_type": 0,
       "app_name": "Gallery Dock Hotspot",
       "intent": null,
       "alpha": 255,
-      "angle": 0
+      "angle": 0,
+      "label": "Alarm Clock"
     }
   ]
 }
