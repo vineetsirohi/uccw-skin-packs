@@ -2,15 +2,15 @@
   "manifest_version": 2,
   "collections": [
     {
-      "id": "midnight_comic_montage_2026",
-      "title": "Midnight Comic Montage",
-      "subtitle": "6-Panel Graphic-Novel Cover, Slanted Strip Clock, Neon Alley Analog & Album Art Montage",
-      "description": "Original cel-shaded neo-noir graphic-novel widgets framed in thick ink-black comic gutters with electric cyan, neon crimson, and amber streetlight accents: a 6-panel Full Cover Montage with overlapping clock emblem, a 3-panel slanted Comic Strip Clock & Weather header, a 4-panel Midnight Alley Analog watch with smooth hour hand, and a Neon Vinyl & Live Album Art montage — paired with a matching Midnight Comic Skyline Wallpaper.",
+      "id": "photo_montage_cover_2026",
+      "title": "Cover Photo Montage",
+      "subtitle": "6-Photo Cover Grid, 3-Photo Header Strip, 4-Photo Analog Watch & Album Art Montage",
+      "description": "Customizable poster-style photo montage widgets framed in thick ink-black gutters with cinema gold, teal, and coral accents: drop your own gallery photos into the 6-Photo Cover Grid, 3-Photo Clock & Weather Strip, 4-Photo Analog Watch with smooth hour hand, or the Live Album Art & Photo Split Montage — paired with a matching Obsidian Matte Wallpaper.",
       "author": "UCCW Studio",
-      "category": "retro",
+      "category": "classic",
       "tags": [
-        "Comic Montage",
-        "Neo-Noir",
+        "Photo Montage",
+        "Custom Photos",
         "Analog Clock",
         "Album Art"
       ],
@@ -20,12 +20,12 @@
       "notify": true,
       "access_type": "free",
       "product_id": null,
-      "hero_thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/midnight_comic_montage_2026/Midnight%20Cover%20Montage_thumb.png",
+      "hero_thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/photo_montage_cover_2026/Cover%206-Photo%20Montage_thumb.png",
       "wallpapers": [
         {
-          "name": "Midnight Comic Skyline Wallpaper",
-          "url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/midnight_comic_montage_2026/Midnight%20Comic%20Skyline%20Wallpaper.jpg",
-          "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/midnight_comic_montage_2026/Midnight%20Comic%20Skyline%20Wallpaper_thumb.jpg"
+          "name": "Cover Montage Obsidian Wallpaper",
+          "url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/photo_montage_cover_2026/Cover%20Montage%20Obsidian%20Wallpaper.jpg",
+          "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/photo_montage_cover_2026/Cover%20Montage%20Obsidian%20Wallpaper_thumb.jpg"
         }
       ]
     },
@@ -675,60 +675,59 @@
   ],
   "templates": [
     {
-      "name": "Midnight Cover Montage",
-      "collection_id": "midnight_comic_montage_2026",
-      "category": "retro",
+      "name": "Cover 6-Photo Montage",
+      "collection_id": "photo_montage_cover_2026",
+      "category": "classic",
       "categories": [
-        "retro",
+        "classic",
         "clocks",
         "weather"
       ],
       "min_version_code": 326,
-      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/midnight_comic_montage_2026/Midnight%20Cover%20Montage.uccw",
-      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/midnight_comic_montage_2026/Midnight%20Cover%20Montage_thumb.png",
-      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/midnight_comic_montage_2026/Midnight%20Cover%20Montage_bg.png"
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/photo_montage_cover_2026/Cover%206-Photo%20Montage.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/photo_montage_cover_2026/Cover%206-Photo%20Montage_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/photo_montage_cover_2026/Cover%206-Photo%20Montage_bg.png"
     },
     {
-      "name": "Comic Strip Clock & Weather",
-      "collection_id": "midnight_comic_montage_2026",
-      "category": "retro",
+      "name": "Photo Strip Clock & Weather",
+      "collection_id": "photo_montage_cover_2026",
+      "category": "classic",
       "categories": [
-        "retro",
+        "classic",
         "clocks",
         "weather"
       ],
       "min_version_code": 326,
-      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/midnight_comic_montage_2026/Comic%20Strip%20Clock%20%26%20Weather.uccw",
-      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/midnight_comic_montage_2026/Comic%20Strip%20Clock%20%26%20Weather_thumb.png",
-      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/midnight_comic_montage_2026/Comic%20Strip%20Clock%20%26%20Weather_bg.png"
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/photo_montage_cover_2026/Photo%20Strip%20Clock%20%26%20Weather.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/photo_montage_cover_2026/Photo%20Strip%20Clock%20%26%20Weather_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/photo_montage_cover_2026/Photo%20Strip%20Clock%20%26%20Weather_bg.png"
     },
     {
-      "name": "Midnight Alley Analog",
-      "collection_id": "midnight_comic_montage_2026",
-      "category": "retro",
+      "name": "Photo Montage Analog Watch",
+      "collection_id": "photo_montage_cover_2026",
+      "category": "classic",
       "categories": [
-        "retro",
-        "clocks",
-        "classic"
+        "classic",
+        "clocks"
       ],
       "min_version_code": 326,
-      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/midnight_comic_montage_2026/Midnight%20Alley%20Analog.uccw",
-      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/midnight_comic_montage_2026/Midnight%20Alley%20Analog_thumb.png",
-      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/midnight_comic_montage_2026/Midnight%20Alley%20Analog_bg.png"
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/photo_montage_cover_2026/Photo%20Montage%20Analog%20Watch.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/photo_montage_cover_2026/Photo%20Montage%20Analog%20Watch_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/photo_montage_cover_2026/Photo%20Montage%20Analog%20Watch_bg.png"
     },
     {
-      "name": "Neon Vinyl & Album Montage",
-      "collection_id": "midnight_comic_montage_2026",
-      "category": "retro",
+      "name": "Album & Photo Split Montage",
+      "collection_id": "photo_montage_cover_2026",
+      "category": "classic",
       "categories": [
-        "retro",
+        "classic",
         "media",
         "calendar"
       ],
       "min_version_code": 326,
-      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/midnight_comic_montage_2026/Neon%20Vinyl%20%26%20Album%20Montage.uccw",
-      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/midnight_comic_montage_2026/Neon%20Vinyl%20%26%20Album%20Montage_thumb.png",
-      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/midnight_comic_montage_2026/Neon%20Vinyl%20%26%20Album%20Montage_bg.png"
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/photo_montage_cover_2026/Album%20%26%20Photo%20Split%20Montage.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/photo_montage_cover_2026/Album%20%26%20Photo%20Split%20Montage_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/photo_montage_cover_2026/Album%20%26%20Photo%20Split%20Montage_bg.png"
     },
     {
       "name": "Coastal GPS Minimap & Heat HUD",

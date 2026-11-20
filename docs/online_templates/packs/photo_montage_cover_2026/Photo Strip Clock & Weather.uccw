@@ -7,7 +7,7 @@
     },
     "alpha": 255,
     "angle": 0,
-    "background": "assets://skin_templates/retro/Comic Strip Clock & Weather_bg.png",
+    "background": "assets://skin_templates/classic/Photo Strip Clock & Weather_bg.png",
     "mode": 1,
     "id": 0,
     "name": "Background",
@@ -18,7 +18,7 @@
   "meta_data": {
     "author": "UCCW Studio",
     "height": 320,
-    "name": "Comic Strip Clock & Weather",
+    "name": "Photo Strip Clock & Weather",
     "scale": 1,
     "width": 680,
     "author_email": null,
@@ -34,10 +34,304 @@
   },
   "objects": [
     {
+      "type": "image",
+      "id": 0,
+      "name": "Photo 1",
+      "drawing_order": 1,
+      "position": {
+        "x": 12,
+        "y": 12
+      },
+      "alpha": 255,
+      "angle": 0,
+      "image_source": 0,
+      "path": null,
+      "scale": 1.0,
+      "width": 214,
+      "height": 296,
+      "scale_type": 0,
+      "corner_style": 1,
+      "corner": 4,
+      "top_left_corner": true,
+      "top_right_corner": true,
+      "bottom_left_corner": true,
+      "bottom_right_corner": true,
+      "is_tint_enabled": false,
+      "tint_color": -1
+    },
+    {
+      "type": "image",
+      "id": 0,
+      "name": "Photo 2",
+      "drawing_order": 2,
+      "position": {
+        "x": 238,
+        "y": 12
+      },
+      "alpha": 255,
+      "angle": 0,
+      "image_source": 0,
+      "path": null,
+      "scale": 1.0,
+      "width": 204,
+      "height": 296,
+      "scale_type": 0,
+      "corner_style": 1,
+      "corner": 4,
+      "top_left_corner": true,
+      "top_right_corner": true,
+      "bottom_left_corner": true,
+      "bottom_right_corner": true,
+      "is_tint_enabled": false,
+      "tint_color": -1
+    },
+    {
+      "type": "image",
+      "id": 0,
+      "name": "Photo 3",
+      "drawing_order": 3,
+      "position": {
+        "x": 454,
+        "y": 12
+      },
+      "alpha": 255,
+      "angle": 0,
+      "image_source": 0,
+      "path": null,
+      "scale": 1.0,
+      "width": 214,
+      "height": 296,
+      "scale_type": 0,
+      "corner_style": 1,
+      "corner": 4,
+      "top_left_corner": true,
+      "top_right_corner": true,
+      "bottom_left_corner": true,
+      "bottom_right_corner": true,
+      "is_tint_enabled": false,
+      "tint_color": -1
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Emblem Ink Halo",
+      "drawing_order": 10,
+      "position": {
+        "x": 200,
+        "y": 84
+      },
+      "alpha": 255,
+      "angle": 0,
+      "roundness": 10,
+      "width": 280,
+      "height": 152,
+      "stroke": 2.0,
+      "color": -16185076,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Emblem Teal Rim",
+      "drawing_order": 11,
+      "position": {
+        "x": 210,
+        "y": 94
+      },
+      "alpha": 255,
+      "angle": 0,
+      "roundness": 6,
+      "width": 260,
+      "height": 132,
+      "stroke": 2.0,
+      "color": -13773633,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Emblem Dark Face",
+      "drawing_order": 12,
+      "position": {
+        "x": 215,
+        "y": 99
+      },
+      "alpha": 250,
+      "angle": 0,
+      "roundness": 4,
+      "width": 250,
+      "height": 122,
+      "stroke": 2.0,
+      "color": -15921128,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Weather Plate BG",
+      "drawing_order": 14,
+      "position": {
+        "x": 22,
+        "y": 198
+      },
+      "alpha": 228,
+      "angle": 0,
+      "roundness": 6,
+      "width": 174,
+      "height": 100,
+      "stroke": 2.0,
+      "color": -15921128,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Weather Plate Border",
+      "drawing_order": 15,
+      "position": {
+        "x": 22,
+        "y": 198
+      },
+      "alpha": 215,
+      "angle": 0,
+      "roundness": 6,
+      "width": 174,
+      "height": 100,
+      "stroke": 2.0,
+      "color": -13773633,
+      "is_hollow": true,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Weather Accent Bar",
+      "drawing_order": 16,
+      "position": {
+        "x": 24,
+        "y": 200
+      },
+      "alpha": 255,
+      "angle": 0,
+      "roundness": 2,
+      "width": 6,
+      "height": 96,
+      "stroke": 2.0,
+      "color": -13773633,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Battery Plate BG",
+      "drawing_order": 17,
+      "position": {
+        "x": 480,
+        "y": 22
+      },
+      "alpha": 228,
+      "angle": 0,
+      "roundness": 6,
+      "width": 178,
+      "height": 108,
+      "stroke": 2.0,
+      "color": -15921128,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Battery Plate Border",
+      "drawing_order": 18,
+      "position": {
+        "x": 480,
+        "y": 22
+      },
+      "alpha": 215,
+      "angle": 0,
+      "roundness": 6,
+      "width": 178,
+      "height": 108,
+      "stroke": 2.0,
+      "color": -675775,
+      "is_hollow": true,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Battery Accent Bar",
+      "drawing_order": 19,
+      "position": {
+        "x": 482,
+        "y": 24
+      },
+      "alpha": 255,
+      "angle": 0,
+      "roundness": 2,
+      "width": 6,
+      "height": 104,
+      "stroke": 2.0,
+      "color": -675775,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
       "type": "text_object",
       "id": 0,
       "name": "Strip Time",
-      "drawing_order": 1,
+      "drawing_order": 30,
       "position": {
         "x": 340,
         "y": 180
@@ -70,21 +364,21 @@
       "shadow": {
         "color": -872415232,
         "dx": 0,
-        "dy": 3,
-        "radius": 4
+        "dy": 2,
+        "radius": 3
       }
     },
     {
       "type": "text_object",
       "id": 0,
       "name": "Strip Date",
-      "drawing_order": 2,
+      "drawing_order": 31,
       "position": {
         "x": 340,
-        "y": 214
+        "y": 210
       },
       "size": 19,
-      "color": -16715521,
+      "color": -13773633,
       "alpha": 255,
       "angle": 0,
       "bold": false,
@@ -119,10 +413,10 @@
       "type": "weather_image",
       "id": 0,
       "name": "Strip Weather Icon",
-      "drawing_order": 3,
+      "drawing_order": 32,
       "position": {
         "x": 120,
-        "y": 202
+        "y": 204
       },
       "scale": 0.58,
       "alpha": 255,
@@ -135,10 +429,10 @@
       "type": "text_object",
       "id": 0,
       "name": "Strip Temp",
-      "drawing_order": 4,
+      "drawing_order": 33,
       "position": {
         "x": 38,
-        "y": 250
+        "y": 252
       },
       "size": 42,
       "color": -460036,
@@ -176,10 +470,10 @@
       "type": "text_object",
       "id": 0,
       "name": "Strip Cond",
-      "drawing_order": 5,
+      "drawing_order": 34,
       "position": {
         "x": 38,
-        "y": 282
+        "y": 284
       },
       "size": 16,
       "color": -3418655,
@@ -217,13 +511,13 @@
       "type": "text_object",
       "id": 0,
       "name": "Strip Power Tag",
-      "drawing_order": 6,
+      "drawing_order": 35,
       "position": {
         "x": 496,
         "y": 48
       },
       "size": 16,
-      "color": -18685,
+      "color": -675775,
       "alpha": 255,
       "angle": 0,
       "bold": false,
@@ -258,7 +552,7 @@
       "type": "text_object",
       "id": 0,
       "name": "Strip Battery",
-      "drawing_order": 7,
+      "drawing_order": 36,
       "position": {
         "x": 644,
         "y": 62
@@ -299,7 +593,7 @@
       "type": "battery_bar",
       "id": 0,
       "name": "Strip Battery Bar",
-      "drawing_order": 8,
+      "drawing_order": 37,
       "position": {
         "x": 496,
         "y": 76
@@ -320,19 +614,19 @@
       },
       "divisions": [
         {
-          "color": -18685,
+          "color": -675775,
           "div": 50
         },
         {
-          "color": -18685,
+          "color": -675775,
           "div": 15
         },
         {
-          "color": -18685,
+          "color": -675775,
           "div": 5
         },
         {
-          "color": -18685,
+          "color": -675775,
           "div": 0
         }
       ],
@@ -347,7 +641,7 @@
       "type": "text_object",
       "id": 0,
       "name": "Strip Steps",
-      "drawing_order": 9,
+      "drawing_order": 38,
       "position": {
         "x": 496,
         "y": 114
@@ -388,7 +682,7 @@
       "type": "hotspot",
       "id": 0,
       "name": "Clock App",
-      "drawing_order": 15,
+      "drawing_order": 45,
       "position": {
         "x": 205,
         "y": 85
@@ -407,13 +701,13 @@
       "type": "hotspot",
       "id": 0,
       "name": "Weather Refresh",
-      "drawing_order": 16,
+      "drawing_order": 46,
       "position": {
-        "x": 20,
-        "y": 190
+        "x": 22,
+        "y": 198
       },
-      "width": 180,
-      "height": 110,
+      "width": 174,
+      "height": 100,
       "shape": 0,
       "hotspot_mode": 1,
       "uccw_type": 1,

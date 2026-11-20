@@ -1,0 +1,488 @@
+{
+  "background": {
+    "type": "BackgroundProperties",
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "alpha": 255,
+    "angle": 0,
+    "background": "assets://skin_templates/classic/Photo Montage Analog Watch_bg.png",
+    "mode": 1,
+    "id": 0,
+    "name": "Background",
+    "image_scale_type": 2,
+    "fill_homescreen_widget": false,
+    "drawing_order": -1
+  },
+  "meta_data": {
+    "author": "UCCW Studio",
+    "height": 440,
+    "name": "Photo Montage Analog Watch",
+    "scale": 1,
+    "width": 440,
+    "author_email": null,
+    "creation_date": 0,
+    "sdcard_root_address": null,
+    "modify_date": 0,
+    "other_data": null,
+    "screen_height": 2400,
+    "screen_width": 1080,
+    "skin_version": "version_3",
+    "min_version_code": 326,
+    "min_version_name": "2.2.26"
+  },
+  "objects": [
+    {
+      "type": "image",
+      "id": 0,
+      "name": "Photo 1",
+      "drawing_order": 1,
+      "position": {
+        "x": 12,
+        "y": 12
+      },
+      "alpha": 255,
+      "angle": 0,
+      "image_source": 0,
+      "path": null,
+      "scale": 1.0,
+      "width": 224,
+      "height": 202,
+      "scale_type": 0,
+      "corner_style": 1,
+      "corner": 4,
+      "top_left_corner": true,
+      "top_right_corner": true,
+      "bottom_left_corner": true,
+      "bottom_right_corner": true,
+      "is_tint_enabled": false,
+      "tint_color": -1
+    },
+    {
+      "type": "image",
+      "id": 0,
+      "name": "Photo 2",
+      "drawing_order": 2,
+      "position": {
+        "x": 248,
+        "y": 12
+      },
+      "alpha": 255,
+      "angle": 0,
+      "image_source": 0,
+      "path": null,
+      "scale": 1.0,
+      "width": 180,
+      "height": 202,
+      "scale_type": 0,
+      "corner_style": 1,
+      "corner": 4,
+      "top_left_corner": true,
+      "top_right_corner": true,
+      "bottom_left_corner": true,
+      "bottom_right_corner": true,
+      "is_tint_enabled": false,
+      "tint_color": -1
+    },
+    {
+      "type": "image",
+      "id": 0,
+      "name": "Photo 3",
+      "drawing_order": 3,
+      "position": {
+        "x": 12,
+        "y": 226
+      },
+      "alpha": 255,
+      "angle": 0,
+      "image_source": 0,
+      "path": null,
+      "scale": 1.0,
+      "width": 180,
+      "height": 202,
+      "scale_type": 0,
+      "corner_style": 1,
+      "corner": 4,
+      "top_left_corner": true,
+      "top_right_corner": true,
+      "bottom_left_corner": true,
+      "bottom_right_corner": true,
+      "is_tint_enabled": false,
+      "tint_color": -1
+    },
+    {
+      "type": "image",
+      "id": 0,
+      "name": "Photo 4",
+      "drawing_order": 4,
+      "position": {
+        "x": 204,
+        "y": 226
+      },
+      "alpha": 255,
+      "angle": 0,
+      "image_source": 0,
+      "path": null,
+      "scale": 1.0,
+      "width": 224,
+      "height": 202,
+      "scale_type": 0,
+      "corner_style": 1,
+      "corner": 4,
+      "top_left_corner": true,
+      "top_right_corner": true,
+      "bottom_left_corner": true,
+      "bottom_right_corner": true,
+      "is_tint_enabled": false,
+      "tint_color": -1
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Dial Ink Halo",
+      "drawing_order": 10,
+      "position": {
+        "x": 82,
+        "y": 82
+      },
+      "alpha": 255,
+      "angle": 0,
+      "roundness": 138,
+      "width": 276,
+      "height": 276,
+      "stroke": 2.0,
+      "color": -16185076,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Dial Gold Ring",
+      "drawing_order": 11,
+      "position": {
+        "x": 93,
+        "y": 93
+      },
+      "alpha": 255,
+      "angle": 0,
+      "roundness": 127,
+      "width": 254,
+      "height": 254,
+      "stroke": 2.0,
+      "color": -675775,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Dial Dark Face",
+      "drawing_order": 12,
+      "position": {
+        "x": 99,
+        "y": 99
+      },
+      "alpha": 248,
+      "angle": 0,
+      "roundness": 121,
+      "width": 242,
+      "height": 242,
+      "stroke": 2.0,
+      "color": -15921128,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Dial Inner Ring",
+      "drawing_order": 13,
+      "position": {
+        "x": 112,
+        "y": 112
+      },
+      "alpha": 40,
+      "angle": 0,
+      "roundness": 108,
+      "width": 216,
+      "height": 216,
+      "stroke": 1.5,
+      "color": -460036,
+      "is_hollow": true,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Date Pill BG",
+      "drawing_order": 14,
+      "position": {
+        "x": 164,
+        "y": 274
+      },
+      "alpha": 240,
+      "angle": 0,
+      "roundness": 6,
+      "width": 112,
+      "height": 30,
+      "stroke": 2.0,
+      "color": -15328210,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Date Pill Border",
+      "drawing_order": 15,
+      "position": {
+        "x": 164,
+        "y": 274
+      },
+      "alpha": 210,
+      "angle": 0,
+      "roundness": 6,
+      "width": 112,
+      "height": 30,
+      "stroke": 1.5,
+      "color": -675775,
+      "is_hollow": true,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Marker 12",
+      "drawing_order": 16,
+      "position": {
+        "x": 220,
+        "y": 138
+      },
+      "size": 22,
+      "color": -460036,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ChakraPetch-Bold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "12",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Marker 3",
+      "drawing_order": 17,
+      "position": {
+        "x": 308,
+        "y": 228
+      },
+      "size": 22,
+      "color": -460036,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ChakraPetch-Bold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "3",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Marker 9",
+      "drawing_order": 18,
+      "position": {
+        "x": 132,
+        "y": 228
+      },
+      "size": 22,
+      "color": -460036,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ChakraPetch-Bold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "9",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Analog Date",
+      "drawing_order": 19,
+      "position": {
+        "x": 220,
+        "y": 295
+      },
+      "size": 16,
+      "color": -675775,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ChakraPetch-Bold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "{\"day_format\": 8, \"day_of_the_week_format\": 7, \"layout_format\": \"wdm\", \"month_format\": 4, \"separator\": \" \", \"separator2\": \" \", \"separator3\": \" \", \"year_format\": 1}",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 2
+      },
+      "text_provider": {
+        "id": 20,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "standard_analog_clock_object",
+      "id": 0,
+      "name": "Analog Hands",
+      "drawing_order": 20,
+      "position": {
+        "x": 106,
+        "y": 106
+      },
+      "alpha": 255,
+      "angle": 0,
+      "scale": 0.76,
+      "step_mode": 0,
+      "hour_mode": 0,
+      "timezone_id": "",
+      "hour_image": "assets://defaultAnalogClockHands/sport_hour.png",
+      "minute_image": "assets://defaultAnalogClockHands/sport_minute.png",
+      "hour_color": -460036,
+      "minute_color": -675775
+    },
+    {
+      "type": "hotspot",
+      "id": 0,
+      "name": "Clock App",
+      "drawing_order": 30,
+      "position": {
+        "x": 92,
+        "y": 92
+      },
+      "width": 256,
+      "height": 256,
+      "shape": 0,
+      "hotspot_mode": 1,
+      "uccw_type": 0,
+      "app_name": "Clock App",
+      "intent": null,
+      "alpha": 255,
+      "angle": 0
+    }
+  ]
+}

@@ -7,7 +7,7 @@
     },
     "alpha": 255,
     "angle": 0,
-    "background": "assets://skin_templates/retro/Neon Vinyl & Album Montage_bg.png",
+    "background": "assets://skin_templates/classic/Album & Photo Split Montage_bg.png",
     "mode": 1,
     "id": 0,
     "name": "Background",
@@ -18,7 +18,7 @@
   "meta_data": {
     "author": "UCCW Studio",
     "height": 320,
-    "name": "Neon Vinyl & Album Montage",
+    "name": "Album & Photo Split Montage",
     "scale": 1,
     "width": 680,
     "author_email": null,
@@ -39,19 +39,19 @@
       "name": "Album Art",
       "drawing_order": 1,
       "position": {
-        "x": 28,
-        "y": 46
+        "x": 14,
+        "y": 14
       },
       "alpha": 255,
       "angle": 0,
       "image_source": 1,
       "path": null,
       "scale": 1.0,
-      "width": 224,
-      "height": 224,
+      "width": 292,
+      "height": 292,
       "scale_type": 0,
       "corner_style": 1,
-      "corner": 14,
+      "corner": 6,
       "top_left_corner": true,
       "top_right_corner": true,
       "bottom_left_corner": true,
@@ -60,16 +60,186 @@
       "tint_color": -1
     },
     {
+      "type": "image",
+      "id": 0,
+      "name": "Photo 1",
+      "drawing_order": 2,
+      "position": {
+        "x": 318,
+        "y": 14
+      },
+      "alpha": 255,
+      "angle": 0,
+      "image_source": 0,
+      "path": null,
+      "scale": 1.0,
+      "width": 348,
+      "height": 292,
+      "scale_type": 0,
+      "corner_style": 1,
+      "corner": 6,
+      "top_left_corner": true,
+      "top_right_corner": true,
+      "bottom_left_corner": true,
+      "bottom_right_corner": true,
+      "is_tint_enabled": false,
+      "tint_color": -1
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Media Plate BG",
+      "drawing_order": 10,
+      "position": {
+        "x": 330,
+        "y": 26
+      },
+      "alpha": 228,
+      "angle": 0,
+      "roundness": 6,
+      "width": 324,
+      "height": 158,
+      "stroke": 2.0,
+      "color": -15921128,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Media Plate Border",
+      "drawing_order": 11,
+      "position": {
+        "x": 330,
+        "y": 26
+      },
+      "alpha": 215,
+      "angle": 0,
+      "roundness": 6,
+      "width": 324,
+      "height": 158,
+      "stroke": 2.0,
+      "color": -45715,
+      "is_hollow": true,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Media Accent Bar",
+      "drawing_order": 12,
+      "position": {
+        "x": 332,
+        "y": 28
+      },
+      "alpha": 255,
+      "angle": 0,
+      "roundness": 2,
+      "width": 6,
+      "height": 154,
+      "stroke": 2.0,
+      "color": -45715,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Agenda Plate BG",
+      "drawing_order": 14,
+      "position": {
+        "x": 330,
+        "y": 226
+      },
+      "alpha": 228,
+      "angle": 0,
+      "roundness": 6,
+      "width": 324,
+      "height": 68,
+      "stroke": 2.0,
+      "color": -15921128,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Agenda Plate Border",
+      "drawing_order": 15,
+      "position": {
+        "x": 330,
+        "y": 226
+      },
+      "alpha": 215,
+      "angle": 0,
+      "roundness": 6,
+      "width": 324,
+      "height": 68,
+      "stroke": 2.0,
+      "color": -675775,
+      "is_hollow": true,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Agenda Accent Bar",
+      "drawing_order": 16,
+      "position": {
+        "x": 332,
+        "y": 228
+      },
+      "alpha": 255,
+      "angle": 0,
+      "roundness": 2,
+      "width": 6,
+      "height": 64,
+      "stroke": 2.0,
+      "color": -675775,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
       "type": "text_object",
       "id": 0,
       "name": "Now Playing Tag",
-      "drawing_order": 2,
+      "drawing_order": 20,
       "position": {
-        "x": 322,
-        "y": 50
+        "x": 348,
+        "y": 54
       },
       "size": 16,
-      "color": -54675,
+      "color": -45715,
       "alpha": 255,
       "angle": 0,
       "bold": false,
@@ -104,10 +274,10 @@
       "type": "text_object",
       "id": 0,
       "name": "Track Title",
-      "drawing_order": 3,
+      "drawing_order": 21,
       "position": {
-        "x": 322,
-        "y": 94
+        "x": 348,
+        "y": 98
       },
       "size": 36,
       "color": -460036,
@@ -133,7 +303,7 @@
         "file": ""
       },
       "event_index": 0,
-      "max_length": 18,
+      "max_length": 16,
       "shadow": {
         "color": -16777216,
         "dx": 0,
@@ -145,10 +315,10 @@
       "type": "text_object",
       "id": 0,
       "name": "Track Artist",
-      "drawing_order": 4,
+      "drawing_order": 22,
       "position": {
-        "x": 322,
-        "y": 126
+        "x": 348,
+        "y": 130
       },
       "size": 19,
       "color": -3418655,
@@ -174,7 +344,7 @@
         "file": ""
       },
       "event_index": 0,
-      "max_length": 22,
+      "max_length": 20,
       "shadow": {
         "color": -16777216,
         "dx": 0,
@@ -186,12 +356,12 @@
       "type": "battery_bar",
       "id": 0,
       "name": "Media Progress",
-      "drawing_order": 5,
+      "drawing_order": 23,
       "position": {
-        "x": 322,
-        "y": 152
+        "x": 348,
+        "y": 154
       },
-      "width": 314,
+      "width": 288,
       "height": 12,
       "base_color": -1105319621,
       "base_roundness": 6,
@@ -207,19 +377,19 @@
       },
       "divisions": [
         {
-          "color": -16715521,
+          "color": -45715,
           "div": 50
         },
         {
-          "color": -16715521,
+          "color": -45715,
           "div": 15
         },
         {
-          "color": -16715521,
+          "color": -45715,
           "div": 5
         },
         {
-          "color": -16715521,
+          "color": -45715,
           "div": 0
         }
       ],
@@ -234,13 +404,13 @@
       "type": "text_object",
       "id": 0,
       "name": "Next Up Tag",
-      "drawing_order": 6,
+      "drawing_order": 24,
       "position": {
-        "x": 312,
-        "y": 254
+        "x": 348,
+        "y": 250
       },
       "size": 16,
-      "color": -18685,
+      "color": -675775,
       "alpha": 255,
       "angle": 0,
       "bold": false,
@@ -275,13 +445,13 @@
       "type": "text_object",
       "id": 0,
       "name": "Next Event Time",
-      "drawing_order": 7,
+      "drawing_order": 25,
       "position": {
-        "x": 642,
-        "y": 254
+        "x": 640,
+        "y": 250
       },
       "size": 16,
-      "color": -16715521,
+      "color": -13773633,
       "alpha": 255,
       "angle": 0,
       "bold": false,
@@ -304,7 +474,7 @@
         "file": ""
       },
       "event_index": 0,
-      "max_length": 18,
+      "max_length": 17,
       "shadow": {
         "color": -16777216,
         "dx": 0,
@@ -316,12 +486,12 @@
       "type": "text_object",
       "id": 0,
       "name": "Next Event Title",
-      "drawing_order": 8,
+      "drawing_order": 26,
       "position": {
-        "x": 312,
-        "y": 284
+        "x": 348,
+        "y": 280
       },
-      "size": 20,
+      "size": 19,
       "color": -460036,
       "alpha": 255,
       "angle": 0,
@@ -345,7 +515,7 @@
         "file": ""
       },
       "event_index": 0,
-      "max_length": 26,
+      "max_length": 24,
       "shadow": {
         "color": -16777216,
         "dx": 0,
@@ -357,13 +527,13 @@
       "type": "hotspot",
       "id": 0,
       "name": "Music App",
-      "drawing_order": 15,
+      "drawing_order": 35,
       "position": {
-        "x": 28,
-        "y": 46
+        "x": 14,
+        "y": 14
       },
-      "width": 224,
-      "height": 224,
+      "width": 292,
+      "height": 292,
       "shape": 0,
       "hotspot_mode": 1,
       "uccw_type": 4,
@@ -376,13 +546,13 @@
       "type": "hotspot",
       "id": 0,
       "name": "Calendar App",
-      "drawing_order": 16,
+      "drawing_order": 36,
       "position": {
-        "x": 294,
+        "x": 330,
         "y": 226
       },
-      "width": 362,
-      "height": 70,
+      "width": 324,
+      "height": 68,
       "shape": 0,
       "hotspot_mode": 1,
       "uccw_type": 2,

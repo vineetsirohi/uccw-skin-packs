@@ -1,0 +1,1197 @@
+{
+  "background": {
+    "type": "BackgroundProperties",
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "alpha": 255,
+    "angle": 0,
+    "background": "assets://skin_templates/classic/Cover 6-Photo Montage_bg.png",
+    "mode": 1,
+    "id": 0,
+    "name": "Background",
+    "image_scale_type": 2,
+    "fill_homescreen_widget": false,
+    "drawing_order": -1
+  },
+  "meta_data": {
+    "author": "UCCW Studio",
+    "height": 760,
+    "name": "Cover 6-Photo Montage",
+    "scale": 1,
+    "width": 680,
+    "author_email": null,
+    "creation_date": 0,
+    "sdcard_root_address": null,
+    "modify_date": 0,
+    "other_data": null,
+    "screen_height": 2400,
+    "screen_width": 1080,
+    "skin_version": "version_3",
+    "min_version_code": 326,
+    "min_version_name": "2.2.26"
+  },
+  "objects": [
+    {
+      "type": "image",
+      "id": 0,
+      "name": "Photo 1",
+      "drawing_order": 1,
+      "position": {
+        "x": 14,
+        "y": 14
+      },
+      "alpha": 255,
+      "angle": 0,
+      "image_source": 0,
+      "path": null,
+      "scale": 1.0,
+      "width": 232,
+      "height": 358,
+      "scale_type": 0,
+      "corner_style": 1,
+      "corner": 4,
+      "top_left_corner": true,
+      "top_right_corner": true,
+      "bottom_left_corner": true,
+      "bottom_right_corner": true,
+      "is_tint_enabled": false,
+      "tint_color": -1
+    },
+    {
+      "type": "image",
+      "id": 0,
+      "name": "Photo 2",
+      "drawing_order": 2,
+      "position": {
+        "x": 258,
+        "y": 14
+      },
+      "alpha": 255,
+      "angle": 0,
+      "image_source": 0,
+      "path": null,
+      "scale": 1.0,
+      "width": 184,
+      "height": 358,
+      "scale_type": 0,
+      "corner_style": 1,
+      "corner": 4,
+      "top_left_corner": true,
+      "top_right_corner": true,
+      "bottom_left_corner": true,
+      "bottom_right_corner": true,
+      "is_tint_enabled": false,
+      "tint_color": -1
+    },
+    {
+      "type": "image",
+      "id": 0,
+      "name": "Photo 3",
+      "drawing_order": 3,
+      "position": {
+        "x": 454,
+        "y": 14
+      },
+      "alpha": 255,
+      "angle": 0,
+      "image_source": 0,
+      "path": null,
+      "scale": 1.0,
+      "width": 212,
+      "height": 358,
+      "scale_type": 0,
+      "corner_style": 1,
+      "corner": 4,
+      "top_left_corner": true,
+      "top_right_corner": true,
+      "bottom_left_corner": true,
+      "bottom_right_corner": true,
+      "is_tint_enabled": false,
+      "tint_color": -1
+    },
+    {
+      "type": "image",
+      "id": 0,
+      "name": "Photo 4",
+      "drawing_order": 4,
+      "position": {
+        "x": 14,
+        "y": 384
+      },
+      "alpha": 255,
+      "angle": 0,
+      "image_source": 0,
+      "path": null,
+      "scale": 1.0,
+      "width": 196,
+      "height": 362,
+      "scale_type": 0,
+      "corner_style": 1,
+      "corner": 4,
+      "top_left_corner": true,
+      "top_right_corner": true,
+      "bottom_left_corner": true,
+      "bottom_right_corner": true,
+      "is_tint_enabled": false,
+      "tint_color": -1
+    },
+    {
+      "type": "image",
+      "id": 0,
+      "name": "Photo 5",
+      "drawing_order": 5,
+      "position": {
+        "x": 222,
+        "y": 384
+      },
+      "alpha": 255,
+      "angle": 0,
+      "image_source": 0,
+      "path": null,
+      "scale": 1.0,
+      "width": 236,
+      "height": 362,
+      "scale_type": 0,
+      "corner_style": 1,
+      "corner": 4,
+      "top_left_corner": true,
+      "top_right_corner": true,
+      "bottom_left_corner": true,
+      "bottom_right_corner": true,
+      "is_tint_enabled": false,
+      "tint_color": -1
+    },
+    {
+      "type": "image",
+      "id": 0,
+      "name": "Photo 6",
+      "drawing_order": 6,
+      "position": {
+        "x": 470,
+        "y": 384
+      },
+      "alpha": 255,
+      "angle": 0,
+      "image_source": 0,
+      "path": null,
+      "scale": 1.0,
+      "width": 196,
+      "height": 362,
+      "scale_type": 0,
+      "corner_style": 1,
+      "corner": 4,
+      "top_left_corner": true,
+      "top_right_corner": true,
+      "bottom_left_corner": true,
+      "bottom_right_corner": true,
+      "is_tint_enabled": false,
+      "tint_color": -1
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Emblem Ink Halo",
+      "drawing_order": 10,
+      "position": {
+        "x": 166,
+        "y": 294
+      },
+      "alpha": 255,
+      "angle": 0,
+      "roundness": 10,
+      "width": 348,
+      "height": 164,
+      "stroke": 2.0,
+      "color": -16185076,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Emblem Gold Rim",
+      "drawing_order": 11,
+      "position": {
+        "x": 176,
+        "y": 304
+      },
+      "alpha": 255,
+      "angle": 0,
+      "roundness": 6,
+      "width": 328,
+      "height": 144,
+      "stroke": 2.0,
+      "color": -675775,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Emblem Dark Face",
+      "drawing_order": 12,
+      "position": {
+        "x": 181,
+        "y": 309
+      },
+      "alpha": 250,
+      "angle": 0,
+      "roundness": 4,
+      "width": 318,
+      "height": 134,
+      "stroke": 2.0,
+      "color": -15921128,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Weather Plate BG",
+      "drawing_order": 14,
+      "position": {
+        "x": 24,
+        "y": 24
+      },
+      "alpha": 228,
+      "angle": 0,
+      "roundness": 6,
+      "width": 188,
+      "height": 102,
+      "stroke": 2.0,
+      "color": -15921128,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Weather Plate Border",
+      "drawing_order": 15,
+      "position": {
+        "x": 24,
+        "y": 24
+      },
+      "alpha": 215,
+      "angle": 0,
+      "roundness": 6,
+      "width": 188,
+      "height": 102,
+      "stroke": 2.0,
+      "color": -13773633,
+      "is_hollow": true,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Weather Accent Bar",
+      "drawing_order": 16,
+      "position": {
+        "x": 26,
+        "y": 26
+      },
+      "alpha": 255,
+      "angle": 0,
+      "roundness": 2,
+      "width": 6,
+      "height": 98,
+      "stroke": 2.0,
+      "color": -13773633,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Battery Plate BG",
+      "drawing_order": 17,
+      "position": {
+        "x": 474,
+        "y": 24
+      },
+      "alpha": 228,
+      "angle": 0,
+      "roundness": 6,
+      "width": 182,
+      "height": 86,
+      "stroke": 2.0,
+      "color": -15921128,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Battery Plate Border",
+      "drawing_order": 18,
+      "position": {
+        "x": 474,
+        "y": 24
+      },
+      "alpha": 215,
+      "angle": 0,
+      "roundness": 6,
+      "width": 182,
+      "height": 86,
+      "stroke": 2.0,
+      "color": -45715,
+      "is_hollow": true,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Battery Accent Bar",
+      "drawing_order": 19,
+      "position": {
+        "x": 476,
+        "y": 26
+      },
+      "alpha": 255,
+      "angle": 0,
+      "roundness": 2,
+      "width": 6,
+      "height": 82,
+      "stroke": 2.0,
+      "color": -45715,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Steps Plate BG",
+      "drawing_order": 20,
+      "position": {
+        "x": 24,
+        "y": 648
+      },
+      "alpha": 228,
+      "angle": 0,
+      "roundness": 6,
+      "width": 176,
+      "height": 86,
+      "stroke": 2.0,
+      "color": -15921128,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Steps Plate Border",
+      "drawing_order": 21,
+      "position": {
+        "x": 24,
+        "y": 648
+      },
+      "alpha": 215,
+      "angle": 0,
+      "roundness": 6,
+      "width": 176,
+      "height": 86,
+      "stroke": 2.0,
+      "color": -675775,
+      "is_hollow": true,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Steps Accent Bar",
+      "drawing_order": 22,
+      "position": {
+        "x": 26,
+        "y": 650
+      },
+      "alpha": 255,
+      "angle": 0,
+      "roundness": 2,
+      "width": 6,
+      "height": 82,
+      "stroke": 2.0,
+      "color": -675775,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "City Plate BG",
+      "drawing_order": 23,
+      "position": {
+        "x": 236,
+        "y": 680
+      },
+      "alpha": 228,
+      "angle": 0,
+      "roundness": 6,
+      "width": 208,
+      "height": 54,
+      "stroke": 2.0,
+      "color": -15921128,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "City Plate Border",
+      "drawing_order": 24,
+      "position": {
+        "x": 236,
+        "y": 680
+      },
+      "alpha": 215,
+      "angle": 0,
+      "roundness": 6,
+      "width": 208,
+      "height": 54,
+      "stroke": 2.0,
+      "color": -13773633,
+      "is_hollow": true,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "City Accent Bar",
+      "drawing_order": 25,
+      "position": {
+        "x": 238,
+        "y": 682
+      },
+      "alpha": 255,
+      "angle": 0,
+      "roundness": 2,
+      "width": 6,
+      "height": 50,
+      "stroke": 2.0,
+      "color": -13773633,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Media Plate BG",
+      "drawing_order": 26,
+      "position": {
+        "x": 480,
+        "y": 648
+      },
+      "alpha": 228,
+      "angle": 0,
+      "roundness": 6,
+      "width": 176,
+      "height": 86,
+      "stroke": 2.0,
+      "color": -15921128,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Media Plate Border",
+      "drawing_order": 27,
+      "position": {
+        "x": 480,
+        "y": 648
+      },
+      "alpha": 215,
+      "angle": 0,
+      "roundness": 6,
+      "width": 176,
+      "height": 86,
+      "stroke": 2.0,
+      "color": -45715,
+      "is_hollow": true,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": 0,
+      "name": "Media Accent Bar",
+      "drawing_order": 28,
+      "position": {
+        "x": 482,
+        "y": 650
+      },
+      "alpha": 255,
+      "angle": 0,
+      "roundness": 2,
+      "width": 6,
+      "height": 82,
+      "stroke": 2.0,
+      "color": -45715,
+      "is_hollow": false,
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Hero Time",
+      "drawing_order": 30,
+      "position": {
+        "x": 340,
+        "y": 398
+      },
+      "size": 92,
+      "color": -460036,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/BebasNeue-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 19,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -872415232,
+        "dx": 0,
+        "dy": 2,
+        "radius": 3
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Hero Date",
+      "drawing_order": 31,
+      "position": {
+        "x": 340,
+        "y": 430
+      },
+      "size": 20,
+      "color": -675775,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ChakraPetch-Bold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "{\"day_format\": 8, \"day_of_the_week_format\": 7, \"layout_format\": \"wdm\", \"month_format\": 4, \"separator\": \" \\u00b7 \", \"separator2\": \" \", \"separator3\": \" \", \"year_format\": 1}",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 2
+      },
+      "text_provider": {
+        "id": 20,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "weather_image",
+      "id": 0,
+      "name": "Weather Icon",
+      "drawing_order": 32,
+      "position": {
+        "x": 130,
+        "y": 30
+      },
+      "scale": 0.62,
+      "alpha": 255,
+      "angle": 0,
+      "image_source": 0,
+      "default_index": 1,
+      "path": null
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Weather Temp",
+      "drawing_order": 33,
+      "position": {
+        "x": 40,
+        "y": 78
+      },
+      "size": 44,
+      "color": -460036,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/BebasNeue-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "\u00b0",
+      "text": "",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 24,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Weather Cond",
+      "drawing_order": 34,
+      "position": {
+        "x": 40,
+        "y": 110
+      },
+      "size": 17,
+      "color": -3418655,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ChakraPetch-Bold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 25,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 13,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Battery Tag",
+      "drawing_order": 35,
+      "position": {
+        "x": 490,
+        "y": 50
+      },
+      "size": 16,
+      "color": -45715,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ChakraPetch-Bold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "BATTERY",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Battery Level",
+      "drawing_order": 36,
+      "position": {
+        "x": 644,
+        "y": 64
+      },
+      "size": 34,
+      "color": -460036,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/BebasNeue-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "%",
+      "text": "",
+      "text_alignment": {
+        "align": 2
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 22,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "battery_bar",
+      "id": 0,
+      "name": "Battery Bar",
+      "drawing_order": 37,
+      "position": {
+        "x": 490,
+        "y": 80
+      },
+      "width": 152,
+      "height": 12,
+      "base_color": -1273091781,
+      "base_roundness": 6,
+      "progress_bar_height": 10,
+      "progress_bar_roundness": 6,
+      "alpha": 255,
+      "angle": 0,
+      "style": 0,
+      "value_provider": 0,
+      "range": {
+        "min": 0,
+        "max": 100
+      },
+      "divisions": [
+        {
+          "color": -45715,
+          "div": 50
+        },
+        {
+          "color": -45715,
+          "div": 15
+        },
+        {
+          "color": -45715,
+          "div": 5
+        },
+        {
+          "color": -45715,
+          "div": 0
+        }
+      ],
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Steps Tag",
+      "drawing_order": 38,
+      "position": {
+        "x": 40,
+        "y": 674
+      },
+      "size": 16,
+      "color": -675775,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ChakraPetch-Bold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "STEPS TODAY",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Steps Value",
+      "drawing_order": 39,
+      "position": {
+        "x": 40,
+        "y": 718
+      },
+      "size": 38,
+      "color": -460036,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/BebasNeue-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 82,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "City Name",
+      "drawing_order": 40,
+      "position": {
+        "x": 340,
+        "y": 715
+      },
+      "size": 19,
+      "color": -460036,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ChakraPetch-Bold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 1
+      },
+      "text_case": {
+        "text_case": 2
+      },
+      "text_provider": {
+        "id": 52,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 14,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Media Tag",
+      "drawing_order": 41,
+      "position": {
+        "x": 496,
+        "y": 674
+      },
+      "size": 16,
+      "color": -45715,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ChakraPetch-Bold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "ON AIR",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Media Title",
+      "drawing_order": 42,
+      "position": {
+        "x": 496,
+        "y": 716
+      },
+      "size": 20,
+      "color": -460036,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ChakraPetch-Bold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 74,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 13,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "hotspot",
+      "id": 0,
+      "name": "Clock App",
+      "drawing_order": 50,
+      "position": {
+        "x": 170,
+        "y": 296
+      },
+      "width": 340,
+      "height": 160,
+      "shape": 0,
+      "hotspot_mode": 1,
+      "uccw_type": 0,
+      "app_name": "Clock App",
+      "intent": null,
+      "alpha": 255,
+      "angle": 0
+    },
+    {
+      "type": "hotspot",
+      "id": 0,
+      "name": "Weather Refresh",
+      "drawing_order": 51,
+      "position": {
+        "x": 24,
+        "y": 24
+      },
+      "width": 188,
+      "height": 102,
+      "shape": 0,
+      "hotspot_mode": 1,
+      "uccw_type": 1,
+      "app_name": "Weather Refresh",
+      "intent": null,
+      "alpha": 255,
+      "angle": 0
+    },
+    {
+      "type": "hotspot",
+      "id": 0,
+      "name": "Music App",
+      "drawing_order": 52,
+      "position": {
+        "x": 480,
+        "y": 648
+      },
+      "width": 176,
+      "height": 86,
+      "shape": 0,
+      "hotspot_mode": 1,
+      "uccw_type": 4,
+      "app_name": "Music App",
+      "intent": null,
+      "alpha": 255,
+      "angle": 0
+    }
+  ]
+}
