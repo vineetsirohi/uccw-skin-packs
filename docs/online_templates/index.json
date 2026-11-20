@@ -2,6 +2,34 @@
   "manifest_version": 2,
   "collections": [
     {
+      "id": "neon_palms_sunset_2026",
+      "title": "Neon Palms & Sunset Coast",
+      "subtitle": "Coastal GPS Minimap HUD, Art Deco Neon Marquee, Embossed License Plate & Cruiser FM Wheel",
+      "description": "Electric pastel-neon tropical open-world widgets crafted in twilight plum, flamingo pink, mango gold, and lagoon turquoise: Coastal GPS Minimap & 5-Star Heat HUD, stepped Art Deco Neon Marquee Clock, tactile Sunshine Coast Embossed License Plate, and an interactive 8-sector Cruiser FM Radio Wheel — paired with a matching Neon Palms & Sunset Boulevard Wallpaper.",
+      "author": "UCCW Studio",
+      "category": "retro",
+      "tags": [
+        "Neon Palms",
+        "GPS Minimap",
+        "Art Deco",
+        "FM Radio"
+      ],
+      "release_date": "2026-11-20",
+      "min_version_code": 326,
+      "featured": true,
+      "notify": true,
+      "access_type": "free",
+      "product_id": null,
+      "hero_thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/neon_palms_sunset_2026/Coastal%20GPS%20Minimap%20%26%20Heat%20HUD_thumb.png",
+      "wallpapers": [
+        {
+          "name": "Neon Palms & Sunset Boulevard Wallpaper",
+          "url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/neon_palms_sunset_2026/Neon%20Palms%20%26%20Sunset%20Boulevard%20Wallpaper.jpg",
+          "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/neon_palms_sunset_2026/Neon%20Palms%20%26%20Sunset%20Boulevard%20Wallpaper_thumb.jpg"
+        }
+      ]
+    },
+    {
       "id": "porcelain_pastel_neumorphic_2026",
       "title": "Soft Porcelain & Pastel Neumorphic",
       "subtitle": "Concave Porcelain Dial, 3D Periwinkle Hearts Battery, Pastel Cycle Bars & 4-Icon Dock",
@@ -618,6 +646,61 @@
     }
   ],
   "templates": [
+    {
+      "name": "Coastal GPS Minimap & Heat HUD",
+      "collection_id": "neon_palms_sunset_2026",
+      "category": "retro",
+      "categories": [
+        "retro",
+        "modern",
+        "nothing"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/neon_palms_sunset_2026/Coastal%20GPS%20Minimap%20%26%20Heat%20HUD.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/neon_palms_sunset_2026/Coastal%20GPS%20Minimap%20%26%20Heat%20HUD_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/neon_palms_sunset_2026/Coastal%20GPS%20Minimap%20%26%20Heat%20HUD_bg.png"
+    },
+    {
+      "name": "Art Deco Neon Marquee Clock",
+      "collection_id": "neon_palms_sunset_2026",
+      "category": "retro",
+      "categories": [
+        "retro",
+        "classic",
+        "modern"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/neon_palms_sunset_2026/Art%20Deco%20Neon%20Marquee%20Clock.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/neon_palms_sunset_2026/Art%20Deco%20Neon%20Marquee%20Clock_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/neon_palms_sunset_2026/Art%20Deco%20Neon%20Marquee%20Clock_bg.png"
+    },
+    {
+      "name": "Sunshine Coast License Plate",
+      "collection_id": "neon_palms_sunset_2026",
+      "category": "retro",
+      "categories": [
+        "retro",
+        "modern"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/neon_palms_sunset_2026/Sunshine%20Coast%20License%20Plate.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/neon_palms_sunset_2026/Sunshine%20Coast%20License%20Plate_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/neon_palms_sunset_2026/Sunshine%20Coast%20License%20Plate_bg.png"
+    },
+    {
+      "name": "Cruiser FM Radio Wheel",
+      "collection_id": "neon_palms_sunset_2026",
+      "category": "retro",
+      "categories": [
+        "retro",
+        "modern",
+        "rings"
+      ],
+      "min_version_code": 326,
+      "uccw_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/neon_palms_sunset_2026/Cruiser%20FM%20Radio%20Wheel.uccw",
+      "thumb_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/neon_palms_sunset_2026/Cruiser%20FM%20Radio%20Wheel_thumb.png",
+      "bg_url": "https://raw.githubusercontent.com/vineetsirohi/uccw-skin-packs/main/docs/online_templates/packs/neon_palms_sunset_2026/Cruiser%20FM%20Radio%20Wheel_bg.png"
+    },
     {
       "name": "Porcelain Neumorphic Dual Clock & Date",
       "collection_id": "porcelain_pastel_neumorphic_2026",

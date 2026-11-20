@@ -1,0 +1,351 @@
+{
+  "background": {
+    "type": "BackgroundProperties",
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "alpha": 255,
+    "angle": 0,
+    "background": "assets://skin_templates/retro/Cruiser FM Radio Wheel_bg.png",
+    "mode": 1,
+    "id": 0,
+    "name": "Background",
+    "image_scale_type": 2,
+    "fill_homescreen_widget": false,
+    "drawing_order": -1
+  },
+  "meta_data": {
+    "author": "UCCW Studio",
+    "height": 380,
+    "name": "Cruiser FM Radio Wheel",
+    "scale": 1,
+    "width": 680,
+    "author_email": null,
+    "creation_date": 0,
+    "sdcard_root_address": null,
+    "modify_date": 0,
+    "other_data": null,
+    "screen_height": 2400,
+    "screen_width": 1080,
+    "skin_version": "version_3",
+    "min_version_code": 326,
+    "min_version_name": "2.2.26"
+  },
+  "objects": [
+    {
+      "type": "image",
+      "id": 0,
+      "name": "Radio Album Art",
+      "drawing_order": 0,
+      "position": {
+        "x": 126,
+        "y": 124
+      },
+      "alpha": 255,
+      "angle": 0,
+      "image_source": 1,
+      "path": null,
+      "scale": 1.0,
+      "width": 132,
+      "height": 132,
+      "scale_type": 0,
+      "corner_style": 1,
+      "corner": 66,
+      "top_left_corner": true,
+      "top_right_corner": true,
+      "bottom_left_corner": true,
+      "bottom_right_corner": true,
+      "is_tint_enabled": false,
+      "tint_color": -1
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "FM Frequency",
+      "drawing_order": 1,
+      "position": {
+        "x": 646,
+        "y": 61
+      },
+      "size": 20,
+      "color": -16714284,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/ShareTechMono-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "104.5 FM",
+      "text_alignment": {
+        "align": 2
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Station Name",
+      "drawing_order": 2,
+      "position": {
+        "x": 372,
+        "y": 114
+      },
+      "size": 18,
+      "color": -11930,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Righteous-Regular.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "SUNSET WAVE RADIO",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 0,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 0,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Track Title",
+      "drawing_order": 3,
+      "position": {
+        "x": 372,
+        "y": 164
+      },
+      "size": 30,
+      "color": -2320,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-SemiBold.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 74,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 15,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "text_object",
+      "id": 0,
+      "name": "Track Artist",
+      "drawing_order": 4,
+      "position": {
+        "x": 372,
+        "y": 200
+      },
+      "size": 20,
+      "color": -24881,
+      "alpha": 255,
+      "angle": 0,
+      "bold": false,
+      "italic": false,
+      "font": {
+        "type": 1,
+        "font": "fonts/Poppins-Light.ttf"
+      },
+      "prefix": "",
+      "suffix": "",
+      "text": "",
+      "text_alignment": {
+        "align": 0
+      },
+      "text_case": {
+        "text_case": 0
+      },
+      "text_provider": {
+        "id": 75,
+        "file": ""
+      },
+      "event_index": 0,
+      "max_length": 21,
+      "shadow": {
+        "color": -16777216,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "battery_bar",
+      "id": 0,
+      "name": "Media Progress",
+      "drawing_order": 5,
+      "position": {
+        "x": 375,
+        "y": 227
+      },
+      "width": 268,
+      "height": 10,
+      "base_color": -1943332792,
+      "base_roundness": 5,
+      "progress_bar_height": 8,
+      "progress_bar_roundness": 5,
+      "alpha": 255,
+      "angle": 0,
+      "style": 0,
+      "value_provider": 12,
+      "range": {
+        "min": 0,
+        "max": 100
+      },
+      "divisions": [
+        {
+          "color": -16714284,
+          "div": 50
+        },
+        {
+          "color": -16714284,
+          "div": 15
+        },
+        {
+          "color": -16714284,
+          "div": 5
+        },
+        {
+          "color": -16714284,
+          "div": 0
+        }
+      ],
+      "shadow": {
+        "color": -7829368,
+        "dx": 0,
+        "dy": 0,
+        "radius": 0
+      }
+    },
+    {
+      "type": "hotspot",
+      "id": 0,
+      "name": "Open Music Hotspot",
+      "drawing_order": 6,
+      "position": {
+        "x": 120,
+        "y": 118
+      },
+      "width": 144,
+      "height": 144,
+      "shape": 0,
+      "hotspot_mode": 1,
+      "uccw_type": 9,
+      "app_name": "Open Music Hotspot",
+      "intent": null,
+      "alpha": 255,
+      "angle": 0
+    },
+    {
+      "type": "hotspot",
+      "id": 0,
+      "name": "Prev Track Hotspot",
+      "drawing_order": 7,
+      "position": {
+        "x": 376,
+        "y": 268
+      },
+      "width": 70,
+      "height": 64,
+      "shape": 0,
+      "hotspot_mode": 1,
+      "uccw_type": 8,
+      "app_name": "Prev Track Hotspot",
+      "intent": null,
+      "alpha": 255,
+      "angle": 0
+    },
+    {
+      "type": "hotspot",
+      "id": 0,
+      "name": "Play Pause Hotspot",
+      "drawing_order": 8,
+      "position": {
+        "x": 464,
+        "y": 262
+      },
+      "width": 90,
+      "height": 76,
+      "shape": 0,
+      "hotspot_mode": 1,
+      "uccw_type": 6,
+      "app_name": "Play Pause Hotspot",
+      "intent": null,
+      "alpha": 255,
+      "angle": 0
+    },
+    {
+      "type": "hotspot",
+      "id": 0,
+      "name": "Next Track Hotspot",
+      "drawing_order": 9,
+      "position": {
+        "x": 572,
+        "y": 268
+      },
+      "width": 70,
+      "height": 64,
+      "shape": 0,
+      "hotspot_mode": 1,
+      "uccw_type": 7,
+      "app_name": "Next Track Hotspot",
+      "intent": null,
+      "alpha": 255,
+      "angle": 0
+    }
+  ]
+}
